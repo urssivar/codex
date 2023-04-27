@@ -1,5 +1,5 @@
 <script setup>
-import W from '../components/Word.vue'
+import W from '@/Word.vue'
 import { ref } from 'vue'
 
 const count = ref(0)
