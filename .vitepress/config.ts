@@ -14,6 +14,7 @@ export default withPwa(defineConfig({
       },
     },
   },
+  base: '/urssivar/',
 
   title: "Urssivar",
   description: "Kaitag Language Standard",
