@@ -11,25 +11,32 @@ export default withPwa(defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Guide', link: '/markdown-examples' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Guide', link: '/guide/introduction' },
+      { text: 'Examples', link: '/examples' }
     ],
 
     sidebar: [
       {
-        text: 'Examples',
+        text: 'Introduction',
         items: [
-          { text: 'Markdown Examples', link: 'md/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Markdown Examples', link: '/guide/introduction' },
+          { text: 'Runtime API Examples', link: '/guide/api-examples' }
         ]
       },
       {
-        text: 'MD',
-        link: '/md/',
+        text: 'Essentials',
         items: [
-          { text: 'Markdown Examples', link: '/md/examples' },
+          { text: 'Markdown Examples', link: '/guide/ess3' },
+          { text: 'Runtime API Examples', link: '/guide/ess4' }
         ]
-      }
+      },
+      {
+        text: 'Essentials',
+        items: [
+          { text: 'Markdown Examples', link: '/guide/ess1' },
+          { text: 'Runtime API Examples', link: '/guide/ess2' }
+        ]
+      },
     ],
 
     socialLinks: [

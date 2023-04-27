@@ -10,10 +10,10 @@ hero:
   actions:
     - theme: brand
       text: Language Guide
-      link: /markdown-examples
+      link: /guide
     - theme: alt
       text: Usage Samples
-      link: /api-examples
+      link: /samples
 
 features:
   - icon: 📦
