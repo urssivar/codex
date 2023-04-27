@@ -10,7 +10,7 @@ hero:
   actions:
     - theme: brand
       text: Language Guide
-      link: /guide
+      link: /guide/introduction
     - theme: alt
       text: Usage Samples
       link: /samples
