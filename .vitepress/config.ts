@@ -57,4 +57,4 @@ export default withPwa(defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
-}))
+}));
