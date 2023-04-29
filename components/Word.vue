@@ -1,19 +1,21 @@
 <script setup lang="ts">
-import { ref } from 'vue'
 defineProps<{
     t: string[]
 }>()
-const reveal = ref(false)
 </script>
 
 <template>
-    <span :class="{ reveal }" v-on:pointerenter="reveal = true" v-on:pointerleave="reveal = false">
-        {{ reveal ? t[1] : t[0] }}
-    </span>
+    <Popper arrow="true" placement="top" hover="true" offsetDistance="0" :content="t[1]">
+        {{ t[0] }}
+    </Popper>
 </template>
 
 <style scoped>
-.reveal {
-    text-decoration: underline;
+:deep(.popper) {
+    font-size: 14px;
+    --popper-theme-background-color: #333333;
+    --popper-theme-text-color: #ffffff;
+    --popper-theme-border-radius: 6px;
+    --popper-theme-padding: 0 8px;
 }
 </style>
