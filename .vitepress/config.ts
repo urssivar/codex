@@ -60,6 +60,9 @@ export default withPwa(defineConfig({
   description: "Kaitag Language Standard",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    search: {
+      provider: 'local'
+    },
     nav: [
       { text: 'Home', link: '/' },
       {
