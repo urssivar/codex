@@ -1,14 +1,13 @@
 <script setup>
-import W from '@/Word.vue'
-import { ref } from 'vue'
-
-const count = ref(0)
+import W from '@/Word.vue';
+import P from '@/Phrase.vue';
+import { sample } from './introduction';
 </script>
 
 # Copulas
 
-'Ello ol' frien'
-
 <p>
-<W :t="['бизи','cat']" /> <W :t="['дикла','on hands']" /> <W :t="['кабилсул','sleeping']" /> <W :t="['би','is']" /> 
+    <W t="бизи" h="cat"/> <W t="дикла" h="on hands"/> <W t="кабижил" h="sat"/> <W t="би" h="is"/>
 </p>
+
+<P :flags="sample.flags" :segments="sample.segments" />

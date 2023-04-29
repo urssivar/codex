@@ -21,10 +21,6 @@ const selected = ref(0);
 </template>
 
 <style scoped>
-#text>*::after {
-    content: ' ';
-}
-
 button {
     padding: 4px;
 }

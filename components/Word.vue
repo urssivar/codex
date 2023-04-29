@@ -1,12 +1,13 @@
 <script setup lang="ts">
 defineProps<{
-    t: string[]
+    t: string,
+    h: string,
 }>()
 </script>
 
 <template>
-    <Popper arrow="true" placement="top" hover="true" offsetDistance="0" :content="t[1]">
-        {{ t[0] }}
+    <Popper :arrow="true" placement="top" :hover="true" offsetDistance="0" :content="h">
+        {{ t }}
     </Popper>
 </template>
 
