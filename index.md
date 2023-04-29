@@ -12,8 +12,14 @@ hero:
       text: Language Guide
       link: /guide/introduction
     - theme: alt
-      text: Usage Samples
-      link: /samples
+      text: Examples
+      link: /examples/phrasebook_1
+    - theme: alt
+      text: 👶 Avdan — Cards for Children
+      link: https://play.google.com/store/apps/details?id=com.alkaitagi.avdan
+    - theme: alt
+      text: 📑 Bazur — Online Dictionary
+      link: https://bazur.raxys.app/
 
 features:
   - icon: 📦
