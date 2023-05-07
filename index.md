@@ -9,7 +9,7 @@ hero:
     Standard
   tagline: |
     Interactive handbook & exemplar materials
-    for a defiant North Caucasian tongue.
+    for a defiant North Caucasian tongue
   image:
     light: /hero-light.png
     dark: /hero-dark.png
@@ -24,7 +24,7 @@ hero:
 features:
   - icon: 🚀
     title: Hands-on
-    details: Minimalistic approach, aim at fast & practical usage.
+    details: Minimalistic approach, aim at fast & practical usage
   - icon: 🖱️
     title: Interactive
     details: Inline translations, parameterized contexts, audio playback
