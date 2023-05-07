@@ -4,7 +4,9 @@ layout: home
 
 hero:
   name: "Urssivar"
-  text: "Kaitag Compendium"
+  text: |
+    Kaitag Language
+    Compendium
   tagline: |
     Handbook & materials for the language standard
   image:
