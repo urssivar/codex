@@ -90,4 +90,17 @@ export default withPwa(defineConfig({
       { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     ]
   },
+
+  markdown: {
+    config: (md) => {
+      md.use(require('markdown-it-attrs'));
+      md.use(require('markdown-it-bracketed-spans'));
+
+      const mreg = require('markdown-it-regexp');
+      md.use(mreg(/\[([^\]]+)\|([^\]]+)\]/, (match) => {
+        const [, t, h] = match;
+        return `<W t="${t}" h="${h}"/>`;
+      }));
+    }
+  }
 }));

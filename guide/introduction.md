@@ -6,6 +6,8 @@ import { sample } from './introduction';
 
 # Copulas
 
+[бизи|cat] [дикла|on hands] [кабижил|sat] [би|is]
+
 <p>
     <W t="бизи" h="cat"/> <W t="дикла" h="on hands"/> <W t="кабижил" h="sat"/> <W t="би" h="is"/>
 </p>
