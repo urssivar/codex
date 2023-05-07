@@ -8,7 +8,8 @@ hero:
     Kaitag Language
     Compendium
   tagline: |
-    Handbook & materials for the language standard
+    Interactive handbook & exemplar materials
+    for a North Caucasian language standard.
   image:
     light: /hero-light.png
     dark: /hero-dark.png

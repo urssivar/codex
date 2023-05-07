@@ -83,7 +83,7 @@ export default withPwa(defineConfig({
         activeMatch: '/examples/'
       },
       {
-        text: 'Resources',
+        text: 'Apps',
         items: [
           {
             text: 'Avdan: Cards for Kids',
