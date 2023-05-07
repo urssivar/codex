@@ -71,7 +71,6 @@ export default withPwa(defineConfig({
       message: 'Uvkhara vaxt akku.',
     },
     nav: [
-      { text: 'Home', link: '/' },
       {
         text: 'Guide',
         link: '/guide/introduction',
