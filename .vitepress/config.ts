@@ -122,7 +122,7 @@ export default withPwa(defineConfig({
       const mreg = require('markdown-it-regexp');
       md.use(mreg(/\[(.+?)\|(.+?)\]/, (match) => {
         const [, c, h] = match;
-        return `<W h="${h}">${c}</W>`;
+        return `<W h="${h}">${md.render(c)}</W>`;
       }));
     }
   }
