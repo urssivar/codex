@@ -4,9 +4,9 @@ layout: home
 
 hero:
   name: "Urssivar"
-  text: "Kaitag Language Compendium"
+  text: "Kaitag Compendium"
   tagline: |
-    "Uvkhara vaxt akku"
+    Handbook & materials for the language standard
   image:
     light: /hero-light.png
     dark: /hero-dark.png

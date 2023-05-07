@@ -67,6 +67,9 @@ export default withPwa(defineConfig({
     search: {
       provider: 'local'
     },
+    footer: {
+      message: 'Uvkhara vaxt akku.',
+    },
     nav: [
       { text: 'Home', link: '/' },
       {
