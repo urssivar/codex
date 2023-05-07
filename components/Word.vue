@@ -1,13 +1,12 @@
 <script setup lang="ts">
 defineProps<{
-    t: string,
     h: string,
 }>()
 </script>
 
 <template>
     <Popper :arrow="true" placement="top" :hover="true" offsetDistance="0" :content="h">
-        {{ t }}
+        <slot></slot>
     </Popper>
 </template>
 
@@ -18,5 +17,10 @@ defineProps<{
     --popper-theme-text-color: #ffffff;
     --popper-theme-border-radius: 6px;
     --popper-theme-padding: 0 8px;
+}
+
+*:hover {
+    text-decoration: underline dotted;
+    text-underline-offset: 8px;
 }
 </style>

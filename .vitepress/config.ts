@@ -97,9 +97,9 @@ export default withPwa(defineConfig({
       md.use(require('markdown-it-bracketed-spans'));
 
       const mreg = require('markdown-it-regexp');
-      md.use(mreg(/\[([^\]]+)\|([^\]]+)\]/, (match) => {
-        const [, t, h] = match;
-        return `<W t="${t}" h="${h}"/>`;
+      md.use(mreg(/\[(.+?)\|(.+?)\]/, (match) => {
+        const [, c, h] = match;
+        return `<W h="${h}">${c}</W>`;
       }));
     }
   }
