@@ -4,9 +4,12 @@ layout: home
 
 hero:
   name: "Urssivar"
-  text: "Kaitag Language Standard"
+  text: "Kaitag Language Compendium"
   tagline: |
     "Uvkhara vaxt akku"
+  image:
+    light: /hero-light.png
+    dark: /hero-dark.png
   actions:
     - theme: brand
       text: Language Guide
@@ -14,12 +17,6 @@ hero:
     - theme: alt
       text: Examples
       link: /examples/phrasebook_1
-    - theme: alt
-      text: 👶 Avdan — Cards for Children
-      link: https://play.google.com/store/apps/details?id=com.alkaitagi.avdan
-    - theme: alt
-      text: 📑 Bazur — Online Dictionary
-      link: https://bazur.raxys.app/
 
 features:
   - icon: 📦

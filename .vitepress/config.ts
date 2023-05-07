@@ -60,6 +60,10 @@ export default withPwa(defineConfig({
   description: "Kaitag Language Standard",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
+    logo: {
+      light: '/logo-light.png',
+      dark: '/logo-dark.png'
+    },
     search: {
       provider: 'local'
     },
@@ -74,7 +78,24 @@ export default withPwa(defineConfig({
         text: 'Examples',
         link: '/examples/phrasebook_1',
         activeMatch: '/examples/'
-      }
+      },
+      {
+        text: 'Resources',
+        items: [
+          {
+            text: 'Avdan: Cards for Kids',
+            link: 'https://play.google.com/store/apps/details?id=com.alkaitagi.avdan',
+          },
+          {
+            text: 'Bazur: Online Dictionary',
+            link: 'https://bazur.raxys.app/',
+          },
+          {
+            text: 'Yaziv: Script Converter',
+            link: 'https://yaziv.raxys.app/',
+          },
+        ],
+      },
     ],
 
     sidebar: {
