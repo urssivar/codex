@@ -5,7 +5,7 @@ defineProps<{
 </script>
 
 <template>
-    <Popper :arrow="true" placement="top" :hover="true" offsetDistance="0" :content="h">
+    <Popper :arrow="true" placement="top" :hover="true" offsetDistance="4" :content="h">
         <slot></slot>
     </Popper>
 </template>
