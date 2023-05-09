@@ -6,8 +6,8 @@ import { sample } from './introduction';
 
 # Copulas
 
-[**бизи**|cat] [[дикла]{.red}|on hands] [кабижил|sat] [би|is]
+[**бизи**|cat] [[дикла]{#id}|on hands] [кабижил|sat] [би|is]
 
-<P :flags="sample.flags" :segments="sample.segments" />
+[<P :flags="sample.flags" :segments="sample.segments" />|cat]
 
 _hello_

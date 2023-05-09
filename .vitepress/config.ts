@@ -116,14 +116,15 @@ export default withPwa(defineConfig({
 
   markdown: {
     config: (md) => {
-      md.use(require('markdown-it-attrs'));
-      md.use(require('markdown-it-bracketed-spans'));
-
       const mreg = require('markdown-it-regexp');
       md.use(mreg(/\[(.+?)\|(.+?)\]/, (match) => {
         const [, c, h] = match;
+        console.log(c);
         return `<W h="${h}">${md.render(c)}</W>`;
       }));
+      md.use(require('markdown-it-attrs'));
+      md.use(require('markdown-it-bracketed-spans'));
+
     }
   }
 }));
