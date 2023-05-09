@@ -6,8 +6,23 @@ import { sample } from './introduction';
 
 # Copulas
 
-[**бизи**|cat] [[дикла]{#id}|on hands] [кабижил|sat] [би|is]
+Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 
-[<P :flags="sample.flags" :segments="sample.segments" />|cat]
+# Examples
+
+::: example
+
+|                | male        | female       |
+| -------------- | ----------- | ------------ |
+| Дул гьел       |             |              |
+|                | чиваживда   | чираживда    |
+| , тӏалла мякьи |             |              |
+|                | киццул      | кариццул     |
+|                | [ви\|he is] | [ри\|she is] |
+| .              |             |              |
+
+:::
+
+<P :flags="sample.flags" :segments="sample.segments" />
 
 _hello_

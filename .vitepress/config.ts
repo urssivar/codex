@@ -119,12 +119,31 @@ export default withPwa(defineConfig({
       const mreg = require('markdown-it-regexp');
       md.use(mreg(/\[(.+?)\|(.+?)\]/, (match) => {
         const [, c, h] = match;
-        console.log(c);
         return `<W h="${h}">${md.render(c)}</W>`;
       }));
+
+      const cont = require('markdown-it-container');
+      md.use(cont, 'example', {
+        validate: function (params) {
+          return params.trim().match(/^example/);
+        },
+        render: function (tokens, idx) {
+          var token = tokens[idx];
+
+          if (tokens[idx].nesting === 1) {
+            console.log(token[1]);
+            // opening tag
+            return '<details><summary>' + md.utils.escapeHtml(token[1]) + '</summary>\n';
+
+          } else {
+            // closing tag
+            return '</details>\n';
+          }
+        }
+      });
+
       md.use(require('markdown-it-attrs'));
       md.use(require('markdown-it-bracketed-spans'));
-
     }
   }
 }));
