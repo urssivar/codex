@@ -127,9 +127,9 @@ export default withPwa(
         );
 
         const cont = require("markdown-it-container");
-        md.use(cont, "example", {
+        md.use(cont, "phrase", {
           validate: function (params) {
-            return params.trim().match(/^example/);
+            return params.trim().match(/^phrase/);
           },
           render: function (tokens, idx) {
             if (tokens[idx].nesting !== 1) return "-->\n";
@@ -160,8 +160,12 @@ export default withPwa(
               }
             }
 
+            const segmPar = segments.map((s) => !!s[0]);
+            console.log(segmPar);
             return (
-              `<P :flags="${flags.length}" :segments="[true, false, true]">` +
+              `<P :flags="${flags.length}" :segments="${JSON.stringify(
+                segmPar
+              )}">` +
               flagTs +
               segmentTs +
               "</P>\n<!--"
@@ -190,9 +194,9 @@ function parseTable(md: MarkdownIt, tokens: any[]) {
 }
 
 function stripP(s: string) {
-  const pref = "<p>";
-  if (s.startsWith(pref)) s = s.substring(pref.length);
-  const suff = "</p>\n";
-  if (s.endsWith(suff)) s = s.substring(0, s.length - suff.length + 1);
+  const pf = "<p>";
+  if (s.startsWith(pf)) s = s.substring(pf.length);
+  const sf = "</p>\n";
+  if (s.endsWith(sf)) s = s.substring(0, s.length - sf.length);
   return s;
 }
