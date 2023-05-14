@@ -2,6 +2,7 @@ import DefaultTheme from 'vitepress/theme'
 import Popper from "vue3-popper";
 import W from '@/Word.vue';
 import P from '@/Phrase.vue';
+import E from '@/Example.vue';
 
 import './styles/vars.css'
 import './styles/main.css'
@@ -12,5 +13,6 @@ export default {
         app.component("Popper", Popper);
         app.component("W", W);
         app.component("P", P);
+        app.component("E", E);
     }
 }

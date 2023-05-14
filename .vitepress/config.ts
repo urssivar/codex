@@ -1,149 +1,147 @@
-import { defineConfig } from 'vitepress'
-import { withPwa } from '@vite-pwa/vitepress'
-import path from 'path';
-import { telegramSvg } from './icons';
-import { pwa } from './pwa';
+import { defineConfig } from "vitepress";
+import { withPwa } from "@vite-pwa/vitepress";
+import path from "path";
+import { telegramSvg } from "./icons";
+import { pwa } from "./pwa";
 
 const sidebarGuide = [
   {
-    text: 'Introduction',
+    text: "Introduction",
     items: [
-      { text: 'Markdown Examples', link: '/guide/introduction' },
-      { text: 'Runtime API Examples', link: '/guide/api-examples' }
-    ]
+      { text: "Markdown Examples", link: "/guide/introduction" },
+      { text: "Runtime API Examples", link: "/guide/api-examples" },
+    ],
   },
   {
-    text: 'Essentials',
+    text: "Essentials",
     items: [
-      { text: 'Markdown Examples', link: '/guide/ess3' },
-      { text: 'Runtime API Examples', link: '/guide/ess4' }
-    ]
+      { text: "Markdown Examples", link: "/guide/ess3" },
+      { text: "Runtime API Examples", link: "/guide/ess4" },
+    ],
   },
   {
-    text: 'Essentials',
+    text: "Essentials",
     items: [
-      { text: 'Markdown Examples', link: '/guide/ess1' },
-      { text: 'Runtime API Examples', link: '/guide/ess2' }
-    ]
+      { text: "Markdown Examples", link: "/guide/ess1" },
+      { text: "Runtime API Examples", link: "/guide/ess2" },
+    ],
   },
 ];
 const sidebarExamples = [
   {
-    text: 'Phrasebook',
+    text: "Phrasebook",
     items: [
-      { text: 'Cha1', link: '/examples/phrasebook_1' },
-      { text: 'Cha2', link: '/examples/phrasebook_2' }
-    ]
+      { text: "Cha1", link: "/examples/phrasebook_1" },
+      { text: "Cha2", link: "/examples/phrasebook_2" },
+    ],
   },
   {
-    text: 'Stories',
+    text: "Stories",
     items: [
-      { text: 'Wise girl', link: '/examples/tale_1' },
-      { text: 'Three brothers', link: '/examples/tale_2' }
-    ]
+      { text: "Wise girl", link: "/examples/tale_1" },
+      { text: "Three brothers", link: "/examples/tale_2" },
+    ],
   },
-]
+];
 
 // https://vitepress.dev/reference/site-config
-export default withPwa(defineConfig({
-  pwa: pwa as any,
-  vite: {
-    resolve: {
-      alias: {
-        "@": path.resolve(__dirname, "../components")
-      },
-    },
-  },
-  base: '/urssivar/',
-
-  title: "Urssivar",
-  description: "Kaitag Language Standard",
-  themeConfig: {
-    // https://vitepress.dev/reference/default-theme-config
-    logo: {
-      light: '/logo-light.png',
-      dark: '/logo-dark.png'
-    },
-    search: {
-      provider: 'local'
-    },
-    footer: {
-      message: 'Uvkhara vaxt akku.',
-    },
-    nav: [
-      {
-        text: 'Guide',
-        link: '/guide/introduction',
-        activeMatch: '/guide/',
-      },
-      {
-        text: 'Examples',
-        link: '/examples/phrasebook_1',
-        activeMatch: '/examples/'
-      },
-      {
-        text: 'Apps',
-        items: [
-          {
-            text: 'Avdan: Cards for Kids',
-            link: 'https://play.google.com/store/apps/details?id=com.alkaitagi.avdan',
-          },
-          {
-            text: 'Bazur: Online Dictionary',
-            link: 'https://bazur.raxys.app/',
-          },
-          {
-            text: 'Yaziv: Script Converter',
-            link: 'https://yaziv.raxys.app/',
-          },
-        ],
-      },
-    ],
-
-    sidebar: {
-      '/guide/': sidebarGuide,
-      '/examples/': sidebarExamples
-    },
-
-    socialLinks: [
-      {
-        icon: { svg: telegramSvg },
-        link: 'https://t.me/urssivar'
-      },
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
-    ]
-  },
-
-  markdown: {
-    config: (md) => {
-      const mreg = require('markdown-it-regexp');
-      md.use(mreg(/\[(.+?)\|(.+?)\]/, (match) => {
-        const [, c, h] = match;
-        return `<W h="${h}">${md.render(c)}</W>`;
-      }));
-
-      const cont = require('markdown-it-container');
-      md.use(cont, 'example', {
-        validate: function (params) {
-          return params.trim().match(/^example/);
+export default withPwa(
+  defineConfig({
+    pwa: pwa as any,
+    vite: {
+      resolve: {
+        alias: {
+          "@": path.resolve(__dirname, "../components"),
         },
-        render: function (tokens, idx) {
-          var token = tokens[idx];
+      },
+    },
+    base: "/urssivar/",
 
-          if (tokens[idx].nesting === 1) {
-            console.log(token[1]);
-            // opening tag
-            return '<details><summary>' + md.utils.escapeHtml(token[1]) + '</summary>\n';
+    title: "Urssivar",
+    description: "Kaitag Language Standard",
+    themeConfig: {
+      // https://vitepress.dev/reference/default-theme-config
+      logo: {
+        light: "/logo-light.png",
+        dark: "/logo-dark.png",
+      },
+      search: {
+        provider: "local",
+      },
+      footer: {
+        message: "Uvkhara vaxt akku.",
+      },
+      nav: [
+        {
+          text: "Guide",
+          link: "/guide/introduction",
+          activeMatch: "/guide/",
+        },
+        {
+          text: "Examples",
+          link: "/examples/phrasebook_1",
+          activeMatch: "/examples/",
+        },
+        {
+          text: "Apps",
+          items: [
+            {
+              text: "Avdan: Cards for Kids",
+              link: "https://play.google.com/store/apps/details?id=com.alkaitagi.avdan",
+            },
+            {
+              text: "Bazur: Online Dictionary",
+              link: "https://bazur.raxys.app/",
+            },
+            {
+              text: "Yaziv: Script Converter",
+              link: "https://yaziv.raxys.app/",
+            },
+          ],
+        },
+      ],
 
-          } else {
-            // closing tag
-            return '</details>\n';
-          }
-        }
-      });
+      sidebar: {
+        "/guide/": sidebarGuide,
+        "/examples/": sidebarExamples,
+      },
 
-      md.use(require('markdown-it-attrs'));
-      md.use(require('markdown-it-bracketed-spans'));
-    }
-  }
-}));
+      socialLinks: [
+        {
+          icon: { svg: telegramSvg },
+          link: "https://t.me/urssivar",
+        },
+        { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      ],
+    },
+
+    markdown: {
+      config: (md) => {
+        const mreg = require("markdown-it-regexp");
+        md.use(
+          mreg(/\[(.+?)\|(.+?)\]/, (match) => {
+            const [, c, h] = match;
+            return `<W h="${h}">${md.render(c)}</W>`;
+          })
+        );
+
+        const cont = require("markdown-it-container");
+        md.use(cont, "example", {
+          validate: function (params) {
+            return params.trim().match(/^example/);
+          },
+          render: function (tokens, idx) {
+            if (tokens[idx].nesting === 1) {
+              return "<E>\n";
+            } else {
+              return "</E>\n";
+            }
+          },
+        });
+
+        md.use(require("markdown-it-attrs"));
+        md.use(require("markdown-it-bracketed-spans"));
+      },
+    },
+  })
+);

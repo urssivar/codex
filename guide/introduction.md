@@ -1,6 +1,4 @@
 <script setup>
-import W from '@/Word.vue';
-import P from '@/Phrase.vue';
 import { sample } from './introduction';
 </script>
 
@@ -14,12 +12,12 @@ Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 
 |                | male        | female       |
 | -------------- | ----------- | ------------ |
-| Дул гьел       |             |              |
+| Дул гьел       |
 |                | чиваживда   | чираживда    |
-| , тӏалла мякьи |             |              |
+| , тӏалла мякьи |
 |                | киццул      | кариццул     |
 |                | [ви\|he is] | [ри\|she is] |
-| .              |             |              |
+| .              |
 
 :::
 
