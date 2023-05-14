@@ -188,9 +188,10 @@ function handleHints(md: MarkdownIt) {
 }
 
 function rend(s: string, md: MarkdownIt) {
+  s = md.render(s);
   const pf = "<p>";
   if (s.startsWith(pf)) s = s.substring(pf.length);
   const sf = "</p>\n";
   if (s.endsWith(sf)) s = s.substring(0, s.length - sf.length);
-  return md.render(s);
+  return s;
 }
