@@ -3,6 +3,7 @@ import { withPwa } from "@vite-pwa/vitepress";
 import path from "path";
 import { telegramSvg } from "./icons";
 import { pwa } from "./pwa";
+import MarkdownIt from "markdown-it";
 
 const sidebarGuide = [
   {
@@ -121,7 +122,7 @@ export default withPwa(
         md.use(
           mreg(/\[(.+?)\|(.+?)\]/, (match) => {
             const [, c, h] = match;
-            return `<W h="${h}">${md.render(c)}</W>`;
+            return `<W h="${h}">${stripP(md.render(c))}</W>`;
           })
         );
 
@@ -131,11 +132,22 @@ export default withPwa(
             return params.trim().match(/^example/);
           },
           render: function (tokens, idx) {
-            if (tokens[idx].nesting === 1) {
-              return "<E>\n";
-            } else {
-              return "</E>\n";
-            }
+            if (tokens[idx].nesting !== 1) return "-->\n";
+
+            const sidx = tokens
+              .slice(idx)
+              .findIndex((t) => t.type === "table_open");
+            const eidx = tokens
+              .slice(idx)
+              .findIndex((t) => t.type === "table_close");
+            const table = parseTable(md, tokens.slice(idx + sidx, idx + eidx));
+            const flags = table[0].splice(1);
+            const segments = table.splice(1);
+            return (
+              `<P :flags='${JSON.stringify(flags)}' :segments='${JSON.stringify(
+                segments
+              )}'/>` + "\n<!--"
+            );
           },
         });
 
@@ -145,3 +157,21 @@ export default withPwa(
     },
   })
 );
+
+function parseTable(md: MarkdownIt, tokens: any[]) {
+  const rs: string[][] = [];
+  for (const t of tokens) {
+    if (t.type === "tr_open") {
+      rs.push([]);
+    } else if (t.type === "inline") {
+      let c = stripP(md.render(t.content));
+      rs[rs.length - 1].push(c);
+    }
+  }
+  return rs;
+}
+
+function stripP(s: string) {
+  if (s) s = s.substring(3, s.length - 5);
+  return s;
+}

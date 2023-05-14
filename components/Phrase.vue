@@ -1,20 +1,23 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-defineProps<{
-    segments: (string | string[])[],
+import { ref, computed } from 'vue'
+const props = defineProps<{
     flags: string[],
+    segments: string[][],
 }>()
-const selected = ref(0);
+const index = ref(0);
+const spans = computed(() => {
+    console.log(props.segments);
+    const i = index.value + 1;
+    return props.segments?.map(s => s[0] ? s[0] : s[i]);
+})
 </script>
 
 <template>
     <div>
-        <div id="text">
-            <span v-for="s in segments">
-                {{ Array.isArray(s) ? s[selected] : s }}
-            </span>
+        <div>
+            <span v-for="s in spans" v-html="s" />
         </div>
-        <button v-for="(f, i) in flags" :class="{ reveal: i == selected }" v-on:click="selected = i">
+        <button v-for="(f, i) in flags" :class="{ reveal: i == index }" v-on:click="index = i">
             {{ f }}
         </button>
     </div>
