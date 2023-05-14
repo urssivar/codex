@@ -1,23 +1,30 @@
 <script setup lang="ts">
-import { ref } from 'vue'
-defineProps<{
-    segments: (string | string[])[],
-    flags: string[],
+import { ref, computed, onMounted } from 'vue'
+const props = defineProps<{
+    flags: number,
+    segments: boolean[],
 }>()
-const selected = ref(0);
+const index = ref(0);
+onMounted(() => {
+    console.log(props.segments);
+});
+const flagSlots = computed(() => {
+    return [...Array(props.flags).keys()]
+        .map(i => `f-${i}`);
+});
+const segmentSlots = computed(() => {
+    return props.segments
+        ?.map((s, i) => s ? `s-${i}-0` : `s-${i}-${index.value + 1}`);
+});
 </script>
 
 <template>
     <div>
-        <div id="text">
-            <span v-for="s in segments">
-                {{ Array.isArray(s) ? s[selected] : s }}
-            </span>
-        </div>
-        <button v-for="(f, i) in flags" :class="{ reveal: i == selected }" v-on:click="selected = i">
-            {{ f }}
-        </button>
+        <slot v-for="s in segmentSlots" :name="s" />
     </div>
+    <button v-for="f, i in flagSlots" :class="{ reveal: i == index }" v-on:click="index = i">
+        <slot :name="f" />
+    </button>
 </template>
 
 <style scoped>

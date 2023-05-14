@@ -1,13 +1,23 @@
-<script setup>
-import W from '@/Word.vue';
-import P from '@/Phrase.vue';
-import { sample } from './introduction';
-</script>
-
 # Copulas
 
-[**бизи**|cat] [[дикла]{#id}|on hands] [кабижил|sat] [би|is]
+Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 
-[<P :flags="sample.flags" :segments="sample.segments" />|cat]
+# Examples
 
-_hello_
+<p><W h="cat">бизи</W></p>
+
+[бизи|cat]
+
+::: phrase
+
+|                      | мургул        | хьулум         |
+| -------------------- | ------------- | -------------- |
+| Дул гьел&nbsp;       |
+|                      | чиваживда     | чираживда      |
+| , тӏалла мякьи&nbsp; |
+|                      | киццул        | кариццул       |
+| &nbsp;               |
+|                      | [ви\|он есть] | [ри\|она есть] |
+| .                    |               |
+
+:::
