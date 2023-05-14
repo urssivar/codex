@@ -1,24 +1,32 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 const props = defineProps<{
-    flags: string[],
-    segments: string[][],
+    flags: number,
+    segments: boolean[],
 }>()
 const index = ref(0);
-const spans = computed(() => {
+onMounted(() => {
     console.log(props.segments);
-    const i = index.value + 1;
-    return props.segments?.map(s => s[0] ? s[0] : s[i]);
-})
+});
+const flagSlots = computed(() => {
+    return [...Array(props.flags).keys()]
+        .map(i => `f-${i}`);
+});
+const segmentSlots = computed(() => {
+    return props.segments
+        ?.map((s, i) => s ? `s-${i}-0` : `s-${i}-${index.value + 1}`);
+});
 </script>
 
 <template>
     <div>
         <div>
-            <span v-for="s in spans" v-html="s" />
+            <span v-for="s in segmentSlots">
+                <slot :name="s" />
+            </span>
         </div>
-        <button v-for="(f, i) in flags" :class="{ reveal: i == index }" v-on:click="index = i">
-            {{ f }}
+        <button v-for="f, i in flagSlots" :class="{ reveal: i == index }" v-on:click="index = i">
+            <slot :name="f" />
         </button>
     </div>
 </template>

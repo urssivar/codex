@@ -143,10 +143,28 @@ export default withPwa(
             const table = parseTable(md, tokens.slice(idx + sidx, idx + eidx));
             const flags = table[0].splice(1);
             const segments = table.splice(1);
+            console.log(segments);
+            const flagTs = flags
+              .map(
+                (f, i) => `<template #f-${i}>${stripP(md.render(f))}</template>`
+              )
+              .join("\n");
+            const segmentTs: string[] = [];
+            for (let i = 0; i < segments.length; i++) {
+              for (let j = 0; j < segments[i].length; j++) {
+                const s = segments[i][j];
+                if (s)
+                  segmentTs.push(
+                    `<template #s-${i}-${j}>${stripP(md.render(s))}</template>`
+                  );
+              }
+            }
+
             return (
-              `<P :flags='${JSON.stringify(flags)}' :segments='${JSON.stringify(
-                segments
-              )}'/>` + "\n<!--"
+              `<P :flags="${flags.length}" :segments="[true, false, true]">` +
+              flagTs +
+              segmentTs +
+              "</P>\n<!--"
             );
           },
         });
@@ -172,9 +190,9 @@ function parseTable(md: MarkdownIt, tokens: any[]) {
 }
 
 function stripP(s: string) {
-  // const pref = "<p>";
-  // if (s.startsWith(pref)) s = s.substring(pref.length);
-  // const suff = "</p>\n";
-  // if (s.endsWith(suff)) s = s.substring(0, suff.length - 1);
+  const pref = "<p>";
+  if (s.startsWith(pref)) s = s.substring(pref.length);
+  const suff = "</p>\n";
+  if (s.endsWith(suff)) s = s.substring(0, s.length - suff.length + 1);
   return s;
 }
