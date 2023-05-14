@@ -20,15 +20,11 @@ const segmentSlots = computed(() => {
 
 <template>
     <div>
-        <div>
-            <span v-for="s in segmentSlots">
-                <slot :name="s" />
-            </span>
-        </div>
-        <button v-for="f, i in flagSlots" :class="{ reveal: i == index }" v-on:click="index = i">
-            <slot :name="f" />
-        </button>
+        <slot v-for="s in segmentSlots" :name="s" />
     </div>
+    <button v-for="f, i in flagSlots" :class="{ reveal: i == index }" v-on:click="index = i">
+        <slot :name="f" />
+    </button>
 </template>
 
 <style scoped>
