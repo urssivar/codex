@@ -112,7 +112,7 @@ export default withPwa(
           icon: { svg: telegramSvg },
           link: "https://t.me/urssivar",
         },
-        { icon: "github", link: "https://github.com/vuejs/vitepress" },
+        { icon: "github", link: "https://github.com/alkaitagi/urssivar" },
       ],
     },
 
