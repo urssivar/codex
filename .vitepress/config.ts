@@ -172,6 +172,9 @@ function parseTable(md: MarkdownIt, tokens: any[]) {
 }
 
 function stripP(s: string) {
-  if (s) s = s.substring(3, s.length - 5);
+  // const pref = "<p>";
+  // if (s.startsWith(pref)) s = s.substring(pref.length);
+  // const suff = "</p>\n";
+  // if (s.endsWith(suff)) s = s.substring(0, suff.length - 1);
   return s;
 }

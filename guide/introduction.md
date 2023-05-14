@@ -4,6 +4,10 @@ Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 
 # Examples
 
+<p><W h="cat">бизи</W></p>
+
+[бизи|cat]
+
 ::: example
 
 |                      | male        | female       |
@@ -17,5 +21,3 @@ Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 | .                    |             |
 
 :::
-
-<W h="cat">бизи</W>
