@@ -191,14 +191,13 @@ function handleHints(md: MarkdownIt) {
 }
 
 function handleAudios(md: MarkdownIt) {
-  md.renderer.rules.image = function (tokens, idx, options, _, self) {
-    const token = tokens[idx];
-    const src = token.attrs![0][1];
-    if (src.endsWith(".m4a")) {
-      return `<Say url="${src}">${rend(token.content, md)}</Say>`;
-    }
-    return self.renderToken(tokens, idx, options);
-  };
+  const mreg = require("markdown-it-regexp");
+  md.use(
+    mreg(/\#\[(.+)\]\((.+)\)/, (match) => {
+      const [, c, u] = match;
+      return `<Say url="${u}">${rend(c, md)}</Say>`;
+    })
+  );
 }
 
 function rend(s: string, md: MarkdownIt) {
