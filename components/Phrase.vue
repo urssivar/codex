@@ -17,7 +17,8 @@ const segmentSlots = computed(() => {
 
 <template>
     <div>
-        <span v-for="s, i in segmentSlots" :class="{ space: !segments[i] }">
+        <span v-for="s, i in segmentSlots">
+            <template v-if="!segments[i]">&nbsp;</template>
             <slot :name="s" />
         </span>
     </div>
@@ -27,10 +28,6 @@ const segmentSlots = computed(() => {
 </template>
 
 <style scoped>
-.space::before {
-    content: ' ';
-}
-
 button {
     padding: 4px;
 }

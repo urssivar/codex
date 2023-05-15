@@ -7,9 +7,15 @@ defineProps<{
 
 <template>
     <span @click="player.play(url)">
-        <span>
+        <span class="button">
             {{ player.isPlaying(url) ? "⏸️" : "▶️" }}
         </span>
         <slot></slot>
     </span>
 </template>
+
+<style scoped>
+.button {
+    user-select: none;
+}
+</style>
