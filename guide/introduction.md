@@ -7,7 +7,7 @@
 
 Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 
-# Examples
+## Examples
 
 'ello there 👋
 
