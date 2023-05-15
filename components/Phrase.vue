@@ -1,13 +1,10 @@
 <script setup lang="ts">
-import { ref, computed, onMounted } from 'vue'
+import { ref, computed } from 'vue'
 const props = defineProps<{
     flags: number,
     segments: boolean[],
 }>()
 const index = ref(0);
-onMounted(() => {
-    console.log(props.segments);
-});
 const flagSlots = computed(() => {
     return [...Array(props.flags).keys()]
         .map(i => `f-${i}`);
