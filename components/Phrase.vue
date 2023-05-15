@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed } from 'vue'
+import { ref, computed, watch } from 'vue'
 const props = defineProps<{
     flags: number,
     segments: boolean[],
@@ -13,13 +13,19 @@ const segmentSlots = computed(() => {
     return props.segments
         ?.map((s, i) => s ? `s-${i}-0` : `s-${i}-${index.value + 1}`);
 });
+let old: string[] = [];
+watch(segmentSlots, async (_, oldKeys) => {
+    old = oldKeys;
+})
 </script>
 
 <template>
     <div>
-        <span v-for="s, i in segmentSlots">
+        <span v-for="s, i in segmentSlots" :key="s">
             <template v-if="!segments[i]">&nbsp;</template>
-            <slot :name="s" />
+            <span :class="{ flash: s != old[i] && old[i] }">
+                <slot :key="s" :name="s" />
+            </span>
         </span>
     </div>
     <div class="buttons">
@@ -30,6 +36,17 @@ const segmentSlots = computed(() => {
 </template>
 
 <style scoped>
+.flash {
+    border-radius: 4px;
+    animation: flash 0.5s;
+}
+
+@keyframes flash {
+    50% {
+        background-color: #7f7f7f7f;
+    }
+}
+
 .buttons {
     display: flex;
     gap: 4px;
