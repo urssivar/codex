@@ -37,7 +37,7 @@ export const sidebarExamples = [
   {
     text: "Folk tales",
     items: [
-      { text: "Wise girl", link: "/examples/tale_1" },
+      { text: "Wise girl", link: "/examples/wise_girl" },
       { text: "Three brothers", link: "/examples/tale_2" },
     ],
   },
