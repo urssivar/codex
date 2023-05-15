@@ -4,8 +4,6 @@ Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 
 # Examples
 
-<p><W h="cat">бизи</W></p>
-
 [бизи|cat]
 
 ::: phrase
@@ -18,6 +16,6 @@ Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 |                      | киццул        | кариццул       |
 | &nbsp;               |
 |                      | [ви\|он есть] | [ри\|она есть] |
-| .                    |               |
+| .                    |
 
 :::

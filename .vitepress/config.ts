@@ -168,10 +168,12 @@ function handleTable(md: MarkdownIt) {
 
       const segmPar = segments.map((s) => !!s[0]);
       return (
-        `<P :flags="${flags.length}" :segments="${JSON.stringify(segmPar)}">` +
+        `<Phrase :flags="${flags.length}" :segments="${JSON.stringify(
+          segmPar
+        )}">` +
         flagTs +
         segmentTs +
-        "</P>\n<!--"
+        "</Phrase>\n<!--"
       );
     },
   });
@@ -182,7 +184,7 @@ function handleHints(md: MarkdownIt) {
   md.use(
     mreg(/\[(.+?)\|(.+?)\]/, (match) => {
       const [, c, h] = match;
-      return `<W h="${h}">${rend(c, md)}</W>`;
+      return `<Word h="${h}">${rend(c, md)}</Word>`;
     })
   );
 }
