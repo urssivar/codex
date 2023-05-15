@@ -1,14 +1,18 @@
 <script setup lang="ts">
+import { computed } from 'vue';
+import { withBase } from 'vitepress'
 import player from "./audio-player";
-defineProps<{
+
+const props = defineProps<{
     url: string,
 }>()
+const src = computed(() => withBase(props.url));
 </script>
 
 <template>
-    <span @click="player.play(url)">
+    <span @click="player.play(src)">
         <span class="button">
-            {{ player.isPlaying(url) ? "⏸️" : "▶️" }}
+            {{ player.isPlaying(src) ? "⏸️" : "▶️" }}
         </span>
         <slot></slot>
     </span>
