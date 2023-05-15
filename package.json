@@ -1,5 +1,6 @@
 {
   "devDependencies": {
+    "@types/howler": "^2.2.7",
     "@vite-pwa/vitepress": "^0.0.5",
     "vitepress": "^1.0.0-alpha.74"
   },
@@ -12,6 +13,7 @@
     "@types/markdown-it": "^12.2.3",
     "@types/markdown-it-attrs": "^4.1.0",
     "@types/markdown-it-container": "^2.0.5",
+    "howler": "^2.2.3",
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-bracketed-spans": "^1.0.1",
     "markdown-it-container": "^3.0.0",
