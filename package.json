@@ -17,6 +17,7 @@
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-bracketed-spans": "^1.0.1",
     "markdown-it-container": "^3.0.0",
+    "markdown-it-merge-cells": "^2.0.0",
     "markdown-it-regexp": "^0.4.0",
     "vue3-popper": "^1.5.0"
   }

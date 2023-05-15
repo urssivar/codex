@@ -1,8 +1,15 @@
 # Copulas
 
+|       |  1  |  2  |  3  |
+| ----- | :-: | :-: | :-: |
+| _PRS_ | да  | да  | це  |
+| _PST_ | де  | де  | де  |
+
 Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 
 # Examples
+
+<p>
 
 ::: phrase
 
@@ -17,3 +24,7 @@ Kaitag words usually end with consonant: [хъал|home], гъер, мохъ.
 | .                                 |
 
 :::
+
+</p>
+
+'ello there 👋
