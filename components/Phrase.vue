@@ -37,11 +37,12 @@ const segmentSlots = computed(() => {
 }
 
 button {
-    border-radius: 4px;
     transition: 0.2s;
-    font-weight: 500;
-    padding: 0px 4px;
-    border: solid 1px #7f7f7f55;
+    font-weight: 600;
+    line-height: 125%;
+    padding: 2px 4px;
+    border-radius: 4px;
+    background-color: #7f7f7f25;
 }
 
 
