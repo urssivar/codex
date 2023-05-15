@@ -19,8 +19,13 @@ defineProps<{
     --popper-theme-padding: 0 8px;
 }
 
-*:hover {
+* {
     text-decoration: underline dotted;
-    text-underline-offset: 8px;
+    text-decoration-color: #7f7f7f7f;
+    text-underline-offset: 6px;
+}
+
+*:hover {
+    text-decoration-color: inherit;
 }
 </style>
