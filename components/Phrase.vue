@@ -22,17 +22,34 @@ const segmentSlots = computed(() => {
             <slot :name="s" />
         </span>
     </div>
-    <button v-for="f, i in flagSlots" :class="{ reveal: i == index }" v-on:click="index = i">
-        <slot :name="f" />
-    </button>
+    <div class="buttons">
+        <button v-for="f, i in flagSlots" :class="{ reveal: i == index }" v-on:click="index = i">
+            <slot :name="f" />
+        </button>
+    </div>
 </template>
 
 <style scoped>
+.buttons {
+    display: flex;
+    gap: 4px;
+    margin-top: 4px;
+}
+
 button {
-    padding: 4px;
+    border-radius: 4px;
+    transition: 0.2s;
+    font-weight: 500;
+    padding: 0px 4px;
+    border: solid 1px #7f7f7f55;
+}
+
+
+button:hover {
+    color: var(--vp-c-brand)
 }
 
 .reveal {
-    text-decoration: underline;
+    color: var(--vp-c-brand)
 }
 </style>
