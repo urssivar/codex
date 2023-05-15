@@ -50,6 +50,13 @@ export default withPwa(
   defineConfig({
     pwa: pwa as any,
     vite: {
+      build: {
+        rollupOptions: {
+          output: {
+            manualChunks: undefined,
+          },
+        },
+      },
       resolve: {
         alias: {
           "@": path.resolve(__dirname, "../components"),
@@ -191,13 +198,15 @@ function handleHints(md: MarkdownIt) {
 }
 
 function handleAudios(md: MarkdownIt) {
-  const mreg = require("markdown-it-regexp");
-  md.use(
-    mreg(/\#\[(.+)\]\((.+)\)/, (match) => {
-      const [, c, u] = match;
-      return `<Say url="${u}">${rend(c, md)}</Say>`;
-    })
-  );
+  const dr = md.renderer.rules.image!;
+  md.renderer.rules.image = function (tokens, idx, options, env, self) {
+    const token = tokens[idx];
+    const src = token.attrs![0][1];
+    if (src.endsWith(".m4a")) {
+      return `<Say url="${src}">${rend(token.content, md)}</Say>`;
+    }
+    return dr(tokens, idx, options, env, self);
+  };
 }
 
 function rend(s: string, md: MarkdownIt) {
