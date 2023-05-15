@@ -119,6 +119,7 @@ export default withPwa(
     markdown: {
       config: (md) => {
         handleHints(md);
+        handleAudios(md);
         handleTable(md);
 
         md.use(require("markdown-it-attrs"));
@@ -185,6 +186,16 @@ function handleHints(md: MarkdownIt) {
     mreg(/\[(.+?)\|(.+?)\]/, (match) => {
       const [, c, h] = match;
       return `<Word h="${h}">${rend(c, md)}</Word>`;
+    })
+  );
+}
+
+function handleAudios(md: MarkdownIt) {
+  const mreg = require("markdown-it-regexp");
+  md.use(
+    mreg(/\#\[(.+)\]\((.+)\)/, (match) => {
+      const [, c, u] = match;
+      return `<Say url="${u}">${rend(c, md)}</Say>`;
     })
   );
 }
