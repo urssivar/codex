@@ -122,7 +122,6 @@ export default withPwa(
         handleAudios(md);
         handleTable(md);
 
-        md.use(require("markdown-it-merge-cells"));
         md.use(require("markdown-it-attrs"));
         md.use(require("markdown-it-bracketed-spans"));
       },
