@@ -1,15 +1,30 @@
 import MarkdownIt from "markdown-it";
 
 export default function configureMarkdown(md: MarkdownIt) {
-  handleHints(md);
-  handleAudios(md);
-  handleTable(md);
+  hintSample(md);
+  audioSample(md);
+  glossSample(md);
+  glossContainer(md);
+  phraseTable(md);
 
   md.use(require("markdown-it-attrs"));
   md.use(require("markdown-it-bracketed-spans"));
 }
 
-function handleTable(md: MarkdownIt) {
+function glossContainer(md: MarkdownIt) {
+  const cont = require("markdown-it-container");
+  md.use(cont, "glosses", {
+    validate: function (params) {
+      return params.trim().match(/^glosses/);
+    },
+    render: function (tokens, idx) {
+      if (tokens[idx].nesting !== 1) return "</div>";
+      return '<div class="glosses">';
+    },
+  });
+}
+
+function phraseTable(md: MarkdownIt) {
   const cont = require("markdown-it-container");
   md.use(cont, "phrase", {
     validate: function (params) {
@@ -47,22 +62,42 @@ function handleTable(md: MarkdownIt) {
   });
 }
 
-function handleHints(md: MarkdownIt) {
+function hintSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\[(.+?)\|(.+?)\]/, (match) => {
+    mreg(/\#\[(.+?)\|(.+?)\]/, (match) => {
       const [, c, h] = match;
-      return `<Word h="${h}">${rend(c, md)}</Word>`;
+      return (
+        `<Word h="${h}">` +
+        rend(c, md) +
+        "<template #content>" +
+        rend(h, md) +
+        "</template>" +
+        "</Word>"
+      );
     })
   );
 }
 
-function handleAudios(md: MarkdownIt) {
+function audioSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\#\[(.+)\]\((.+)\)/, (match) => {
+    mreg(/\^\[(.+)\]\((.+)\)/, (match) => {
       const [, c, u] = match;
       return `<Say url="${u}">${rend(c, md)}</Say>`;
+    })
+  );
+}
+
+function glossSample(md: MarkdownIt) {
+  const mreg = require("markdown-it-regexp");
+  md.use(
+    mreg(/\$\[(.+\|\|.+)\]/, (match) => {
+      const c = (match[1] as string)
+        .split("||")
+        .map((s) => `<span>${rend(s, md)}</span>`)
+        .join("");
+      return `<div class="gloss-col">${c}</div>`;
     })
   );
 }
