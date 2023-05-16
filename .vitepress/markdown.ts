@@ -1,7 +1,8 @@
 import MarkdownIt from "markdown-it";
 
 export default function configureMarkdown(md: MarkdownIt) {
-  renderSample(md);
+  renderAudioSample(md);
+  renderHintSample(md);
   renderPhrase(md);
 
   md.use(require("markdown-it-attrs"));
@@ -49,27 +50,29 @@ function renderPhrase(md: MarkdownIt) {
   };
 }
 
-function renderSample(md: MarkdownIt) {
+function renderAudioSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\#\[(.+?)\](\(.+?\))?/, (match) => {
-      const [, content, url] = match;
-      let html = "";
-      if (content.includes("|")) {
-        const [c, ...h] = content.split("|");
-        html =
-          `<Word>` +
-          rd(c, md) +
-          "<template #content>" +
-          rd(h.join("|"), md) +
-          "</template>" +
-          "</Word>";
-      } else html = rd(content, md);
-      if (url) {
-        const u = url.substring(1, url.length - 1);
-        html = `<Say url="${u}">${html}</Say>`;
-      }
-      return html;
+    mreg(/\$\[(.+)\]\((.+?)\)/, (match) => {
+      const [, cont, url] = match;
+      return `<Say url="${url}">${rd(cont, md)}</Say>`;
+    })
+  );
+}
+
+function renderHintSample(md: MarkdownIt) {
+  const mreg = require("markdown-it-regexp");
+  md.use(
+    mreg(/\#\[(.+)\|(.+?)\]/, (match) => {
+      const [, cont, hint] = match;
+      return (
+        `<Word>` +
+        rd(cont, md) +
+        "<template #content>" +
+        rd(hint, md) +
+        "</template>" +
+        "</Word>"
+      );
     })
   );
 }
