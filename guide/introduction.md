@@ -36,6 +36,10 @@ Kaitag words usually end with consonant: #[хъал|home], гъер, мохъ.
 [Уже поздний час, завтра утром тебе рано вставать.]{/}
 {.gl}
 
+::: tip ℹ️ Tip
+**бурсил** is just a shorthand for **бурсив+ле**, which is a regular adverb of adjective **#[бурсив|said]**
+:::
+
 ## Examples
 
 |                                         | male           | female          |
