@@ -9,12 +9,12 @@
     </tr>
     <tr>
         <th>PRS</th>
-        <td colspan="2">да</td>
-        <td>це</td>
+        <td colspan="2"><Word>да<template #content> am \ are</template></Word></td>
+        <td><Word>це<template #content>is</template></Word></td>
     </tr>
         <tr>
         <th>PST</th>
-        <td colspan="3">де</td>
+        <td colspan="3"><Word>де<template #content>were</template></Word></td>
     </tr>
 </table>
 
@@ -22,7 +22,7 @@ Kaitag words usually end with consonant: #[хъал|home], гъер, мохъ.
 
 |         |                  |           |
 | ------- | :--------------: | :-------: |
-| бизил   | #[гоце\|*гицне*] |   буцил   |
+| бизил   | #[гоце\|_гицне_] |   буцил   |
 | bizi.l  |      gotse       |  buts.il  |
 | cat.ERG |      mouse       | catch.ADV |
 

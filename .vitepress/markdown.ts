@@ -63,7 +63,7 @@ function renderAudioSample(md: MarkdownIt) {
 function renderHintSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\#\[(.+)\|(.+?)\]/, (match) => {
+    mreg(/\#\[(.+)\|(.+)\]/, (match) => {
       const [, cont, hint] = match;
       return (
         `<Word>` +
