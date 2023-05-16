@@ -1,9 +1,22 @@
 # Copulas
 
-|       |  1  |  2  |  3  |
-| ----- | :-: | :-: | :-: |
-| _PRS_ | да  | да  | це  |
-| _PST_ |  ~  | де  |  ~  |
+<table class="c-t">
+    <tr>
+        <th></th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+    </tr>
+    <tr>
+        <th>PRS</th>
+        <td colspan="2">да</td>
+        <td>це</td>
+    </tr>
+        <tr>
+        <th>PST</th>
+        <td colspan="3">де</td>
+    </tr>
+</table>
 
 Kaitag words usually end with consonant: #[хъал|home], гъер, мохъ.
 

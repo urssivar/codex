@@ -1,3 +1,7 @@
+.c-t td {
+    text-align: center;
+}
+
 .hid {
     display: none !important;
 }
