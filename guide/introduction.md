@@ -28,7 +28,7 @@ Kaitag words usually end with consonant: #[хъал|home], гъер, мохъ.
 
 {.gl}
 
-# header {.style-me}
+## Dialogue
 
 [$[Атта, #[гьана|how] килсана ду варццул аккуда.](/audio/cig.m4a)]{.main}  
 [Отец, я ещё не устал, чтобы лечь.]{/}
@@ -36,7 +36,7 @@ Kaitag words usually end with consonant: #[хъал|home], гъер, мохъ.
 [Уже поздний час, завтра утром тебе рано вставать.]{/}
 {.gl}
 
-### Examples
+## Examples
 
 |                                         | male           | female          |
 | --------------------------------------- | -------------- | --------------- |
