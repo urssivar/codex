@@ -17,28 +17,28 @@ export const sidebarGuide = [
   },
 ];
 
-export const sidebarExamples = [
+export const sidebarLibrary = [
   {
     text: "Phrasebook",
     items: [
-      { text: "Acquaintance", link: "/examples/phrasebook_1" },
-      { text: "Shopping", link: "/examples/phrasebook_2" },
-      { text: "Cooking", link: "/examples/phrasebook_2" },
-      { text: "Inviting", link: "/examples/phrasebook_2" },
+      { text: "Acquaintance", link: "/library/phrasebook_1" },
+      { text: "Shopping", link: "/library/phrasebook_2" },
+      { text: "Cooking", link: "/library/phrasebook_2" },
+      { text: "Inviting", link: "/library/phrasebook_2" },
     ],
   },
   {
     text: "Dialogues",
     items: [
       { text: "Sleep time", link: "/examples/tale_1" },
-      { text: "Hiking preparation", link: "/examples/tale_2" },
+      { text: "Hiking preparation", link: "/library/tale_2" },
     ],
   },
   {
     text: "Folk tales",
     items: [
-      { text: "Wise girl", link: "/examples/wise_girl" },
-      { text: "Three brothers", link: "/examples/tale_2" },
+      { text: "Wise girl", link: "/library/wise_girl" },
+      { text: "Three brothers", link: "/library/tale_2" },
     ],
   },
 ];

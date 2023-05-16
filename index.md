@@ -15,11 +15,11 @@ hero:
     dark: /hero-dark.png
   actions:
     - theme: brand
-      text: Language Guide
+      text: Get Started
       link: /guide/introduction
     - theme: alt
-      text: Examples
-      link: /examples/phrasebook_1
+      text: Read the Texts
+      link: /library/wise_girl
 
 features:
   - icon: 🚀

@@ -4,7 +4,7 @@ import path from "path";
 import { telegramSvg } from "./icons";
 import { pwa } from "./pwa";
 import configureMarkdown from "./markdown";
-import { sidebarExamples, sidebarGuide } from "./sidebar";
+import { sidebarLibrary, sidebarGuide } from "./sidebar";
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(
@@ -40,9 +40,9 @@ export default withPwa(
           activeMatch: "/guide/",
         },
         {
-          text: "Examples",
-          link: "/examples/phrasebook_1",
-          activeMatch: "/examples/",
+          text: "Library",
+          link: "/library/wise_girl",
+          activeMatch: "/library/",
         },
         {
           text: "Apps",
@@ -65,7 +65,7 @@ export default withPwa(
 
       sidebar: {
         "/guide/": sidebarGuide,
-        "/examples/": sidebarExamples,
+        "/library/": sidebarLibrary,
       },
 
       socialLinks: [
