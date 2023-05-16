@@ -7,7 +7,7 @@
     flex-direction: column;
 }
 
-p.gl>:not(:first-child) {
+p.gl>:not(.main) {
     opacity: 0.75;
     line-height: 125% !important;
     font-size: small;
