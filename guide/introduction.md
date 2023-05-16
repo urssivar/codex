@@ -9,12 +9,12 @@
     </tr>
     <tr>
         <th>PRS</th>
-        <td colspan="2"><Word>да<template #content> am \ are</template></Word></td>
-        <td><Word>це<template #content>is</template></Word></td>
+        <td colspan="2"><Word>да<template #content> I, you, we</template></Word></td>
+        <td><Word>це<template #content>he, she, it, they</template></Word></td>
     </tr>
         <tr>
         <th>PST</th>
-        <td colspan="3"><Word>де<template #content>were</template></Word></td>
+        <td colspan="3">де</td>
     </tr>
 </table>
 
