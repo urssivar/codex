@@ -1,12 +1,9 @@
-<script setup lang="ts">
-defineProps<{
-    h: string,
-}>()
-</script>
-
 <template>
-    <Popper :arrow="true" placement="top" :hover="true" offsetDistance="4" :content="h">
+    <Popper :arrow="true" placement="top" :hover="true" offsetDistance="4">
         <slot></slot>
+        <template #content>
+            <slot name="content"></slot>
+        </template>
     </Popper>
 </template>
 
