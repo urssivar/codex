@@ -1,32 +1,41 @@
-.gloss-col {
+.col {
     display: flex;
     flex-direction: column;
 }
 
-.gloss-col>:not(:first-child) {
-    font-size: small;
-    line-height: 125%;
-}
-
-.gloss-col>:not(:first-child),
-.glosses tr:not(:first-child) {
+p.gl>:not(:first-child) {
     opacity: 0.75;
+    line-height: 125% !important;
+    font-size: small;
 }
 
-.glosses tr:first-child td {
-    font-size: medium !important;
-}
-
-.glosses thead {
+p.gl>br {
     display: none;
 }
 
-.glosses tr {
+p.gl {
+    display: flex;
+    flex-direction: column;
+}
+
+table.gl tr:not(:first-child) {
+    opacity: 0.75;
+}
+
+table.gl tr:first-child td {
+    font-size: medium !important;
+}
+
+table.gl thead {
+    display: none;
+}
+
+table.gl tr {
     border: transparent !important;
     background-color: transparent !important;
 }
 
-.glosses td {
+table.gl td {
     padding-right: 0.4em !important;
     text-align: start !important;
     padding: 0;
