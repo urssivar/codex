@@ -14,16 +14,16 @@ const segmentSlots = computed(() => {
         ?.map((s, i) => s ? `s-${i}-0` : `s-${i}-${index.value + 1}`);
 });
 let old: string[] = [];
-watch(segmentSlots, async (_, oldKeys) => {
-    old = oldKeys;
-})
+watch(segmentSlots, async (newKeys, oldKeys) => {
+    old = oldKeys ?? newKeys;
+}, { immediate: true })
 </script>
 
 <template>
     <div>
         <span v-for="s, i in segmentSlots" :key="s">
             <template v-if="!segments[i]">&nbsp;</template>
-            <span :class="{ flash: s != old[i] && old[i] }">
+            <span :class="{ flash: s != old[i] }">
                 <slot :key="s" :name="s" />
             </span>
         </span>
@@ -38,7 +38,7 @@ watch(segmentSlots, async (_, oldKeys) => {
 <style scoped>
 .flash {
     border-radius: 4px;
-    animation: flash 0.5s;
+    animation: flash .5s;
 }
 
 @keyframes flash {
