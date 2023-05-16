@@ -27,10 +27,6 @@ Kaitag words usually end with consonant: #[хъал|home], гъер, мохъ.
 
 ### Examples
 
-<p>
-
-::: phrase
-
 |                                      | male           | female          |
 | ------------------------------------ | -------------- | --------------- |
 | Дул гьел                             |
@@ -41,6 +37,6 @@ Kaitag words usually end with consonant: #[хъал|home], гъер, мохъ.
 |                                      | #[ви\|*he* is] | #[ри\|*she* is] |
 | .                                    |
 
-:::
+{.ph}
 
-</p>
+Hi there

@@ -1,14 +1,14 @@
 import MarkdownIt from "markdown-it";
 
 export default function configureMarkdown(md: MarkdownIt) {
-  parseSample(md);
-  phraseTable(md);
+  renderSample(md);
+  renderPhrase(md);
 
   md.use(require("markdown-it-attrs"));
   md.use(require("markdown-it-bracketed-spans"));
 }
 
-function rend(s: string, md: MarkdownIt) {
+function rd(s: string, md: MarkdownIt) {
   s = md.render(s);
   const pf = "<p>";
   if (s.startsWith(pf)) s = s.substring(pf.length);
@@ -17,45 +17,39 @@ function rend(s: string, md: MarkdownIt) {
   return s;
 }
 
-function phraseTable(md: MarkdownIt) {
-  const cont = require("markdown-it-container");
-  md.use(cont, "phrase", {
-    validate: function (params) {
-      return params.trim().match(/^phrase/);
-    },
-    render: function (tokens, idx) {
-      if (tokens[idx].nesting !== 1) return "-->\n";
+function renderPhrase(md: MarkdownIt) {
+  md.renderer.rules.table_open = function (tokens, idx, options, _, self) {
+    const table = tokens.slice(
+      idx,
+      idx + tokens.slice(idx).findIndex((t) => t.type === "table_close")
+    );
+    const isPh = table[0].attrGet("class")?.includes("ph");
+    let html = "";
+    if (isPh) {
+      table[0].attrJoin("class", "hid");
+      const content = parseTable(md, table);
+      const flags = content[0].splice(1);
+      const segments = content.splice(1);
 
-      const sidx = tokens.slice(idx).findIndex((t) => t.type === "table_open");
-      const eidx = tokens.slice(idx).findIndex((t) => t.type === "table_close");
-      const table = parseTable(md, tokens.slice(idx + sidx, idx + eidx));
-      const flags = table[0].splice(1);
-      const segments = table.splice(1);
-      const flagTs = flags
-        .map((f, i) => `<template #f-${i}>${f}</template>`)
-        .join("\n");
-      const segmentTs: string[] = [];
-      for (let i = 0; i < segments.length; i++) {
-        for (let j = 0; j < segments[i].length; j++) {
-          const s = segments[i][j];
-          if (s) segmentTs.push(`<template #s-${i}-${j}>${s}</template>`);
-        }
-      }
+      const segmentsProp = JSON.stringify(segments.map((s) => !!s[0]));
+      const templates =
+        flags.map((f, i) => `<template #f-${i}>${f}</template>`).join("") +
+        segments
+          .flatMap((_, i) =>
+            _.map((s, j) => `<template #s-${i}-${j}>${s}</template>`)
+          )
+          .join("");
 
-      const segmPar = segments.map((s) => !!s[0]);
-      return (
-        `<Phrase :flags="${flags.length}" :segments="${JSON.stringify(
-          segmPar
-        )}">` +
-        flagTs +
-        segmentTs +
-        "</Phrase>\n<!--"
-      );
-    },
-  });
+      html =
+        `<p><Phrase :flags="${flags.length}" :segments="${segmentsProp}">` +
+        templates +
+        "</Phrase></p>";
+    }
+    return html + self.renderToken(tokens, idx, options);
+  };
 }
 
-function parseSample(md: MarkdownIt) {
+function renderSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
     mreg(/\#\[(.+?)\](\(.+?\))?/, (match) => {
@@ -65,12 +59,12 @@ function parseSample(md: MarkdownIt) {
         const [c, ...h] = content.split("|");
         html =
           `<Word>` +
-          rend(c, md) +
+          rd(c, md) +
           "<template #content>" +
-          rend(h.join("|"), md) +
+          rd(h.join("|"), md) +
           "</template>" +
           "</Word>";
-      } else html = rend(content, md);
+      } else html = rd(content, md);
       if (url) {
         const u = url.substring(1, url.length - 1);
         html = `<Say url="${u}">${html}</Say>`;
@@ -86,7 +80,7 @@ function parseTable(md: MarkdownIt, tokens: any[]) {
     if (t.type === "tr_open") {
       rs.push([]);
     } else if (t.type === "inline") {
-      let c = rend(t.content, md);
+      let c = rd(t.content, md);
       rs[rs.length - 1].push(c);
     }
   }
