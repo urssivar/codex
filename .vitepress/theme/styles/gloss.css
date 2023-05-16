@@ -1,0 +1,34 @@
+.gloss-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.gloss-col>:not(:first-child) {
+    font-size: small;
+    line-height: 125%;
+}
+
+.gloss-col>:not(:first-child),
+.glosses tr:not(:first-child) {
+    opacity: 0.75;
+}
+
+.glosses tr:first-child td {
+    font-size: medium !important;
+}
+
+.glosses thead {
+    display: none;
+}
+
+.glosses tr {
+    border: transparent !important;
+    background-color: transparent !important;
+}
+
+.glosses td {
+    padding-right: 0.4em !important;
+    text-align: start !important;
+    padding: 0;
+    border: none !important;
+}

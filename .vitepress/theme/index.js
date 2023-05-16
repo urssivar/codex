@@ -5,6 +5,7 @@ import Phrase from '@/Phrase.vue';
 import Say from '@/Say.vue';
 
 import './styles/vars.css'
+import './styles/gloss.css'
 
 export default {
     extends: DefaultTheme,
