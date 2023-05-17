@@ -41,7 +41,7 @@ export default withPwa(
         },
         {
           text: "Library",
-          link: "/library/wise_girl",
+          link: "/library/wise-girl",
           activeMatch: "/library/",
         },
         {
