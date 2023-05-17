@@ -140,7 +140,9 @@ This copula too has irregular negative forms:
     </tr>
 </table>
 
-As you might've noticed these are made by fusion of the positive forms with _"to be"_'s negative ones, e.g. [дейкку = ди + акку]{.b}.
+::: info
+Historically this series' negation is fusion of its positive forms with _"to be"_'s negative ones, e.g. [дейкку = ди + акку]{.b}.
+:::
 
 ::: details 🔬 Experimental
 It seems that speakers have no trouble understanding simplified negative forms made via regular verbal negation prefix [a-]{.b} (see the next copula), e.g. [вейкку да ~ ави да]{.b} and [вейччу ~ ави де]{.b} _(though they laugh at it 🙈)_.
@@ -231,11 +233,11 @@ They agree in person and time, and also have noun classes. See the interactive e
 <div style="display: flex; gap: 16px">
 
 [ду #<чигьул|watch.PTCP> да]{.main .b}  
-[I am watching]{/}
+[I am watching]{/} {.gl}
 
 ➡️
 
 [ду да #<чигьул|watch.PTCP>]{.main .b}  
-[the watching [one] is me]{/}
+[the watching [one] is me]{/} {.gl}
 
 </div>
