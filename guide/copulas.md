@@ -1,6 +1,6 @@
 # Copulas
 
-There are three copula series in Kaitag language.
+There are three copula series in Kaitag language. We will consider them by their purpose.
 
 ## 1. Facts & states: це
 
