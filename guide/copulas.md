@@ -32,8 +32,8 @@ It is mainly used in two contexts:
    - [ниша #<дягьне|child.PL> да]{.main .b}  
      [you are children]{/}
 
-   - [гьел хъати #<дила|1SG.GEN> це]{.main .b}  
-     [that hat is mine]{/}
+   - [гьел гозе #<дила|1SG.GEN> це]{.main .b}  
+     [that honey is mine]{/}
 
 2. To convey entity _state_:
 
@@ -75,8 +75,8 @@ It's usage is identical to the positive counterpart:
 - [ду #<тухтур|doctor> аккод]{.main .b}  
   [I am not a doctor]{/}
 
-- [гьел #<хъати|hat> дила акку]{.main .b}  
-  [that hat is not mine]{/}
+- [гьел #<гозе|honey> дила акку]{.main .b}  
+  [that honey is not mine]{/}
 
 - [#<ниса|1PL> кьанле аччу]{.main .b}  
   [we were not late]{/}
@@ -146,7 +146,7 @@ As you might've noticed these are made by fusion of the positive forms with _"to
 It seems that speakers have no trouble understanding simplified negative forms made via regular verbal negation prefix [a-]{.b} (see the next copula), e.g. [вейкку да ~ ави да]{.b} and [вейччу ~ ави де]{.b} _(though they laugh at it 🙈)_.
 :::
 
-## 3. Continued Presence: бел
+## 3. Availability: бел
 
 The third and last series of Kaitag copulas which roughly means "to have been". Like the previous one, it has the same "to be"-augmented personal agreement model as well as #<class agreement|[бел\вел\рел\дел]{.b}>.
 
@@ -172,37 +172,26 @@ It has regular negative forms via verbal prefix [а-]{.b}:
 
 There are three copula series:
 
-1. це\акку — facts
+1.  <span class="main">[це & акку]{.b} — facts</span>
 
-   [ила хъати це]{.main .b}  
-   [[this] is your hat]{/} {.gl}
+    [#<ила|2SG.GEN> гозе це]{.main .b}  
+    [[this] is your honey]{/}
 
-2. [#<со|yesterday> гозе абел де]{.main .b}  
-   [yesterday there was no honey left]{/}
+2.  <span class="main">[би & бейкку]{.b} — presence</span>
 
-|             | male            | female          | neutral        |
-| ----------- | --------------- | --------------- | -------------- |
-|             | #<атта\|father> | #<уба\|mother>  | #<бизи\|cat>   |
-| &nbsp;хъили |
-|             | #<ви\|_he_ is>  | #<ри\|_she_ is> | #<би\|_it_ is> |
+    [ила гозе би]{.main .b}  
+    [you have honey]{/}
 
-{.ph .m-0}
+3.  <span class="main">[бел & абел]{.b} — availability \ continious presence</span>
 
-- ergwegr
+    [ила гозе бел]{.main .b}  
+    [you still have honey \ your honey remains]{/}
 
-1️⃣ Це\акку — факт
-🍯 Ила гозе це.
-💬 [Это] твой мёд.
-2️⃣ Би\бейкку — присутствие (https://t.me/urssivar/132):
-🍯 Ила гозе би.
-💬 У тебя есть мёд.
-3️⃣ Бел\абел — наличие (https://t.me/urssivar/141):
-🍯 Ила гозе бел.
-💬 У тебя [ещё] остался мёд.
+{.gl}
 
-Control tense of verbal participles:
+They agree in person and time, and also have noun classes. See the interactive examples in which they control the two verbal participles:
 
-- [ду #<бурсил|tell.PRET.ADV> да\де]{.main .b}  
+- [дул #<бурсил|tell.PRET.ADV> да\де]{.main .b}  
   [I have\had told]{/}
 
 - [ду #<бурсул|tell.PTPC> да\де]{.main .b}  
@@ -213,27 +202,28 @@ Control tense of verbal participles:
 
 {.gl}
 
-- Бурсил да\де;
-  💬 I have\had told;
-  🗣 Бурсул да\де;
-  💬 I am\was telling;
-  🗣 Бурсул вел да\де;
-  💬 I have\had been telling.
+### Bonus: positioning
 
-От ди & дел стандартно (https://t.me/urssivar/61) образуются наречия, смысл которых раскрывается в контексте:
-🏠 Ду хъили вил къя уцци цигъив.
-💬 Когда я был дома брат пришёл.
-👦🏼 Ду хъили велле уцци цигъив.
-💬 Брат пришёл пока я был дома.
-👧 Рицци никӏо релле хоттацци кулжи.
-💬 Будучи маленькой, сестра оставалась у дедушки.
+<div style="display: flex; gap: 16px">
 
-Позиция связки меняет оттенок смысла:
-🧢 Ила хъати це.
-💬 [Это] твоя шапка.
-🤠 Ила це хъати.
-💬 [Эта] шапка — твоя.
-🔭 Ду чигьул да.
-💬 Я смотрю.
-👀 Ду да чигьул.
-💬 Смотрящий [это] я.
+[ила #<хъати|hat> це]{.main .b}  
+[[this] is your hat]{/} {.gl}
+
+➡️
+
+[ила це хъати]{.main .b}  
+[the hat is your]{/} {.gl}
+
+</div>
+
+<div style="display: flex; gap: 16px">
+
+[ду #<чигьул|watch.PTCP> да]{.main .b}  
+[I am watching]{/}
+
+➡️
+
+[ду да #<чигьул|watch.PTCP>]{.main .b}  
+[the watching [one] is me]{/}
+
+</div>
