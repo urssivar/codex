@@ -31,8 +31,8 @@ It is mainly used in two contexts:
    - [#<ду|1SG> Мягьямад да]{.main .b}  
      [I am Muhammad]{/}
 
-   - [ниша #<дягьне|child.PL> да]{.main .b}  
-     [you are children]{/}
+   - [ниша #<тухтурте|doctor.PL> да]{.main .b}  
+     [you are doctors]{/}
 
    - [гьел гозе #<дила|1SG.GEN> це]{.main .b}  
      [that honey is mine]{/}
@@ -43,8 +43,8 @@ It is mainly used in two contexts:
    - [ду #<улчӏул|walk.PTCP> да]{.main .b}  
      [I am studying]{/}
 
-   - [ниса #<кьанле|late.ADV> де]{.main .b}  
-     [we were late]{/}
+   - [ниша #<кьанле|late.ADV> де]{.main .b}  
+     [you were late]{/}
 
    - [дам #<гунал|warm.ADV> це]{.main .b}  
      [it's warm to me \ I'm warm]{/}
@@ -80,8 +80,8 @@ It's usage is identical to the positive counterpart:
 - [гьел #<гозе|honey> дила акку]{.main .b}  
   [that honey is not mine]{/}
 
-- [#<ниса|1PL> кьанле аччу]{.main .b}  
-  [we were not late]{/}
+- [#<ниша|2PL> кьанле аччу]{.main .b}  
+  [you were not late]{/}
 
 {.gl}
 
@@ -95,8 +95,8 @@ The secound copula series in Kaitag is used to denote presence of an entity. It 
 - [уба #<дуцци|1SG.COM> ри]{.main .b}  
   [mother is with]{/}
 
-- [ила #<бизи|cat> би де]{.main .b}  
-  [you had a cat]{/}
+- [ила #<гозе|cat> би де]{.main .b}  
+  [you had honey]{/}
 
 {.gl}
 
@@ -154,7 +154,7 @@ It seems that speakers have no trouble understanding simplified negative forms m
 
 The third and last series of Kaitag copulas which roughly means "to have been". Like the previous one, it has the same "to be"-augmented personal agreement model as well as #<class agreement|[бел\вел\рел\дел]{.b}>.
 
-- [ду #<ячи|work.DAT> рел да]{.main .b}  
+- [ду #<хъили|home.DAT> рел да]{.main .b}  
   [I am still at work]{/}
 
 - [уцци #<улчӏул|study.PTCP> вел]{.main .b}  
