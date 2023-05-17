@@ -5,7 +5,7 @@ const sidebar = {
   },
   Library: {
     Phrasebook: ["Acquaintance", "Shopping", "Cooking", "Inviting"],
-    Dialogues: ["Sleep time", "Hiking preparation"],
+    Dialogues: ["Bedtime", "Hiking preparation"],
     "Folk Tales": ["Wise girl", "Three brothers"],
   },
 };

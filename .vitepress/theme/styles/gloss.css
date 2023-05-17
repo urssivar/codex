@@ -15,6 +15,10 @@
     flex-direction: column;
 }
 
+.t-e {
+    text-align: end;
+}
+
 p.gl>:not(.main),
 :not(p).gl>li>*>*:not(.main) {
     opacity: 0.75;
