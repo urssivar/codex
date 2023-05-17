@@ -53,7 +53,7 @@ function renderPhrase(md: MarkdownIt) {
 function renderAudioSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\$\[(.+)\]\((.+?)\)/, (match) => {
+    mreg(/\$\{(.+?)\}\((.+?)\)/, (match) => {
       const [, cont, url] = match;
       return `<Say url="${url}">${rd(cont, md)}</Say>`;
     })
@@ -63,7 +63,7 @@ function renderAudioSample(md: MarkdownIt) {
 function renderHintSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\#\[(.+)\|(.+)\]/, (match) => {
+    mreg(/\#\{(.+?)\|(.+?)\}/, (match) => {
       const [, cont, hint] = match;
       return (
         `<Word>` +

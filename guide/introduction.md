@@ -1,4 +1,4 @@
-# Copulas
+# Test
 
 <table class="c-t">
     <tr>
@@ -9,8 +9,8 @@
     </tr>
     <tr>
         <th>PRS</th>
-        <td colspan="2"><Word>да<template #content> I, you, we</template></Word></td>
-        <td><Word>це<template #content>he, she, it, they</template></Word></td>
+        <td colspan="2"><Word>да<template #content> I/you/we</template></Word></td>
+        <td><Word>це<template #content>he/she/it/they</template></Word></td>
     </tr>
         <tr>
         <th>PST</th>
@@ -18,11 +18,11 @@
     </tr>
 </table>
 
-Kaitag words usually end with consonant: #[хъал|home], гъер, мохъ.
+Kaitag words usually end with consonant: #{хъал|home}, гъер, мохъ.
 
 |         |                  |           |
 | ------- | :--------------: | :-------: |
-| бизил   | #[гоце\|_гицне_] |   буцил   |
+| бизил   | #{гоце\|_гицне_} |   буцил   |
 | bizi.l  |      gotse       |  buts.il  |
 | cat.ERG |      mouse       | catch.ADV |
 
@@ -30,27 +30,34 @@ Kaitag words usually end with consonant: #[хъал|home], гъер, мохъ.
 
 ## Dialogue
 
-[$[Атта, #[гьана|how] килсана ду варццул аккуда.](/audio/cig.m4a)]{.main}  
-[Отец, я ещё не устал, чтобы лечь.]{/}
-[Кьан сят це, гъурш чирка исле гьирццан де и.]{.main}
-[Уже поздний час, завтра утром тебе рано вставать.]{/}
-{.gl}
+- каука
+- укаука
+- ука
 
-::: tip ℹ️ Tip
+* [Атта, #{гьана|how} килсана ду варццул аккуда.]{.main}  
+  [Отец, я ещё не устал, чтобы лечь.]{/}
+
+* [Кьан сят це, гъурш чирка исле гьирццан де и.]{.main}  
+  [Уже поздний час, завтра утром тебе рано вставать.]{/}
+
+  {.gl}
+
+::: tip
 **бурсил** is just a shorthand for **бурсив+ле**, which is a regular adverb of adjective **#[бурсив|said]**
 :::
 
 ## Examples
 
-|                                         | male           | female          |
-| --------------------------------------- | -------------- | --------------- |
-| Дул гьел                                |
-|                                         | чиваживда      | чираживда       |
-| &nbsp;$[#[циглей\|how]](/audio/cig.m4a) |
-| , тӏалла мякьи                          |
-|                                         | киццул         | кариццул        |
-|                                         | #[ви\|*he* is] | #[ри\|*she* is] |
-| .                                       |
+|                                   | male           | female          |
+| --------------------------------- | -------------- | --------------- |
+| Дул гьел                          |
+|                                   | чиваживда      | чираживда       |
+| &nbsp;                            |
+| ${#{циглей\|how}}(/audio/cig.m4a) |
+| , тӏалла мякьи                    |
+|                                   | киццул         | кариццул        |
+|                                   | #{ви\|_he_ is} | #{ри\|_she_ is} |
+| .                                 |
 
 {.ph}
 

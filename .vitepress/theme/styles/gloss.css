@@ -11,17 +11,20 @@
     flex-direction: column;
 }
 
-p.gl>:not(.main) {
+p.gl>:not(.main),
+.gl>li>*>*:not(.main) {
     opacity: 0.75;
     line-height: 125% !important;
     font-size: small;
 }
 
-p.gl>br {
+p.gl>br,
+.gl>li>*>br {
     display: none;
 }
 
-p.gl {
+p.gl,
+.gl>li>* {
     display: flex;
     flex-direction: column;
 }
