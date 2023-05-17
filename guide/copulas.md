@@ -1,5 +1,7 @@
 # Copulas
 
+There are three copula series in Kaitag language.
+
 ## 1. Facts & states: це
 
 The main copula series, roughly corresponding to _"to be"_:
