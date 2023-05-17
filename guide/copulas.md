@@ -191,16 +191,28 @@ There are three copula series:
 
 They agree in person and time, and also have noun classes. See the interactive examples in which they control the two verbal participles:
 
-- [дул #<бурсил|tell.PRET.ADV> да\де]{.main .b}  
-  [I have\had told]{/}
+- |                                | I               | you               | she                |
+  | ------------------------------ | --------------- | ----------------- | ------------------ |
+  |                                | #<дул\|1SG.ERG> | #<нишал\|2PL.ERG> | #<гьелел\|3SG.ERG> |
+  | &nbsp;#<бурсил\|tell.PRET.ADV> |
+  |                                | да              | да                | це                 |
 
-- [ду #<бурсул|tell.PTPC> да\де]{.main .b}  
-  [I am\was telling]{/}
+  {.ph}
 
-- [ду #<бурсул|tell.PTPC> вел да\де]{.main .b}  
-  [I have\had been telling]{/}
+- |                             | present | past |
+  | --------------------------- | ------- | ---- |
+  | гьелел #<бурсул\|tell.PTCP> |         |      |
+  |                             | це      | де   |
 
-{.gl}
+  {.ph}
+
+- |                          | masculine | feminine |
+  | ------------------------ | --------- | -------- |
+  | дул #<бурсул\|tell.PTCP> |           |          |
+  |                          | вел       | рел      |
+  | &nbsp;да                 |
+
+  {.ph}
 
 ### Bonus: positioning
 
