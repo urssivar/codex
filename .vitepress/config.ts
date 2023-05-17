@@ -31,12 +31,12 @@ export default withPwa(
         provider: "local",
       },
       footer: {
-        message: "Uvkhara vaxt akku.",
+        message: "uvkhara vaxt akku / no time to die",
       },
       nav: [
         {
           text: "Guide",
-          link: "/guide/introduction",
+          link: "/guide/copulas",
           activeMatch: "/guide/",
         },
         {

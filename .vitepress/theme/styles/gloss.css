@@ -1,5 +1,9 @@
-.c-t td {
-    text-align: center;
+.b {
+    font-weight: 500;
+}
+
+.c-t>*>* {
+    text-align: center !important;
 }
 
 .hid {
