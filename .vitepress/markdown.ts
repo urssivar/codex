@@ -24,9 +24,8 @@ function renderPhrase(md: MarkdownIt) {
       idx,
       idx + tokens.slice(idx).findIndex((t) => t.type === "table_close")
     );
-    const isPh = table[0].attrGet("class")?.includes("ph");
     let html = "";
-    if (isPh) {
+    if (table[0].attrGet("class")?.includes("ph")) {
       table[0].attrJoin("class", "hid");
       const content = parseTable(md, table);
       const flags = content[0].splice(1);
@@ -53,7 +52,7 @@ function renderPhrase(md: MarkdownIt) {
 function renderAudioSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\$\{(.+?)\}\((.+?)\)/, (match) => {
+    mreg(/\$\<(.+?)\>\((.+?)\)/, (match) => {
       const [, cont, url] = match;
       return `<Say url="${url}">${rd(cont, md)}</Say>`;
     })
@@ -63,7 +62,7 @@ function renderAudioSample(md: MarkdownIt) {
 function renderHintSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\#\{(.+?)\|(.+?)\}/, (match) => {
+    mreg(/\#\<(.+?)\|(.+?)\>/, (match) => {
       const [, cont, hint] = match;
       return (
         `<Word>` +
