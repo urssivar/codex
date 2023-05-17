@@ -16,10 +16,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /guide/introduction
+      link: /guide/copulas
     - theme: alt
       text: Read the Texts
-      link: /library/wise_girl
+      link: /library/wise-girl
 
 features:
   - icon: 🚀

@@ -18,11 +18,11 @@
     </tr>
 </table>
 
-Kaitag words usually end with consonant: #{хъал|home}, гъер, мохъ.
+Kaitag words usually end with consonant: #<хъал|home>, гъер, мохъ.
 
 |         |                  |           |
 | ------- | :--------------: | :-------: |
-| бизил   | #{гоце\|_гицне_} |   буцил   |
+| бизил   | #<гоце\|_гицне_> |   буцил   |
 | bizi.l  |      gotse       |  buts.il  |
 | cat.ERG |      mouse       | catch.ADV |
 
@@ -34,7 +34,7 @@ Kaitag words usually end with consonant: #{хъал|home}, гъер, мохъ.
 - укаука
 - ука
 
-* [Атта, #{гьана|how} килсана ду варццул аккуда.]{.main}  
+* [Атта, #<гьана|how> килсана ду варццул аккуда.]{.main}  
   [Отец, я ещё не устал, чтобы лечь.]{/}
 
 * [Кьан сят це, гъурш чирка исле гьирццан де и.]{.main}  
@@ -53,10 +53,10 @@ Kaitag words usually end with consonant: #{хъал|home}, гъер, мохъ.
 | Дул гьел                          |
 |                                   | чиваживда      | чираживда       |
 | &nbsp;                            |
-| ${#{циглей\|how}}(/audio/cig.m4a) |
+| $<#<циглей\|how>>(/audio/cig.m4a) |
 | , тӏалла мякьи                    |
 |                                   | киццул         | кариццул        |
-|                                   | #{ви\|_he_ is} | #{ри\|_she_ is} |
+|                                   | #<ви\|_he_ is> | #<ри\|_she_ is> |
 | .                                 |
 
 {.ph}

@@ -16,19 +16,19 @@
 }
 
 p.gl>:not(.main),
-.gl>li>*>*:not(.main) {
+:not(p).gl>li>*>*:not(.main) {
     opacity: 0.75;
     line-height: 125% !important;
     font-size: small;
 }
 
 p.gl>br,
-.gl>li>*>br {
+:not(p).gl>li>*>br {
     display: none;
 }
 
 p.gl,
-.gl>li>* {
+:not(p).gl>li>* {
     display: flex;
     flex-direction: column;
 }
