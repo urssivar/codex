@@ -36,12 +36,12 @@ It is mainly used in two contexts:
 
    - [гьел гозе #<дила|1SG.GEN> це]{.main .b}  
      [that honey is mine]{/}
+     {.gl}
 
 2. To convey entity _state_:
 
    - [ду #<улчӏул|walk.PTCP> да]{.main .b}  
      [I am studying]{/}
-     {.gl}
 
    - [ниса #<кьанле|late.ADV> де]{.main .b}  
      [we were late]{/}
