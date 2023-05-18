@@ -12,7 +12,7 @@ const src = computed(() => withBase(props.url));
 <template>
     <span @click="player.play(src)">
         <span class="button">
-            {{ player.isPlaying(src) ? "⏸️" : "▶️" }}
+            {{ player.isPlaying(src) ? "⏸️ " : "▶️ " }}
         </span>
         <slot></slot>
     </span>
@@ -21,5 +21,6 @@ const src = computed(() => withBase(props.url));
 <style scoped>
 .button {
     user-select: none;
+    cursor: pointer;
 }
 </style>
