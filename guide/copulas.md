@@ -45,7 +45,7 @@ The basic series, corresponds to _"to be"_. It's used in two contexts:
      --it's warm to me \ I'm warm--
 
 ::: warning
-Yes, 2SG.PRS is the same as PST. Wouldn't it be nice to have it ==да== instead? I don't like it either, but that's what we have.
+Yes, 2SG.PRS is the same as PST. Wouldn't it be nice to have it ==да== instead? _Sigh_, that's what we have.
 :::
 
 ### Not to Be
