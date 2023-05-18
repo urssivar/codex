@@ -2,30 +2,30 @@
 import { ref, computed, watch } from 'vue'
 const props = defineProps<{
     flags: number,
-    segments: boolean[],
+    types: boolean[],
 }>()
 const index = ref(0);
-const flagSlots = computed(() => {
-    return [...Array(props.flags).keys()]
-        .map(i => `f-${i}`);
-});
-const segmentSlots = computed(() => {
-    return props.segments
-        ?.map((s, i) => s ? `s-${i}-0` : `s-${i}-${index.value + 1}`);
-});
+const flagSlots = computed(() =>
+    [...Array(props.flags).keys()]
+        .map(i => `f-${i}`)
+);
+const slots = computed(() =>
+    props.types.map((_, i) => props.types[i]
+        ? `s-${i}-0`
+        : `s-${i}-${index.value}`
+    )
+);
 let old: string[] = [];
-watch(segmentSlots, async (newKeys, oldKeys) => {
+watch(slots, async (newKeys, oldKeys) => {
     old = oldKeys ?? newKeys;
 }, { immediate: true })
 </script>
 
 <template>
     <div>
-        <template v-for="s, i in segmentSlots" :key="s">
-            <span :class="{ flash: s != old[i] }">
-                <slot :name="s" />
-            </span>
-        </template>
+        <span v-for="s, i in slots" :class="{ flash: s != old[i] }" :key="s">
+            <slot :name="s" />
+        </span>
     </div>
     <div class="buttons">
         <button v-for="f, i in flagSlots" :class="{ reveal: i == index }" v-on:click="index = i">

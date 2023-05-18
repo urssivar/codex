@@ -1,6 +1,8 @@
 import MarkdownIt from "markdown-it";
 
 export default function configureMarkdown(md: MarkdownIt) {
+  renderKaitag(md);
+  renderTranslation(md);
   renderAudioSample(md);
   renderHintSample(md);
   renderPhrase(md);
@@ -29,19 +31,25 @@ function renderPhrase(md: MarkdownIt) {
       table[0].attrJoin("class", "hid");
       const content = parseTable(md, table);
       const flags = content[0].splice(1);
-      const segments = content.splice(1);
+      const segments = content.splice(1).map(([h, ...t]) => {
+        if (h) return [h];
+        if (t.some((v) => v)) return t;
+        return ["&nbsp;"];
+      });
 
-      const segmentsProp = JSON.stringify(segments.map((s) => !!s[0]));
+      const types = JSON.stringify(segments.map((s) => s.length === 1));
+      console.log(segments);
+      console.log(types);
       const templates =
         flags.map((f, i) => `<template #f-${i}>${f}</template>`).join("") +
         segments
-          .flatMap((_, i) =>
-            _.map((s, j) => `<template #s-${i}-${j}>${s}</template>`)
+          .flatMap((vs, i) =>
+            vs.map((v, j) => `<template #s-${i}-${j}>${v}</template>`)
           )
           .join("");
 
       html =
-        `<p><Phrase :flags="${flags.length}" :segments="${segmentsProp}">` +
+        `<p><Phrase :flags="${flags.length}" :types="${types}">` +
         templates +
         "</Phrase></p>";
     }
@@ -52,9 +60,26 @@ function renderPhrase(md: MarkdownIt) {
 function renderAudioSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\$\<(.+?)\>\((.+?)\)/, (match) => {
-      const [, cont, url] = match;
+    mreg(/\$\<(.+?)\>\((.+?)\)/, ([, cont, url]) => {
       return `<Say url="${url}">${rd(cont, md)}</Say>`;
+    })
+  );
+}
+
+function renderTranslation(md: MarkdownIt) {
+  const mreg = require("markdown-it-regexp");
+  md.use(
+    mreg(/--(.+?)--/, ([, cont]) => {
+      return `<span class="s">${rd(cont, md)}</span>`;
+    })
+  );
+}
+
+function renderKaitag(md: MarkdownIt) {
+  const mreg = require("markdown-it-regexp");
+  md.use(
+    mreg(/\#--(.+?)--/, ([, cont]) => {
+      return `<span class="b">${rd(cont, md)}</span>`;
     })
   );
 }
@@ -62,8 +87,7 @@ function renderAudioSample(md: MarkdownIt) {
 function renderHintSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\#\<(.+?)\|(.+?)\>/, (match) => {
-      const [, cont, hint] = match;
+    mreg(/\#\<(.+?)\|(.+?)\>/, ([, cont, hint]) => {
       return (
         `<Word>` +
         rd(cont, md) +
