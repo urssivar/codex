@@ -256,7 +256,7 @@ Copula positioning alters meaning:
 |                                 |                |                              |
 | ------------------------------- | :------------: | :--------------------------- |
 | ==ила #<хъати\|hat> це==        | &nbsp;➡️&nbsp; | ==ила це хъати==             |
-| --[this] is your hat--          |                | --the hat is your--          |
+| --[this] is your hat--          |                | --the hat is yours--         |
 | <br>                            |
 | ==ду #<чигьул\|watch.PTCP> да== | &nbsp;➡️&nbsp; | ==ду да чигьул==             |
 | --I am watching--               |                | --the watching [one] is me-- |
