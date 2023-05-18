@@ -32,11 +32,12 @@ for (let i = 0; i < lines.length;i+=2) {
 
 # Анкӏла заман
 
-<p v-for="(p,i) in phrases" class="gl" :class="i%2 ? 't-e' : ''">
-    <span class="main">
+<p v-for="(p,i) in phrases" class="b" :class="i%2 ? 't-e' : ''">
+    <span>
         {{p[0]}}
     </span>
-    <span>
+    <br>
+    <span class="s">
         <Say :url="`/audio/bedtime/${i+1}.ogg`">{{p[1]}}</Say>
     </span>
 </p>
