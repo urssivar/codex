@@ -219,36 +219,39 @@ There are three copula series:
 
 They agree in person and time, and two of them have noun classes. Here are interactive examples in which they control verbal participles:
 
-- |                                | I               | you            | she                |
-  | ------------------------------ | --------------- | -------------- | ------------------ |
-  |                                | #<дул\|1SG.ERG> | #<ил\|2SG.ERG> | #<гьелел\|3SG.ERG> |
-  | &nbsp;#<бурсил\|tell.PRET.ADV> |
-  |                                | да              | де             | це                 |
-  | <br>                           |                 |                |                    |
-  |                                | [I]{.sub}       | [you]{.sub}    | [they]{.sub}       |
-  | &nbsp;[have told]{.sub}        |
+- |                          | I               | you            | she                |
+  | ------------------------ | --------------- | -------------- | ------------------ |
+  |                          | #<дул\|1SG.ERG> | #<ил\|2SG.ERG> | #<гьелел\|3SG.ERG> |
+  | &nbsp;                   |
+  | #<бурсил\|tell.PRET.ADV> |
+  | &nbsp;                   |
+  |                          | да              | де             | це                 |
+  | <br>                     |                 |                |                    |
+  |                          | [I]{.s}         | [you]{.s}      | [they]{.s}         |
+  | &nbsp;[have told]{.s}    |
 
   {.ph}
 
-- |                           | present    | past        |
-  | ------------------------- | ---------- | ----------- |
-  | убал #<бурсул\|tell.PTCP> |            |             |
-  |                           | це         | де          |
-  | <br>                      |            |             |
-  | [mother]{.sub}            |            |             |
-  |                           | [is]{.sub} | [was]{.sub} |
-  | &nbsp;[telling]{.sub}     |
+- |                           | present  | past      |
+  | ------------------------- | -------- | --------- |
+  | убал #<бурсул\|tell.PTCP> |
+  | &nbsp;                    |          |
+  |                           | це       | де        |
+  | <br>                      |          |           |
+  | [mother]{.s}&nbsp;        |
+  |                           | [is]{.s} | [was]{.s} |
+  | &nbsp;[telling]{.s}       |
 
   {.ph}
 
-- |                                | masculine       | feminine       |
-  | ------------------------------ | --------------- | -------------- |
-  |                                | уццил           | убал           |
-  | бурсул                         |                 |                |
-  |                                | вел             | рел            |
-  | <br>                           |                 |                |
-  |                                | [brother]{.sub} | [mother]{.sub} |
-  | [&nbsp;has been telling]{.sub} |
+- |                              | masculine     | feminine     |
+  | ---------------------------- | ------------- | ------------ |
+  |                              | уццил         | убал         |
+  | &nbsp;бурсул&nbsp;           |               |              |
+  |                              | вел           | рел          |
+  | <br>                         |               |              |
+  |                              | [brother]{.s} | [mother]{.s} |
+  | &nbsp;[has been telling]{.s} |
 
   {.ph}
 

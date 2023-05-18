@@ -22,7 +22,6 @@ watch(segmentSlots, async (newKeys, oldKeys) => {
 <template>
     <div>
         <span v-for="s, i in segmentSlots" :key="s">
-            <template v-if="!segments[i]">&nbsp;</template>
             <span :class="{ flash: s != old[i] }">
                 <slot :key="s" :name="s" />
             </span>

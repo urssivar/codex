@@ -21,7 +21,7 @@
 
 p.gl>:not(.main),
 :not(p).gl>li>*>*:not(.main),
-.sub {
+.s {
     opacity: 0.75;
     line-height: 125% !important;
     font-size: small;
