@@ -4,7 +4,7 @@ import path from "path";
 import { telegramSvg } from "./icons";
 import { pwa } from "./pwa";
 import configureMarkdown from "./markdown";
-import getSidebar from "./sidebar";
+import * as Tree from "./tree";
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(
@@ -41,8 +41,8 @@ export default withPwa(
         },
         {
           text: "Library",
-          link: "/library/wise-girl",
           activeMatch: "/library/",
+          items: Tree.nav,
         },
         {
           text: "Apps",
@@ -63,7 +63,7 @@ export default withPwa(
         },
       ],
 
-      sidebar: getSidebar(),
+      sidebar: Tree.sidebar,
       socialLinks: [
         {
           icon: { svg: telegramSvg },
