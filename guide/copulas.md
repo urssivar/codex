@@ -141,9 +141,9 @@ Here person agreement is marked by appending _"to be"_'s counterpart for 1 & 2 p
 
 Again, irregular negative forms, used just like the positive ones. Also has #<class agreement|бейкку\вейкку\рейкку\дейкку>.
 
-- ==ду хъили вейккод==
+- ==ду хъили вейккод==  
   --I am not at home--
-- ==ила гозе бейкку==
+- ==ила гозе бейкку==  
   --you don't have honey--
 
 ::: info
