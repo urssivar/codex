@@ -8,17 +8,20 @@ There ==are== three copula series in Kaitag language. Let's consider them by the
     <tr>
         <th></th>
         <th>1</th>
-        <th>2</th>
+        <th>2SG</th>
+        <th>2PL</th>
         <th>3</th>
     </tr>
     <tr>
         <th>PRS</th>
-        <td class="b" colspan="2"><Word>да<template #content> I~we / you</template></Word></td>
-        <td class="b"><Word>це<template #content>he~she~it / they</template></Word></td>
+        <td class="b"><Word>да<template #content>I/we</template></Word></td>
+        <td class="b"><Word>де<template #content>you(sg.)</template></Word></td>
+        <td class="b"><Word>да<template #content>you(pl.)</template></Word></td>
+        <td class="b"><Word>це<template #content>he/she/it/they</template></Word></td>
     </tr>
         <tr>
         <th>PST</th>
-        <td class="b" colspan="3">де</td>
+        <td class="b" colspan="4">де</td>
     </tr>
 </table>
 
@@ -28,9 +31,9 @@ The basic series, corresponds to _"to be"_. It's used in two contexts:
 
    - ==#<ду|1SG> Мягьямад да==  
      --I am Muhammad--
-   - ==ниша #<тухтурте|doctor.PL> да==  
+   - ==#<и|2SG> тухтур де==  
      --you are doctors--
-   - ==гозе #<дила|1SG.GEN> це==  
+   - == #<дила|1SG.GEN> гозе це==  
      --[that] is my honey--
 
 2. To convey entity _state_:
@@ -47,17 +50,20 @@ The basic series, corresponds to _"to be"_. It's used in two contexts:
     <tr>
         <th></th>
         <th>1</th>
-        <th>2</th>
+        <th>2SG</th>
+        <th>2PL</th>
         <th>3</th>
     </tr>
     <tr>
         <th>PRS</th>
-        <td class="b" colspan="2"><Word>аккод<template #content> I~we / you</template></Word></td>
-        <td class="b"><Word>акку<template #content>he~she~it / they</template></Word></td>
+        <td><Word>аккод<template #content>I/we</template></Word></td>
+        <td><Word>аккотте<template #content>you(sg.)</template></Word></td>
+        <td><Word>аккод<template #content>you(pl.)</template></Word></td>
+        <td><Word>акку<template #content>he/she/it/they</template></Word></td>
     </tr>
         <tr>
         <th>PST</th>
-        <td class="b" colspan="3">аччу</td>
+        <td colspan="4">аччу</td>
     </tr>
 </table>
 
@@ -76,17 +82,20 @@ This copula has irregular negative forms which are used just like the positive c
     <tr>
         <th></th>
         <th>1</th>
-        <th>2</th>
+        <th>2SG</th>
+        <th>2PL</th>
         <th>3</th>
     </tr>
     <tr>
         <th>PRS</th>
-        <td class="b" colspan="2"><Word>би да<template #content> I~we / you</template></Word></td>
-        <td class="b"><Word>би<template #content>he~she~it / they</template></Word></td>
+        <td><Word>би да<template #content>I/we</template></Word></td>
+        <td><Word>би де<template #content>you(sg.)</template></Word></td>
+        <td><Word>би да<template #content>you(pl.)</template></Word></td>
+        <td><Word>би<template #content>he/she/it/they</template></Word></td>
     </tr>
         <tr>
         <th>PST</th>
-        <td class="b" colspan="3">би де</td>
+        <td colspan="4">би де</td>
     </tr>
 </table>
 
@@ -109,17 +118,20 @@ Here person agreement is marked by appending _"to be"_'s counterpart for 1 & 2 p
     <tr>
         <th></th>
         <th>1</th>
-        <th>2</th>
+        <th>2SG</th>
+        <th>2PL</th>
         <th>3</th>
     </tr>
     <tr>
         <th>PRS</th>
-        <td class="b" colspan="2"><Word>бейккод<template #content> I~we / you</template></Word></td>
-        <td class="b"><Word>бейкку<template #content>he~she~it / they</template></Word></td>
+        <td><Word>бейккод<template #content>I/we</template></Word></td>
+        <td><Word>бейккотте<template #content>you(sg.)</template></Word></td>
+        <td><Word>бейккод<template #content>you(pl.)</template></Word></td>
+        <td><Word>бейкку<template #content>he/she/it/they</template></Word></td>
     </tr>
-        <tr>
+    <tr>
         <th>PST</th>
-        <td class="b" colspan="3">бейччу</td>
+        <td colspan="4">бейччу</td>
     </tr>
 </table>
 
@@ -144,17 +156,20 @@ It seems that speakers have no trouble understanding simplified negative forms m
     <tr>
         <th></th>
         <th>1</th>
-        <th>2</th>
+        <th>2SG</th>
+        <th>2PL</th>
         <th>3</th>
     </tr>
     <tr>
         <th>PRS</th>
-        <td class="b" colspan="2"><Word>бел да<template #content> I~we / you</template></Word></td>
-        <td class="b"><Word>бел<template #content>he~she~it / they</template></Word></td>
+        <td><Word>бел да<template #content>I/we</template></Word></td>
+        <td><Word>бел де<template #content>you(sg.)</template></Word></td>
+        <td><Word>бел да<template #content>you(pl.)</template></Word></td>
+        <td><Word>бел<template #content>he/she/it/they</template></Word></td>
     </tr>
         <tr>
         <th>PST</th>
-        <td class="b" colspan="3">бел де</td>
+        <td colspan="4">бел де</td>
     </tr>
 </table>
 
@@ -176,22 +191,15 @@ Fortunately the negation here is via the regular verbal prefix ==а-==:
 
 There are three copula series:
 
-1.  <span class="main">[це & акку]{.b} — facts</span>
-
-    [#<ила|2SG.GEN> гозе це]{.main .b}  
-    [[this] is your honey]{/}
-
-2.  <span class="main">[би & бейкку]{.b} — presence</span>
-
-    [ила гозе би]{.main .b}  
-    [you have honey]{/}
-
-3.  <span class="main">[бел & абел]{.b} — availability \ continious presence</span>
-
-    [ила гозе бел]{.main .b}  
-    [you still have honey \ your honey remains]{/}
-
-{.gl}
+1.  ==це== & ==акку== — facts
+    - ==#<ила|2SG.GEN> гозе це==  
+      --[this] is your honey--
+2.  ==би== & ==бейкку== — presence
+    - ==ила гозе би==  
+      --you have honey--
+3.  ==бел== & ==абел== — availability (continious presence)
+    - ==ила гозе бел==  
+      --you still have honey \ your honey remains--
 
 They agree in person and time, and two of them have noun classes. Here are interactive examples in which they control verbal participles:
 

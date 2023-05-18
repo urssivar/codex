@@ -2,6 +2,11 @@
     font-weight: 500;
 }
 
+.s {
+    opacity: 0.75;
+    font-size: small;
+}
+
 .c-t>*>* {
     text-align: center !important;
 }
@@ -17,24 +22,6 @@
 
 .t-e {
     text-align: end;
-}
-
-p.gl>:not(.main),
-:not(p).gl>li>*>*:not(.main),
-.s {
-    opacity: 0.75;
-    font-size: small;
-}
-
-p.gl>br,
-:not(p).gl>li>*>br {
-    display: none;
-}
-
-p.gl,
-:not(p).gl>li>* {
-    display: flex;
-    flex-direction: column;
 }
 
 table.gl tr:not(:first-child) {
