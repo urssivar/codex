@@ -1,10 +1,8 @@
 # Copulas
 
-There are three copula series in Kaitag language. We will consider them by their purpose.
+There are three copula series in Kaitag language. Let's consider them by their purpose.
 
-## 1. Facts & states: це
-
-The main copula series, roughly corresponding to _"to be"_:
+## 1. Facts & States
 
 <table class="c-t">
     <tr>
@@ -24,7 +22,7 @@ The main copula series, roughly corresponding to _"to be"_:
     </tr>
 </table>
 
-It is mainly used in two contexts:
+The basic series, corresponds to _"to be"_. It's used in two contexts:
 
 1. To denote plain _facts_:
 
@@ -50,9 +48,7 @@ It is mainly used in two contexts:
      [it's warm to me \ I'm warm]{/}
      {.gl}
 
-### Not to be
-
-This copula has irregular negative forms:
+### Not to Be
 
 <table class="c-t">
     <tr>
@@ -72,7 +68,7 @@ This copula has irregular negative forms:
     </tr>
 </table>
 
-It's usage is identical to the positive counterpart:
+This copula has irregular negative forms which are used just like the positive counterparts:
 
 - [ду #<тухтур|doctor> аккод]{.main .b}  
   [I am not a doctor]{/}
@@ -85,22 +81,7 @@ It's usage is identical to the positive counterpart:
 
 {.gl}
 
-## 2. Presence: би
-
-The secound copula series in Kaitag is used to denote presence of an entity. It has #<class agreement|[би\ви\ри\ди]{.b}>.
-
-- [ду #<хъили|home.DAT> ви да]{.main .b}  
-  [I am [currently] at home]{/}
-
-- [уба #<дуцци|1SG.COM> ри]{.main .b}  
-  [mother is with]{/}
-
-- [ила #<гозе|cat> би де]{.main .b}  
-  [you had honey]{/}
-
-{.gl}
-
-As can be seen this copula's personal agreement is marked by appending _"to be"_'s counterpart for 1 & 2 person present and all past.
+## 2. Presence
 
 <table class="c-t">
     <tr>
@@ -120,9 +101,24 @@ As can be seen this copula's personal agreement is marked by appending _"to be"_
     </tr>
 </table>
 
-### Absence
+The secound copula series is used to denote presence of an entity. It has #<class agreement|[би\ви\ри\ди]{.b}>.
 
-This copula too has irregular negative forms:
+- [ду #<хъили|home.DAT> ви да]{.main .b}  
+  [I am [currently] at home]{/}
+
+- [уба #<дуцци|1SG.COM> ри]{.main .b}  
+  [mother is with me]{/}
+
+- [ила #<гозе|honey> би де]{.main .b}  
+  [you had honey]{/}
+
+{.gl}
+
+::: info
+Here person agreement is marked by appending _"to be"_'s counterpart for 1 & 2 person present and all past.
+:::
+
+### Absence
 
 <table class="c-t">
     <tr>
@@ -142,6 +138,16 @@ This copula too has irregular negative forms:
     </tr>
 </table>
 
+Again, irregular negative forms, used just like the positive ones. Also has #<class agreement|[бейкку\вейкку\рейкку\дейкку]{.b}>.
+
+- [ду хъили вейккод]{.main .b}  
+  [I am not at home]{/}
+
+- [ила гозе бейкку]{.main .b}  
+  [you don't have honey]{/}
+
+{.gl}
+
 ::: info
 Historically this series' negation is fusion of its positive forms with _"to be"_'s negative ones, e.g. [дейкку = ди + акку]{.b}.
 :::
@@ -150,9 +156,27 @@ Historically this series' negation is fusion of its positive forms with _"to be"
 It seems that speakers have no trouble understanding simplified negative forms made via regular verbal negation prefix [a-]{.b} (see the next copula), e.g. [вейкку да ~ ави да]{.b} and [вейччу ~ ави де]{.b} _(though they laugh at it 🙈)_.
 :::
 
-## 3. Availability: бел
+## 3. Availability
 
-The third and last series of Kaitag copulas which roughly means "to have been". Like the previous one, it has the same "to be"-augmented personal agreement model as well as #<class agreement|[бел\вел\рел\дел]{.b}>.
+<table class="c-t">
+    <tr>
+        <th></th>
+        <th>1</th>
+        <th>2</th>
+        <th>3</th>
+    </tr>
+    <tr>
+        <th>PRS</th>
+        <td class="b" colspan="2"><Word>бел да<template #content> I~we / you</template></Word></td>
+        <td class="b"><Word>бел<template #content>he~she~it / they</template></Word></td>
+    </tr>
+        <tr>
+        <th>PST</th>
+        <td class="b" colspan="3">бел де</td>
+    </tr>
+</table>
+
+The third series roughly means "to have been". Its person agreement is like the previous one's and it too has #<class agreement|[бел\вел\рел\дел]{.b}>.
 
 - [ду #<хъили|home.DAT> рел да]{.main .b}  
   [I am still at work]{/}
@@ -162,7 +186,7 @@ The third and last series of Kaitag copulas which roughly means "to have been". 
 
 {.gl}
 
-It has regular negative forms via verbal prefix [а-]{.b}:
+Fortunately the negation here is via the regular verbal prefix [а-]{.b}:
 
 - [#<уцци|brother> улчӏул авел]{.main .b}  
   [brother is no longer studying]{/}
@@ -193,32 +217,42 @@ There are three copula series:
 
 {.gl}
 
-They agree in person and time, and also have noun classes. See the interactive examples in which they control the two verbal participles:
+They agree in person and time, and two of them have noun classes. Here are interactive examples in which they control verbal participles:
 
-- |                                | I               | you               | she                |
-  | ------------------------------ | --------------- | ----------------- | ------------------ |
-  |                                | #<дул\|1SG.ERG> | #<нишал\|2PL.ERG> | #<гьелел\|3SG.ERG> |
+- |                                | I               | you            | she                |
+  | ------------------------------ | --------------- | -------------- | ------------------ |
+  |                                | #<дул\|1SG.ERG> | #<ил\|2SG.ERG> | #<гьелел\|3SG.ERG> |
   | &nbsp;#<бурсил\|tell.PRET.ADV> |
-  |                                | да              | да                | це                 |
+  |                                | да              | де             | це                 |
+  | <br>                           |                 |                |                    |
+  |                                | [I]{.sub}       | [you]{.sub}    | [they]{.sub}       |
+  | &nbsp;[have told]{.sub}        |
 
   {.ph}
 
-- |                             | present | past |
-  | --------------------------- | ------- | ---- |
-  | гьелел #<бурсул\|tell.PTCP> |         |      |
-  |                             | це      | де   |
+- |                           | present    | past        |
+  | ------------------------- | ---------- | ----------- |
+  | убал #<бурсул\|tell.PTCP> |            |             |
+  |                           | це         | де          |
+  | <br>                      |            |             |
+  | [mother]{.sub}            |            |             |
+  |                           | [is]{.sub} | [was]{.sub} |
+  | &nbsp;[telling]{.sub}     |
 
   {.ph}
 
-- |                          | masculine | feminine |
-  | ------------------------ | --------- | -------- |
-  | дул #<бурсул\|tell.PTCP> |           |          |
-  |                          | вел       | рел      |
-  | &nbsp;да                 |
+- |                                | masculine       | feminine       |
+  | ------------------------------ | --------------- | -------------- |
+  |                                | уццил           | убал           |
+  | бурсул                         |                 |                |
+  |                                | вел             | рел            |
+  | <br>                           |                 |                |
+  |                                | [brother]{.sub} | [mother]{.sub} |
+  | [&nbsp;has been telling]{.sub} |
 
   {.ph}
 
-### Bonus: positioning
+### Positioning
 
 <div style="display: flex; gap: 16px">
 
@@ -239,7 +273,7 @@ They agree in person and time, and also have noun classes. See the interactive e
 
 ➡️
 
-[ду да #<чигьул|watch.PTCP>]{.main .b}  
+[ду да чигьул]{.main .b}  
 [the watching [one] is me]{/} {.gl}
 
 </div>
