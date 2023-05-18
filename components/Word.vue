@@ -1,5 +1,5 @@
 <template>
-    <Popper :arrow="true" placement="top" :hover="true" offsetDistance="4">
+    <Popper :arrow="true" :interactive="false" placement="top" :hover="true" offsetDistance="4">
         <slot></slot>
         <template #content>
             <slot name="content"></slot>
