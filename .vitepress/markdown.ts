@@ -21,38 +21,35 @@ function rd(s: string, md: MarkdownIt) {
 
 function renderPhrase(md: MarkdownIt) {
   md.renderer.rules.table_open = function (tokens, idx, options, _, self) {
+    if (!tokens[idx].attrGet("class")?.includes("ph")) {
+      return self.renderToken(tokens, idx, options);
+    }
     const table = tokens.slice(
       idx,
       idx + tokens.slice(idx).findIndex((t) => t.type === "table_close")
     );
-    let html = "";
-    if (table[0].attrGet("class")?.includes("ph")) {
-      table[0].attrJoin("class", "hid");
-      const content = parseTable(md, table);
-      const flags = content[0].splice(1);
-      const segments = content.splice(1).map(([h, ...t]) => {
-        if (h) return [h];
-        if (t.some((v) => v)) return t;
-        return ["&nbsp;"];
-      });
+    table[0].attrJoin("class", "hid");
+    const content = parseTable(md, table);
+    
+    const flags = content[0].splice(1);
+    const segments = content.splice(1).map(([h, ...t]) => {
+      if (h) return [h];
+      if (t.some((v) => v)) return t;
+      return ["&nbsp;"];
+    });
+    const types = JSON.stringify(segments.map((s) => s.length === 1));
 
-      const types = JSON.stringify(segments.map((s) => s.length === 1));
-      console.log(segments);
-      console.log(types);
-      const templates =
-        flags.map((f, i) => `<template #f-${i}>${f}</template>`).join("") +
-        segments
-          .flatMap((vs, i) =>
-            vs.map((v, j) => `<template #s-${i}-${j}>${v}</template>`)
-          )
-          .join("");
-
-      html =
-        `<p><Phrase :flags="${flags.length}" :types="${types}">` +
-        templates +
-        "</Phrase></p>";
-    }
-    return html + self.renderToken(tokens, idx, options);
+    return (
+      `<p><Phrase :flags="${flags.length}" :types="${types}">` +
+      flags.map((f, i) => `<template #f-${i}>${f}</template>`).join("") +
+      segments
+        .flatMap((vs, i) =>
+          vs.map((v, j) => `<template #s-${i}-${j}>${v}</template>`)
+        )
+        .join("") +
+      "</Phrase></p>" +
+      self.renderToken(tokens, idx, options)
+    );
   };
 }
 
@@ -68,10 +65,10 @@ function renderAudioSample(md: MarkdownIt) {
 function renderText(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/(#)?--(.+?)--/, ([, hash, cont]) => {
-      let cl = "b" + (hash ? "" : " s");
-      return `<span class="${cl}">${rd(cont, md)}</span>`;
-    })
+    mreg(/==(.+?)==/, ([, cont]) => `<span class="b">${rd(cont, md)}</span>`)
+  );
+  md.use(
+    mreg(/--(.+?)--/, ([, cont]) => `<span class="b s">${rd(cont, md)}</span>`)
   );
 }
 
