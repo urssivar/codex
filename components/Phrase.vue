@@ -21,11 +21,11 @@ watch(segmentSlots, async (newKeys, oldKeys) => {
 
 <template>
     <div>
-        <span v-for="s, i in segmentSlots" :key="s">
+        <template v-for="s, i in segmentSlots" :key="s">
             <span :class="{ flash: s != old[i] }">
-                <slot :key="s" :name="s" />
+                <slot :name="s" />
             </span>
-        </span>
+        </template>
     </div>
     <div class="buttons">
         <button v-for="f, i in flagSlots" :class="{ reveal: i == index }" v-on:click="index = i">
