@@ -44,6 +44,10 @@ The basic series, corresponds to _"to be"_. It's used in two contexts:
    - ==дам #<гунал|warm.ADV> це==  
      --it's warm to me \ I'm warm--
 
+::: warning
+Yes, 2SG.PRS is the same as PST. Wouldn't it be nice to have it ==да== instead? I don't like it either, but that's what we have.
+:::
+
 ### Not to Be
 
 <table class="c-t">
@@ -213,7 +217,7 @@ They agree in person and time, and two of them have noun classes. Here are inter
   | <br>                     |       |         |          |
   |                          | --I-- | --you-- | --they-- |
   |                          |
-  | have told                |
+  | --have told--            |
 
   {.ph}
 
@@ -245,28 +249,16 @@ They agree in person and time, and two of them have noun classes. Here are inter
 
   {.ph}
 
-### Positioning
+## Miscellaneous
 
-<div style="display: flex; gap: 16px">
+Copula positioning alters meaning:
 
-==ила #<хъати|hat> це==  
---[this] is your hat--
+|                                 |                |                              |
+| ------------------------------- | :------------: | :--------------------------- |
+| ==ила #<хъати\|hat> це==        | &nbsp;➡️&nbsp; | ==ила це хъати==             |
+| --[this] is your hat--          |                | --the hat is your--          |
+| <br>                            |
+| ==ду #<чигьул\|watch.PTCP> да== | &nbsp;➡️&nbsp; | ==ду да чигьул==             |
+| --I am watching--               |                | --the watching [one] is me-- |
 
-➡️
-
-==ила це хъати==  
---the hat is your--
-
-</div>
-
-<div style="display: flex; gap: 16px">
-
-==ду #<чигьул|watch.PTCP> да==  
---I am watching--
-
-➡️
-
-==ду да чигьул==  
---the watching [one] is me--
-
-</div>
+{.gl}

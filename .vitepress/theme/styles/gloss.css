@@ -24,12 +24,8 @@
     text-align: end;
 }
 
-table.gl tr:not(:first-child) {
-    opacity: 0.75;
-}
-
-table.gl tr:first-child td {
-    font-size: medium !important;
+table.gl td {
+    font-size: medium;
 }
 
 table.gl thead {
