@@ -19,7 +19,7 @@ hero:
       link: /guide/copulas
     - theme: alt
       text: Read the Texts
-      link: /library/bedtime
+      link: /library/phrasebook/acquaintance
 
 features:
   - icon: 🚀
