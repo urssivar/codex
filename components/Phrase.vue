@@ -23,7 +23,7 @@ watch(slots, async (newKeys, oldKeys) => {
 
 <template>
     <div>
-        <span v-for="s, i in slots" :class="{ flash: s != old[i] }" :key="s">
+        <span v-for="s, i in slots" class="b" :class="{ flash: s != old[i] }" :key="s">
             <slot :name="s" />
         </span>
     </div>

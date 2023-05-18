@@ -1,8 +1,7 @@
 import MarkdownIt from "markdown-it";
 
 export default function configureMarkdown(md: MarkdownIt) {
-  renderKaitag(md);
-  renderTranslation(md);
+  renderText(md);
   renderAudioSample(md);
   renderHintSample(md);
   renderPhrase(md);
@@ -66,20 +65,12 @@ function renderAudioSample(md: MarkdownIt) {
   );
 }
 
-function renderTranslation(md: MarkdownIt) {
+function renderText(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/--(.+?)--/, ([, cont]) => {
-      return `<span class="s">${rd(cont, md)}</span>`;
-    })
-  );
-}
-
-function renderKaitag(md: MarkdownIt) {
-  const mreg = require("markdown-it-regexp");
-  md.use(
-    mreg(/\#--(.+?)--/, ([, cont]) => {
-      return `<span class="b">${rd(cont, md)}</span>`;
+    mreg(/(#)?--(.+?)--/, ([, hash, cont]) => {
+      let cl = "b" + (hash ? "" : " s");
+      return `<span class="${cl}">${rd(cont, md)}</span>`;
     })
   );
 }
