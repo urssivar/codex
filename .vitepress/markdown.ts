@@ -56,7 +56,7 @@ function renderPhrase(md: MarkdownIt) {
 function renderAudioSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\$\<(.+?)\>\((.+?)\)/, ([, cont, url]) => {
+    mreg(/~\[(.+?)\]\((.+?)\)/, ([, cont, url]) => {
       return `<Say><source src="${url}">${rd(cont, md)}</Say>`;
     })
   );
