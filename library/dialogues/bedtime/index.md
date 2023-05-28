@@ -39,7 +39,7 @@ for (let i = 0; i < lines.length;i+=2) {
     <br>
     <span class="s">
         <Say>
-            <source :src="`./audio/${i+1}.ogg`">
+            <source :src="`/audio/bedtime/${i+1}.ogg`">
             {{p[1]}}
         </Say>
     </span>
