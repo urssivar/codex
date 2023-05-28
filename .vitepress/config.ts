@@ -10,12 +10,24 @@ import * as Tree from "./tree";
 export default withPwa(
   defineConfig({
     pwa: pwa as any,
+    vue: {
+      template: {
+        transformAssetUrls: {
+          source: ['src'],
+        }
+      }
+    },
     vite: {
       resolve: {
         alias: {
           "@": path.resolve(__dirname, "../components"),
         },
       },
+      assetsInclude: [
+        '**/*.m4a',
+        '**/*.mp3',
+        '**/*.ogg'
+      ],
     },
     base: "/urssivar/",
 

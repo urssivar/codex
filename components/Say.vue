@@ -1,18 +1,27 @@
 <script setup lang="ts">
-import { computed } from 'vue';
 import { withBase } from 'vitepress'
+import { computed, ref } from 'vue';
 import player from "./audio-player";
 
 const props = defineProps<{
-    url: string,
+    src?: string,
 }>()
-const src = computed(() => withBase(props.url));
+const root = ref<HTMLElement>();
+const _src = computed(() => {
+    let src = '';
+    if (props.src) src = props.src;
+    else {
+        const el = root.value?.getElementsByTagName('source')[0];
+        if (el?.src) src = el.src;
+    }
+    return withBase(src);
+});
 </script>
 
 <template>
-    <span @click="player.play(src)">
+    <span ref="root" @click="player.play(_src)">
         <span class="button">
-            {{ player.isPlaying(src) ? "⏸️ " : "▶️ " }}
+            {{ player.isPlaying(_src) ? "⏸️ " : "▶️ " }}
         </span>
         <slot></slot>
     </span>

@@ -30,7 +30,7 @@ function renderPhrase(md: MarkdownIt) {
     );
     table[0].attrJoin("class", "hid");
     const content = parseTable(md, table);
-    
+
     const flags = content[0].splice(1);
     const segments = content.splice(1).map(([h, ...t]) => {
       if (h) return [h];
@@ -57,7 +57,7 @@ function renderAudioSample(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
     mreg(/\$\<(.+?)\>\((.+?)\)/, ([, cont, url]) => {
-      return `<Say url="${url}">${rd(cont, md)}</Say>`;
+      return `<Say><source src="${url}">${rd(cont, md)}</Say>`;
     })
   );
 }
