@@ -7,8 +7,8 @@ const tree: Record<string, Chapter> = {
   },
   Library: {
     Phrasebook: ["Acquaintance", "Shopping", "Cooking", "Inviting"],
-    Dialogues: ["Bedtime", "Hiking Preparation"],
-    Folklore: ["Wise Girl", "Three Brothers"],
+    Dialogues: ["Bedtime"],
+    Folklore: ["Wise Girl"],
   },
 };
 
