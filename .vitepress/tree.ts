@@ -3,11 +3,11 @@ type Chapter = Record<string, string[]>;
 const tree: Record<string, Chapter> = {
   Guide: {
     Introduction: ["Brief History", "Infrastructure Overview"],
-    Essentials: ["Alphabet", "Copulas", "Nouns", "Verbs", "Numerals"],
+    Essentials: ["Alphabet", "Copulas", "Nouns/", "Verbs", "Numerals"],
   },
   Library: {
     Phrasebook: ["Acquaintance", "Shopping", "Cooking", "Inviting"],
-    Dialogues: ["Bedtime"],
+    Dialogues: ["Bedtime/"],
     Folklore: ["Wise Girl"],
   },
 };
@@ -32,7 +32,7 @@ function buildSidebar(
       if (collapsed) link += linkify(c) + "/";
       link += linkify(a);
       return {
-        text: a,
+        text: a.replaceAll('/', ''),
         link,
       };
     }),
