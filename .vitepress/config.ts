@@ -23,11 +23,7 @@ export default withPwa(
           "@": path.resolve(__dirname, "../components"),
         },
       },
-      assetsInclude: [
-        '**/*.m4a',
-        '**/*.mp3',
-        '**/*.ogg'
-      ],
+      assetsInclude: ['**/*.m4a'],
     },
     base: "/urssivar/",
 
