@@ -26,6 +26,9 @@ export default withPwa(
       assetsInclude: ['**/*.m4a'],
     },
     base: "/urssivar/",
+    head: [
+      ['link', { rel: 'icon', href: '/favicon.png', sizes: 'any' }],
+    ],
 
     title: "Urssivar",
     description: "Kaitag Language Standard",
