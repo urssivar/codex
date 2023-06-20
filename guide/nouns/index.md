@@ -9,8 +9,8 @@
     </tr>
     <tr>
         <th>PRS</th>
-        <td colspan="2"><Word>да<template #content> I/you/we</template></Word></td>
-        <td><Word>це<template #content>he/she/it/they</template></Word></td>
+        <td colspan="2"><Tooltip>да<template #content> I/you/we</template></Tooltip></td>
+        <td><Tooltip>це<template #content>he/she/it/they</template></Tooltip></td>
     </tr>
         <tr>
         <th>PST</th>
@@ -55,6 +55,6 @@ Kaitag words usually end with consonant: #<==хъал==|home>, ==гъер==, ==�
 |                             | #<ви\|_he_ is> | #<ри\|_she_ is> |
 | .                           |
 
-{.ph}
+{.context}
 
 Hi there

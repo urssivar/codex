@@ -14,10 +14,10 @@ There are three copula series in Kaitag language. Let's consider them by their p
     </tr>
     <tr>
         <th>PRS</th>
-        <td class="b"><Word>да<template #content>I/we</template></Word></td>
-        <td class="b"><Word>де<template #content>you(sg.)</template></Word></td>
-        <td class="b"><Word>да<template #content>you(pl.)</template></Word></td>
-        <td class="b"><Word>це<template #content>he/she/it/they</template></Word></td>
+        <td class="b"><Tooltip>да<template #content>I/we</template></Tooltip></td>
+        <td class="b"><Tooltip>де<template #content>you(sg.)</template></Tooltip></td>
+        <td class="b"><Tooltip>да<template #content>you(pl.)</template></Tooltip></td>
+        <td class="b"><Tooltip>це<template #content>he/she/it/they</template></Tooltip></td>
     </tr>
         <tr>
         <th>PST</th>
@@ -60,10 +60,10 @@ Yes, 2SG.PRS is the same as PST. Wouldn't it be nice to have it ==да== instead
     </tr>
     <tr>
         <th>PRS</th>
-        <td><Word>аккод<template #content>I/we</template></Word></td>
-        <td><Word>аккотте<template #content>you(sg.)</template></Word></td>
-        <td><Word>аккод<template #content>you(pl.)</template></Word></td>
-        <td><Word>акку<template #content>he/she/it/they</template></Word></td>
+        <td><Tooltip>аккод<template #content>I/we</template></Tooltip></td>
+        <td><Tooltip>аккотте<template #content>you(sg.)</template></Tooltip></td>
+        <td><Tooltip>аккод<template #content>you(pl.)</template></Tooltip></td>
+        <td><Tooltip>акку<template #content>he/she/it/they</template></Tooltip></td>
     </tr>
         <tr>
         <th>PST</th>
@@ -92,10 +92,10 @@ This copula has irregular negative forms which are used just like the positive c
     </tr>
     <tr>
         <th>PRS</th>
-        <td><Word>би да<template #content>I/we</template></Word></td>
-        <td><Word>би де<template #content>you(sg.)</template></Word></td>
-        <td><Word>би да<template #content>you(pl.)</template></Word></td>
-        <td><Word>би<template #content>he/she/it/they</template></Word></td>
+        <td><Tooltip>би да<template #content>I/we</template></Tooltip></td>
+        <td><Tooltip>би де<template #content>you(sg.)</template></Tooltip></td>
+        <td><Tooltip>би да<template #content>you(pl.)</template></Tooltip></td>
+        <td><Tooltip>би<template #content>he/she/it/they</template></Tooltip></td>
     </tr>
         <tr>
         <th>PST</th>
@@ -128,10 +128,10 @@ Here person agreement is marked by appending _"to be"_'s counterpart for 1 & 2 p
     </tr>
     <tr>
         <th>PRS</th>
-        <td><Word>бейккод<template #content>I/we</template></Word></td>
-        <td><Word>бейккотте<template #content>you(sg.)</template></Word></td>
-        <td><Word>бейккод<template #content>you(pl.)</template></Word></td>
-        <td><Word>бейкку<template #content>he/she/it/they</template></Word></td>
+        <td><Tooltip>бейккод<template #content>I/we</template></Tooltip></td>
+        <td><Tooltip>бейккотте<template #content>you(sg.)</template></Tooltip></td>
+        <td><Tooltip>бейккод<template #content>you(pl.)</template></Tooltip></td>
+        <td><Tooltip>бейкку<template #content>he/she/it/they</template></Tooltip></td>
     </tr>
     <tr>
         <th>PST</th>
@@ -166,10 +166,10 @@ It seems that speakers have no trouble understanding simplified negative forms m
     </tr>
     <tr>
         <th>PRS</th>
-        <td><Word>бел да<template #content>I/we</template></Word></td>
-        <td><Word>бел де<template #content>you(sg.)</template></Word></td>
-        <td><Word>бел да<template #content>you(pl.)</template></Word></td>
-        <td><Word>бел<template #content>he/she/it/they</template></Word></td>
+        <td><Tooltip>бел да<template #content>I/we</template></Tooltip></td>
+        <td><Tooltip>бел де<template #content>you(sg.)</template></Tooltip></td>
+        <td><Tooltip>бел да<template #content>you(pl.)</template></Tooltip></td>
+        <td><Tooltip>бел<template #content>he/she/it/they</template></Tooltip></td>
     </tr>
         <tr>
         <th>PST</th>
@@ -219,7 +219,7 @@ They agree in person and time, and two of them have noun classes. Here are inter
   |                          |
   | --have told--            |
 
-  {.ph}
+  {.context}
 
 - |                           | PRS    | PST     |
   | ------------------------- | ------ | ------- |
@@ -233,7 +233,7 @@ They agree in person and time, and two of them have noun classes. Here are inter
   |                           |
   | --telling--               |
 
-  {.ph}
+  {.context}
 
 - |                      | masc.       | fem.       |
   | -------------------- | ----------- | ---------- |
@@ -247,7 +247,7 @@ They agree in person and time, and two of them have noun classes. Here are inter
   |                      |
   | --has been telling-- |
 
-  {.ph}
+  {.context}
 
 ## Miscellaneous
 

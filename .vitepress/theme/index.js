@@ -1,9 +1,9 @@
 import DefaultTheme from 'vitepress/theme'
 import Popper from "vue3-popper";
-import Word from '@/Word.vue';
+import Tooltip from '@/Tooltip.vue';
+import Context from '@/Context.vue';
+import Voice from '@/Voice.vue';
 import Phrase from '@/Phrase.vue';
-import Say from '@/Say.vue';
-import Table from '@/Table.vue';
 
 import './styles/vars.css'
 import './styles/gloss.css'
@@ -12,9 +12,9 @@ export default {
     extends: DefaultTheme,
     enhanceApp({ app }) {
         app.component("Popper", Popper);
-        app.component("Word", Word);
+        app.component("Tooltip", Tooltip);
+        app.component("Context", Context);
+        app.component("Voice", Voice);
         app.component("Phrase", Phrase);
-        app.component("Say", Say);
-        app.component("Table", Table);
     }
 }

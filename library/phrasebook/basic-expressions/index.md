@@ -7,10 +7,11 @@ const translations = ['yes', 'no', 'okay', 'please', 'thanks', 'thanks a lot']
 
 # Basic expressions
 
+<!--
 <br>
-<Table :audios="texts"
+<Phrase :audios="texts"
 :texts="texts"
-:translations="translations"/>
+:translations="translations"/> -->
 
 ## Greeting
 

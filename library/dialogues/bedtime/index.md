@@ -38,8 +38,8 @@ for (let i = 0; i < lines.length;i+=2) {
     </span>
     <br>
     <span class="s">
-        <Say :src="`/audio/bedtime/${i+1}.ogg`">
+        <Voice :src="`/audio/bedtime/${i+1}.ogg`">
             {{p[1]}}
-        </Say>
+        </Voice>
     </span>
 </p>

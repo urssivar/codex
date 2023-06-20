@@ -2,9 +2,9 @@ import MarkdownIt from "markdown-it";
 
 export default function configureMarkdown(md: MarkdownIt) {
   renderText(md);
-  renderAudioSample(md);
-  renderHintSample(md);
-  renderPhrase(md);
+  renderVoice(md);
+  renderTooltip(md);
+  renderContext(md);
 
   md.use(require("markdown-it-attrs"));
   md.use(require("markdown-it-bracketed-spans"));
@@ -19,9 +19,9 @@ function rd(s: string, md: MarkdownIt) {
   return s;
 }
 
-function renderPhrase(md: MarkdownIt) {
+function renderContext(md: MarkdownIt) {
   md.renderer.rules.table_open = function (tokens, idx, options, _, self) {
-    if (!tokens[idx].attrGet("class")?.includes("ph")) {
+    if (!tokens[idx].attrGet("class")?.includes("context")) {
       return self.renderToken(tokens, idx, options);
     }
     const table = tokens.slice(
@@ -40,24 +40,24 @@ function renderPhrase(md: MarkdownIt) {
     const types = JSON.stringify(segments.map((s) => s.length === 1));
 
     return (
-      `<p><Phrase :flags="${flags.length}" :types="${types}">` +
+      `<p><Context :flags="${flags.length}" :types="${types}">` +
       flags.map((f, i) => `<template #f-${i}>${f}</template>`).join("") +
       segments
         .flatMap((vs, i) =>
           vs.map((v, j) => `<template #s-${i}-${j}>${v}</template>`)
         )
         .join("") +
-      "</Phrase></p>" +
+      "</Context></p>" +
       self.renderToken(tokens, idx, options)
     );
   };
 }
 
-function renderAudioSample(md: MarkdownIt) {
+function renderVoice(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
     mreg(/~\[(.+?)\]\((.+?)\)/, ([, cont, url]) => {
-      return `<Say><source src="${url}">${rd(cont, md)}</Say>`;
+      return `<Voice><source src="${url}">${rd(cont, md)}</Voice>`;
     })
   );
 }
@@ -72,17 +72,17 @@ function renderText(md: MarkdownIt) {
   );
 }
 
-function renderHintSample(md: MarkdownIt) {
+function renderTooltip(md: MarkdownIt) {
   const mreg = require("markdown-it-regexp");
   md.use(
     mreg(/\#\<(.+?)\|(.+?)\>/, ([, cont, hint]) => {
       return (
-        `<Word>` +
+        `<Tooltip>` +
         rd(cont, md) +
         "<template #content>" +
         rd(hint, md) +
         "</template>" +
-        "</Word>"
+        "</Tooltip>"
       );
     })
   );
