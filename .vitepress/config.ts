@@ -13,9 +13,9 @@ export default withPwa(
     vue: {
       template: {
         transformAssetUrls: {
-          source: ['src'],
-        }
-      }
+          source: ["src"],
+        },
+      },
     },
     vite: {
       resolve: {
@@ -23,12 +23,10 @@ export default withPwa(
           "@": path.resolve(__dirname, "../components"),
         },
       },
-      assetsInclude: ['**/*.m4a'],
+      assetsInclude: ["**/*.m4a"],
     },
     base: "/urssivar/",
-    head: [
-      ['link', { rel: 'icon', href: '/favicon.png', sizes: 'any' }],
-    ],
+    head: [["link", { rel: "icon", href: "/favicon.png", sizes: "any" }]],
 
     title: "Urssivar",
     description: "Kaitag Language Standard",
@@ -47,8 +45,13 @@ export default withPwa(
       nav: [
         {
           text: "Guide",
-          link: "/guide/copulas",
+          link: "/guide/introduction/welcome",
           activeMatch: "/guide/",
+        },
+        {
+          text: "Grammar",
+          link: "/grammar/copula",
+          activeMatch: "/grammar/",
         },
         {
           text: "Library",

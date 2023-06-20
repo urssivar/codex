@@ -1,12 +1,12 @@
 type Chapter = Record<string, string[]>;
 
-const tree: Record<string, Chapter> = {
+const tree: Record<string, Chapter | string[]> = {
   Guide: {
-    Introduction: ["Brief History", "Infrastructure Overview"],
-    Essentials: ["Alphabet", "Copulas", "Nouns/", "Verbs", "Numerals"],
+    Introduction: ["Welcome"],
   },
+  Grammar: ["Copula"],
   Library: {
-    Phrasebook: ["Basic Expressions/"],
+    Phrasebook: ["Basics/"],
     Dialogues: ["Bedtime/"],
     Folklore: ["Wise Girl"],
   },
@@ -18,22 +18,20 @@ function linkify(text: string, slash = false) {
   return url;
 }
 
-function buildSidebar(
-  name: string,
-  chapter: Chapter,
-  collapsed: undefined | boolean = undefined
-) {
+function buildSidebar(name: string, chapter: Chapter | string[]) {
   const root = linkify(name, true);
+  if (Array.isArray(chapter))
+    return chapter.map((c) => ({
+      text: c.replaceAll("/", ""),
+      link: root + linkify(c),
+    }));
   return Object.entries(chapter).map(([c, as]) => ({
     text: c,
-    collapsed,
+    collapsed: true,
     items: as.map((a) => {
-      let link = root;
-      if (collapsed) link += linkify(c) + "/";
-      link += linkify(a);
       return {
         text: a.replaceAll("/", ""),
-        link,
+        link: root + linkify(c) + "/" + linkify(a),
       };
     }),
   }));
@@ -41,7 +39,8 @@ function buildSidebar(
 
 export const sidebar = {
   "/guide/": buildSidebar("guide", tree.Guide),
-  "/library/": buildSidebar("library", tree.Library, true),
+  "/grammar/": buildSidebar("grammar", tree.Grammar),
+  "/library/": buildSidebar("library", tree.Library),
 };
 
 function buildNav(root: string, chapter: Chapter) {
@@ -51,4 +50,4 @@ function buildNav(root: string, chapter: Chapter) {
   }));
 }
 
-export const nav = buildNav("/library/", tree.Library);
+export const nav = buildNav("/library/", tree.Library as Chapter);
