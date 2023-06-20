@@ -3,8 +3,8 @@ import { withPwa } from "@vite-pwa/vitepress";
 import path from "path";
 import { telegramSvg } from "./icons";
 import { pwa } from "./pwa";
-import configureMarkdown from "./markdown";
 import * as Tree from "./tree";
+import configureMarkdown from "./markdown";
 
 // https://vitepress.dev/reference/site-config
 export default withPwa(
