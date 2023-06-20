@@ -6,7 +6,7 @@ const tree: Record<string, Chapter> = {
     Essentials: ["Alphabet", "Copulas", "Nouns/", "Verbs", "Numerals"],
   },
   Library: {
-    Phrasebook: ["Acquaintance", "Shopping", "Cooking", "Inviting"],
+    Phrasebook: ["Basic Expressions"],
     Dialogues: ["Bedtime/"],
     Folklore: ["Wise Girl"],
   },
@@ -32,7 +32,7 @@ function buildSidebar(
       if (collapsed) link += linkify(c) + "/";
       link += linkify(a);
       return {
-        text: a.replaceAll('/', ''),
+        text: a.replaceAll("/", ""),
         link,
       };
     }),

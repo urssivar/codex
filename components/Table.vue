@@ -1,0 +1,43 @@
+<script setup lang="ts">
+defineProps<{
+    audios: string[],
+    texts: string[],
+    translations: string[]
+}>()
+</script>
+
+<template>
+    <div class="row" v-for="a, i in audios">
+        <span class="button">
+            <Say :src="a"></Say>
+        </span>
+        <span class="b text">
+            {{ texts[i] }}
+        </span>
+        <span>
+            {{ translations[i] }}
+        </span>
+    </div>
+</template>
+
+<style scoped>
+.row {
+    display: grid;
+    grid-template-columns: 32px 1fr 1fr;
+    padding: 4px 0;
+}
+
+.row>* {
+    margin: 2px;
+    transition: 200ms;
+    border-radius: 4px;
+}
+
+.row:hover .button {
+    font-size: 24px;
+}
+
+.row:hover .text {
+    background-color: var(--vp-c-divider);
+}
+</style>
