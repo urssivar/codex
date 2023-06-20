@@ -1,21 +1,13 @@
-<script setup lang="ts">
-defineProps<{
-    audios: string[],
-    texts: string[],
-    translations: string[]
-}>()
-</script>
-
 <template>
-    <div class="row" v-for="a, i in audios">
+    <div class="row">
         <span class="button">
-            <Voice :src="a" />
+            <slot name="voice" />
         </span>
         <span class="b text">
-            {{ texts[i] }}
+            <slot />
         </span>
         <span>
-            {{ translations[i] }}
+            <slot name="caption" />
         </span>
     </div>
 </template>

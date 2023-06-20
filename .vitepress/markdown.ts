@@ -5,6 +5,7 @@ export default function configureMarkdown(md: MarkdownIt) {
   renderVoice(md);
   renderTooltip(md);
   renderContext(md);
+  renderPhrase(md);
 
   md.use(require("markdown-it-attrs"));
   md.use(require("markdown-it-bracketed-spans"));
@@ -48,6 +49,32 @@ function renderContext(md: MarkdownIt) {
         )
         .join("") +
       "</Context></p>" +
+      self.renderToken(tokens, idx, options)
+    );
+  };
+}
+
+function renderPhrase(md: MarkdownIt) {
+  md.renderer.rules.table_open = function (tokens, idx, options, _, self) {
+    if (!tokens[idx].attrGet("class")?.includes("phrase")) {
+      return self.renderToken(tokens, idx, options);
+    }
+    const table = tokens.slice(
+      idx,
+      idx + tokens.slice(idx).findIndex((t) => t.type === "table_close")
+    );
+    table[0].attrJoin("class", "hid");
+    const segments = parseTable(md, table).splice(1);
+
+    return (
+      "<p>" +
+      segments
+        .map(
+          ([url, c, cap]) =>
+            `<Phrase><template #voice><Voice><source src=${url}></Voice></template>${c}<template #caption>${cap}</template></Phrase>`
+        )
+        .join("") +
+      "</p>" +
       self.renderToken(tokens, idx, options)
     );
   };
