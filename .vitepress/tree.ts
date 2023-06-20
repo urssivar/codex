@@ -6,7 +6,7 @@ const tree: Record<string, Chapter> = {
     Essentials: ["Alphabet", "Copulas", "Nouns/", "Verbs", "Numerals"],
   },
   Library: {
-    Phrasebook: ["Basic Expressions"],
+    Phrasebook: ["Basic Expressions/"],
     Dialogues: ["Bedtime/"],
     Folklore: ["Wise Girl"],
   },

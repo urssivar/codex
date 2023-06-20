@@ -23,13 +23,13 @@ defineProps<{
 <style scoped>
 .row {
     display: grid;
-    grid-template-columns: 32px 1fr 1fr;
+    grid-template-columns: 28px 1fr 1fr;
     padding: 4px 0;
+    gap: 4px;
 }
 
 .row>* {
-    margin: 2px;
-    transition: 200ms;
+    transition: 150ms;
     border-radius: 4px;
 }
 
