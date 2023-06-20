@@ -1,35 +1,35 @@
-<script setup>
-import { ref } from 'vue'
-
-const texts = ['е', 'акку', 'ягьле', 'кко', 'ягьбакӏ', 'хула баркаллагь']
-const translations = ['yes', 'no', 'okay', 'please', 'thanks', 'thanks a lot']
-</script>
-
 # Basic expressions
 
-<!--
-<br>
-<Phrase :audios="texts"
-:texts="texts"
-:translations="translations"/> -->
+|           |               |              |
+| --------- | ------------- | ------------ |
+| ./ph1.m4a | е             | yes          |
+| ./ph1.m4a | акку          | no           |
+| ./ph1.m4a | ягьле         | okay         |
+| ./ph1.m4a | кко           | please       |
+| ./ph1.m4a | ягьбакӏ       | thanks       |
+| ./ph1.m4a | хула баркалла | thanks a lot |
+
+{.phrase}
 
 ## Greeting
 
-|                   |                  |
-| ----------------- | ---------------- |
-| ассаламу ялайкум! | greetings!       |
-| валгьунде'в?      | hello (masc.)    |
-| ралгьунде'в?      | hello (fem.)     |
-| далгьунда'в?      | hello (pl.)      |
-| ягь чирка бигьав! | good morning!    |
-| дучче ягь дигьав  | good night       |
-| къугъал калг      | goodbye          |
-| черверхе          | sorry (to masc.) |
-| черрерхе          | sorry (to fem.)  |
-| абиккул агур      | I didn't mean    |
-| ци ера бейкку     | it's nothing     |
+|           |                   |               |
+| --------- | ----------------- | ------------- |
+| ./ph1.m4a | ассаламу ялайкум! | greetings!    |
+|           | валгьунде'в?      | hello (masc.) |
+| ./ph1.m4a | ралгьунде'в?      | hello (fem.)  |
+| ./ph1.m4a | далгьунда'в?      | hello (pl.)   |
+| ./ph1.m4a | ягь чирка бигьав! | good morning! |
+| ./ph1.m4a | дучче ягь дигьав  | good night    |
+| ./ph1.m4a | къугъал калг      | goodbye       |
+| ./ph1.m4a | черверхе          | sorry (masc.) |
+| ./ph1.m4a | черрерхе          | sorry (fem.)  |
+| ./ph1.m4a | дам абиккул агур  | I didn't mean |
+| ./ph1.m4a | ци ера бейкку     | it's nothing  |
 
-{.gl}
+{.phrase}
+
+<!--
 
 ## Communication
 
@@ -50,4 +50,4 @@ const translations = ['yes', 'no', 'okay', 'please', 'thanks', 'thanks a lot']
 | Аиргъул да.                       | I do not understand              |
 | Иргъул де'в?                      | Do you understand                |
 
-{.gl}
+{.gl} -->

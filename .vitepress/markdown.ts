@@ -69,10 +69,12 @@ function renderPhrase(md: MarkdownIt) {
     return (
       "<p>" +
       segments
-        .map(
-          ([url, c, cap]) =>
-            `<Phrase><template #voice><Voice><source src=${url}></Voice></template>${c}<template #caption>${cap}</template></Phrase>`
-        )
+        .map(([url, cont, cap]) => {
+          const voice = url
+            ? `<template #voice><Voice><source src=${url}></Voice></template>`
+            : "";
+          return `<Phrase>${voice}${cont}<template #caption>${cap}</template></Phrase>`;
+        })
         .join("") +
       "</p>" +
       self.renderToken(tokens, idx, options)
