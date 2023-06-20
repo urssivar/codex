@@ -49,9 +49,9 @@ export default withPwa(
           activeMatch: "/guide/",
         },
         {
-          text: "Grammar",
-          link: "/grammar/copula",
-          activeMatch: "/grammar/",
+          text: "Reference",
+          link: "/reference/copula",
+          activeMatch: "/reference/",
         },
         {
           text: "Library",

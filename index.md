@@ -19,7 +19,7 @@ hero:
       link: /guide/introduction/welcome
     - theme: alt
       text: Study the Grammar
-      link: /grammar/copula
+      link: /reference/copula
     - theme: alt
       text: Read the Texts
       link: /library/phrasebook/basics/

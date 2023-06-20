@@ -4,7 +4,7 @@ const tree: Record<string, Chapter | string[]> = {
   Guide: {
     Introduction: ["Welcome"],
   },
-  Grammar: ["Copula"],
+  Reference: ["Copula"],
   Library: {
     Phrasebook: ["Basics/"],
     Dialogues: ["Bedtime/"],
@@ -39,7 +39,7 @@ function buildSidebar(name: string, chapter: Chapter | string[]) {
 
 export const sidebar = {
   "/guide/": buildSidebar("guide", tree.Guide),
-  "/grammar/": buildSidebar("grammar", tree.Grammar),
+  "/reference/": buildSidebar("reference", tree.Reference),
   "/library/": buildSidebar("library", tree.Library),
 };
 
