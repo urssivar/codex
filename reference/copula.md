@@ -4,44 +4,29 @@ There are three copula series in Kaitag language. Let's consider them by their p
 
 ## 1. Facts & States
 
-<table class="c-t">
-    <tr>
-        <th></th>
-        <th>I, we</th>
-        <th>you (sg.)</th>
-        <th>you</th>
-        <th>he, she, it, they</th>
-    </tr>
-    <tr>
-        <th>present</th>
-        <td>да</td>
-        <td>де</td>
-        <td>да</td>
-        <td>це</td>
-    </tr>
-        <tr>
-        <th>past</th>
-        <td colspan="4">де</td>
-    </tr>
-</table>
+| :---------: | :-------: | :-----------: | :-----: | :-------------------: |
+| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
+| --present-- | ==да== | ==де== | ==да== | ==це== |
+| --past-- | ==де== ||||
+{.bl}
 
 The basic series corresponds to _"to be"_ and has two usages:
 
 1. Denoting _facts_:
 
-   - ==#<ду|I> Мягьямад да==  
+   - ==ду Мягьямад да==  
      --I am Muhammad;--
-   - ==#<и|you (sg.)> тухтур де==  
-     --you are doctors;--
-   - == #<дила|my> гозе це==  
+   - ==и тухтур де==  
+     --you are a doctor;--
+   - == дила гозе це==  
      --[that is] my honey.--
 
 2. Conveying _state_:
-   - ==ду #<улчӏун|studying> да==  
+   - ==ду улчӏун да==  
      --I am studying;--
-   - ==ниша #<кьанле|lately> де==  
+   - ==ниша кьанле де==  
      --you were late;--
-   - ==дам #<гунал|warmly> це==  
+   - ==дам гунал це==  
      --I'm warm (lit. it's warm to me).--
 
 ::: warning
@@ -56,34 +41,19 @@ Remember that the [adverbial forms]() convey state.
 
 This copula has irregular negative counterparts:
 
-<table class="c-t">
-    <tr>
-        <th></th>
-        <th>I, we</th>
-        <th>you (sg.)</th>
-        <th>you</th>
-        <th>he, she, it, they</th>
-    </tr>
-    <tr>
-        <th>present</th>
-        <td>аккод</td>
-        <td>аккотте</td>
-        <td>аккотта</td>
-        <td>акку</td>
-    </tr>
-        <tr>
-        <th>past</th>
-        <td colspan="4">аччу</td>
-    </tr>
-</table>
+| :-----: | :----: | :-------: | :-: | :---------------: |
+| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
+| --present-- | ==аккод== | ==аккотте== | ==аккотта== | ==акку== |
+| --past-- | ==аччу== ||||
+{.bl}
 
 They are used to deny facts:
 
-- ==ду #<тухтур|doctor> аккод;==  
+- ==ду тухтур аккод;==  
   --I am not a doctor.--
-- ==гьел #<гозе|honey> дила акку;==  
+- ==гьел гозе дила акку;==  
   --that honey is not mine.--
-- ==#<ниша|you> кьанле аччу;==  
+- ==ниша кьанле аччу;==  
   --you were not late.--
 
 ::: details 📜 History
@@ -97,38 +67,23 @@ The past form's conconant alternation is due to the historic process:
 
 ## 2. Presence
 
-<table class="c-t">
-    <tr>
-        <th></th>
-        <th>I, we</th>
-        <th>you (sg.)</th>
-        <th>you</th>
-        <th>he, she, it, they</th>
-    </tr>
-    <tr>
-        <th>present</th>
-        <td>би да</td>
-        <td>би де</td>
-        <td>би да</td>
-        <td>би</td>
-    </tr>
-        <tr>
-        <th>past</th>
-        <td colspan="4">би де</td>
-    </tr>
-</table>
+| :-----: | :----: | :-------: | :-: | :---------------: |
+| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
+| --present-- | ==би да== | ==би де== | ==би да== | ==би== |
+| --past-- | ==би де== ||||
+{.bl}
 
 ::: warning
-The copula has class agreement: ==би==, ==ви==, ==ри==, ==ди==. For simpler digestion I give them in the neuter form, but know that e.g. the 1st & 2nd person plurals are always ==ди==.
+The copula has class agreement: ==би==, ==ви==, ==ри==, ==ди==. For simplicity the table provides them in the neuter class, but know that e.g. the 1st & 2nd person plurals are _always_ ==ди==.
 :::
 
 The second series is used for presence:
 
-- ==ду #<хъили|at home> ви да==  
+- ==ду хъили ви да==  
   --I am [currently] at home;--
-- ==уба #<дуцци|with me> ри==  
+- ==уба дуцци ри==  
   --mother is with me;--
-- ==ила #<гозе|honey> би де==  
+- ==ила гозе би де==  
   --you had honey.--
 
 ::: tip
@@ -139,26 +94,11 @@ The person agreement is marked by appending the corresponding _"to be"_ forms (e
 
 The irregular negative counterparts are:
 
-<table class="c-t">
-    <tr>
-        <th></th>
-        <th>I, we</th>
-        <th>you (sg.)</th>
-        <th>you</th>
-        <th>he, she, it, they</th>
-    </tr>
-    <tr>
-        <th>present</th>
-        <td>бейккод</td>
-        <td>бейккотте</td>
-        <td>бейккотта</td>
-        <td>бейкку</td>
-    </tr>
-        <tr>
-        <th>past</th>
-        <td colspan="4">бейччу</td>
-    </tr>
-</table>
+| :-----: | :----: | :-------: | :-: | :---------------: |
+| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
+| --present-- | ==бейккод== | ==бейккотте== | ==бейккотта== | ==бейкку== |
+| --past-- | ==бейччу== ||||
+{.bl}
 
 ::: warning
 This copula too has class agreement: ==бейкку==, ==вейкку==, ==рейкку==, ==дейкку==.
@@ -190,26 +130,11 @@ Though it makes them laugh. 😁
 
 ## 3. Availability
 
-<table class="c-t">
-    <tr>
-        <th></th>
-        <th>I, we</th>
-        <th>you (sg.)</th>
-        <th>you</th>
-        <th>he, she, it, they</th>
-    </tr>
-    <tr>
-        <th>present</th>
-        <td>бел да</td>
-        <td>бел де</td>
-        <td>бел да</td>
-        <td>бел</td>
-    </tr>
-        <tr>
-        <th>past</th>
-        <td colspan="4">бел де</td>
-    </tr>
-</table>
+| :---------: | :--------: | :-----------: | :--------: | :-------------------: |
+| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
+| --present-- | ==бел да== | ==бел де== | ==бел да== | ==бел== |
+| --past-- | ==бел де== ||||
+{.bl}
 
 ::: warning
 Just like the previous two, this one too has class agreement: ==бел==, ==вел==, ==рел==, ==дел==.
@@ -217,16 +142,16 @@ Just like the previous two, this one too has class agreement: ==бел==, ==ве
 
 The third series roughly means "to have been":
 
-- ==ду #<хъили|at home> рел да==  
+- ==ду хъили рел да==  
   --I am still at work;--
-- ==уцци #<улчӏун|studying> вел==  
+- ==уцци улчӏун вел==  
   --brother has been studyin.--
 
 Fortunately it is negated via the regular verbal prefix ==а-==:
 
-- ==#<уцци|brother> улчӏун авел==  
+- ==уцци улчӏун авел==  
   --brother is no longer studying;--
-- ==#<со|yesterday> гозе абел де==  
+- ==со гозе абел де==  
   --yesterday there was no honey [left].--
 
 ## Summary
@@ -234,7 +159,7 @@ Fortunately it is negated via the regular verbal prefix ==а-==:
 The three copula series are used for:
 
 1.  ==це== & ==акку== — facts:
-    - ==#<ила|your> гозе це==  
+    - ==ила гозе це==  
       --[this] is your honey;--
 2.  ==би== & ==бейкку== — presence:
     - ==ила гозе би==  
@@ -243,33 +168,33 @@ The three copula series are used for:
     - ==ила гозе бел==  
       --you still have honey (lit. your honey remains).--
 
-They agree in person and time, and two of them have noun classes. Here are interactive examples in which they control verbal participles:
+They agree in person and time, and two of them have noun classes. Here are interactive examples in which they control [verbal participles]():
 
-- |                        | I     | you (sg.) | they     |
-  | ---------------------- | ----- | --------- | -------- |
-  |                        | дул   | ил        | гьелттал |
-  |                        |
-  | #<бурсил\|having told> |
-  |                        |
-  |                        | да    | де        | це       |
-  | <br>                   |       |           |          |
-  |                        | --I-- | --you--   | --they-- |
-  |                        |
-  | --have told;--         |
+- |                | I     | you (sg.) | they     |
+  | -------------- | ----- | --------- | -------- |
+  |                | дул   | ил        | гьелттал |
+  |                |
+  | бурсил         |
+  |                |
+  |                | да    | де        | це       |
+  | <br>           |       |           |          |
+  |                | --I-- | --you--   | --they-- |
+  |                |
+  | --have told;-- |
 
   {.context}
 
-- |                         | present | past    |
-  | ----------------------- | ------- | ------- |
-  | убал #<бурсул\|telling> |
-  |                         |         |
-  |                         | це      | де      |
-  | <br>                    |         |         |
-  | --mother--              |
-  |                         |
-  |                         | --is--  | --was-- |
-  |                         |
-  | --telling;--            |
+- |              | present | past    |
+  | ------------ | ------- | ------- |
+  | убал бурсул  |
+  |              |         |
+  |              | це      | де      |
+  | <br>         |         |         |
+  | --mother--   |
+  |              |
+  |              | --is--  | --was-- |
+  |              |
+  | --telling;-- |
 
   {.context}
 
@@ -291,14 +216,12 @@ They agree in person and time, and two of them have noun classes. Here are inter
 
 Copula positioning alters meaning:
 
-|                               |                |                               |
-| ----------------------------- | :------------: | :---------------------------- |
-| ==ила #<хъати\|hat> це==      | &nbsp;➡️&nbsp; | ==ила це хъати==              |
-| --[this] is your hat;--       |                | --the hat is your;--          |
-| <br>                          |
-| ==ду #<чигьул\|watching> да== | &nbsp;➡️&nbsp; | ==ду да чигьул==              |
-| --I am watching;--            |                | --the watching [one] is me.-- |
-
+| ----------------------- | :------------: | :---------------------------- |
+| ==ила хъати це== | &nbsp;➡️&nbsp; | ==ила це хъати== |
+| --[this] is your hat;-- | | --the hat is your;-- |
+| <br> |
+| ==ду чигьул да== | &nbsp;➡️&nbsp; | ==ду да чигьул== |
+| --I am watching;-- | | --the watching [one] is me.-- |
 {.gl}
 
 It also controls emphasis:

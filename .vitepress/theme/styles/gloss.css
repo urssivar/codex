@@ -7,10 +7,6 @@
     font-size: small;
 }
 
-.c-t>*>* {
-    text-align: center !important;
-}
-
 .hid {
     display: none !important;
 }
@@ -28,10 +24,6 @@ table.gl td {
     font-size: medium;
 }
 
-table.gl thead {
-    display: none;
-}
-
 table.gl tr {
     border: transparent !important;
     background-color: transparent !important;
@@ -42,4 +34,19 @@ table.gl td {
     text-align: start !important;
     padding: 0;
     border: none !important;
+}
+
+table.bl {
+    border-radius: 8px;
+    border-collapse: collapse;
+    border-style: hidden;
+    display: table !important;
+    width: 100%;
+    background-color: var(--vp-custom-block-details-bg);
+}
+
+table.bl td,
+table.bl tr {
+    border: 1px dashed var(--vp-c-divider);
+    background-color: transparent !important;
 }

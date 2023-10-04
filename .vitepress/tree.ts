@@ -4,7 +4,7 @@ const tree: Record<string, Chapter | string[]> = {
   Guide: {
     Introduction: ["Welcome"],
   },
-  Reference: ["Copula"],
+  Reference: ["Copula", "Noun Case"],
   Library: {
     Phrasebook: ["Basics/"],
     Dialogues: ["Bedtime/"],
