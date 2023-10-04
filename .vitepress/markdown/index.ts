@@ -1,4 +1,7 @@
 import MarkdownIt from "markdown-it";
+import MdAttrs from "markdown-it-attrs";
+import MdSpans from "markdown-it-bracketed-spans";
+import MdReg from "markdown-it-regexp";
 import { renderTables } from "./tables";
 import { rd } from "./util";
 
@@ -8,33 +11,30 @@ export default function configureMarkdown(md: MarkdownIt) {
   renderTooltip(md);
   renderTables(md);
 
-  md.use(require("markdown-it-attrs"));
-  md.use(require("markdown-it-bracketed-spans"));
+  md.use(MdAttrs);
+  md.use(MdSpans);
 }
 
 function renderVoice(md: MarkdownIt) {
-  const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/~\[(.+?)\]\((.+?)\)/, ([, cont, url]) => {
+    MdReg(/~\[(.+?)\]\((.+?)\)/, ([, cont, url]) => {
       return `<Voice><source src="${url}">${rd(cont, md)}</Voice>`;
     })
   );
 }
 
 function renderText(md: MarkdownIt) {
-  const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/==(.+?)==/, ([, cont]) => `<span class="b">${rd(cont, md)}</span>`)
+    MdReg(/==(.+?)==/, ([, cont]) => `<span class="b">${rd(cont, md)}</span>`)
   );
   md.use(
-    mreg(/--(.+?)--/, ([, cont]) => `<span class="b s">${rd(cont, md)}</span>`)
+    MdReg(/--(.+?)--/, ([, cont]) => `<span class="b s">${rd(cont, md)}</span>`)
   );
 }
 
 function renderTooltip(md: MarkdownIt) {
-  const mreg = require("markdown-it-regexp");
   md.use(
-    mreg(/\#\<(.+?)\|(.+?)\>/, ([, cont, hint]) => {
+    MdReg(/\#\<(.+?)\|(.+?)\>/, ([, cont, hint]) => {
       return (
         `<Tooltip>` +
         rd(cont, md) +
