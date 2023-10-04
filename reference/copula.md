@@ -45,14 +45,16 @@ The basic series corresponds to _"to be"_ and has two usages:
      --I'm warm (lit. it's warm to me).--
 
 ::: warning
-Yes, the _second person singular_ is the is the same as the _past_.
+The _2nd person singular_ is the same as the _past_.
 :::
 
 ::: tip
-Remember that we convey state via the [adverbial forms]().
+Remember that the [adverbial forms]() convey state.
 :::
 
 ### False
+
+This copula has irregular negative counterparts:
 
 <table class="c-t">
     <tr>
@@ -75,7 +77,7 @@ Remember that we convey state via the [adverbial forms]().
     </tr>
 </table>
 
-This copula has irregular negative counterparts:
+They are used to deny facts:
 
 - ==ду #<тухтур|doctor> аккод;==  
   --I am not a doctor.--
@@ -85,7 +87,7 @@ This copula has irregular negative counterparts:
   --you were not late.--
 
 ::: details 📜 History
-The past form might look weird by just altering the root consonant, but this is how it historically appeared:
+The past form's conconant alternation is due to the historic process:
 
 1. ==аккви==, where ==аккв== is the root and ==-и== is [past habitual]();
 2. ==аччви== — palatalization;
@@ -120,7 +122,7 @@ The past form might look weird by just altering the root consonant, but this is 
 The copula has class agreement: ==би==, ==ви==, ==ри==, ==ди==. For simpler digestion I give them in the neuter form, but know that e.g. the 1st & 2nd person plurals are always ==ди==.
 :::
 
-This copula is used for presence.
+The second series is used for presence:
 
 - ==ду #<хъили|at home> ви да==  
   --I am [currently] at home;--
@@ -134,6 +136,8 @@ The person agreement is marked by appending the corresponding _"to be"_ forms (e
 :::
 
 ### Absence
+
+The irregular negative counterparts are:
 
 <table class="c-t">
     <tr>
@@ -160,7 +164,7 @@ The person agreement is marked by appending the corresponding _"to be"_ forms (e
 This copula too has class agreement: ==бейкку==, ==вейкку==, ==рейкку==, ==дейкку==.
 :::
 
-This copula too has irregular negative counterparts:
+These forms convey absence:
 
 - ==ду хъили вейккод==  
   --I am not at home;--
@@ -221,13 +225,13 @@ The third series roughly means "to have been":
 Fortunately it is negated via the regular verbal prefix ==а-==:
 
 - ==#<уцци|brother> улчӏун авел==  
-  --brother is no longer studying.--
+  --brother is no longer studying;--
 - ==#<со|yesterday> гозе абел де==  
-  --yesterday there was no honey left;--
+  --yesterday there was no honey [left].--
 
 ## Summary
 
-There are three copula series:
+The three copula series are used for:
 
 1.  ==це== & ==акку== — facts:
     - ==#<ила|your> гозе це==  
@@ -307,7 +311,7 @@ It also controls emphasis:
   --_brother_ stayed home (i.e. it is brother who stayed, not sister).--
 
 ::: tip
-In these last examples the past simple ==ужив== [acts as adjective](./duality), whereas the verbal usage would be without the copula (but with the the 1st & 2nd person agreement still):
+In these last examples the past simple ==ужив== [acts as adjective](./duality), whereas the verbal usage would be without the copula (but with the 1st & 2nd person agreement still):
 
 - ==уцци хъили ужив==  
   --brother stayed home;--
