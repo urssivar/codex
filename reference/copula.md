@@ -84,7 +84,7 @@ This copula has irregular negative counterparts:
 - ==#<ниша|you> кьанле аччу;==  
   --you were not late.--
 
-::: info
+::: details 📜 History
 The past form might look weird by just altering the root consonant, but this is how it historically appeared:
 
 1. ==аккви==, where ==аккв== is the root and ==-и== is [past habitual]();
@@ -167,7 +167,7 @@ This copula too has irregular negative counterparts:
 - ==ила гозе бейкку==  
   --you don't have honey.--
 
-::: info
+::: details 📜 History
 Historically this is fusion of the positive forms with the negative forms of _"to be"_:
 
 - ==бейккотте== ⬅️ ==би== + ==аккотте==;
@@ -175,7 +175,7 @@ Historically this is fusion of the positive forms with the negative forms of _"t
 
 :::
 
-::: details 🤔 Hmm...
+::: details 🤔 Experimental
 It seems that speakers have no trouble understanding simplified negative forms made via regular verbal negation prefix ==a-== (see the next copula):
 
 - ==вейкку да== ❓ ==ави да==;
