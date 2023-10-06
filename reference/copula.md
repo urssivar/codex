@@ -236,10 +236,8 @@ It also controls emphasis:
 ::: tip
 In these last examples the past simple ==ужив== [acts as adjective](./verb), whereas the verbal usage would be without the copula (but with the 1st & 2nd person agreement still):
 
-- ::: context
-  ==[уцци]{#1} [хъили]{#2} [ужив]{#3}==  
+- ==[уцци]{#1} [хъили]{#2} [ужив]{#3}==  
   --[brother]{#1} [stayed]{#3} [home]{#2};--
-  :::
 - ==ду хъили уживда==  
   --I stayed home.--
 
