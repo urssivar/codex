@@ -21,15 +21,26 @@ const _src = computed(() => {
 <template>
     <span ref="root" @click="player.play(_src)">
         <span class="button">
-            {{ player.isPlaying(_src) ? "⏸️ " : "▶️ " }}
+            {{ player.isPlaying(_src) ? "⏸️" : "▶️" }}
         </span>
         <slot></slot>
     </span>
 </template>
 
 <style scoped>
-.button {
-    user-select: none;
+* {
     cursor: pointer;
+}
+
+.button {
+    display: inline-flex;
+    justify-content: center;
+    flex: 1;
+    user-select: none;
+    transition: 150ms;
+}
+
+.button:hover {
+    transform: scale(1.15);
 }
 </style>

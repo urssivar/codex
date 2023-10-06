@@ -25,7 +25,7 @@ export default function configureMarkdown(md: MarkdownIt) {
 
 function renderVoice(md: MarkdownIt) {
   md.use(
-    MdReg(/~\[(.+?)\]\((.+?)\)/, ([, cont, url]) => {
+    MdReg(/~\[(.*?)\]\((.+?)\)/, ([, cont, url]) => {
       return `<Voice><source src="${url}">${rd(cont, md)}</Voice>`;
     })
   );
@@ -48,7 +48,7 @@ function renderText(md: MarkdownIt) {
 
 function renderTooltip(md: MarkdownIt) {
   md.use(
-    MdReg(/\#\<(.+?)\|(.+?)\>/, ([, cont, hint]) => {
+    MdReg(/~\<(.+?)\|(.+?)\>/, ([, cont, hint]) => {
       return (
         `<Tooltip>` +
         rd(cont, md) +

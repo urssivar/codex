@@ -1,0 +1,42 @@
+table.phrase {
+    table-layout: fixed;
+    width: 100%;
+    display: table !important;
+}
+
+table.phrase td {
+    padding: 4px 8px;
+}
+
+table.phrase td:first-child {
+    width: 40px;
+}
+
+table.phrase td:first-child>* {
+    display: flex;
+    flex: 1;
+}
+
+table.phrase td:nth-child(2) {
+    font-family: 'Bitter', serif;
+}
+
+table.phrase td:nth-child(3) {
+    font-size: small;
+    color: var(--vp-c-text-2);
+}
+
+table.phrase tr {
+    background-color: transparent !important;
+}
+
+table.phrase tr,
+table.phrase td {
+    transition: 150ms;
+    border: none !important;
+}
+
+table.phrase tr:hover td:nth-child(2) {
+    border-radius: 8px;
+    background-color: var(--vp-c-default-soft);
+}

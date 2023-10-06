@@ -28,7 +28,7 @@ table.gl td {
 }
 
 table.gl tr {
-    border: transparent !important;
+    border: none !important;
     background-color: transparent !important;
 }
 

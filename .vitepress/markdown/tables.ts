@@ -8,8 +8,6 @@ export function renderTables(md: MarkdownIt) {
     let res = "";
     if (classes.includes("context")) {
       res = renderContext(md, tokens, idx);
-    } else if (classes.includes("phrase")) {
-      res = renderPhrase(md, tokens, idx);
     }
     return res + self.renderToken(tokens, idx, options);
   };
@@ -40,28 +38,6 @@ function renderContext(md: MarkdownIt, tokens: Token[], idx: any) {
       )
       .join("") +
     "</Context></p>"
-  );
-}
-
-function renderPhrase(md: MarkdownIt, tokens: Token[], idx: any) {
-  const table = tokens.slice(
-    idx,
-    idx + tokens.slice(idx).findIndex((t) => t.type === "table_close")
-  );
-  table[0].attrJoin("class", "hid");
-  const segments = parseTable(md, table).splice(1);
-
-  return (
-    "<p>" +
-    segments
-      .map(([url, cont, cap]) => {
-        const voice = url
-          ? `<template #voice><Voice><source src=${url}></Voice></template>`
-          : "";
-        return `<Phrase>${voice}${cont}<template #caption>${cap}</template></Phrase>`;
-      })
-      .join("") +
-    "</p>"
   );
 }
 
