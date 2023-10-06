@@ -42,7 +42,7 @@ watch(slots, async (newKeys, oldKeys) => {
 
 @keyframes flash {
     50% {
-        background-color: #7f7f7f7f;
+        background-color: var(--vp-c-divider);
     }
 }
 
@@ -58,15 +58,19 @@ button {
     line-height: 125%;
     padding: 2px 4px;
     border-radius: 4px;
-    background-color: #7f7f7f25;
+    background-color: var(--vp-c-default-soft);
 }
 
 
 button:hover {
-    color: var(--vp-c-brand)
+    color: var(--vp-c-brand);
 }
 
-.reveal {
-    color: var(--vp-c-brand)
+button.reveal {
+    color: var(--vp-c-brand);
+}
+
+button:not(.reveal):not(:hover) {
+    color: var(--vp-c-text-2);
 }
 </style>
