@@ -57,7 +57,7 @@ They are used to deny facts:
   --you were not late.--
 
 ::: details 📜 History
-The past form's conconant alternation is due to the historic process:
+The past form's consonant alternation is due to the historic process:
 
 1. ==аккви==, where ==аккв== is the root and ==-и== is [past habitual]();
 2. ==аччви== — palatalization;
