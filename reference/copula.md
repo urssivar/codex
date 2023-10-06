@@ -34,7 +34,7 @@ The _2nd person singular_ is the same as the _past_.
 :::
 
 ::: tip
-Remember that the [adverbial forms]() convey state.
+Remember that the [adverbial forms](./adjective-adverb) convey state.
 :::
 
 ### False
@@ -59,7 +59,7 @@ They are used to deny facts:
 ::: details 📜 History
 The past form's consonant alternation is due to the historic process:
 
-1. ==аккви==, where ==аккв== is the root and ==-и== is [past habitual]();
+1. ==аккви==, where ==аккв== is the root and ==-и== is [past habitual](./verb);
 2. ==аччви== — palatalization;
 3. ==аччу== — delabialization.
 
@@ -168,7 +168,7 @@ The three copula series are used for:
     - ==ила гозе бел==  
       --you still have honey (lit. your honey remains).--
 
-They agree in person and time, and two of them have noun classes. Here are interactive examples in which they control [verbal participles]():
+They agree in person and time, and two of them have noun classes. Here are interactive examples in which they control [verbal participles](./verb):
 
 - |                | I     | you (sg.) | they     |
   | -------------- | ----- | --------- | -------- |
@@ -234,7 +234,7 @@ It also controls emphasis:
   --_brother_ stayed home (i.e. it is brother who stayed, not sister).--
 
 ::: tip
-In these last examples the past simple ==ужив== [acts as adjective](./duality), whereas the verbal usage would be without the copula (but with the 1st & 2nd person agreement still):
+In these last examples the past simple ==ужив== [acts as adjective](./verb), whereas the verbal usage would be without the copula (but with the 1st & 2nd person agreement still):
 
 - ::: context
   ==[уцци]{#1} [хъили]{#2} [ужив]{#3}==  
