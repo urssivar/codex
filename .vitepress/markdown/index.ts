@@ -35,7 +35,7 @@ function renderText(md: MarkdownIt) {
   md.use(
     MdReg(
       /==(.+?)==/,
-      ([, cont]) => `<span class="lang">${rd(cont, md)}</span>`
+      ([, cont]) => `<span class="lang notranslate">${rd(cont, md)}</span>`
     )
   );
   md.use(
