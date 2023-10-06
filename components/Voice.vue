@@ -19,8 +19,8 @@ const _src = computed(() => {
 </script>
 
 <template>
-    <span ref="root" @click="player.play(_src)">
-        <span class="button">
+    <span class="root" ref="root" @click="player.play(_src)">
+        <span>
             {{ player.isPlaying(_src) ? "⏸️" : "▶️" }}
         </span>
         <slot></slot>
@@ -28,11 +28,11 @@ const _src = computed(() => {
 </template>
 
 <style scoped>
-* {
+.root {
     cursor: pointer;
 }
 
-.button {
+.root>:first-child {
     display: inline-flex;
     justify-content: center;
     flex: 1;
@@ -40,7 +40,7 @@ const _src = computed(() => {
     transition: 150ms;
 }
 
-.button:hover {
+.root:hover>:first-child {
     transform: scale(1.15);
 }
 </style>
