@@ -227,7 +227,7 @@ Copula positioning alters meaning:
 It also controls emphasis:
 
 - ==уцци хъили ужив це==  
-  --brother _stayed_ home (i.e. stayed, not came, not left);--
+  --brother [is the one who] _stayed_ home (i.e. stayed, not came, not left);--
 - ==уцци хъили це ужив==  
   --brother stayed _home_ (i.e. it is at home where he stayed, not at work);--
 - ==уцци це хъили ужив==  
