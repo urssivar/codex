@@ -33,10 +33,16 @@ function renderVoice(md: MarkdownIt) {
 
 function renderText(md: MarkdownIt) {
   md.use(
-    MdReg(/==(.+?)==/, ([, cont]) => `<span class="b">${rd(cont, md)}</span>`)
+    MdReg(
+      /==(.+?)==/,
+      ([, cont]) => `<span class="lang">${rd(cont, md)}</span>`
+    )
   );
   md.use(
-    MdReg(/--(.+?)--/, ([, cont]) => `<span class="b s">${rd(cont, md)}</span>`)
+    MdReg(
+      /--(.+?)--/,
+      ([, cont]) => `<span class="gloss">${rd(cont, md)}</span>`
+    )
   );
 }
 

@@ -1,11 +1,14 @@
-.b {
-    font-weight: 500;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+.lang {
+    font-family: 'Merriweather', serif;
 }
 
-.s {
-    opacity: 0.75;
+.gloss {
     font-size: small;
+    color: var(--vp-c-text-2);
 }
+
 
 .hid {
     display: none !important;

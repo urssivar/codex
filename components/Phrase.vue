@@ -3,7 +3,7 @@
         <span class="button">
             <slot name="voice" />
         </span>
-        <span class="b text">
+        <span class="lang">
             <slot />
         </span>
         <span>
