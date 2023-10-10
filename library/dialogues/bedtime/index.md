@@ -32,7 +32,7 @@ for (let i = 0; i < lines.length;i+=2) {
 
 # Анкӏла заман
 
-<p v-for="(p,i) in phrases" class="b" :class="i%2 ? 't-e' : ''">
+<p v-for="(p,i) in phrases" class="b" :class="{ 'end': i%2 }">
     <span>
         {{p[0]}}
     </span>
@@ -43,3 +43,9 @@ for (let i = 0; i < lines.length;i+=2) {
         </Voice>
     </span>
 </p>
+
+<style>
+.end {
+    text-align: end;
+}
+</style>

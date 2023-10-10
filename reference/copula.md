@@ -246,6 +246,6 @@ In these last examples the past simple ==ужив== [acts as adjective](./verb),
 <Context :options="['masc.', 'fem.']">
 
 ==[уцци]{c=0 h=b} [рицци]{c=1 h=s} [хъили]{h=h} [ви]{c=0 h=i} [ри]{c=1 h=i}==  
---[brother]{c=0 h=b} [sister]{c=1 h=s} [is]{h=i} [at home]{h=h}--
+--👆 [brother]{c=0 h=b} [sister]{c=1 h=s} [is]{h=i} [at home]{h=h}--
 
 </Context>

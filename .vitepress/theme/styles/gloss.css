@@ -9,20 +9,6 @@
     color: var(--vp-c-text-2);
 }
 
-
-.hid {
-    display: none !important;
-}
-
-.col {
-    display: flex;
-    flex-direction: column;
-}
-
-.t-e {
-    text-align: end;
-}
-
 table.gl td {
     font-size: medium;
 }
