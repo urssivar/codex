@@ -226,12 +226,6 @@ Copula positioning alters meaning:
 
 It also controls emphasis:
 
-<Context :options="['masc.', 'fem.']">
-
-[уцци]{ctx=0} [рицци]{ctx=1} хъили [ви]{ctx=0} [ри]{ctx=1}
-
-</Context>
-
 - ==уцци хъили ужив це==  
   --brother [is the one who] _stayed_ home (i.e. stayed, not came, not left);--
 - ==уцци хъили це ужив==  
@@ -248,3 +242,10 @@ In these last examples the past simple ==ужив== [acts as adjective](./verb),
   --I stayed home.--
 
 :::
+
+<Context :options="['masc.', 'fem.']">
+
+==[уцци]{c=0 h=b} [рицци]{c=1 h=s} [хъили]{h=h} [ви]{c=0 h=i} [ри]{c=1 h=i}==  
+--[brother]{c=0 h=b} [sister]{c=1 h=s} [is]{h=i} [at home]{h=h}--
+
+</Context>

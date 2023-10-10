@@ -3,21 +3,43 @@ import { ref, onMounted, watch } from 'vue';
 const props = defineProps<{
     options?: string[],
 }>();
+
 const root = ref<HTMLElement>();
-const index = ref(-1);
-watch(index, (index, oldIndex) => {
-    root.value?.querySelectorAll(`[ctx="${oldIndex}"]`)
+function switchClass(value: string, on: boolean, selector: string) {
+    root.value?.querySelectorAll(selector)
         .forEach((e) => {
-            e.classList.remove('active');
+            if (on)
+                e.classList.add(value);
+            else
+                e.classList.remove(value);
         });
-    root.value?.querySelectorAll(`[ctx="${index}"]`)
-        .forEach((e) => {
-            e.classList.add('active');
-        });
+}
+
+const optionIndex = ref(-1);
+watch(optionIndex, (index, oldIndex) => {
+    switchClass('active', false, `[c="${oldIndex}"]`);
+    switchClass('active', true, `[c="${index}"]`);
 });
+
+const highlight = ref<string | null>(null);
+watch(highlight, (highlight, oldHighlight) => {
+    switchClass('highlight', false, `[h="${oldHighlight}"]`,)
+    switchClass('highlight', true, `[h="${highlight}"]`,)
+});
+
+
 onMounted(() => {
+    root.value?.querySelectorAll(`[h]`).forEach((e) => {
+        e.addEventListener("mouseover", () => {
+            highlight.value = e.getAttribute('h');
+        }, false);
+        e.addEventListener("mouseout", () => {
+            highlight.value = null;
+        }, false);
+    });
     if (props.options?.values)
-        index.value = 0;
+        optionIndex.value = 0;
+
 });
 </script>
 
@@ -26,7 +48,7 @@ onMounted(() => {
         <slot></slot>
     </span>
     <div v-if="options" id="buttons">
-        <button v-for="f, i in options" :class="{ active: i == index }" v-on:click="index = i">
+        <button v-for="f, i in options" :class="{ active: i == optionIndex }" v-on:click="optionIndex = i">
             {{ f }}
         </button>
     </div>
@@ -67,12 +89,17 @@ button:not(.active):not(:hover) {
 </style>
 
 <style>
-[ctx].active {
+[h].highlight {
+    border-radius: 4px;
+    background-color: var(--vp-c-divider);
+}
+
+[c].active {
     border-radius: 4px;
     animation: flash .5s;
 }
 
-[ctx]:not(.active) {
+[c]:not(.active) {
     display: none;
 }
 
