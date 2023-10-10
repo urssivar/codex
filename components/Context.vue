@@ -1,55 +1,46 @@
 <script setup lang="ts">
-import { ref, computed, watch } from 'vue'
+import { ref, onMounted, watch } from 'vue';
 const props = defineProps<{
-    flags: number,
-    types: boolean[],
-}>()
-const index = ref(0);
-const flagSlots = computed(() =>
-    [...Array(props.flags).keys()]
-        .map(i => `f-${i}`)
-);
-const slots = computed(() =>
-    props.types.map((_, i) => props.types[i]
-        ? `s-${i}-0`
-        : `s-${i}-${index.value}`
-    )
-);
-let old: string[] = [];
-watch(slots, async (newKeys, oldKeys) => {
-    old = oldKeys ?? newKeys;
-}, { immediate: true })
+    options?: string[],
+}>();
+const root = ref<HTMLElement>();
+const index = ref(-1);
+watch(index, (index, oldIndex) => {
+    root.value?.querySelectorAll(`[ctx="${oldIndex}"]`)
+        .forEach((e) => {
+            e.classList.remove('active');
+        });
+    root.value?.querySelectorAll(`[ctx="${index}"]`)
+        .forEach((e) => {
+            e.classList.add('active');
+        });
+});
+onMounted(() => {
+    if (props.options?.values)
+        index.value = 0;
+});
 </script>
 
 <template>
-    <div>
-        <span v-for="s, i in slots" class="lang" :class="{ flash: s != old[i] }" :key="s">
-            <slot :name="s" />
-        </span>
-    </div>
-    <div class="buttons">
-        <button v-for="f, i in flagSlots" :class="{ reveal: i == index }" v-on:click="index = i">
-            <slot :name="f" />
+    <span ref="root" id="root">
+        <slot></slot>
+    </span>
+    <div v-if="options" id="buttons">
+        <button v-for="f, i in options" :class="{ active: i == index }" v-on:click="index = i">
+            {{ f }}
         </button>
     </div>
 </template>
 
 <style scoped>
-.flash {
-    border-radius: 4px;
-    animation: flash .5s;
+#root>:last-child {
+    margin-bottom: 0;
 }
 
-@keyframes flash {
-    50% {
-        background-color: var(--vp-c-divider);
-    }
-}
-
-.buttons {
+#buttons {
     display: flex;
     gap: 4px;
-    margin-top: 4px;
+    margin-top: 6px;
 }
 
 button {
@@ -66,11 +57,28 @@ button:hover {
     color: var(--vp-c-brand);
 }
 
-button.reveal {
+button.active {
     color: var(--vp-c-brand);
 }
 
-button:not(.reveal):not(:hover) {
+button:not(.active):not(:hover) {
     color: var(--vp-c-text-2);
+}
+</style>
+
+<style>
+[ctx].active {
+    border-radius: 4px;
+    animation: flash .5s;
+}
+
+[ctx]:not(.active) {
+    display: none;
+}
+
+@keyframes flash {
+    50% {
+        background-color: var(--vp-c-divider);
+    }
 }
 </style>

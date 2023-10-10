@@ -216,15 +216,21 @@ They agree in person and time, and two of them have noun classes. Here are inter
 
 Copula positioning alters meaning:
 
-| ----------------------- | :------------: | :---------------------------- |
-| ==ила хъати це== | &nbsp;➡️&nbsp; | ==ила це хъати== |
+|
+| ==ила хъати це== | ➡️ | ==ила це хъати== |
 | --[this] is your hat;-- | | --the hat is your;-- |
-| <br> |
-| ==ду чигьул да== | &nbsp;➡️&nbsp; | ==ду да чигьул== |
+||
+| ==ду чигьул да== | ➡️ | ==ду да чигьул== |
 | --I am watching;-- | | --the watching [one] is me.-- |
 {.gl}
 
 It also controls emphasis:
+
+<Context :options="['masc.', 'fem.']">
+
+[уцци]{ctx=0} [рицци]{ctx=1} хъили [ви]{ctx=0} [ри]{ctx=1}
+
+</Context>
 
 - ==уцци хъили ужив це==  
   --brother [is the one who] _stayed_ home (i.e. stayed, not came, not left);--
@@ -236,7 +242,7 @@ It also controls emphasis:
 ::: tip
 In these last examples the past simple ==ужив== [acts as adjective](./verb), whereas the verbal usage would be without the copula (but with the 1st & 2nd person agreement still):
 
-- ==[уцци]{#1} [хъили]{#2} [ужив]{#3}==  
+- ==[уцци]{c=1} [хъили]{#2} [ужив]{#3}==  
   --[brother]{#1} [stayed]{#3} [home]{#2};--
 - ==ду хъили уживда==  
   --I stayed home.--
