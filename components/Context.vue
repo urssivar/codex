@@ -27,7 +27,6 @@ watch(highlight, (highlight, oldHighlight) => {
     switchClass('highlight', true, `[h="${highlight}"]`,)
 });
 
-
 onMounted(() => {
     root.value?.querySelectorAll(`[h]`).forEach((e) => {
         e.addEventListener("mouseover", () => {
