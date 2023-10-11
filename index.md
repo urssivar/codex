@@ -5,11 +5,10 @@ layout: home
 hero:
   name: "Urssivar"
   text: |
-    Kaitag Language
-    Standard
+    Kaitag Standard
   tagline: |
     Interactive handbook & exemplar materials
-    for a defiant North Caucasian tongue
+    for the defiant North Caucasian tongue
   image:
     light: /hero-light.png
     dark: /hero-dark.png
