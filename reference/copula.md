@@ -19,7 +19,7 @@ The basic series corresponds to _"to be"_ and has two usages:
    - ++и тухтур ==де==++  
      --you ==are== a doctor;--
    - ++ дила гозе ==це==++  
-     --[that] ==is== my honey.--
+     --[it] ==is== my honey.--
 
 2. Conveying _state_ (often via [adverbial forms](./adjective)):
    - ++ду улчӏун ==да==++  
@@ -92,7 +92,7 @@ But also for immediate or otherwise emphasized state \ activity:
 - ++рирси убацци ==ри==++  
   --the girl ==is== with mother ==[right now]==;--
 - ++ниса дулшун ==ди да==++  
-  --we ==are [actively engaged]== working.--
+  --we ==are [actively engaged in]== working.--
 
 ### Absence
 
@@ -172,7 +172,7 @@ There are a few other words which have personal agreement via "to be" and thus t
    - ++дул бирул ==де кьал==++  
      --==but== I ==_was_== doing!;--
 2. ++у++, ++йе++ — question particles:
-   - ++гонал ==у==?++  
+   - ++гунал ==у==?++  
      --==is [he]== warm?--
    - ++и ча ==де йе==?++  
      --who ==are== you?--
@@ -205,7 +205,7 @@ The three main copula series are used for:
     - ++ила гозе ==це==++  
       --[this] ==is== your honey;--
 2.  ++би++ & ++бейкку++ — presence:
-    - ++ила гозе ==би==  
+    - ++ила гозе ==би==++  
       --you ==have== honey;--
 3.  ++бел++ & ++абел++ — continious availability:
     - ++ила гозе ==бел==++  
