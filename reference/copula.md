@@ -21,7 +21,7 @@ The basic series corresponds to _"to be"_ and has two usages:
    - ++ дила гозе ==це==++  
      --[that] ==is== my honey.--
 
-2. Conveying _state_ (often via [adverbial forms](./adjective-adverb)):
+2. Conveying _state_ (often via [adverbial forms](./adjective)):
    - ++ду улчӏун ==да==++  
      --I ==am== studying;--
    - ++ниша кьанле ==де==++  
