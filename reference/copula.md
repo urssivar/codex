@@ -181,7 +181,7 @@ These are words which come after copula or completely overtake ~<++це++|_"to b
    - ++ккушле ==да у==?++  
      --==are== [you] hungry?--
    - ++и ча ==де йе==?++  
-     --who ==are== you?--
+     --who ==are== you (sg.)?--
 
 ### Positioning
 
