@@ -186,9 +186,9 @@ Note how "to be" is not applicable everywhere, and where it is — it comes befo
 Copula positioning alters meaning by controlling emphasis:
 
 - ++ила хъати ==це==++  
-  --[it] is _your_ hat;--
+  --[it] is your _hat_;--
 - ++ила ==це== хъати++  
-  --the _hat_ is yours.--
+  --the hat is _yours_.--
 
 It works with the auxiliaries as well:
 
