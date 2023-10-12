@@ -74,7 +74,7 @@ The past form's consonant alternation is due to the following chain:
 | past | ++би де++ ||||
 {.bl}
 
-This series agrees with noun classes: ~<++ви++|masc.>, ~<++ри++|fem.>, ~<++би++|neut., human pl.>, ~<++ди++| neut. pl., 1st & 2nd person pl.> (omitted from the table for simplicity).
+This series agrees with noun classes: ^[++ви++](masc.), ^[++ри++](fem.), ^[++би++](neut., human pl.), ^[++ди++](neut. pl., 1st & 2nd person pl.) (omitted for now, see [below](#noun-classes)).
 
 This copula is mainly used for presence & possession:
 
@@ -86,10 +86,10 @@ This copula is mainly used for presence & possession:
   --you ==had== honey.--
 
 ::: tip
-The person agreement is marked by appending the corresponding _"to be"_ forms, except for the 3rd person where it's zero. The basic copula is used this way with the other copulas too as we shall see.
+The person & time agreement is marked by appending the corresponding _"to be"_ forms, except for the 3rd person where it's zero. The basic copula is used this way with the other copulas too as we shall see.
 :::
 
-But also for immediate or otherwise emphasized state \ activity:
+But also for immediate or otherwise emphasized state/activity:
 
 - ++ду хъили ==ви да==++  
   --I ==am [currently]== at home;--
@@ -168,10 +168,10 @@ It is negated via the regular verbal prefix ++а-++:
 
 ### Auxiliaries
 
-These are words which come after copula or completely overtake ~<++це++|_"to be"_ 3rd person>:
+These are words which come after copula or completely overtake ^[++це++](_"to be"_ 3rd person):
 
-1. ++кьал++ — emphasis \ presupposition:
-   - ++аргул кьал++  
+1. ++кьал++ — emphasis/presupposition:
+   - ++аргул ==кьал==++  
      --==and you know,== it ==is== working out;--
    - ++дул бирул ==вел да кьал==++  
      --==but== I ==am _still_== doing;--
@@ -198,3 +198,13 @@ Works with the auxiliaries too:
   --are you _at home_? (e.g. not at work)--
 - ++и ==де у== хъили?++  
   --are _you_ at home? (e.g. not someone else)--
+
+### Noun Classes
+
+This table illustrates the actual copula class agreement in speech. The example is for ++би++ (and without the "to be" parts), but the other series work the same:
+
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| sg. ||| pl.|||
+| I | you | he, she, it | we | you | they |
+| ^[++ви++](masc.), ^[++ри++](fem.), ^[++би++](neut.) ||| ++ди++ || ^[++би++](human), ^[++ди++](non-human) |
+{.bl}

@@ -47,7 +47,7 @@ function renderText(md: MarkdownIt) {
 
 function renderTooltip(md: MarkdownIt) {
   md.use(
-    MdReg(/~\<(.+?)\|(.+?)\>/, ([, cont, hint]) => {
+    MdReg(/\^\[(.*?)\]\((.+?)\)/, ([, cont, hint]) => {
       return (
         `<Tooltip>` +
         rd(cont, md) +
