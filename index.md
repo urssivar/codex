@@ -26,11 +26,21 @@ hero:
 features:
   - icon: 🚀
     title: Hands-on
-    details: Minimalistic approach, aim at fast & practical usage
+    details: Minimalistic approach, aim at fast & practical usage.
   - icon: 🖱️
     title: Interactive
-    details: Inline translations, parameterized contexts, audio playback
+    details: Inline translations, parameterized contexts, audio playback.
   - icon: ⚡
     title: Charged
-    details: Full-text search, offline mode, shareable URLs, source on GitHub
+    details: Full-text search, offline mode, shareable URLs, source on GitHub.
 ---
+
+<style>
+.VPHero .VPImage {
+  animation: floating 5s ease-in-out infinite;
+}
+
+@keyframes floating {
+  50%  { translate: 0 -10px; }  
+}
+</style>
