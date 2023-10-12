@@ -30,9 +30,10 @@ function renderVoice(md: MarkdownIt) {
 }
 
 function renderText(md: MarkdownIt) {
+  md.use(MdReg(/==(.+?)==/, ([, cont]) => `<mark>${rd(cont, md)}</mark>`));
   md.use(
     MdReg(
-      /==(.+?)==/,
+      /\+\+(.+?)\+\+/,
       ([, cont]) => `<span class="lang notranslate">${rd(cont, md)}</span>`
     )
   );
