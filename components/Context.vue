@@ -89,7 +89,6 @@ button:not(.active):not(:hover) {
 
 <style>
 [c].active {
-    border-radius: 4px;
     animation: flash .5s;
 }
 
@@ -99,7 +98,7 @@ button:not(.active):not(:hover) {
 
 @keyframes flash {
     50% {
-        background-color: var(--highlight);
+        box-shadow: inset 0 -.35em var(--highlight);
     }
 }
 </style>
