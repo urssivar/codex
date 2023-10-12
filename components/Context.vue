@@ -23,8 +23,8 @@ watch(optionIndex, (index, oldIndex) => {
 
 const highlight = ref<string | null>(null);
 watch(highlight, (highlight, oldHighlight) => {
-    switchClass('highlight', false, `[h="${oldHighlight}"]`,)
-    switchClass('highlight', true, `[h="${highlight}"]`,)
+    switchClass('hl', false, `[h="${oldHighlight}"]`,)
+    switchClass('hl', true, `[h="${highlight}"]`,)
 });
 
 onMounted(() => {
@@ -66,7 +66,7 @@ onMounted(() => {
 
 button {
     transition: 0.2s;
-    font-weight: 600;
+    font-weight: 500;
     line-height: 125%;
     padding: 2px 4px;
     border-radius: 4px;
@@ -88,11 +88,6 @@ button:not(.active):not(:hover) {
 </style>
 
 <style>
-[h].highlight {
-    border-radius: 4px;
-    background-color: var(--vp-c-divider);
-}
-
 [c].active {
     border-radius: 4px;
     animation: flash .5s;
@@ -104,7 +99,7 @@ button:not(.active):not(:hover) {
 
 @keyframes flash {
     50% {
-        background-color: var(--vp-c-divider);
+        background-color: var(--highlight);
     }
 }
 </style>

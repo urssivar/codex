@@ -2,6 +2,8 @@
 
 There are three copula series in Kaitag language. Let's consider them by their purpose.
 
+<mark>very important words</mark>
+
 ## 1. Facts & States
 
 | :---------: | :-------: | :-----------: | :-----: | :-------------------: |
@@ -73,18 +75,23 @@ The past form's consonant alternation is due to the historic process:
 | --past-- | ==би де== ||||
 {.bl}
 
-::: warning
-The copula has class agreement: ==би==, ==ви==, ==ри==, ==ди==. For simplicity the table provides them in the neuter class, but know that e.g. the 1st & 2nd person plurals are _always_ ==ди==.
-:::
+This series agrees with noun classes (which is omitted from the table for simplicity):
 
-The second series is used for presence:
+1. ==ви== — masc.;
+2. ==ри== — fem.;
+3. ==би== — neut. \ 1 & 2 pl.;
+4. ==ди== — 3 pl. \ 1nd & 2nd person pl.
 
-- ==ду хъили ви да==  
-  --I am [currently] at home;--
-- ==уба дуцци ри==  
-  --mother is with me;--
-- ==ила гозе би де==  
-  --you had honey.--
+This copula is used for presence and especially for the immediate state:
+
+- ==ду хъили _ви да_==  
+  --I _am_ [currently] at home;--
+- ==рирси убацци ~ри~==  
+  --girl _is_ with mother;--
+- ==ила гозе _би де_==  
+  --you _had_ honey.--
+- ==ниса бирул _ди да_==  
+  --we _are_ doing.--
 
 ::: tip
 The person agreement is marked by appending the corresponding _"to be"_ forms (except for the 3rd person where it's zero). The basic copula is used this way with the other copulas too as we shall see.
@@ -156,7 +163,7 @@ Fortunately it is negated via the regular verbal prefix ==а-==:
 
 ## Summary
 
-The three copula series are used for:
+The three main copula series are used for:
 
 1.  ==це== & ==акку== — facts:
     - ==ила гозе це==  
