@@ -2,12 +2,21 @@
 
 There are three copula series in Kaitag language. Let's consider them by their purpose.
 
-## 1. Facts & States
+#### Summary
+
+|
+| ✅ | ⛔ |
+| ++чяй ==це==++<br>--==is== tea-- | ++чяй ==акку==++<br>--==is not== tea-- |
+| ++чяй ==би==++<br>--==there's== tea-- | ++чяй ==бейкку==++<br>--==no== tea-- |
+| ++чяй ==бел==++<br>--tea ==left==-- | ++чяй ==абел==++<br>--==no more== tea-- |
+{.bl}
+
+## Facts & States
 
 | :---------: | :-------: | :-----------: | :-----: | :-------------------: |
-| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
-| --present-- | ++да++ | ++де++ | ++да++ | ++це++ |
-| --past-- | ++де++ ||||
+| | I, we | you (sg.) | you | he, she, it, they |
+| present | ++да++ | ++де++ | ++да++ | ++це++ |
+| past | ++де++ ||||
 {.bl}
 
 The basic series corresponds to _"to be"_ and has two usages:
@@ -29,14 +38,14 @@ The basic series corresponds to _"to be"_ and has two usages:
    - ++дам гунал ==це==++  
      --I ==am== warm (lit. it's warm to me).--
 
-### False
+### Falsity
 
 This copula has irregular negative counterparts:
 
 | :-----: | :----: | :-------: | :-: | :---------------: |
-| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
-| --present-- | ++аккод++ | ++аккотте++ | ++аккотта++ | ++акку++ |
-| --past-- | ++аччу++ ||||
+| | I, we | you (sg.) | you | he, she, it, they |
+| present | ++аккод++ | ++аккотте++ | ++аккотта++ | ++акку++ |
+| past | ++аччу++ ||||
 {.bl}
 
 They are used to deny facts:
@@ -48,8 +57,8 @@ They are used to deny facts:
 - ++ниша кьанле ==аччу==++  
   --you ==were not== late.--
 
-::: details 📜 History
-The past form's consonant alternation is due to the historic process:
+::: details HISTORY
+The past form's consonant alternation is due to the following chain:
 
 ⬇️ ++аккви++, where ++аккв++ is the root and ++-и++ is [past habitual](./verb);  
 ⬇️ ++аччви++ — palatalization;  
@@ -57,20 +66,15 @@ The past form's consonant alternation is due to the historic process:
 
 :::
 
-## 2. Presence
+## Presence
 
 | :-----: | :----: | :-------: | :-: | :---------------: |
-| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
-| --present-- | ++би да++ | ++би де++ | ++би да++ | ++би++ |
-| --past-- | ++би де++ ||||
+| | I, we | you (sg.) | you | he, she, it, they |
+| present | ++би да++ | ++би де++ | ++би да++ | ++би++ |
+| past | ++би де++ ||||
 {.bl}
 
-This series agrees with noun classes (omitted from the tables for simplicity):
-
-1. ++ви++ — masc.;
-2. ++ри++ — fem.;
-3. ++би++ — neut., 1 & 2 pl.;
-4. ++ди++ — 3 pl., 1st & 2nd person pl.
+This series agrees with noun classes: ~<++ви++|masc.>, ~<++ри++|fem.>, ~<++би++|neut., human pl.>, ~<++ди++| neut. pl., 1st & 2nd person pl.> (omitted from the table for simplicity).
 
 This copula is mainly used for presence & possession:
 
@@ -99,9 +103,9 @@ But also for immediate or otherwise emphasized state \ activity:
 The irregular negative counterparts are:
 
 | :-----: | :----: | :-------: | :-: | :---------------: |
-| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
-| --present-- | ++бейккод++ | ++бейккотте++ | ++бейккотта++ | ++бейкку++ |
-| --past-- | ++бейччу++ ||||
+| | I, we | you (sg.) | you | he, she, it, they |
+| present | ++бейккод++ | ++бейккотте++ | ++бейккотта++ | ++бейкку++ |
+| past | ++бейччу++ ||||
 {.bl}
 
 ::: warning
@@ -117,15 +121,15 @@ They convey absence:
 - ++со марка ==бейччу==++  
   --[there] ==wasn't== rain yesterday.--
 
-::: details 📜 History
-Historically this is fusion of the positive forms with the negative forms of "to be", e.g.:
+::: details HISTORY
+This is fusion of the positive forms with the negative forms of "to be", e.g.:
 
 - ++бейккотте++ ⬅️ ++би++ + ++аккотте++;
 - ++бейччу++ ⬅️ ++би++ + ++аччу++.
 
 :::
 
-::: details 🤔 Experimental
+::: details EXPERIMENTAL
 Speakers can understand simplified negative forms made via regular verbal negation prefix ++a-++ (see the next copula), e.g.:
 
 - ++вейкку да++ ❓➡️ ++ави да++;
@@ -134,12 +138,12 @@ Speakers can understand simplified negative forms made via regular verbal negati
 Though it makes them laugh. 😁
 :::
 
-## 3. Availability
+## Availability
 
 | :---------: | :--------: | :-----------: | :--------: | :-------------------: |
-| | --I, we-- | --you (sg.)-- | --you-- | --he, she, it, they-- |
-| --present-- | ++бел да++ | ++бел де++ | ++бел да++ | ++бел++ |
-| --past-- | ++бел де++ ||||
+| | I, we | you (sg.) | you | he, she, it, they |
+| present | ++бел да++ | ++бел де++ | ++бел да++ | ++бел++ |
+| past | ++бел де++ ||||
 {.bl}
 
 ::: warning
@@ -162,51 +166,35 @@ It is negated via the regular verbal prefix ++а-++:
 
 ## Miscellaneous
 
-### Copula-like Auxiliaries
+### Auxiliaries
 
-There are a few other words which have personal agreement via "to be" and thus take place of the copulas:
+These are words which come after copula or completely overtake ~<++це++|_"to be"_ 3rd person>:
 
 1. ++кьал++ — emphasis \ presupposition:
    - ++аргул кьал++  
      --==and you know,== it ==is== working out;--
-   - ++дул бирул ==де кьал==++  
-     --==but== I ==_was_== doing!;--
+   - ++дул бирул ==вел да кьал==++  
+     --==but== I ==am _still_== doing;--
 2. ++у++, ++йе++ — question particles:
    - ++гунал ==у==?++  
-     --==is [he]== warm?--
+     --==is== [he] warm?--
+   - ++ккушле ==да у==?++  
+     --==are== [you] hungry?--
    - ++и ча ==де йе==?++  
      --who ==are== you?--
 
-::: tip
-Note how "to be" is not applicable everywhere, and where it is — it comes before.
-:::
-
 ### Positioning
 
-Copula positioning alters meaning by controlling emphasis:
+Copula placing controls emphasis:
 
 - ++ила хъати ==це==++  
   --[it] is your _hat_;--
 - ++ила ==це== хъати++  
   --the hat is _yours_.--
 
-It works with the auxiliaries as well:
+Works with the auxiliaries too:
 
 - ++и хъили ==де у==?++  
   --are you _at home_? (e.g. not at work)--
 - ++и ==де у== хъили?++  
   --are _you_ at home? (e.g. not someone else)--
-
-## Summary
-
-The three main copula series are used for:
-
-1.  ++це++ & ++акку++ — facts:
-    - ++ила гозе ==це==++  
-      --[this] ==is== your honey;--
-2.  ++би++ & ++бейкку++ — presence:
-    - ++ила гозе ==би==++  
-      --you ==have== honey;--
-3.  ++бел++ & ++абел++ — continious availability:
-    - ++ила гозе ==бел==++  
-      --you ==still have== honey (lit. your honey remains).--

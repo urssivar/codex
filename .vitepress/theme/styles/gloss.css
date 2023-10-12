@@ -36,9 +36,14 @@ table.bl {
     border-radius: 8px;
     border-collapse: collapse;
     border-style: hidden;
-    display: table !important;
-    width: 100%;
+    overflow-x: auto;
     background-color: var(--vp-custom-block-details-bg);
+}
+
+table.bl tbody {
+    border-style: hidden;
+    display: table;
+    width: 100%;
 }
 
 table.bl td,
