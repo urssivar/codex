@@ -30,7 +30,7 @@ The basic series corresponds to _"to be"_ and has two usages:
    - ++ дила гозе ==це==++  
      --[it] ==is== my honey.--
 
-2. Conveying _state_ (often via [adverbial forms](./adjective)):
+2. Conveying _state_ (often via [adverbial forms](./adverbs)):
    - ++ду улчӏун ==да==++  
      --I ==am== studying;--
    - ++ниша кьанле ==де==++  
@@ -129,15 +129,6 @@ This is fusion of the positive forms with the negative forms of "to be", e.g.:
 
 :::
 
-::: details EXPERIMENTAL
-Speakers can understand simplified negative forms made via regular verbal negation prefix ++a-++ (see the next copula), e.g.:
-
-- ++вейкку да++ ❓➡️ ++ави да++;
-- ++вейччу++ ❓➡️ ++ави де++.
-
-Though it makes them laugh. 😁
-:::
-
 ## Availability
 
 | :---------: | :--------: | :-----------: | :--------: | :-------------------: |
@@ -175,6 +166,8 @@ These are words which come after copula or completely overtake ^[++це++](_"to 
      --==and you know,== it ==is== working out;--
    - ++дул бирул ==вел да кьал==++  
      --==but== I ==am _still_== doing;--
+   - ++ила уцци ==вейкку кьал==++  
+     --you ==don't have== brother, [am I correct?].--
 2. ++у++, ++йе++ — question particles:
    - ++гунал ==у==?++  
      --==is== [he] warm?--

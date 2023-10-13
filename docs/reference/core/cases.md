@@ -2,15 +2,15 @@
 
 Kaitag language has 5 cases. Each of them plays a number of roles and some apply to parts of speech other than nouns.
 
-### Summary
+#### Summary
 
 |
 | 🐈 | 🐈🐈🐈 |
 | ++бизи биргу++ <br> --cat plays-- | ++бизне++ <br> --cat==s==-- |
-| ++бизи==л== буцив++ <br> --cat ==(agent)== caught-- | ++бизна==л==++ <br> --==by== cat==s==-- |
+| ++бизи==л== буцив++ <br> --cat caught-- | ++бизна==л==++ <br> --==by== cat==s==-- |
 | ++бизи==ла== риж++ <br> --cat=='s== tail-- | ++бизна==ла==++ <br> --==of== cat==s==-- |
 | ++бизи==й== беччив++ <br> --gave ==to== cat-- | ++бизна==й==++ <br> --==for== cat==s==-- |
-| ++бизи==цци== ви++ <br> --is ==with== cat-- | ++бизна==цци==++ <br> --==with== cat==s==-- |
+| ++бизи==цци== ви++ <br> --is ==with== cat-- | ++бизна==лцци==++ <br> --==with== cat==s==-- |
 {.bl}
 
 ## Absolutive
@@ -39,33 +39,43 @@ When plural nouns take cases other than _absolutive_, the final ++-е++ changes 
 |
 | ++бизи++ | ➡️ |++бизн==е==++ | ➡️ | ++бизн==а==й++ |
 | --cat-- | | --cats-- | | --to cats-- |
-| ++кӏацӏул++ | ➡️ |++кӏицӏл==е==++ | ➡️ | ++кӏицӏл==а==цци++ |
-| --spoon-- | | --spoons-- | | --with spoons-- |
+| ++чӏала++ | ➡️ |++чӏил==е==++ | ➡️ | ++чӏил==а==лцци++ |
+| --spoke-- | | --spokes-- | | --with spokes-- |
 {.gl}
 :::
 
 ## Genitive
 
-Marked by ++-ла++.
+Marked by ++-ла++, it has these usecases on nouns:
 
 1. Possession:
-   - ++ниса==ла== машин++  
+   - ++^[ниса](we)==ла== машин++  
      --==our== car;--
    - ++уцци==ла== хъати++  
      --brother=='s== hat;--
    - ++гунев==ла== хабар++  
      --story ==of== the past;--
-2. Postpositions:
-   - ++хъатна==ла== ==гуни==++  
-     --==under== the hats;--
-   - ++уцци==ла== ==чер==++  
-     --==about== brother;--
-   - ++чирка==ла== ==тен==++  
-     --==since== the morning;--
-3. Substance & adjective:
+2. Substance & adjective:
    - ++мигь==ла== машин++  
      --iron car;--
    - ++диг==ла== хурег++  
      --meat dish;--
    - ++чирка==ла== марка++  
      --morning rain.--
+3. Postpositions:
+   - ++хъитна==ла== ==гуни==++  
+     --==under== the hats;--
+   - ++уцци==ла== ==чер==++  
+     --==about== brother;--
+   - ++чирка==ла== ==ирегъ==++  
+     --==after== the morning.--
+
+The genitive case can be applied to verb preterite as well:
+
+4. To denote the general time following after:
+   - ++таман барив==ла== цявунда++  
+     --I came ==after== I finished;--
+   - ++ду цагъив==ла== ==жен== чиаваживда++  
+     --I haven't seen him ==since== I arrived;--
+   - ++кедерхур==ла== ==тен== варгьид++  
+     --I know him ==ever since== we've got enrolled.--

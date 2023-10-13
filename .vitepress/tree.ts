@@ -1,11 +1,6 @@
 import { DefaultTheme } from "vitepress/types/shared";
 
 export const nav = <DefaultTheme.NavItem[]>[
-  // {
-  //   text: "Guide",
-  //   link: "/guide/introduction/welcome",
-  //   activeMatch: "/guide/",
-  // },
   {
     text: "Reference",
     link: "/reference/core/copulas",
@@ -46,8 +41,12 @@ export const sidebar = <DefaultTheme.Sidebar>{
       text: "Core Logic",
       items: [
         {
-          text: "Index",
+          text: "Copulas",
           link: "/reference/core/copulas",
+        },
+        {
+          text: "Cases",
+          link: "/reference/core/cases",
         },
       ],
     },
@@ -61,10 +60,18 @@ export const sidebar = <DefaultTheme.Sidebar>{
       text: "Phrasebook",
       items: [
         {
-          text: "Index",
+          text: "Basics",
           link: "/library/phrasebook/basics/",
         },
       ],
+    },
+    {
+      text: "Poetry",
+      items: [],
+    },
+    {
+      text: "Prose",
+      items: [],
     },
   ],
 };
