@@ -1,53 +1,70 @@
-type Chapter = Record<string, string[]>;
+import { DefaultTheme } from "vitepress/types/shared";
 
-const tree: Record<string, Chapter | string[]> = {
-  Guide: {
-    Introduction: ["Welcome"],
+export const nav = <DefaultTheme.NavItem[]>[
+  // {
+  //   text: "Guide",
+  //   link: "/guide/introduction/welcome",
+  //   activeMatch: "/guide/",
+  // },
+  {
+    text: "Reference",
+    link: "/reference/core/copulas",
+    activeMatch: "/reference/",
   },
-  Reference: ["Copula", "Noun Case"],
-  Library: {
-    Phrasebook: ["Basics/"],
-    Dialogues: ["Bedtime/"],
-    Folklore: ["Wise Girl"],
+  {
+    text: "Library",
+    activeMatch: "/library/",
+    items: [
+      {
+        text: "Phrasebook",
+        link: "/library/phrasebook/basics/",
+      },
+    ],
   },
+  {
+    text: "Apps",
+    items: [
+      {
+        text: "Avdan: Cards for Kids",
+        link: "https://play.google.com/store/apps/details?id=com.alkaitagi.avdan",
+      },
+      {
+        text: "Bazur: Online Dictionary",
+        link: "https://bazur.raxys.app/",
+      },
+      {
+        text: "Yaziv: Script Converter",
+        link: "https://yaziv.raxys.app/",
+      },
+    ],
+  },
+];
+
+export const sidebar = <DefaultTheme.Sidebar>{
+  "/reference/": [
+    {
+      text: "Core Logic",
+      items: [
+        {
+          text: "Index",
+          link: "/reference/core/copulas",
+        },
+      ],
+    },
+    {
+      text: "Cookbook",
+      items: [],
+    },
+  ],
+  "/library/": [
+    {
+      text: "Phrasebook",
+      items: [
+        {
+          text: "Index",
+          link: "/library/phrasebook/basics/",
+        },
+      ],
+    },
+  ],
 };
-
-function linkify(text: string, slash = false) {
-  let url = text.toLowerCase().replaceAll(" ", "-");
-  if (slash) url = `/${url}/`;
-  return url;
-}
-
-function buildSidebar(name: string, chapter: Chapter | string[]) {
-  const root = linkify(name, true);
-  if (Array.isArray(chapter))
-    return chapter.map((c) => ({
-      text: c.replaceAll("/", ""),
-      link: root + linkify(c),
-    }));
-  return Object.entries(chapter).map(([c, as]) => ({
-    text: c,
-    collapsed: true,
-    items: as.map((a) => {
-      return {
-        text: a.replaceAll("/", ""),
-        link: root + linkify(c) + "/" + linkify(a),
-      };
-    }),
-  }));
-}
-
-export const sidebar = {
-  "/guide/": buildSidebar("guide", tree.Guide),
-  "/reference/": buildSidebar("reference", tree.Reference),
-  "/library/": buildSidebar("library", tree.Library),
-};
-
-function buildNav(root: string, chapter: Chapter) {
-  return Object.entries(chapter).map(([c, [a]]) => ({
-    text: c,
-    link: root + linkify(c, true) + linkify(a),
-  }));
-}
-
-export const nav = buildNav("/library/", tree.Library as Chapter);

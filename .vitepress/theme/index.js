@@ -5,7 +5,7 @@ import Context from '@/Context.vue';
 import Voice from '@/Voice.vue';
 
 import './styles/vars.css'
-import './styles/gloss.css'
+import './styles/general.css'
 import './styles/phrase.css'
 
 export default {
