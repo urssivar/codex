@@ -21,7 +21,7 @@ const _src = computed(() => {
 <template>
     <span class="root" ref="root" @click="player.play(_src)">
         <span>
-            {{ player.isPlaying(_src) ? "⏸️" : "▶️" }}
+            {{ player.isPlaying(_src) ? "⏸" : "▶" }}
         </span>
         <slot></slot>
     </span>

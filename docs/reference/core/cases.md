@@ -33,8 +33,8 @@ Marked with ++-л++ or ++-ли++ when consonant-final.
    - ++удра==л== велкъун++  
      --got full ==of/by== fruits.--
 
-
-уццил рицци рикул це / аццил рикул да 
+#TODO
+уццил рицци рикул це / аццил рикул да
 уццил чай дуччу / уцци чайли уччу
 
 ::: info
@@ -85,5 +85,6 @@ The genitive case can be applied to verb preterite as well:
 
 ## Miscellaneous
 
+#TODO  
 of the little one  
 никӏо==це==ла \ никӏо ==чи==ла

@@ -191,6 +191,14 @@ Works with the auxiliaries too:
 - ++и ==де у== хъили?++  
   --are _you_ at home? (e.g. not someone else)--
 
+### "Would"
+
+#TODO  
+шин атте нег яхял де / milk would be better than water  
+пенжегцци атте палтунцци гунал де / it would be warmer with a coat than with a jacket  
+убал бурсан дел дул бирул де / if mom said it, I would do it
+муса бил дел ду кижил де / if there was a place, I would have sat
+
 ### Noun Classes
 
 This table illustrates the actual copula class agreement in speech. The example is for ++би++ (and without the "to be" parts), but the other series work the same:

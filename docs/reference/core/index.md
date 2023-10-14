@@ -1,3 +1,0 @@
----
-redirect: /noun-case
----
