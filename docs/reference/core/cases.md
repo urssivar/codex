@@ -5,7 +5,7 @@ Kaitag language has 5 cases. Each of them plays a number of roles and some apply
 |
 | **CHEATSHEET** ||
 | 🐈 | 🐈🐈🐈 |
-| ++бизи биргу++ <br> --cat plays-- | ++бизне++ <br> --cat==s==-- |
+| ++бизи биргу++ <br> --cat plays-- | ++бизне++ <br> --cats-- |
 | ++бизи==л== буцив++ <br> --cat caught-- | ++бизна==л==++ <br> --==by== cat==s==-- |
 | ++бизи==ла== риж++ <br> --cat=='s== tail-- | ++бизна==ла==++ <br> --==of== cat==s==-- |
 | ++бизи==й== беччив++ <br> --gave ==to== cat-- | ++бизна==й==++ <br> --==for== cat==s==-- |
@@ -20,11 +20,11 @@ Marked with ++-л++ or ++-ли++ when consonant-final.
 
 1. Agents of transitive verbs:
    - ++ду==л== гьурсанда++  
-     --I will buy.--
+     --I will buy;--
    - ++мургул==ли== цикъу++  
      --man brings;--
    - ++уццба==л== бирул де++  
-     --brothers were doing;--
+     --brothers were doing.--
 2. Nouns of the cause:
    - ++пич==ли== гунал це++  
      --warm ==due to== the stove;--
