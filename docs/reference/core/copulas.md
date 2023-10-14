@@ -2,13 +2,12 @@
 
 There are three copula series in Kaitag language. Let's consider them by their purpose.
 
-#### Summary
-
 |
+| **CHEATSHEET** ||
 | ✅ | ⛔ |
 | ++чяй ==це==++<br> --==is== tea-- | ++чяй ==акку==++ <br> --==is not== tea-- |
-| ++чяй ==би==++ <br> --==there's== tea-- | ++чяй ==бейкку==++ <br> --==no== tea-- |
-| ++чяй ==бел==++ <br> --tea ==left==-- | ++чяй ==абел==++ <br> --==no more== tea-- |
+| ++чяй ==ди==++ <br> --==there's== tea-- | ++чяй ==дейкку==++ <br> --==no== tea-- |
+| ++чяй ==дел==++ <br> --tea ==left==-- | ++чяй ==адел==++ <br> --==no more== tea-- |
 {.bl}
 
 ## Facts & States

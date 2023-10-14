@@ -2,9 +2,8 @@
 
 Kaitag language has 5 cases. Each of them plays a number of roles and some apply to parts of speech other than nouns.
 
-#### Summary
-
 |
+| **CHEATSHEET** ||
 | 🐈 | 🐈🐈🐈 |
 | ++бизи биргу++ <br> --cat plays-- | ++бизне++ <br> --cat==s==-- |
 | ++бизи==л== буцив++ <br> --cat caught-- | ++бизна==л==++ <br> --==by== cat==s==-- |
@@ -33,6 +32,10 @@ Marked with ++-л++ or ++-ли++ when consonant-final.
      --reached ==thanks to== the car;--
    - ++удра==л== велкъун++  
      --got full ==of/by== fruits.--
+
+
+уццил рицци рикул це / аццил рикул да 
+уццил чай дуччу / уцци чайли уччу
 
 ::: info
 When plural nouns take cases other than _absolutive_, the final ++-е++ changes to ++-а++ e.g.:
@@ -79,3 +82,8 @@ The genitive case can be applied to verb preterite as well:
      --I haven't seen him ==since== I arrived;--
    - ++кедерхур==ла== ==тен== варгьид++  
      --I know him ==ever since== we've got enrolled.--
+
+## Miscellaneous
+
+of the little one  
+никӏо==це==ла \ никӏо ==чи==ла

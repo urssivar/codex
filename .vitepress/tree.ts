@@ -52,7 +52,12 @@ export const sidebar = <DefaultTheme.Sidebar>{
     },
     {
       text: "Cookbook",
-      items: [],
+      items: [
+        {
+          text: "Questions",
+          link: "/reference/cookbook/questions",
+        },
+      ],
     },
   ],
   "/library/": [
