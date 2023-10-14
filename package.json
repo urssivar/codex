@@ -1,7 +1,6 @@
 {
   "type": "module",
   "devDependencies": {
-    "@vite-pwa/vitepress": "^0.2.1",
     "vitepress": "^1.0.0-rc.21"
   },
   "scripts": {

@@ -29,7 +29,7 @@ features:
     details: Inline translations, parameterized contexts, audio playback.
   - icon: ⚡
     title: Charged
-    details: Full-text search, offline mode, shareable URLs, source on GitHub.
+    details: Full-text search, offline mode <!--#TODO--> <i>(soon)</i>, shareable URLs, source on GitHub.
 ---
 
 <style>
