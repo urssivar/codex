@@ -29,7 +29,7 @@ The basic series corresponds to _"to be"_ and has two usages:
    - ++ дила гозе ==це==++  
      --[it] ==is== my honey.--
 
-2. Conveying _state_ (often via [adverbial forms](./adverbs)):
+2. Conveying _state_ (often via [adverbial forms](./adverbials)):
    - ++ду улчӏун ==да==++  
      --I ==am== studying;--
    - ++ниша кьанле ==де==++  
@@ -59,7 +59,7 @@ They are used to deny facts:
 ::: details HISTORY
 The past form's consonant alternation is due to the following chain:
 
-⬇️ ++аккви++, where ++аккв++ is the root and ++-и++ is [past habitual](./verb);  
+⬇️ ++аккви++, where ++аккв++ is the root and ++-и++ is [past habitual](./verbs);  
 ⬇️ ++аччви++ — palatalization;  
 ✅ ++аччу++ — delabialization.
 
@@ -204,7 +204,6 @@ Works with the auxiliaries too:
 This table illustrates the actual copula class agreement in speech. The example is for ++би++ (and without the "to be" parts), but the other series work the same:
 
 | :-: | :-: | :-: | :-: | :-: | :-: |
-| sg. ||| pl.|||
-| I | you | he, she, it | we | you | they |
+| I, you, he, she, it | we, you | they |
 | ^[++ви++](masc.), ^[++ри++](fem.), ^[++би++](neut.) ||| ++ди++ || ^[++би++](human), ^[++ди++](non-human) |
 {.bl}
