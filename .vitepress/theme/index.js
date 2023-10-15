@@ -7,7 +7,6 @@ import './styles/vars.css';
 import './styles/general.css';
 import './styles/phrase.css';
 import './styles/tooltip.css';
-import 'floating-vue/dist/style.css';
 
 export default {
     extends: DefaultTheme,
