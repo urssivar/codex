@@ -47,12 +47,14 @@ function renderText(md: MarkdownIt) {
 
 function renderTooltip(md: MarkdownIt) {
   md.use(
-    MdReg(/\^\[(.*?)\]\((.+?)\)/, ([, cont, hint]) =>
-      span(md.renderInline(cont), {
-        "v-tooltip": `{ content: '${md.renderInline(
-          hint
-        )}', html: true, theme: 'hint' }`,
-      })
+    MdReg(
+      /\^\[(.*?)\]\((.+?)\)/,
+      ([, cont, hint]) =>
+        '<VTooltip theme="hint">' +
+        span(md.renderInline(cont)) +
+        "<template v-slot:popper>" +
+        md.renderInline(hint) +
+        "</template></VTooltip>"
     )
   );
 }
