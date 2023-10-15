@@ -47,18 +47,22 @@ function renderText(md: MarkdownIt) {
 
 function renderTooltip(md: MarkdownIt) {
   md.use(
-    MdReg(/\^\[(.*?)\]\((.+?)\)/, ([, cont, hint]) => {
-      return span(md.renderInline(cont), {
-        "v-tooltip": `{ content: '${md.renderInline(hint)}', html: true }`,
-      });
-    })
+    MdReg(/\^\[(.*?)\]\((.+?)\)/, ([, cont, hint]) =>
+      span(md.renderInline(cont), {
+        "v-tooltip": `{ content: '${md.renderInline(
+          hint
+        )}', html: true, theme: 'hint' }`,
+      })
+    )
   );
 }
 
 function renderVoice(md: MarkdownIt) {
   md.use(
     MdReg(/~\[(.*?)\]\((.+?)\)/, ([, cont, url]) => {
-      return `<Voice><source src="${url}">${md.renderInline(cont)}</Voice>`;
+      return `<Voice><source src="${url}">${
+        (cont ? " " : "") + md.renderInline(cont)
+      }</Voice>`;
     })
   );
 }

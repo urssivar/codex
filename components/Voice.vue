@@ -27,7 +27,7 @@ function toggle() {
 <template>
     <span class="root" ref="root" @click="toggle">
         <span>
-            {{ player.isPlaying(_src) ? "⏹️" : "▶️" }}&nbsp;
+            {{ player.isPlaying(_src) ? "⏹️" : "▶️" }}
         </span>
         <slot></slot>
     </span>

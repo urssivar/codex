@@ -2,41 +2,41 @@ table.phrase {
     table-layout: fixed;
     width: 100%;
     display: table !important;
-}
 
-table.phrase td {
-    padding: 4px 8px;
-}
+    & td {
+        padding: 4px 8px;
 
-table.phrase td:first-child {
-    width: 40px;
-}
+        &:first-child {
+            width: 40px;
 
-table.phrase td:first-child>* {
-    display: flex;
-    flex: 1;
-}
+            &>* {
+                display: flex;
+                flex: 1;
+            }
+        }
 
-table.phrase td:nth-child(2) {
-    font-family: 'Roboto Slab', serif;
-}
+        &:nth-child(2) {
+            font-family: 'Roboto Slab', serif;
+        }
 
-table.phrase td:nth-child(3) {
-    font-size: small;
-    color: var(--vp-c-text-2);
-}
+        &:nth-child(3) {
+            font-size: small;
+            color: var(--vp-c-text-2);
+        }
+    }
 
-table.phrase tr {
-    background-color: transparent !important;
-}
+    & tr {
+        background-color: transparent !important;
 
-table.phrase tr,
-table.phrase td {
-    transition: 150ms;
-    border: none !important;
-}
+        &:hover td:nth-child(2) {
+            border-radius: 8px;
+            background-color: var(--vp-c-default-soft);
+        }
+    }
 
-table.phrase tr:hover td:nth-child(2) {
-    border-radius: 8px;
-    background-color: var(--vp-c-default-soft);
+    & tr,
+    & td {
+        transition: 150ms;
+        border: none !important;
+    }
 }
