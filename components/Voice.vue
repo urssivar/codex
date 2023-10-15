@@ -16,12 +16,18 @@ const _src = computed(() => {
     }
     return withBase(src);
 });
+function toggle() {
+    if (player.current?.src == _src.value)
+        player.stop();
+    else
+        player.play(_src.value);
+}
 </script>
 
 <template>
-    <span class="root" ref="root" @click="player.play(_src)">
+    <span class="root" ref="root" @click="toggle">
         <span>
-            {{ player.isPlaying(_src) ? "⏸" : "▶" }}
+            {{ player.isPlaying(_src) ? "⏹️" : "▶️" }}&nbsp;
         </span>
         <slot></slot>
     </span>
