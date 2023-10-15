@@ -1,7 +1,3 @@
-/**
- * Colors
- * -------------------------------------------------------------------------- */
-
 :root {
     --vp-c-brand-1: #00586e;
     --vp-c-brand-2: #2e859c;
@@ -15,44 +11,6 @@
     --vp-c-brand-2: #52b1cc;
     --highlight: #52b1cc50;
 }
-
-/**
- * Component: Custom Block
- * -------------------------------------------------------------------------- */
-/* :root {
-    --vp-custom-block-info-border: var(--vp-c-border);
-    --vp-custom-block-info-text: var(--vp-c-text-2);
-    --vp-custom-block-info-bg: var(--vp-c-default-soft);
-    --vp-custom-block-info-code-bg: var(--vp-c-default-soft);
-
-    --vp-custom-block-tip-border: var(--vp-c-brand-1);
-    --vp-custom-block-tip-text: var(--vp-c-brand-1);
-    --vp-custom-block-tip-bg: tranparent;
-    --vp-custom-block-tip-code-bg: var(--vp-c-default-soft);
-
-    --vp-custom-block-warning-border: var(--vp-c-warning-1);
-    --vp-custom-block-warning-text: var(--vp-c-warning-1);
-    --vp-custom-block-warning-bg: #ffffe777;
-    --vp-custom-block-warning-code-bg: var(--vp-c-warning-soft);
-
-    --vp-custom-block-danger-border: var(--vp-c-danger-1);
-    --vp-custom-block-danger-text: var(--vp-c-danger-1);
-    --vp-custom-block-danger-bg: var(--vp-c-danger-soft);
-    --vp-custom-block-danger-code-bg: #eeeef0;
-}
-
-.dark {
-    --vp-custom-block-warning-border: #827717;
-    --vp-custom-block-warning-text: #EAB306;
-    --vp-custom-block-warning-bg: #323238;
-    --vp-custom-block-warning-code-bg: #323238;
-
-    --vp-custom-block-danger-code-bg: #323238;
-} */
-
-/**
- * Component: Home
- * -------------------------------------------------------------------------- */
 
 :root {
     --vp-home-hero-name-color: transparent;
@@ -72,11 +30,3 @@
         --vp-home-hero-image-filter: blur(72px);
     }
 }
-
-/**
- * Component: Algolia
- * -------------------------------------------------------------------------- */
-/* 
-.DocSearch {
-    --docsearch-primary-color: var(--vp-c-brand) !important;
-} */

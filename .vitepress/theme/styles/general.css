@@ -24,11 +24,16 @@ table.gl tr {
     background-color: transparent !important;
 }
 
+table.gl,
+table.gl tbody {
+    border-style: hidden;
+}
+
 table.gl td {
-    padding-right: 0.4em !important;
     text-align: start !important;
     padding: 0;
-    border: none !important;
+    border-width: 0 1em;
+    border-color: transparent;
 }
 
 table.bl {
