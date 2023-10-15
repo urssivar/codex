@@ -1,7 +1,7 @@
 # Verbs
 
 |
-| **CHEATSHEET** ||
+| **Cheatsheet** ||
 | ++бурс==ара==++ | --to tell-- |
 | ++бурс==не==++ | --telling-- |
 | _Participal_ ||

@@ -3,7 +3,7 @@
 There are three copula series in Kaitag language. Let's consider them by their purpose.
 
 |
-| **CHEATSHEET** ||
+| **Cheatsheet** ||
 | ✅ | ⛔ |
 | ++чяй ==це==++<br> --==is== tea-- | ++чяй ==акку==++ <br> --==is not== tea-- |
 | ++чяй ==ди==++ <br> --==there's== tea-- | ++чяй ==дейкку==++ <br> --==no== tea-- |
@@ -162,7 +162,7 @@ These are words which come after copula or completely overtake ^[++це++](_"to 
 
 1. ++кьал++ — emphasis/presupposition:
    - ++аргул ==кьал==++  
-     --==and you know,== it ==is== working out;--
+     --==you know,== it ==is== working out;--
    - ++дул бирул ==вел да кьал==++  
      --==but== I ==am _still_== doing;--
    - ++ила уцци ==вейкку кьал==++  
@@ -203,7 +203,7 @@ Works with the auxiliaries too:
 
 This table illustrates the actual copula class agreement in speech. The example is for ++би++ (and without the "to be" parts), but the other series work the same:
 
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| I, you, he, she, it | we, you | they |
-| ^[++ви++](masc.), ^[++ри++](fem.), ^[++би++](neut.) ||| ++ди++ || ^[++би++](human), ^[++ди++](non-human) |
+| :-: | :-: | :-: |
+| I, you (sg.), he, she, it | we, you | they |
+| ^[++ви++](masc.), ^[++ри++](fem.), ^[++би++](neut.) | ++ди++ | ^[++би++](human), ^[++ди++](non-human) |
 {.bl}
