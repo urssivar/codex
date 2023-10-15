@@ -1,3 +1,5 @@
+@import url('floating-vue/dist/style.css');
+
 div.v-popper--theme-hint {
     display: inline-block;
 
