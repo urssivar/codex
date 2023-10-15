@@ -1,18 +1,17 @@
 import DefaultTheme from 'vitepress/theme'
-import Popper from "vue3-popper";
-import Tooltip from '@/Tooltip.vue';
+import FloatingVue from 'floating-vue';
 import Context from '@/Context.vue';
 import Voice from '@/Voice.vue';
 
-import './styles/vars.css'
-import './styles/general.css'
-import './styles/phrase.css'
+import './styles/vars.css';
+import './styles/general.css';
+import './styles/phrase.css';
+import 'floating-vue/dist/style.css';
 
 export default {
     extends: DefaultTheme,
     enhanceApp({ app }) {
-        app.component("Popper", Popper);
-        app.component("Tooltip", Tooltip);
+        app.use(FloatingVue);
         app.component("Context", Context);
         app.component("Voice", Voice);
     }
