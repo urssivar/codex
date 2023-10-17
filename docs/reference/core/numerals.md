@@ -1,7 +1,7 @@
 # Numerals
 
 |
-| **Cheatsheet** ||
+| **CHEATSHEET** ||
 | ++угъ==ал==++ <br> --4-- | ++==угъал== гьинце++ <br> --==4== apples-- |
 | ++угъал==ра==++ <br> --4 of-- | --ниса ==угъалра==-- <br> --the ==4 of== us-- |
 | ++угъ==да==++ <br> --4 groups ???-- <br> Can be merged with ^^? |

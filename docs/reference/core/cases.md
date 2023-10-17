@@ -3,7 +3,7 @@
 Kaitag language has 5 cases. Each of them plays a number of roles and some apply to parts of speech other than nouns.
 
 |
-| **Cheatsheet** ||
+| **CHEATSHEET** ||
 | 🐈 | 🐈🐈🐈 |
 | ++бизи биргу++ <br> --cat plays-- | ++бизне++ <br> --cats-- |
 | ++бизи==л== буцив++ <br> --cat caught-- | ++бизна==л==++ <br> --==by== cat==s==-- |

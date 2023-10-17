@@ -15,10 +15,10 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /library/phrasebook/basics/
-    - theme: alt
-      text: See the Grammar
       link: /reference/core/copulas
+    - theme: alt
+      text: Learn the Phrases
+      link: /library/phrasebook/basics/
 
 features:
   - icon: 🚀

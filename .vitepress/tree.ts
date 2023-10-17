@@ -41,8 +41,28 @@ export const sidebar = <DefaultTheme.Sidebar>{
       text: "Core Logic",
       items: [
         {
+          text: "Phonology",
+          link: "/reference/core/phonology",
+        },
+        {
           text: "Copulas",
           link: "/reference/core/copulas",
+        },
+        {
+          text: "Nominals",
+          link: "/reference/core/nominals",
+        },
+        {
+          text: "Adverbials",
+          link: "/reference/core/adverbials",
+        },
+        {
+          text: "Numerals",
+          link: "/reference/core/numerals",
+        },
+        {
+          text: "Verbs",
+          link: "/reference/core/verbs",
         },
         {
           text: "Cases",
@@ -56,6 +76,18 @@ export const sidebar = <DefaultTheme.Sidebar>{
         {
           text: "Questions",
           link: "/reference/cookbook/questions",
+        },
+        {
+          text: "Counting",
+          link: "/reference/cookbook/counting",
+        },
+        {
+          text: "Place",
+          link: "/reference/cookbook/place",
+        },
+        {
+          text: "Time",
+          link: "/reference/cookbook/time",
         },
       ],
     },
