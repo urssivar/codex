@@ -17,7 +17,7 @@ hero:
       text: Get Started
       link: /reference/core/copulas
     - theme: alt
-      text: Learn the Phrases
+      text: Learn the Talk
       link: /library/phrasebook/basics/
 
 features:

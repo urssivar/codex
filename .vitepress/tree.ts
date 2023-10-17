@@ -2,6 +2,11 @@ import { DefaultTheme } from "vitepress/types/shared";
 
 export const nav = <DefaultTheme.NavItem[]>[
   {
+    text: "Guide",
+    link: "/guide/",
+    activeMatch: "/guide/",
+  },
+  {
     text: "Reference",
     link: "/reference/core/copulas",
     activeMatch: "/reference/",
@@ -13,6 +18,18 @@ export const nav = <DefaultTheme.NavItem[]>[
       {
         text: "Phrasebook",
         link: "/library/phrasebook/basics/",
+      },
+      {
+        text: "Dialogues",
+        link: "/library/dialogues/bedtime",
+      },
+      {
+        text: "Poetry",
+        link: "/library/poetry/hurt",
+      },
+      {
+        text: "Prose",
+        link: "/library/prose/raven",
       },
     ],
   },
@@ -95,6 +112,7 @@ export const sidebar = <DefaultTheme.Sidebar>{
   "/library/": [
     {
       text: "Phrasebook",
+      collapsed: true,
       items: [
         {
           text: "Basics",
@@ -104,15 +122,33 @@ export const sidebar = <DefaultTheme.Sidebar>{
     },
     {
       text: "Dialogues",
-      items: [],
+      collapsed: true,
+      items: [
+        {
+          text: "Bedtime",
+          link: "/library/dialogues/bedtime",
+        },
+      ],
     },
     {
       text: "Poetry",
-      items: [],
+      collapsed: true,
+      items: [
+        {
+          text: "Hurt",
+          link: "/library/poetry/hurt",
+        },
+      ],
     },
     {
       text: "Prose",
-      items: [],
+      collapsed: true,
+      items: [
+        {
+          text: "Raven",
+          link: "/library/prose/raven",
+        },
+      ],
     },
   ],
 };
