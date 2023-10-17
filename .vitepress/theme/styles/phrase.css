@@ -14,15 +14,6 @@ table.phrase {
                 flex: 1;
             }
         }
-
-        &:nth-child(2) {
-            font-family: 'Roboto Slab', serif;
-        }
-
-        &:nth-child(3) {
-            font-size: small;
-            color: var(--vp-c-text-2);
-        }
     }
 
     & tr {
