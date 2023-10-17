@@ -103,6 +103,10 @@ export const sidebar = <DefaultTheme.Sidebar>{
       ],
     },
     {
+      text: "Dialogues",
+      items: [],
+    },
+    {
       text: "Poetry",
       items: [],
     },
