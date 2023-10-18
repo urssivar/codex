@@ -42,6 +42,10 @@ export default defineConfig({
         link: "https://t.me/urssivar",
       },
       {
+        icon: "youtube",
+        link: "https://www.youtube.com/@urssivar",
+      },
+      {
         icon: "github",
         link: "https://github.com/alkaitagi/urssivar",
       },
