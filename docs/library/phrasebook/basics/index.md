@@ -1,4 +1,6 @@
-# Basic expressions
+# Soon...
+
+<!-- # Basic expressions
 
 |
 | ~[](./audio/1.m4a) | ++е++ | --yes-- |
@@ -20,7 +22,7 @@
 | ~[](./audio/11.m4a) | ++ягь чирка бигьав!++ | --good morning!-- |
 | ~[](./audio/12.m4a) | ++дучче ягь бигьав++ | --good night-- |
 
-{.phrase}
+{.phrase} -->
 
 <!--
 
