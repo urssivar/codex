@@ -85,6 +85,9 @@ The genitive case can be applied to verb preterite as well:
 
 ## Miscellaneous
 
+#TODO
+къаттей to gorge \ къаттецци into gorge
+
 #TODO  
 of the little one  
 никӏо==це==ла \ никӏо ==чи==ла
