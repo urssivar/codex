@@ -4,12 +4,21 @@ Kaitag language has 5 cases. Each of them plays a number of roles and some apply
 
 |
 | **CHEATSHEET** ||
+| ++-++ <br> --non-transitive-- | ++и де++ <br> --you are-- | ++гьел вярун++ <br> --he went-- |
+| ++-ла++ <br> --'s, of-- | ++уцци==ла== машин++ <br> --brother=='s== car-- | ++мигь==ла== уцца++ <br> --iron door / door of iron-- |
+| ++-л / -ли++ <br> --agent, reason-- | ++уба==л== цакъив++ <br> --==mother== brought-- | ++удра==л== велкъун++ <br> --full by fruits-- |
+| ++-и / -й++ <br> --to, on-- | ++бизна==й== беччив++ <br> --gave ==to== the cats-- | ++пич==и== би++ <br> --it's ==on== the stove-- |
+| ++цци++ <br> --with, by, into-- | ++яшакк==цци== кадара++ <br> --put ==into== the pot-- | ++машин==цци== регъив++ <br> --arrived ==by== car-- |
+{.bl}
+
+|
+| **CHEATSHEET** ||
 | 🐈 | 🐈🐈🐈 |
-| ++бизи биргу++ <br> --cat plays-- | ++бизне++ <br> --cats-- |
-| ++бизи==л== буцив++ <br> --cat caught-- | ++бизна==л==++ <br> --==by== cat==s==-- |
-| ++бизи==ла== риж++ <br> --cat=='s== tail-- | ++бизна==ла==++ <br> --==of== cat==s==-- |
-| ++бизи==й== беччив++ <br> --gave ==to== cat-- | ++бизна==й==++ <br> --==for== cat==s==-- |
-| ++бизи==цци== ви++ <br> --is ==with== cat-- | ++бизна==лцци==++ <br> --==with== cat==s==-- |
+| ++-++ | ++бизи биргу++ <br> --cat plays-- | ++бизне++ <br> --cats-- |
+| ++-ла++ | ++бизи==л== буцив++ <br> --cat caught-- | ++бизна==л==++ <br> --==by== cat==s==-- |
+| ++-л / -ли++ | ++бизи==ла== риж++ <br> --cat=='s== tail-- | ++бизна==ла==++ <br> --==of== cat==s==-- |
+| ++-и / -й++ <br> --to, on-- | ++бизи==й== беччив++ <br> --gave ==to== cat-- | ++бизна==й==++ <br> --==for== cat==s==-- |
+| ++-цци++ <br> --with, by, into-- | ++бизи==цци== ви++ <br> --is ==with== cat-- | ++бизна==лцци==++ <br> --==with== cat==s==-- |
 {.bl}
 
 ## Absolutive
