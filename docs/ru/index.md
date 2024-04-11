@@ -14,7 +14,7 @@ hero:
   actions:
     - theme: brand
       text: Начать
-      link: /reference/core/copulas
+      link: /reference/copulas
     # - theme: alt
     #   text: Learn the Talk
     #   link: /library/phrasebook/basics/
