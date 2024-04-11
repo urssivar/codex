@@ -5,7 +5,7 @@ There are three copula series in Kaitag language.
 |
 | **Cheatsheet** ||
 | ✅ | ⛔ |
-| ++чяй ==це==++<br> --==is== tea-- | ++чяй ==акку==++ <br> --==is not== tea-- |
+| ++чяй ==це==++ <br> --==is== tea-- | ++чяй ==акку==++ <br> --==is not== tea-- |
 | ++чяй ==ди==++ <br> --==there's== tea-- | ++чяй ==дейкку==++ <br> --==no== tea-- |
 | ++чяй ==дел==++ <br> --tea ==left==-- | ++чяй ==адел==++ <br> --==no more== tea-- |
 {.bl}
