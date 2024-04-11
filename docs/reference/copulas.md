@@ -22,7 +22,7 @@ The basic series corresponds to _"to be"_ and has two usages:
 
 1. Denoting _facts_:
 
-   - ++ду Мягьямад ==да==++  
+   - ++ду Мяьямад ==да==++  
      --I ==am== Muhammad--
    - ++и тухтур ==де==++  
      --you ==are== a doctor--
@@ -152,7 +152,7 @@ This is fusion of the positive forms with the negative forms of "to be", e.g.:
 | past | ++бел де++ ||||
 {.bl}
 
-::: warning Внимание
+::: warning Attention
 
 Just like the previous two, this one too has class agreement: ++бел++, ++вел++, ++рел++, ++дел++.
 
