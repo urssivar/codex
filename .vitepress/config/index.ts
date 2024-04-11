@@ -52,7 +52,7 @@ export default defineConfig({
 
   locales: {
     root: { label: 'English', ...en },
-    ru: { label: 'Russian', ...ru }
+    ru: { label: 'Русский', ...ru }
   },
 
   markdown: {
