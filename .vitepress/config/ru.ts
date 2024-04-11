@@ -52,7 +52,7 @@ function nav(): DefaultTheme.NavItem[] {
     return [
         {
             text: "Справочник",
-            link: "/ru/reference/copulas/",
+            link: "/ru/reference/copulas",
             activeMatch: "/ru/reference/",
         },
         // {
@@ -87,7 +87,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
             items: [
                 {
                     text: 'Связки',
-                    link: 'copulas/'
+                    link: 'copulas'
                 },
             ]
         }

@@ -4,7 +4,7 @@ div.v-popper--theme-hint {
     display: inline-block;
 
     >span:first-child {
-        text-decoration: underline dotted;
+        text-decoration: underline;
         text-decoration-color: var(--vp-c-divider);
         text-underline-offset: .5em;
 

@@ -34,7 +34,7 @@ function nav(): DefaultTheme.NavItem[] {
     return [
         {
             text: "Reference",
-            link: "/reference/copulas/",
+            link: "/reference/copulas",
             activeMatch: "/reference/",
         },
         // {
@@ -69,7 +69,7 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
             items: [
                 {
                     text: 'Copulas',
-                    link: 'copulas/'
+                    link: 'copulas'
                 },
             ]
         }
