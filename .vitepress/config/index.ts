@@ -1,6 +1,6 @@
 import { defineConfig } from "vitepress";
 import path from "path";
-import { telegramSvg } from "./icons";
+import { telegramSvg } from "../theme/icons";
 import configureMarkdown from "../markdown";
 import { en } from './en'
 import { ru } from './ru'
