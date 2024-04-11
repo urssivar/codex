@@ -23,7 +23,6 @@ export default defineConfig({
     },
     assetsInclude: ["**/*.m4a"],
   },
-  base: "/urssivar/",
   head: [["link", { rel: "icon", href: "favicon.png", sizes: "any" }]],
 
   title: "Urssivar",

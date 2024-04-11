@@ -1,6 +1,7 @@
 {
   "type": "module",
   "devDependencies": {
+    "@types/node": "^20.12.7",
     "vitepress": "^1.0.0-rc.21"
   },
   "scripts": {
@@ -9,14 +10,14 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
-    "@types/markdown-it": "^12.2.3",
+    "@types/markdown-it": "^14.0.0",
     "@types/markdown-it-attrs": "^4.1.0",
-    "@types/markdown-it-container": "^2.0.5",
-    "floating-vue": "^2.0.0-beta.24",
+    "@types/markdown-it-container": "^2.0.10",
+    "floating-vue": "^5.2.2",
     "howler": "^2.2.4",
     "markdown-it-attrs": "^4.1.6",
     "markdown-it-bracketed-spans": "^1.0.1",
-    "markdown-it-container": "^3.0.0",
+    "markdown-it-container": "^4.0.0",
     "markdown-it-multimd-table": "^4.2.3",
     "markdown-it-regexp": "^0.4.0"
   }
