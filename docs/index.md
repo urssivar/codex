@@ -15,21 +15,21 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /reference/core/copulas
-    - theme: alt
-      text: Learn the Talk
-      link: /library/phrasebook/basics/
+      link: /reference/copulas/
+    # - theme: alt
+    #   text: Learn the Talk
+    #   link: /library/phrasebook/basics/
 
 features:
   - icon: 🚀
-    title: Hands-on
-    details: Minimalistic approach, aim at fast & practical usage.
-  - icon: 🖱️
+    title: Pratical
+    details: Opinionated & minimalistic for swift hands-on use.
+  - icon: 🖐️
     title: Interactive
-    details: Inline translations, parameterized contexts, audio playback.
+    details: Inline translations, contextual examples, audio playback.
   - icon: ⚡
     title: Charged
-    details: Full-text search, offline mode <!--#TODO--> <i>(soon)</i>, shareable URLs, source on GitHub.
+    details: Full-text search, offline mode <!--#TODO--> <i>(soon)</i>, shareable URLs.
 ---
 
 <style>

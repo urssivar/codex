@@ -7,7 +7,7 @@ Kaitag language has 5 cases. Each of them plays a number of roles and some apply
 | ++-++ <br> --non-transitive-- | ++и де++ <br> --you are-- | ++гьел вярун++ <br> --he went-- |
 | ++-ла++ <br> --'s, of-- | ++уцци==ла== машин++ <br> --brother=='s== car-- | ++мигь==ла== уцца++ <br> --iron door / door of iron-- |
 | ++-л / -ли++ <br> --agent, reason-- | ++уба==л== цакъив++ <br> --==mother== brought-- | ++удра==л== велкъун++ <br> --full by fruits-- |
-| ++-и / -й++ <br> --to, on-- | ++бизна==й== беччив++ <br> --gave ==to== the cats-- | ++пич==и== би++ <br> --it's ==on== the stove-- |
+| ++-и / -й++ <br> --to, on-- | ++бизна==й== беччив++ <br> --gave ==to== the cats-- | ++усттул==и== би++ <br> --it's ==on== the table-- |
 | ++цци++ <br> --with, by, into-- | ++яшакк==цци== кадара++ <br> --put ==into== the pot-- | ++машин==цци== регъив++ <br> --arrived ==by== car-- |
 {.bl}
 
@@ -42,7 +42,8 @@ Marked with ++-л++ or ++-ли++ when consonant-final.
    - ++удра==л== велкъун++  
      --got full ==of/by== fruits.--
 
-#TODO
+# TODO
+
 уццил рицци рикул це / аццил рикул да
 уццил чай дуччу / уцци чайли уччу
 
@@ -94,9 +95,11 @@ The genitive case can be applied to verb preterite as well:
 
 ## Miscellaneous
 
-#TODO
+-#TODO
+
 къаттей to gorge \ къаттецци into gorge
 
-#TODO  
+-#TODO  
+
 of the little one  
 никӏо==це==ла \ никӏо ==чи==ла

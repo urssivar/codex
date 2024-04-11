@@ -1,4 +1,4 @@
-# Adjectives
+# Adjectives & Adverbs
 
 - ++музи удар++  
   --a sweet fruit--

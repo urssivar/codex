@@ -1,8 +1,10 @@
 import { defineConfig } from "vitepress";
 import path from "path";
 import { telegramSvg } from "./icons";
-import { nav, sidebar } from "./tree";
-import configureMarkdown from "./markdown";
+import configureMarkdown from "../markdown";
+import { en } from './en'
+import { ru } from './ru'
+
 
 export default defineConfig({
   srcDir: "./docs",
@@ -16,7 +18,7 @@ export default defineConfig({
   vite: {
     resolve: {
       alias: {
-        "@": path.resolve(__dirname, "../components"),
+        "@": path.resolve(__dirname, "../../components"),
       },
     },
     assetsInclude: ["**/*.m4a"],
@@ -25,7 +27,6 @@ export default defineConfig({
   head: [["link", { rel: "icon", href: "favicon.png", sizes: "any" }]],
 
   title: "Urssivar",
-  description: "Kaitag Standard",
   themeConfig: {
     logo: {
       light: "/logo-light.png",
@@ -34,8 +35,6 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-    nav: nav,
-    sidebar: sidebar,
     socialLinks: [
       {
         icon: { svg: telegramSvg },
@@ -50,6 +49,11 @@ export default defineConfig({
         link: "https://github.com/urssivar/urssivar",
       },
     ],
+  },
+
+  locales: {
+    root: { label: 'English', ...en },
+    ru: { label: 'Russian', ...ru }
   },
 
   markdown: {
