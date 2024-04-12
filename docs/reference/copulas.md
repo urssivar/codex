@@ -107,7 +107,7 @@ And also for additional emphasis at a *particular moment*:
 
 ### Absence
 
-The negative counterparts have classes and their person & time agreement is also irregular:
+The negative counterparts have classes and also their person & time agreement is irregular:
 
 <Context :options="['masc.', 'fem.', 'neut.']">
 
@@ -149,7 +149,7 @@ This may be fusion of the positive forms with the negative forms of "to be", e.g
 
 | :-: | :-: | :-: | :-: | :-: | :-: |
 | | I | we | you (sg.) | you | he, she, it, they |
-| present | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==да==++ | ++дел ==да==++ | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==де==++  | ++дел да++ |++[бел]{c=0}[бел]{c=1}[дел]{c=2}++  |
+| present | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==да==++ | ++дел ==да==++ | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==де==++  | ++дел ==да==++ |++[бел]{c=0}[бел]{c=1}[дел]{c=2}++  |
 | past |  ++^[вел](m.)~^[рел](f.)~^[бел](n., f.~m. pl.)~^[дел](n. pl., 1st~2nd p. pl.) ==де==++ |||||
 {.bl}
 
@@ -164,7 +164,7 @@ The third series could mean *"still"* or even the perfect continious tense:
 - ++марка ==бел==++  
   --==[it's] still== raining--
 
-It is negated via the regular verbal prefix ++а-++:
+It's negated via the regular verbal prefix ++а-++:
 
 - ++уцци улчьун ==авел==++  
   --brother ==is no longer== studying--
@@ -173,7 +173,7 @@ It is negated via the regular verbal prefix ++а-++:
 
 ::: info Note
 
-In speech the prefixed form is pronounced as *"ebel"* due to the vowel assimilation. It happens with the verbs as well.
+In speech the prefixed form is pronounced as *"ebel"* due to the vowel assimilation. It happens with verbs as well.
 
 :::
 
