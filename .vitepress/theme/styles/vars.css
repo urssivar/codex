@@ -2,14 +2,14 @@
     --vp-c-brand-1: #00586e;
     --vp-c-brand-2: #2e859c;
     --vp-c-brand-3: #2c7f95;
-    --highlight: #52b1cc40;
+    --highlight: #52b1cc50;
 
 }
 
 .dark {
     --vp-c-brand-1: #4ba8c2;
     --vp-c-brand-2: #52b1cc;
-    --highlight: #52b1cc50;
+    --highlight: #52b1cc80;
 }
 
 :root {
