@@ -2,6 +2,7 @@
 import { ref, onMounted, watch } from 'vue';
 const props = defineProps<{
     options?: string[],
+    caption?: string,
 }>();
 
 const root = ref<HTMLElement>();
@@ -42,11 +43,24 @@ onMounted(() => {
 });
 </script>
 
+
+<!-- 
+<Context :options="['masc.', 'fem.']">
+
+++[уцци]{c=0 h=b} [рицци]{c=1 h=s} [хъили]{h=h} [ви]{c=0 h=i} [ри]{c=1 h=i}++  
+--[brother]{c=0 h=b} [sister]{c=1 h=s} [is]{h=i} [at home]{h=h}--
+
+</Context>
+-->
+
 <template>
     <span ref="root" id="root">
         <slot></slot>
     </span>
     <div v-if="options" id="buttons">
+        <span id="caption" v-if="caption">
+            {{ caption }}
+        </span>
         <button v-for="f, i in options" :class="{ active: i == optionIndex }" v-on:click="optionIndex = i">
             {{ f }}
         </button>
@@ -62,6 +76,12 @@ onMounted(() => {
     display: flex;
     gap: 4px;
     margin-top: 6px;
+}
+
+#caption {
+    color: var(--vp-c-text-2);
+    font-size: small;
+    font-weight: 500;
 }
 
 button {
