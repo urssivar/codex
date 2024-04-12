@@ -39,7 +39,7 @@ The basic series corresponds to *"to be"* and has two usages:
 
 ::: info Note
 
-The form ++це++ has a variant ++ца++. And many villages use the full form ++ца==би==++ that has class agreement, which we don't consider here for simplicity.
+Instead of ++ца++ many villages use the old form ++ца==би==++ with class agreement. It's used somewhat differently and we don't consider it here for simplicity.
 
 :::
 
