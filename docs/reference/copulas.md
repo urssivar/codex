@@ -27,7 +27,7 @@ The basic series corresponds to *"to be"* and has two usages:
    - ++и тухтур ==де==++  
      --you ==are== a doctor--
    - ++ дила гоза ==це==++  
-     --[this] ==is== my honey--
+     --the honey ==is== mine--
 
 2. Conveying a *state*, often via adverbs: <!-- #TODO link -->
    - ++ду улчьун ==да==++  
