@@ -1,2 +1,3 @@
-# urssivar
-Documentation for Urssivar Kaitag Language Standard
+# Urssivar Codex
+
+Documentation for Urssivar Kaitag Language Standard.
