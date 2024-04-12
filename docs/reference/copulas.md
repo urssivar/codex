@@ -1,6 +1,6 @@
 # Copulas
 
-There are three copula series in Kaitag language.
+Kaitag has three copula series, they roughly mean *"to be"*, *"to have"*, and *"to still have"*.
 
 |
 | **Cheatsheet** ||
@@ -10,7 +10,7 @@ There are three copula series in Kaitag language.
 | ++чяй ==дел==++ <br> --tea ==left==-- | ++чяй ==адел==++ <br> --==no more== tea-- |
 {.bl}
 
-## Facts & States
+## Facts
 
 | :-: | :-: | :-: | :-: | :-: |
 | | I, we | you (sg.) | you | he, she, it, they |
@@ -18,18 +18,18 @@ There are three copula series in Kaitag language.
 | past | ++де++ ||||
 {.bl}
 
-The basic series corresponds to _"to be"_ and has two usages:
+The basic series corresponds to *"to be"* and has two usages:
 
-1. Denoting _facts_:
+1. Denoting a *fact*:
 
    - ++ду Мяьямад ==да==++  
      --I ==am== Muhammad--
    - ++и тухтур ==де==++  
      --you ==are== a doctor--
-   - ++ дила гозе ==це==++  
+   - ++ дила гоза ==це==++  
      --[this] ==is== my honey--
 
-2. Conveying _state_, often via adverbial words: <!-- #TODO link -->
+2. Conveying a *state*, often via adverbs: <!-- #TODO link -->
    - ++ду улчьун ==да==++  
      --I ==am== studying--
    - ++ниша ҡьанле ==де==++  
@@ -39,13 +39,13 @@ The basic series corresponds to _"to be"_ and has two usages:
 
 ::: info Note
 
-Many villages use the full form ++цаби++ with the class agreement. For simplicity we consider the class-less innivation ++це++.
+The form ++це++ has a variant ++ца++. And many villages use the full form ++ца==би==++ that has class agreement, which we don't consider here for simplicity.
 
 :::
 
 ### Negation
 
-This copula has irregular negative counterparts:
+The negative counterparts, *"to be not"*:
 
 | :-: | :-: | :-: | :-: | :-: |
 | | I, we | you (sg.) | you | he, she, it, they |
@@ -53,18 +53,16 @@ This copula has irregular negative counterparts:
 | past | ++аччу++ ||||
 {.bl}
 
-These are used like the particle "not":
-
 - ++ду тухтур ==аккод==++  
   --I ==am not== a doctor--
-- ++ьеж гоза дила ==акку==++  
-  --that honey ==is not== mine--
+- ++дила гоза ==акку==++  
+  --==not== my honey--
 - ++ниша ҡьанле ==аччу==++  
   --you ==were not== late--
 
 ::: details History
 
-The past form's consonant alternation is due to the following chain:
+The past form's consonant alternation is due to the following historical chain:
 
 ⬇️ ++аккви++, where ++аккв++ is the root and ++-и++ is past habitual<!-- #TODO link -->;  
 ⬇️ ++аччви++ — palatalization;  
@@ -74,19 +72,22 @@ The past form's consonant alternation is due to the following chain:
 
 ## Presence
 
-| :-: | :-: | :-: | :-: | :-: |
-| | I, we | you (sg.) | you | he, she, it, they |
-| present | ++би да++ | ++би де++ | ++би да++ | ++би++ |
-| past | ++би де++ ||||
+<Context :options="['masc.', 'fem.', 'neut.']">
+
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| | I | we | you (sg.) | you | he, she, it, they |
+| present | ++[ви]{c=0}[ри]{c=1}[би]{c=2} ==да==++ | ++ди ==да==++ | ++[ви]{c=0}[ри]{c=1}[би]{c=2} ==де==++ | ++ди ==да==++ | ++[би]{c=0}[би]{c=1}[ди]{c=2}++ |
+| past |  ++^[ви](m.)~^[ри](f.)~^[би](n., f.~m. pl.)~^[ди](n. pl., 1st~2nd p. pl.) ==де==++ |||||
 {.bl}
 
-::: warning Attention
+</Context>
 
-This follows class agreement: ^[++ви++](masc.), ^[++ри++](fem.), ^[++би++](neut., f. & m. pl.), ^[++ди++](n. pl., 1st & 2nd person pl.). We omit it here not to overload the table, but please omitted see it [below](#classes)).
+There are two important things:
 
-:::
+1. The copula follows class-person agreement. Switch the buttons under the table and see it in action. Remember that class ++д-++ is fixed for 1st & 2nd person plural. <!-- #TODO link -->
+2. We add *"to be"* forms ++да++ & ++де++ to show the person & time agreement, except for the 3rd person present. The other copulas follow this scheme as well.
 
-This copula is mainly used for presence & possession:
+We use this series for *presence* & *possession*:
 
 - ++дила рицци ==ри==++  
   --I ==have== a sister--
@@ -95,16 +96,10 @@ This copula is mainly used for presence & possession:
 - ++ҡил гоза ==би де==++  
   --[there] ==was== honey at home--
 
-::: tip Tip
+And also for additional emphasis at a *particular moment*:
 
-The person & time agreement is marked by adding the corresponding _"to be"_ forms, except for the 3rd person where it's zero. The other copulas follow this way as well.
-
-:::
-
-But also for additional emphasis at a particular moment:
-
-- ++рирси убацци рарх ==ри==++  
-  --daughter ==is [currently]== with mother--
+- ++рицци ҡил ==ри==++  
+  --sister ==is [currently]== at home--
 - ++ниса дулшун ==ди да==++  
   --we ==are [actively]== working--
 - ++ду цяун ==ви да==++  
@@ -112,19 +107,17 @@ But also for additional emphasis at a particular moment:
 
 ### Absence
 
-The irregular negative counterparts are:
+The negative counterparts have classes and their person & time agreement is also irregular:
 
-| :-: | :-: | :-: | :-: | :-: |
-| | I, we | you (sg.) | you | he, she, it, they |
-| present | ++бейккод++ | ++бейккотте++ | ++бейккотта++ | ++бейкку++ |
-| past | ++бейччу++ ||||
+<Context :options="['masc.', 'fem.', 'neut.']">
+
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| | I | we | you (sg.) | you | he, she, it, they |
+| present | ++[вей]{c=0}[рей]{c=1}[бей]{c=2}ккод++ | ++дейккод++ | ++[вей]{c=0}[рей]{c=1}[бей]{c=2}ккотте++ | ++дейккотта++ | ++[бей]{c=0}[бей]{c=1}[дей]{c=2}кку++ |
+| past |  ++^[вейччу](m.)~^[рейччу](f.)~^[бейччу](n., f.~m. pl.)~^[дейччу](n. pl., 1st~2nd p. pl.)++ |||||
 {.bl}
 
-::: warning Attention
-
-This copula too has class agreement: ++бейкку++, ++вейкку++, ++рейкку++, ++дейкку++.
-
-:::
+</Context>
 
 They convey absence:
 
@@ -135,9 +128,15 @@ They convey absence:
 - ++ижал марка ==бейччу==++  
   --[there] ==was no== rain today--
 
+::: info Note
+
+Some villages use the variants with ++-а-++: ++байкку++, ++дайккод++, ++вайччу++, etc.
+
+:::
+
 ::: details History
 
-This is fusion of the positive forms with the negative forms of "to be", e.g.:
+This may be fusion of the positive forms with the negative forms of "to be", e.g.:
 
 - ++бейккотте++ ⬅️ ++би++ + ++аккотте++;
 - ++бейччу++ ⬅️ ++би++ + ++аччу++.
@@ -146,19 +145,17 @@ This is fusion of the positive forms with the negative forms of "to be", e.g.:
 
 ## Availability
 
-| :-: | :-: | :-: | :-: | :-: |
-| | I, we | you (sg.) | you | he, she, it, they |
-| present | ++бел да++ | ++бел де++ | ++бел да++ | ++бел++ |
-| past | ++бел де++ ||||
+<Context :options="['masc.', 'fem.', 'neut.']">
+
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| | I | we | you (sg.) | you | he, she, it, they |
+| present | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==да==++ | ++дел ==да==++ | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==де==++  | ++дел да++ |++[бел]{c=0}[бел]{c=1}[дел]{c=2}++  |
+| past |  ++^[вел](m.)~^[рел](f.)~^[бел](n., f.~m. pl.)~^[дел](n. pl., 1st~2nd p. pl.) ==де==++ |||||
 {.bl}
 
-::: warning Attention
+</Context>
 
-Just like the previous two, this one too has class agreement: ++бел++, ++вел++, ++рел++, ++дел++.
-
-:::
-
-The third series roughly means "to have been":
+The third series could mean *"still"* or even the perfect continious tense:
 
 - ++ду ҡил ==рел да==++  
   --I ==am still== at home--
@@ -171,17 +168,14 @@ It is negated via the regular verbal prefix ++а-++:
 
 - ++уцци улчьун ==авел==++  
   --brother ==is no longer== studying--
-- ++са гоза ==абел де==++  
-  --yesterday [there] ==was no more== honey--
+- ++ҡил гоза ==абел де==++  
+  --[there] ==was no more== honey at home--
 
-## Classes
+::: info Note
 
-This table illustrates the actual copula class agreement in speech. The example is for ++би++, the other words with classes work the same.
+In speech the prefixed form is pronounced as *"ebel"* due to the vowel assimilation. It happens with the verbs as well.
 
-| :-: | :-: | :-: | :-: | :-: | :-: |
-| I, you (sg.) | he | she | it | we, you | they |
-| ^[++==в==и++](m.), ^[++==р==и++](f.) | ++==в==и++ | ++==р==и++ | ++==б==и++ | ++==д==и++ | ^[++==б==и++](m., f.), ^[++==д==и++](n.) |
-{.bl}
+:::
 
 <!-- ## Miscellaneous
 

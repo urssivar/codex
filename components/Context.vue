@@ -2,7 +2,6 @@
 import { ref, onMounted, watch } from 'vue';
 const props = defineProps<{
     options?: string[],
-    caption?: string,
 }>();
 
 const root = ref<HTMLElement>();
@@ -58,9 +57,6 @@ onMounted(() => {
         <slot></slot>
     </span>
     <div v-if="options" id="buttons">
-        <span id="caption" v-if="caption">
-            {{ caption }}
-        </span>
         <button v-for="f, i in options" :class="{ active: i == optionIndex }" v-on:click="optionIndex = i">
             {{ f }}
         </button>
@@ -76,12 +72,6 @@ onMounted(() => {
     display: flex;
     gap: 4px;
     margin-top: 6px;
-}
-
-#caption {
-    color: var(--vp-c-text-2);
-    font-size: small;
-    font-weight: 500;
 }
 
 button {
