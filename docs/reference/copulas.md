@@ -10,7 +10,7 @@ Kaitag has three copula series, which roughly mean *"to be"*, *"to have"*, and *
 | ++чяй ==дел==++ <br> --tea ==left==-- | ++чяй ==адел==++ <br> --==no more== tea-- |
 {.bl}
 
-::: details Словарик
+::: details Glossary
 
 |
 | ++ду++, ++дила++ | --I, my-- |
