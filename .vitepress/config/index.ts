@@ -23,7 +23,10 @@ export default defineConfig({
     },
     assetsInclude: ["**/*.m4a"],
   },
-  head: [["link", { rel: "icon", href: "favicon.png", sizes: "any" }]],
+  head: [
+    ["link", { rel: "icon", href: "logo-light.png",media: "(prefers-color-scheme: light)"}],
+    ["link", { rel: "icon", href: "logo-dark.png",media: "(prefers-color-scheme: dark)"}],
+  ],
 
   title: "Urssivar",
   themeConfig: {
