@@ -1,10 +1,10 @@
 # Copulas
 
-Kaitag has three copula series, which roughly mean *"to be"*, *"to have"*, and *"to have been"*.
+Kaitag has three copula series, which roughly mean *"to be"*, *"to have"*, and *"to still been"*.
 
 |
 | **Cheatsheet** ||
-| ✅ | ⛔ |
+| ✅ | ❎ |
 | ++чяй ==це==++ <br> --==is== tea-- | ++чяй ==акку==++ <br> --==is not== tea-- |
 | ++чяй ==ди==++ <br> --==there's== tea-- | ++чяй ==дейкку==++ <br> --==no== tea-- |
 | ++чяй ==дел==++ <br> --tea ==left==-- | ++чяй ==адел==++ <br> --==no more== tea-- |
