@@ -1,6 +1,6 @@
 # Copulas
 
-Kaitag has three copula series, they roughly mean *"to be"*, *"to have"*, and *"to still have"*.
+Kaitag has three copula series, which roughly mean *"to be"*, *"to have"*, and *"to have been"*.
 
 |
 | **Cheatsheet** ||
@@ -10,7 +10,23 @@ Kaitag has three copula series, they roughly mean *"to be"*, *"to have"*, and *"
 | ++чяй ==дел==++ <br> --tea ==left==-- | ++чяй ==адел==++ <br> --==no more== tea-- |
 {.bl}
 
-## Facts
+::: details Словарик
+
+|
+| ++ду++, ++дила++ | --I, my-- |
+| ++и++, ++ила++ | --you, your-- |
+| ++ниса++ | --we-- |
+| ++чяй++ | --tea-- |
+| ++ҡил++ | --at home-- |
+| ++разил++ | --glad, happy-- |
+| ++тухтур++ | --doctor-- |
+| ++рирси++ | --girl, daughter-- |
+| ++улшун++ | --working-- |
+{.gl}
+
+:::
+
+## 1. Facts
 
 | :-: | :-: | :-: | :-: | :-: |
 | | I, we | you (sg.) | you | he, she, it, they |
@@ -18,32 +34,38 @@ Kaitag has three copula series, they roughly mean *"to be"*, *"to have"*, and *"
 | past | ++де++ ||||
 {.bl}
 
-The basic series corresponds to *"to be"* and has two usages:
+The basic series corresponds to *"to be"* and mainly used for:
 
-1. Denoting a *fact*:
+1. Stating a *fact*:
 
-   - ++ду Мяьямад ==да==++  
-     --I ==am== Muhammad--
-   - ++и тухтур ==де==++  
-     --you ==are== a doctor--
-   - ++ дила гоза ==це==++  
-     --the honey ==is== mine--
+   - ++ду тухтур ==да==++  
+     --I ==am== a doctor--
+   - ++и рирси ==де==++  
+     --you ==are== a girl--
+   - ++дила чяй ==це==++  
+     --[that] ==is== my tea--
 
-2. Conveying a *state*, often via adverbs: <!-- #TODO link -->
-   - ++ду улчьун ==да==++  
-     --I ==am== studying--
-   - ++ниша ҡьанле ==де==++  
-     --you ==were== late--
-   - ++дам гунал ==це==++  
-     --I ==am== warm \ it's warm to me--
+2. Expressing a *state*, often via adverbs: <!-- #TODO link -->
+   - ++ду улшун ==да==++  
+     --I ==am== working--
+   - ++ниса разил ==де==++  
+     --we ==were== glad--
+   - ++рирси ҡил ==це==++  
+     --daughter ==is== at home--
 
-::: info Note
+::: warning Attention
 
-Instead of ++ца++ many villages use the old form ++ца==би==++ with class agreement. Its application is somewhat different and we don't consider it here for simplicity.
+The form ++де++ is the used for both the 2nd singular and the past.
 
 :::
 
-### Negation
+::: info Note
+
+Instead of ++це++ many villages use the old form ++ца==би==++ with class agreement. Its application is somewhat different and we don't consider it here for simplicity.
+
+:::
+
+### 1.1 Negation
 
 The negative counterparts, *"to be not"*:
 
@@ -55,22 +77,12 @@ The negative counterparts, *"to be not"*:
 
 - ++ду тухтур ==аккод==++  
   --I ==am not== a doctor--
-- ++дила гоза ==акку==++  
-  --==not== my honey--
-- ++ниша ҡьанле ==аччу==++  
-  --you ==were not== late--
+- ++и разил ==аккотте==++  
+  --you ==are not== happy--
+- ++дила машин ==аччу==++  
+  --[that] ==wasn't== my car--
 
-::: details History
-
-The past form's consonant alternation is due to the following historical chain:
-
-⬇️ ++аккви++, where ++аккв++ is the root and ++-и++ is past habitual<!-- #TODO link -->;  
-⬇️ ++аччви++ — palatalization;  
-✅ ++аччу++ — delabialization.
-
-:::
-
-## Presence
+## 2 Presence
 
 <Context :options="['masc.', 'fem.', 'neut.']">
 
@@ -84,30 +96,28 @@ The past form's consonant alternation is due to the following historical chain:
 
 There are two important things:
 
-1. The copula follows class-person agreement. Switch the buttons under the table and see it in action. Remember that class ++д-++ is fixed for 1st & 2nd person plural. <!-- #TODO link -->
-2. We add *"to be"* forms ++да++ & ++де++ to show the person & time agreement, except for the 3rd person present. The other copulas follow this scheme as well.
+1. The copula follows class-person agreement, which you can play with using the buttons under the table. Note that 1st & 2nd person plurals always use class ++д-++. <!-- #TODO link -->
+2. We add *"to be"* forms ++да++ & ++де++ to show the person & time agreement, except for the 3rd person present. The other copulas follow this as well.
 
 We use this series for *presence* & *possession*:
 
-- ++дила рицци ==ри==++  
-  --I ==have== a sister--
-- ++баре ==би==++  
-  --[there] ==is== sun (i.e. it's sunny)--
-- ++ҡил гоза ==би де==++  
-  --[there] ==was== honey at home--
+- ++тухтур ==ви==++  
+  --==[there] is== a doctor--
+- ++дила рирси ==ри==++  
+  --I ==have== a daughter (i.e. there's my daughter)--
+- ++ҡил чяй ==ди де==++  
+  --[there] ==was== tea at home--
 
-And also for additional emphasis at a *particular moment*:
+And also for additional emphasis on a *particular moment*:
 
-- ++рицци ҡил ==ри==++  
-  --sister ==is [currently]== at home--
+- ++машин ҡил ==би==++  
+  --the car ==is [currently]== at home--
 - ++ниса дулшун ==ди да==++  
-  --we ==are [actively]== working--
-- ++ду цяун ==ви да==++  
-  --I ==have [just]== came--
+  --we ==are== working ==[right now]==--
 
-### Absence
+### 2.1 Absence
 
-The negative counterparts have classes and also their person & time agreement is irregular:
+The negative counterparts are irregular and have classes as well:
 
 <Context :options="['masc.', 'fem.', 'neut.']">
 
@@ -121,12 +131,12 @@ The negative counterparts have classes and also their person & time agreement is
 
 They convey absence:
 
-- ++ниша ҡил ==дейккотта==++  
-  --you ==are absent== from home--
-- ++ила машин ==бейкку==++  
-  --you ==don't have== a car--
-- ++ижал марка ==бейччу==++  
-  --[there] ==was no== rain today--
+- ++и ҡил ==вейккотте==++  
+  --you ==are not== at home--
+- ++дила машин ==бейкку==++  
+  --I ==don't have== a car--
+- ++ҡил чяй ==дейччу==++  
+  --[there] ==was no== tea at home--
 
 ::: info Note
 
@@ -134,16 +144,7 @@ Some villages use the variants with ++-а-++: ++байкку++, ++дайккод
 
 :::
 
-::: details History
-
-This may be fusion of the positive forms with the negative forms of "to be", e.g.:
-
-- ++бейккотте++ ⬅️ ++би++ + ++аккотте++;
-- ++бейччу++ ⬅️ ++би++ + ++аччу++.
-
-:::
-
-## Availability
+## 3 Availability
 
 <Context :options="['masc.', 'fem.', 'neut.']">
 
@@ -157,19 +158,19 @@ This may be fusion of the positive forms with the negative forms of "to be", e.g
 
 The third series could mean *"still"* or even the perfect continious tense:
 
-- ++ду ҡил ==рел да==++  
-  --I ==am still== at home--
-- ++уцци улчьун ==вел==++  
-  --brother ==has been== studying--
-- ++марка ==бел==++  
-  --==[it's] still== raining--
+- ++ниса ҡил ==дел да==++  
+  --we ==are still== at home--
+- ++дила машин ==бел==++  
+  --I ==still have== a car--
+- ++тухтур улшун ==вел==++  
+  --the doctor ==has been== working--
 
 It's negated via the regular verbal prefix ++а-++:
 
-- ++уцци улчьун ==авел==++  
-  --brother ==is no longer== studying--
-- ++ҡил гоза ==абел де==++  
-  --[there] ==was no more== honey at home--
+- ++дила машин ==абел==++  
+  --I ==no longer have== a car--
+- ++ҡил чяй ==адел де==++  
+  --[there] ==was no more== tea at home--
 
 ::: info Note
 
