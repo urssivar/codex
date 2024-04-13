@@ -104,7 +104,7 @@ We use this series for *presence* & *possession*:
 - ++тухтур ==ви==++  
   --==[there] is== a doctor--
 - ++дила рирси ==ри==++  
-  --I ==have== a daughter (i.e. there's my daughter)--
+  --I ==have== a daughter *(i.e. there's my daughter)*--
 - ++ҡил чяй ==ди де==++  
   --[there] ==was== tea at home--
 
@@ -161,7 +161,7 @@ The third series could mean *"still"* or even the perfect continious tense:
 - ++ниса ҡил ==дел да==++  
   --we ==are still== at home--
 - ++дила машин ==бел==++  
-  --I ==still have== a car--
+  --I ==still have== a car *(i.e. my car still is)*--
 - ++тухтур улшун ==вел==++  
   --the doctor ==has been== working--
 
