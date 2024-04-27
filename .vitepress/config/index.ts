@@ -4,9 +4,11 @@ import { telegramSvg } from "../theme/icons";
 import configureMarkdown from "../markdown";
 import { en } from './en'
 import { ru } from './ru'
+import { withPwa } from '@vite-pwa/vitepress'
+import { pwa } from './pwa'
 
 
-export default defineConfig({
+export default withPwa(defineConfig({
   srcDir: "./docs",
   vue: {
     template: {
@@ -61,4 +63,6 @@ export default defineConfig({
   markdown: {
     config: configureMarkdown,
   },
-});
+
+  pwa,
+}));
