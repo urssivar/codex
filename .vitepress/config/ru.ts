@@ -4,6 +4,13 @@ export const ru = defineConfig({
     lang: 'ru-RU',
     description: 'Кайтагский языковой стандарт',
 
+    head: [
+        ['meta', {
+            name: 'keywords',
+            content: 'кайтаг, кайтагский, кайтагский язык, кайтаги, кайтагцы, хайдак, дагестан, кавказ',
+        }],
+    ],
+
     themeConfig: {
         nav: nav(),
 

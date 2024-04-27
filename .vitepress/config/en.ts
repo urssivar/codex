@@ -4,6 +4,13 @@ export const en = defineConfig({
     lang: 'en-US',
     description: 'Kaitag language standard',
 
+    head: [
+        ['meta', {
+            name: 'keywords',
+            content: 'kaitag, kaitag language, kaitags, dagestan, caucasus',
+        }],
+    ],
+
     themeConfig: {
         nav: nav(),
 
