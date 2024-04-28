@@ -26,12 +26,7 @@ export default withPwa(defineConfig({
     assetsInclude: ["**/*.m4a"],
   },
   cleanUrls: true,
-  head: [
-    ["link", { rel: "icon", href: "logo-light.png",media: "(prefers-color-scheme: light)"}],
-    ["link", { rel: "icon", href: "logo-dark.png",media: "(prefers-color-scheme: dark)"}],
-  ],
 
-  title: "Urssivar",
   themeConfig: {
     logo: {
       light: "/logo-light.png",

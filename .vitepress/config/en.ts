@@ -3,7 +3,8 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 export const en = defineConfig({
     lang: 'en-US',
     description: 'Kaitag language standard',
-
+    title: 'Urssivar',
+    titleTemplate: 'Kaitag Language',
     head: [
         ['meta', {
             name: 'keywords',

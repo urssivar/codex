@@ -2,8 +2,9 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 export const ru = defineConfig({
     lang: 'ru-RU',
-    description: 'Кайтагский языковой стандарт',
-
+    description: 'Стандарт Кайтагского Языка',
+    title: 'Urssivar',
+    titleTemplate: 'Кайтагский Язык',
     head: [
         ['meta', {
             name: 'keywords',

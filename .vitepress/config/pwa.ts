@@ -38,7 +38,6 @@ export const pwa: Partial<PwaOptions> = {
   },
   pwaAssets: {
     config: true,
-    includeHtmlHeadLinks: false,
   },
   workbox: {
     globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,woff2}'],
