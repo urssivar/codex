@@ -27,6 +27,11 @@ export default withPwa(defineConfig({
   },
   cleanUrls: true,
 
+  head: [
+    ["link", { rel: "icon", href: "logo-light.png",media: "(prefers-color-scheme: light)"}],
+    ["link", { rel: "icon", href: "logo-dark.png",media: "(prefers-color-scheme: dark)"}],
+  ],
+
   themeConfig: {
     logo: {
       light: "/logo-light.png",
