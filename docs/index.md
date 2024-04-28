@@ -28,7 +28,7 @@ features:
     details: Inline translations, contextual examples, audio playback.
   - icon: ⚡
     title: Charged
-    details: Full-text search, offline mode <!--#TODO--> <i>(soon)</i>, shareable URLs.
+    details: Full-text search, offline mode, shareable URLs.
 ---
 
 <style>

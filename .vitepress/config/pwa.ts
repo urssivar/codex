@@ -1,10 +1,9 @@
 import type { PwaOptions } from '@vite-pwa/vitepress'
 
 export const pwa: Partial<PwaOptions> = {
-  outDir: '.vitepress/dist',
+  outDir: '../.vitepress/dist',
   registerType: 'autoUpdate',
   includeManifestIcons: false,
-  includeAssets: ['favicon.svg'],
   manifest: {
     name: 'Urssivar Kaitag Standard',
     short_name: 'Urssivar',
@@ -43,10 +42,5 @@ export const pwa: Partial<PwaOptions> = {
   },
   workbox: {
     globPatterns: ['**/*.{css,js,html,svg,png,ico,txt,woff2}'],
-  },
-  devOptions: {
-    enabled: true,
-    suppressWarnings: true,
-    navigateFallback: '/',
   },
 }
