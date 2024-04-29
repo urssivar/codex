@@ -17,3 +17,5 @@ onBeforeMount(async () => {
   })
 })
 </script>
+
+<template></template>
