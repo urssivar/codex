@@ -5,6 +5,7 @@ import player from "./audio-player";
 
 const props = defineProps<{
     src?: string,
+    noLocale?: boolean
 }>()
 const root = ref<HTMLElement>();
 const _src = computed(() => {
@@ -14,7 +15,15 @@ const _src = computed(() => {
         const el = root.value?.getElementsByTagName('source')[0];
         if (el?.src) src = el.src;
     }
-    return withBase(src);
+    src = withBase(src);
+    if (src && props.noLocale) {
+        var url = new URL(src);
+        var path = url.pathname.split('/');
+        path.splice(1, 1);
+        url.pathname = path.join('/');
+        src = url.toString();
+    }
+    return src;
 });
 function toggle() {
     if (player.current?.src == _src.value)

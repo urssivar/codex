@@ -1,17 +1,15 @@
-# Soon
-
-<!-- # Basic expressions
+# Basics
 
 |
-| ~[](./audio/1.m4a) | ++е++ | --yes-- |
-| ~[](./audio/2.m4a) | ++акку++ | --no--|
-| ~[](./audio/3.m4a) | ++ягьле++ | --okay-- |
-| ~[](./audio/4.m4a) | ++кко++ | --please-- |
-| ~[](./audio/5.m4a) | ++ягьбакӏ++ | --thanks-- |
-| ~[](./audio/6.m4a) | ++хула баркалла++ | --thanks a lot-- |
+| ~[](./basics/1.m4a) | ++е++ | --yes-- |
+| ~[](./basics/2.m4a) | ++акку++ | --no-- |
+| ~[](./basics/3.m4a) | ++ягьле++ | --okay-- |
+| ~[](./basics/4.m4a) | ++кко++ | --please-- |
+| ~[](./basics/5.m4a) | ++ягьбакӏ++ | --thanks-- |
+| ~[](./basics/6.m4a) | ++хула баркалла++ | --thanks a lot-- |
 
 {.phrase}
-
+<!-- 
 ## Greeting
 
 |
