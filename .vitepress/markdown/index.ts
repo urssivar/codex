@@ -62,12 +62,7 @@ function renderTooltip(md: MarkdownIt) {
 function renderVoice(md: MarkdownIt) {
   md.use(
     MdReg(/~\[(.*?)\]\((.+?)\)/, ([, cont, url]) => {
-      var noLocale = '';
-      if (url[0] === '~'){
-        url = url.substring(1);
-        noLocale = 'noLocale';
-      }
-      return `<Voice ${noLocale}><source src="${url}">${
+      return `<Voice><source src="${url}">${
         (cont ? " " : "") + md.renderInline(cont)
       }</Voice>`;
     })

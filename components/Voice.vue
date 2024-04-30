@@ -1,27 +1,19 @@
 <script setup lang="ts">
-import { withBase } from 'vitepress'
 import { computed, ref } from 'vue';
 import player from "./audio-player";
 
 const props = defineProps<{
     src?: string,
-    noLocale?: boolean
 }>()
 const root = ref<HTMLElement>();
 const _src = computed(() => {
     let src = '';
-    if (props.src) src = props.src;
+    if (props.src) {
+        src = props.src;
+    }
     else {
         const el = root.value?.getElementsByTagName('source')[0];
         if (el?.src) src = el.src;
-    }
-    src = withBase(src);
-    if (src && props.noLocale) {
-        var url = new URL(src);
-        var path = url.pathname.split('/');
-        path.splice(1, 1);
-        url.pathname = path.join('/');
-        src = url.toString();
     }
     return src;
 });
