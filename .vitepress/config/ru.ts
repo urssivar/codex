@@ -91,14 +91,14 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarReference(): DefaultTheme.SidebarItem[] {
     return [
         {
-            text: 'Основная Логика',
+            text: 'Основная логика',
             items: [
                 {
                     text: 'Связки',
                     link: 'copulas'
                 },
                 {
-                    text: 'Предикативные Частицы',
+                    text: 'Предикативные частицы',
                     link: 'predicatives'
                 },
             ]
