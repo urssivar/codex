@@ -53,7 +53,7 @@ And when preceeded by a consonant it can also be pronounced as ++ев++:
 
 ### 1.1 Tag Questions {#1.1}
 
-Using the negative copula [++акку++](copulas.md#1.1) (and its conjugations) we form the common phrase ++акку у++ *"isn't it"*.
+Using the negative copula [++акку++](copulas.md#1.1) we form the common phrase ++акку у++ *"isn't it"*.
 
 - ++машин бел, акку у?++  
   --the car is still there, isn't it?--
