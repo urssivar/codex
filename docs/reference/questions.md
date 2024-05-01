@@ -55,10 +55,10 @@ And when preceeded by a consonant it can also be pronounced as ++ев++:
 
 Using the negative copula [++акку++](./copulas.md#1.1) we form the common phrase ++акку у++ *"isn't it"*.
 
-- ++машин ила це, акку у?++  
-  --the car is yours, isn't it?--
-- ++и ҡил де, аккотте у?++  
-  --you are home, aren't you?--
+- ++машин ила це, ==акку у==?++  
+  --the car is yours, ==isn't it==?--
+- ++и ҡил де, ==аккотте у==?++  
+  --you are home, ==aren't you==?--
 
 ### 1.2 Placement {#1.2}
 
