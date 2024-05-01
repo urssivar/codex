@@ -72,7 +72,7 @@ Like with the other [predicative particles](./predicatives#3), order affects the
 - ++и ҡил де ==у==?++  
   --**are** you home? *(i.e. where are you?)*--
 - ++и де ==у== ҡил?++  
-  --are **you** home? *(i.e. there's someone, is that you?)*--
+  --are **you** home? *(i.e. is that you?)*--
 
 ## 2 Content {#2}
 
