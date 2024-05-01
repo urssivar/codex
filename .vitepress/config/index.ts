@@ -44,6 +44,9 @@ export default withPwa(defineConfig({
     search: {
       provider: "local",
     },
+    outline: {
+      level: [2, 3]
+    },
     socialLinks: [
       {
         icon: { svg: telegramSvg },
