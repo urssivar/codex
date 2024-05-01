@@ -45,7 +45,7 @@ export default withPwa(defineConfig({
       provider: "local",
     },
     outline: {
-      level: [2, 3]
+      level: [2, 4]
     },
     socialLinks: [
       {

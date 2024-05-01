@@ -96,7 +96,8 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
                 {
                     text: 'Связки',
                     link: 'copulas'
-                }, {
+                },
+                {
                     text: 'Предикативные Частицы',
                     link: 'predicatives'
                 },
