@@ -1,6 +1,6 @@
 # Questions
 
-Kaitag has two main question types: **polar** and **content**. From them also **rhetoric** questions are made. The question particles follow the [copula-like particle logic](predicatives) so you should know that too.
+Kaitag has two main question types: **polar** and **content**. From them also **rhetoric** questions are made. The question particles follow the [predicative logic](predicatives).
 
 |
 | **Cheatsheet** |||
