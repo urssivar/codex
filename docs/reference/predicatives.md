@@ -1,6 +1,6 @@
 # Predicative Particles
 
-There's a limited set of particles that interact with [copulas](copulas) and even replace them.
+There's a limited set of particles that interact with [copulas](copulas) and sometime replace them.
 
 |
 | **Cheatsheet** ||
