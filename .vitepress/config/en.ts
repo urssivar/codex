@@ -73,11 +73,24 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarReference(): DefaultTheme.SidebarItem[] {
     return [
         {
-            text: 'Reference',
+            text: 'Base Logic',
             items: [
                 {
                     text: 'Copulas',
                     link: 'copulas'
+                },
+                // {
+                //     text: 'Cases',
+                //     link: 'cases'
+                // },
+            ]
+        },
+        {
+            text: 'Usecases',
+            items: [
+                {
+                    text: 'Questions',
+                    link: 'questions'
                 },
             ]
         }
