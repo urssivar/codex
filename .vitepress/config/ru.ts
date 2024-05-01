@@ -13,6 +13,7 @@ export const ru = defineConfig({
     ],
 
     themeConfig: {
+        
         nav: nav(),
 
         sidebar: {
@@ -26,17 +27,10 @@ export const ru = defineConfig({
             // }
         },
 
-        // editLink: {
-        //     pattern: 'https://github.com/vuejs/vitepress/edit/main/docs/:path',
-        //     text: 'Редактировать страницу'
-        // },
-
-        // footer: {
-        //     message: 'Опубликовано под лицензией MIT.',
-        //     copyright: '© 2019 – настоящее время, Эван Ю'
-        // },
-
-        outline: { label: 'Содержание страницы' },
+        outline: { 
+            label: 'Содержание страницы', 
+            level: [2, 4]
+        },
 
         docFooter: {
             prev: 'Предыдущая страница',
