@@ -67,7 +67,7 @@ As the examples above show, the particle is usually placed at the very end of a 
 - ++бел ==у== машин?++  
   --is the car still there?--
 
-Like with the other [predicative particles](./predicatives#3), order affects the emphasis:
+Like with the other [predicative particles](./predicatives#3), placement affects the emphasis:
 
 - ++и ҡил де ==у==?++  
   --**are** you home? *(i.e. where are you?)*--
