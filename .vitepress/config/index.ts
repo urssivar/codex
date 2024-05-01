@@ -52,14 +52,14 @@ export default withPwa(defineConfig({
         icon: { svg: telegramSvg },
         link: "https://t.me/urssivar",
       },
-      // {
-      //   icon: "youtube",
-      //   link: "https://www.youtube.com/@urssivar",
-      // },
-      // {
-      //   icon: "github",
-      //   link: "https://github.com/urssivar/urssivar",
-      // },
+      {
+        icon: "youtube",
+        link: "https://www.youtube.com/@urssivar",
+      },
+      {
+        icon: "github",
+        link: "https://github.com/urssivar/urssivar",
+      },
     ],
   },
 

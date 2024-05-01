@@ -1,4 +1,4 @@
-# Predicative particles
+# Predicative Particles
 
 There's a limited set of particles that interact with [copulas](copulas) and even replace them.
 
@@ -22,14 +22,14 @@ There's a limited set of particles that interact with [copulas](copulas) and eve
 
 :::
 
-## 1. Inventory {#1}
+## 1 Inventory {#1}
 
 There're only a few such particles. Two for questions:
 
-- [polar questions](./questions1-polar) — ++у++;  
+- [polar questions](questions#1) — ++у++;  
   ++уцци ҡил ==у==?++  
   --==is== brother home?--  
-- [content questions](./questions2-content) — ++йа / ай++.  
+- [content questions](questions#2) — ++йа / ай++.  
   ++ҡил ча ==йа==?++  
   --who ==is== home?--
 
@@ -42,7 +42,7 @@ And two more with modal meaning:
   ++уцци ҡил ==ккотте==++  
   --brother ==is== home ==[right?]== --
 
-## 2. Copula placement
+## 2 Copula Placement {#2}
 
 The predicative particles always come *after* any copulas.
 
@@ -53,7 +53,7 @@ The predicative particles always come *after* any copulas.
 - ++и коцци де ==йа==?++  
   --where are you?--
 
-Importantly, the 3rd person form of ["to be"](copulas#_1-facts) ++це++ gets replaced completely.
+Importantly, the 3rd person form of ["to be"](copulas#1) ++це++ gets replaced completely.
 
 - ++уцци цянне ==це==++ ➡️ ++уцци цянне ==ҡьал==++  
   --brother ==is== coming ➡️ ==of course== brother ==is== coming--
@@ -66,7 +66,7 @@ That's why question almost never contain the copula ++це++.
 
 :::
 
-## 3. Emphasis
+## 3 Emphasis {#3}
 
 As the copulas put emphasis on the word they come after:
 

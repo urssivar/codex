@@ -28,7 +28,7 @@ Kaitag has two main question types: **polar** and **content**. From them also **
 
 :::
 
-## 1. Polar
+## 1 Polar {#1}
 
 The *polar* questions are formed by particle ++y++. Such question can be given simple *yes / no* asnwer.
 
@@ -51,30 +51,30 @@ And when preceeded by a consonant it can also be pronounced as ++ев++:
 
 :::
 
-### 1.1. Tag Questions
+### 1.1 Tag Questions {#1.1}
 
-Using the negative copula [++акку++](copulas.md#_1-1-negation) (and its conjugations) we form the common phrase ++акку у++ *"isn't it"*.
+Using the negative copula [++акку++](copulas.md#1.1) (and its conjugations) we form the common phrase ++акку у++ *"isn't it"*.
 
 - ++машин бел, акку у?++  
   --the car is still there, isn't it?--
 - ++и ҡил де, аккотте у?++  
   --you are home, aren't you?--
 
-### 1.2. Placement
+### 1.2 Placement {#1.2}
 
 As the examples above show, the particle is usually placed at the very end of a sentence, though free order is also possible:
 
 - ++бел ==у== машин?++  
   --is the car still there?--
 
-Like with the other [predicative particles](./predicatives#_3-emphasis), order affects the emphasis:
+Like with the other [predicative particles](predicatives#3), order affects the emphasis:
 
 - ++и ҡил де ==у==?++  
   --**are** you home? *(i.e. where are you?)*--
 - ++и де ==у== ҡил?++  
   --are **you** home? *(i.e. there's someone, is that you?)*--
 
-## 2. Content
+## 2 Content {#2}
 
 The *content* questions that need full asnwer are marked by particle ++йа++. They always require preceeding question word.
 
@@ -110,7 +110,7 @@ After a consonant the particle can be pronounced as ++ей++ or ++а++/++е++:
 
 :::
 
-## 3. Rhetoric
+## 3 Rhetoric {#3}
 
 The *rhetoric* questions convey broad meaning like *"hmm, I wonder..."*. Both *polar* and *content* questions become *rhetoric* when followed by particle ++ра++.
 

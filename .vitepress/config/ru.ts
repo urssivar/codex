@@ -91,66 +91,25 @@ function nav(): DefaultTheme.NavItem[] {
 function sidebarReference(): DefaultTheme.SidebarItem[] {
     return [
         {
-            text: 'Справочник',
+            text: 'Основная Логика',
             items: [
                 {
                     text: 'Связки',
                     link: 'copulas'
+                }, {
+                    text: 'Предикативные Частицы',
+                    link: 'predicatives'
+                },
+            ]
+        },
+        {
+            text: 'Применения',
+            items: [
+                {
+                    text: 'Вопросы',
+                    link: 'questions'
                 },
             ]
         }
     ]
 }
-
-
-// function sidebarPhrasebook(): DefaultTheme.SidebarItem[] {
-//     return [
-//         {
-//             text: 'Введение',
-//             collapsed: false,
-//             items: [
-//                 { text: 'Что такое VitePress?', link: 'what-is-vitepress' },
-//                 { text: 'Первые шаги', link: 'getting-started' },
-//                 { text: 'Маршрутизация', link: 'routing' },
-//                 { text: 'Развёртывание', link: 'deploy' }
-//             ]
-//         },
-//         {
-//             text: 'Написание',
-//             collapsed: false,
-//             items: [
-//                 { text: 'Расширения Markdown', link: 'markdown' },
-//                 { text: 'Обработка ресурсов', link: 'asset-handling' },
-//                 { text: 'Метаданные', link: 'frontmatter' },
-//                 { text: 'Использование Vue в Markdown', link: 'using-vue' },
-//                 { text: 'Интернационализация', link: 'i18n' }
-//             ]
-//         },
-//         {
-//             text: 'Настройка',
-//             collapsed: false,
-//             items: [
-//                 { text: 'Пользовательская тема', link: 'custom-theme' },
-//                 {
-//                     text: 'Расширение темы по умолчанию',
-//                     link: 'extending-default-theme'
-//                 },
-//                 {
-//                     text: 'Загрузка данных в режиме реального времени',
-//                     link: 'data-loading'
-//                 },
-//                 { text: 'Совместимость с SSR', link: 'ssr-compat' },
-//                 { text: 'Подключение к CMS', link: 'cms' }
-//             ]
-//         },
-//         {
-//             text: 'Экспериментально',
-//             collapsed: false,
-//             items: [
-//                 { text: 'Режим MPA', link: 'mpa-mode' },
-//                 { text: 'Генерация карты сайта', link: 'sitemap-generation' }
-//             ]
-//         },
-//         { text: 'Конфигурация и API', base: '/ru/reference/', link: 'site-config' }
-//     ]
-// }

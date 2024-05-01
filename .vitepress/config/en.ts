@@ -79,10 +79,10 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
                     text: 'Copulas',
                     link: 'copulas'
                 },
-                // {
-                //     text: 'Cases',
-                //     link: 'cases'
-                // },
+                {
+                    text: 'Predicative Particles',
+                    link: 'predicatives'
+                },
             ]
         },
         {

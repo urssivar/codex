@@ -82,7 +82,7 @@ The negative counterparts, *"to be not"*:
 - ++дила машин ==аччу==++  
   --[that] ==wasn't== my car--
 
-## 2. Presence
+## 2 Presence {#2}
 
 <Context :options="['masc.', 'fem.', 'neut.']">
 
@@ -115,7 +115,7 @@ And also for additional emphasis on a *particular moment*:
 - ++ниса дулшун ==ди да==++  
   --we ==are== working ==[right now]==--
 
-### 2.1. Absence
+### 2.1 Absence {#2.1}
 
 The negative counterparts are irregular and have classes as well:
 
@@ -144,7 +144,7 @@ Some villages use the variants with ++-а-++: ++байкку++, ++дайккод
 
 :::
 
-## 3. Availability
+## 3 Availability {#3}
 
 <Context :options="['masc.', 'fem.', 'neut.']">
 
