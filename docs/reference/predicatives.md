@@ -1,6 +1,6 @@
 # Predicative Particles
 
-There's a limited set of particles that interact with [copulas](copulas) and sometime replace them.
+There's a limited set of particles that interact with [copulas](./copulas) and sometime replace them.
 
 |
 | **Cheatsheet** ||
@@ -26,10 +26,10 @@ There's a limited set of particles that interact with [copulas](copulas) and som
 
 There're only a few such particles. Two for questions:
 
-- [polar questions](questions#1) — ++у++;  
+- [polar questions](./questions#1) — ++у++;  
   ++уцци ҡил ==у==?++  
   --==is== brother home?--  
-- [content questions](questions#2) — ++йа / ай++.  
+- [content questions](./questions#2) — ++йа / ай++.  
   ++ҡил ча ==йа==?++  
   --who ==is== home?--
 
@@ -53,7 +53,7 @@ The predicative particles always come *after* any copulas.
 - ++и коцци де ==йа==?++  
   --where are you?--
 
-Importantly, the 3rd person form of ["to be"](copulas#1) ++це++ gets replaced completely.
+Importantly, the 3rd person form of ["to be"](./copulas#1) ++це++ *always gets replaced* by the particles.
 
 - ++уцци цянне ==це==++ ➡️ ++уцци цянне ==ҡьал==++  
   --brother ==is== coming ➡️ ==of course== brother ==is== coming--
@@ -62,7 +62,7 @@ Importantly, the 3rd person form of ["to be"](copulas#1) ++це++ gets replaced 
 
 ::: tip
 
-That's why question almost never contain the copula ++це++.
+That's why question [almost never](./questions.md#1.1) contain the copula ++це++.
 
 :::
 

@@ -1,6 +1,6 @@
 # Questions
 
-Kaitag has two main question types: **polar** and **content**. From them also **rhetoric** questions are made. The question particles follow the [predicative logic](predicatives).
+Kaitag has two main question types: **polar** and **content**. From them also **rhetoric** questions are made. The question particles follow the [predicative logic](./predicatives).
 
 |
 | **Cheatsheet** |||
@@ -53,10 +53,10 @@ And when preceeded by a consonant it can also be pronounced as ++ев++:
 
 ### 1.1 Tag Questions {#1.1}
 
-Using the negative copula [++акку++](copulas.md#1.1) we form the common phrase ++акку у++ *"isn't it"*.
+Using the negative copula [++акку++](./copulas.md#1.1) we form the common phrase ++акку у++ *"isn't it"*.
 
-- ++машин бел, акку у?++  
-  --the car is still there, isn't it?--
+- ++машин ила це, акку у?++  
+  --the car is yours, isn't it?--
 - ++и ҡил де, аккотте у?++  
   --you are home, aren't you?--
 
@@ -67,7 +67,7 @@ As the examples above show, the particle is usually placed at the very end of a 
 - ++бел ==у== машин?++  
   --is the car still there?--
 
-Like with the other [predicative particles](predicatives#3), order affects the emphasis:
+Like with the other [predicative particles](./predicatives#3), order affects the emphasis:
 
 - ++и ҡил де ==у==?++  
   --**are** you home? *(i.e. where are you?)*--
