@@ -13,20 +13,20 @@ Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, a
 ::: details Glossary
 
 |
-| ++ду++, ++дила++ | --I, my-- |
-| ++и++, ++ила++ | --you, your-- |
+| ++ду, дила++ | --I, my-- |
+| ++и, ила++ | --you, your-- |
 | ++ниса++ | --we-- |
 | ++чяй++ | --tea-- |
 | ++ҡил++ | --at home-- |
-| ++разил++ | --glad, happy-- |
+| ++разил++ | --glad / happy-- |
 | ++тухтур++ | --doctor-- |
-| ++рирси++ | --girl, daughter-- |
+| ++рирси++ | --girl / daughter-- |
 | ++улшун++ | --working-- |
 {.gl}
 
 :::
 
-## 1. Facts
+## 1 Facts {#1}
 
 | :-: | :-: | :-: | :-: | :-: |
 | | I, we | you (sg.) | you | he, she, it, they |
@@ -65,7 +65,7 @@ Instead of ++це++ many villages use the old form ++ца==би==++ with class a
 
 :::
 
-### 1.1. Negation
+### 1.1 Negation {#1.1}
 
 The negative counterparts, *"to be not"*:
 
@@ -177,49 +177,3 @@ It's negated via the regular verbal prefix ++а-++:
 In speech the prefixed form is pronounced as *"ebel"* due to the vowel assimilation. It happens with verbs as well.
 
 :::
-
-<!-- ## Miscellaneous
-
-### Auxiliaries
-
-These are words which come after copula or completely overtake ^[++це++](_"to be"_ 3rd person):
-
-1. ++ҡьал++ — emphasis/presupposition:
-   - ++аргул ==кьал==++  
-     --==you know,== it ==is== working out;--
-   - ++дул бирул ==вел да кьал==++  
-     --==but== I ==am _still_== doing;--
-   - ++ила уцци ==вейкку кьал==++  
-     --you ==don't have== brother, [am I correct?].--
-2. ++у++, ++йе++ — question particles:
-   - ++гунал ==у==?++  
-     --==is== [he] warm?--
-   - ++ккушле ==да у==?++  
-     --==are== [you] hungry?--
-   - ++и ча ==де йе==?++  
-     --who ==are== you (sg.)?--
-
-### Positioning
-
-Copula placing controls emphasis:
-
-- ++ила хъати ==це==++  
-  --[it] is your _hat_;--
-- ++ила ==це== хъати++  
-  --the hat is _yours_.--
-
-Works with the auxiliaries too:
-
-- ++и хъили ==де у==?++  
-  --are you _at home_? (e.g. not at work)--
-- ++и ==де у== хъили?++  
-  --are _you_ at home? (e.g. not someone else)--
-
-### "Would"
-
-# TODO  
-
-шин атте нег яхял де / milk would be better than water  
-пенжегцци атте палтунцци гунал де / it would be warmer with a coat than with a jacket  
-убал бурсан дел дул бирул де / if mom said it, I would do it
-муса бил дел ду кижил де / if there was a place, I would have sat -->

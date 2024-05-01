@@ -1,12 +1,12 @@
 # Questions
 
-Kaitag has two main question types: **polar** and **content**. From them **rhetoric** questions are made. The question particles follow the [copula particle logic](./copula-particles.md) so you should know that too.
+Kaitag has two main question types: **polar** and **content**. From them also **rhetoric** questions are made. The question particles follow the [copula-like particle logic](predicatives) so you should know that too.
 
 |
-| **CHEATSHEET** |||
-| ✔️ | ++атта ҡил ==у==?++ <br> --==is== father at home?-- | ++е / акку++ <br> --yes / no -- |
+| **Cheatsheet** |||
+| ✔️ | ++атта ҡил ==у==?++ <br> --==is== father at home?-- | ++е / акку++ <br> --yes / no-- |
 | ❓ | ++ҡил ==ча йа==?++ <br> --==who is== at home?-- | ++атта це++ <br> --father is-- |
-| 🤔 | ++атта ҡил ==у ра==?++ <br> --==I wonder if== father's home?-- | ++е / вейкку++ <br> -- yes / he isn't-- |
+| 🤔 | ++атта ҡил ==у ра==?++ <br> --==I wonder if== father's home?-- | ++е / вейкку++ <br> --yes / he isn't-- |
 {.bl}
 
 ::: details Glossary
@@ -30,29 +30,44 @@ Kaitag has two main question types: **polar** and **content**. From them **rheto
 
 ## 1. Polar
 
-The *polar* questions are marked by copula-like particle ++y++. Such question can be given simple *yes / no* asnwer.
+The *polar* questions are formed by particle ++y++. Such question can be given simple *yes / no* asnwer.
 
 - ++и ҡил де ==у==? е.++  
   --are you at home? yes.--
 - ++машин ила ==у==? акку.++  
   --is the car yours? no.--
-- ++машин би ==у==? е, би.++  
-  --is the car there? yes, it is.--
+- ++машин бел ==у==? е, бел.++  
+  --is the car still there? yes, it is still.--
 
 ::: info Note
 
-When preceeded by a vowel the particle ++у++ is often pronounced as ++в++: ++ила ==у==++ ➡️ ++ила=='в==++. And when preceeded by a consonant it can also be pronounced as ++ев++; e.g ++ҡил ==у==++ ➡️ ++ҡил=='ев==++.
+When preceeded by a vowel the particle ++у++ is often pronounced as ++в++:
+
+- ++ила ==у==++ ➡️ ++ила=='в==++.
+  
+And when preceeded by a consonant it can also be pronounced as ++ев++:
+
+- ++ҡил ==у==++ ➡️ ++ҡил=='ев==++.
 
 :::
 
-### 1.1. Placement
+### 1.1. Tag Questions
 
-The particle is usually placed at the very end of a sentence, though free order is possible:
+Using the negative copula [++акку++](copulas.md#_1-1-negation) (and its conjugations) we form the common phrase ++акку у++ *"isn't it"*.
+
+- ++машин бел, акку у?++  
+  --the car is still there, isn't it?--
+- ++и ҡил де, аккотте у?++  
+  --you are home, aren't you?--
+
+### 1.2. Placement
+
+As the examples above show, the particle is usually placed at the very end of a sentence, though free order is also possible:
 
 - ++бел ==у== машин?++  
   --is the car still there?--
 
-Like with the other predicative particles, order controls the emphasis:
+Like with the other [predicative particles](./predicatives#_3-emphasis), order affects the emphasis:
 
 - ++и ҡил де ==у==?++  
   --**are** you home? *(i.e. where are you?)*--
@@ -108,7 +123,7 @@ The *rhetoric* questions convey broad meaning like *"hmm, I wonder..."*. Both *p
 
 ::: info Note
 
-In *rhetoric* questions the *polar* particle ++у++ can always be replaced by the *content* one ++йа++:  
+In *rhetoric* questions we can always replace the *polar* particle ++у++ with ++йа++:  
 
 - ++ҡил ==у ра==++ ➡️ ++ҡил ==ай ра==++.
 
