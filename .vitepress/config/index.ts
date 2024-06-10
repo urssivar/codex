@@ -30,10 +30,6 @@ export default withPwa(defineConfig({
   head: [
     ["link", { rel: "icon", href: "logo-light.png",media: "(prefers-color-scheme: light)"}],
     ["link", { rel: "icon", href: "logo-dark.png",media: "(prefers-color-scheme: dark)"}],
-    ['meta', {
-      name: 'google-site-verification',
-      content: 'lXcdN7h1oFJFTC4UvoJesJY1iGmQfDquHZUpUeGVpCs'
-    }]
   ],
 
   themeConfig: {
