@@ -73,6 +73,10 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
                     text: 'Predicative Particles',
                     link: 'predicatives'
                 },
+                {
+                    text: 'Cases',
+                    link: 'cases'
+                },
             ]
         },
         {

@@ -1,29 +1,54 @@
 # Cases
 
-Kaitag language has 5 cases. Each of them plays a number of roles and some apply to parts of speech other than nouns.
+Kaitag has 5 main abstract cases and also 3 locative ones.
 
 |
 | **CHEATSHEET** ||
-| ++-++ <br> --non-transitive-- | ++и де++ <br> --you are-- | ++гьел вярун++ <br> --he went-- |
-| ++-ла++ <br> --'s, of-- | ++уцци==ла== машин++ <br> --brother=='s== car-- | ++мигь==ла== уцца++ <br> --iron door / door of iron-- |
-| ++-л / -ли++ <br> --agent, reason-- | ++уба==л== цакъив++ <br> --==mother== brought-- | ++удра==л== велкъун++ <br> --full by fruits-- |
-| ++-и / -й++ <br> --to, on-- | ++бизна==й== беччив++ <br> --gave ==to== the cats-- | ++усттул==и== би++ <br> --it's ==on== the table-- |
-| ++цци++ <br> --with, by, into-- | ++яшакк==цци== кадара++ <br> --put ==into== the pot-- | ++машин==цци== регъив++ <br> --arrived ==by== car-- |
+| Absolutive <br> --intransitive agent: *who?*-- | ++атта цеғив++ <br> --father arrived-- |
+| Ergative: ++-л++ / ++-ли++ <br> --transitive agent: *by whom?*-- | ++атта==л== биив++ <br> --father said-- |
+| Genitive: ++-ла++ <br> --possession: *of what?*-- | ++атта==ла== машин++ <br> --father's car-- |
+| Dative: ++-й++ / ++-и++ <br> --action target: *to what?*-- | ++атта==й== биив++ <br> --said to father-- |
+| Commitative ++-ццел++ <br> --action tool: *with what?*--  | ++машин==ццел== цеғив++ <br> --arrived by car-- |
 {.bl}
 
-|
-| **CHEATSHEET** ||
-| 🐈 | 🐈🐈🐈 |
-| ++-++ | ++бизи биргу++ <br> --cat plays-- | ++бизне++ <br> --cats-- |
-| ++-ла++ | ++бизи==л== буцив++ <br> --cat caught-- | ++бизна==л==++ <br> --==by== cat==s==-- |
-| ++-л / -ли++ | ++бизи==ла== риж++ <br> --cat=='s== tail-- | ++бизна==ла==++ <br> --==of== cat==s==-- |
-| ++-и / -й++ <br> --to, on-- | ++бизи==й== беччив++ <br> --gave ==to== cat-- | ++бизна==й==++ <br> --==for== cat==s==-- |
-| ++-цци++ <br> --with, by, into-- | ++бизи==цци== ви++ <br> --is ==with== cat-- | ++бизна==лцци==++ <br> --==with== cat==s==-- |
-{.bl}
+<div class="gloss">
 
-## Absolutive
+- Absolitve
+- Ergative
+  - Agent
+  - Cause
+  - Fill \ Job
+- Genitive
+  - Possession
+  - Substance
+  - Time
+  - Adjectives of verbs
+- Dative
+  - Target
+  - Infinitive until
+  - Time (around)
+- Commitative
+  - With whom
+  - By what
+- Oblique
+  - Sing
+  - Pl
 
-## Ergative
+</div>
+
+## 1. Abstract cases {#1}
+
+These five cases is what we deal with most of the time.
+
+Intransitive agent: atta cæun
+Recipent: attal bizi çibaživ
+Calling: atta, cæ
+
+### 1.1 Absolutive {#1.1}
+
+Absolutive case is the bare stem of a word.
+
+### 1.2 Ergative {#1.2}
 
 Marked with ++-л++ or ++-ли++ when consonant-final.
 
@@ -42,22 +67,7 @@ Marked with ++-л++ or ++-ли++ when consonant-final.
    - ++удра==л== велкъун++  
      --got full ==of/by== fruits.--
 
-# TODO
-
-уццил рицци рикул це / аццил рикул да
-уццил чай дуччу / уцци чайли уччу
-
-::: info
-When plural nouns take cases other than _absolutive_, the final ++-е++ changes to ++-а++ e.g.:
-|
-| ++бизи++ | ➡️ |++бизн==е==++ | ➡️ | ++бизн==а==й++ |
-| --cat-- | | --cats-- | | --to cats-- |
-| ++чӏала++ | ➡️ |++чӏил==е==++ | ➡️ | ++чӏил==а==лцци++ |
-| --spoke-- | | --spokes-- | | --with spokes-- |
-{.gl}
-:::
-
-## Genitive
+### 1.3 Genitive {#1.3}
 
 Marked by ++-ла++, it has these usecases on nouns:
 
@@ -93,13 +103,20 @@ The genitive case can be applied to verb preterite as well:
    - ++кедерхур==ла== ==тен== варгьид++  
      --I know him ==ever since== we've got enrolled.--
 
-## Miscellaneous
+### 1.4 Dative {#1.4}
 
--#TODO
+### 1.5 Commitative {#1.5}
 
-къаттей to gorge \ къаттецци into gorge
+### 1.6 Oblique {#1.6}
 
--#TODO  
+## 2 Locative cases {#2}
 
-of the little one  
-никӏо==це==ла \ никӏо ==чи==ла
+### 2.1 Inlative: Into {#2.1}
+
+### 2.2 Adlative: By {#2.2}
+
+### 2.3 Sublative: Under {#2.3}
+
+### 2.4 Ablative: From {#2.4}
+
+## 3 Oblique case {#3}
