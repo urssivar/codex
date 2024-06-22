@@ -46,6 +46,7 @@ The basic series corresponds to *"to be"* and mainly used for:
      --[that] ==is== my tea--
 
 2. Expressing a *state*, often via adverbs: <!-- #TODO link -->
+  
    - ++ду улшун ==да==++  
      --I ==am== working--
    - ++ниса разил ==де==++  

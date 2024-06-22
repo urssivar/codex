@@ -1,122 +1,181 @@
 # Cases
 
-Kaitag has 5 main abstract cases and also 3 locative ones.
+Kaitag has 5 abstract cases which we deal with most of the time. There're also 3 locative cases for specific purposes. <!-- #TODO link -->
 
 |
 | **CHEATSHEET** ||
-| Absolutive <br> --intransitive agent: *who?*-- | ++атта цеғив++ <br> --father arrived-- |
-| Ergative: ++-л++ / ++-ли++ <br> --transitive agent: *by whom?*-- | ++атта==л== биив++ <br> --father said-- |
-| Genitive: ++-ла++ <br> --possession: *of what?*-- | ++атта==ла== машин++ <br> --father's car-- |
-| Dative: ++-й++ / ++-и++ <br> --action target: *to what?*-- | ++атта==й== биив++ <br> --said to father-- |
-| Commitative ++-ццел++ <br> --action tool: *with what?*--  | ++машин==ццел== цеғив++ <br> --arrived by car-- |
+| Absolutive <br> --intransitive agent: *who?*-- | ++==атта== вегур++ <br> --==father== departed-- |
+| Ergative: ++-л++ / ++-ли++ <br> --transitive agent: *by whom?*-- | ++атта==л== бурсив++ <br> --==father== told-- |
+| Genitive: ++-ла++ <br> --possession: *of what?*-- | ++атта==ла== машин++ <br> --father=='s== car-- |
+| Dative: ++-й++ / ++-и++ <br> --action target: *to what?*-- | ++атта==й== беччив++ <br> --gave ==to== father-- |
+| Commitative ++-ццил++ <br> --action tool: *with what?*--  | ++машин==ццил== вегур++ <br> --departed ==by== car-- |
 {.bl}
 
-<div class="gloss">
+## 1 Absolutive {#1}
 
-- Absolitve
-- Ergative
-  - Agent
-  - Cause
-  - Fill \ Job
-- Genitive
-  - Possession
-  - Substance
-  - Time
-  - Adjectives of verbs
-- Dative
-  - Target
-  - Infinitive until
-  - Time (around)
-- Commitative
-  - With whom
-  - By what
-- Oblique
-  - Sing
-  - Pl
+Absolutive case is the bare stem of a word, use for
 
-</div>
+1. Agent of intransitive verbs & copulas:
 
-## 1. Abstract cases {#1}
+   - ++==уба== регур++  
+     --==mother== departed--
+   - ++==атта== улшу++  
+     --==father== works--
+   - ++==шин== ди++  
+     --there's ==water==--
 
-These five cases is what we deal with most of the time.
+2. Patient of transitive verbs:
 
-Intransitive agent: atta cæun
-Recipent: attal bizi çibaživ
-Calling: atta, cæ
+   - ++аттал ==машин== чибажив++  
+     --father saw a ==car==--
+   - ++убал ==хурeг== бирул це++  
+     --mother's preparing ==a meal==--
+   - ++беччив ==исттикан==++  
+     --the given ==glass==--
 
-### 1.1 Absolutive {#1.1}
+3. Addressing:
 
-Absolutive case is the bare stem of a word.
+   - ++==атта==, ця++  
+     --==father==, come--
+   - ++==уба==, машин би++  
+     --==mother==, the car's there--
 
-### 1.2 Ergative {#1.2}
+## 2 Ergative {#2}
 
-Marked with ++-л++ or ++-ли++ when consonant-final.
+Marked with ++-ли++ or shortened ++-л++ after vowels. The two main uses are:
 
-1. Agents of transitive verbs:
-   - ++ду==л== гьурсанда++  
-     --I will buy;--
-   - ++мургул==ли== цикъу++  
-     --man brings;--
-   - ++уццба==л== бирул де++  
-     --brothers were doing.--
-2. Nouns of the cause:
-   - ++пич==ли== гунал це++  
-     --warm ==due to== the stove;--
-   - ++машин==ли== регъив++  
-     --reached ==thanks to== the car;--
-   - ++удра==л== велкъун++  
-     --got full ==of/by== fruits.--
+1. Agent of transitive verbs:
 
-### 1.3 Genitive {#1.3}
+   - ++и==л== бурсивде++  
+     --==you== said--
+   - ++атта==л== барив++  
+     --==father== did--
+   - ++уба==л== чибажив++  
+     --==mother== saw--
 
-Marked by ++-ла++, it has these usecases on nouns:
+2. Expression of cause:
 
-1. Possession:
-   - ++^[ниса](we)==ла== машин++  
-     --==our== car;--
-   - ++уцци==ла== хъати++  
-     --brother=='s== hat;--
-   - ++гунев==ла== хабар++  
-     --story ==of== the past;--
-2. Substance & adjective:
-   - ++мигь==ла== машин++  
-     --iron car;--
-   - ++диг==ла== хурег++  
-     --meat dish;--
-   - ++чирка==ла== марка++  
-     --morning rain.--
-3. Postpositions:
-   - ++хъитна==ла== ==гуни==++  
-     --==under== the hats;--
-   - ++уцци==ла== ==чер==++  
-     --==about== brother;--
-   - ++чирка==ла== ==ирегъ==++  
-     --==after== the morning.--
+   - ++ккиша==л== увкьул++  
+     --dying ==of== hunger--
+   - ++хурег==ли== велҡҡун++  
+     --satiated ==by== the meal--
 
-The genitive case can be applied to verb preterite as well:
+Additional idiosyncratic uses include:
 
-4. To denote the general time following after:
-   - ++таман барив==ла== цявунда++  
-     --I came ==after== I finished;--
-   - ++ду цагъив==ла== ==жен== чиаваживда++  
-     --I haven't seen him ==since== I arrived;--
-   - ++кедерхур==ла== ==тен== варгьид++  
-     --I know him ==ever since== we've got enrolled.--
+3. The verb "to fill":
 
-### 1.4 Dative {#1.4}
+   - ++шине==л== бицьив++  
+     --filled ==with== water--
 
-### 1.5 Commitative {#1.5}
+::: warning Attention
 
-### 1.6 Oblique {#1.6}
+The case attaches not directly to ++шин++ but to the word's oblique stem ++шине-++. Similarly, adjectives too require ++-це++/++-ил++ before cases. <!-- #TODO link -->  <!-- #TODO link -->
 
-## 2 Locative cases {#2}
+:::
 
-### 2.1 Inlative: Into {#2.1}
+4. Profession:
 
-### 2.2 Adlative: By {#2.2}
+   - ++тухтур==ли== улшу++  
+     --works ==as== a doctor--
 
-### 2.3 Sublative: Under {#2.3}
+5. Duration:
 
-### 2.4 Ablative: From {#2.4}
+   - ++ца сяят==ли== барив++  
+     --did ==in== an hour--
 
-## 3 Oblique case {#3}
+6. Marking a tool, although [commitative case](#5) is more often used:
+
+   - ++исттикан==ли== катьив++  
+     --poured ==with== a glass--
+
+## 3 Genitive {#3}
+
+Genitive is formed by ++-ла++. In the basic sense corresponds to English *of* or *'s*:
+
+1. Relation & possession:
+
+   - ++атта==ла== машин++  
+     --father=='s== car--
+   - ++уба==ла== хурег++  
+     --mother=='s== meal--
+   - ++ди==ла== уба++  
+     --==my== mother--
+
+::: info Note
+
+The genitive of the personal pronoun ++ду++ --I-- is ++дила++ --my--.
+
+:::
+
+2. Content & substance:
+
+   - ++урцул==ла== уцца++  
+     --==wooden== door--
+   - ++шине==ла== исттикан++  
+     --a glass ==of== water--
+   - ++дигу==ла== хурег++  
+     --==meat== dish--
+
+3. Most spatial postpositions:  <!-- #TODO link -->
+
+   - ++курсин==ла== че++  
+     --above ==the chair==--
+   - ++нисна==ла== ьереғ++  
+     --after ==the evening==--
+   - ++атта==ла== мяҡье++  
+     --next ==to father==--
+
+4. Various temporal relations: <!-- #TODO link -->
+
+   - ++нисна==ла== вегур++  
+     --he departed ==on== evening--
+   - ++атта цеғив==ла==++  
+     --==since== father arrived--
+
+## 4 Dative {#4}
+
+The dative case is marked by ++-и++ or ++-й++ after vowels. It combines both abstract and locative uses:
+
+1. Target of some transitive verbs, like *"to"* or *"for"*:
+
+   - ++атта==й== беччивда++  
+     --I gave ==to== father--
+   - ++убал ==дам== бурсив++  
+     --mother told ==me==--
+   - ++шине==й== вегур++  
+     --departed ==for== water (i.e. to bring some)--
+
+::: info Note
+
+These two personal pronouns have irregular dative forms:
+
+- ++ду++ --I-- ➡️ ++дам++ --me--
+- ++и++ --you (sg.)-- ➡️ ++етти++ --(to) you-- or ++ет++
+
+:::
+
+2. Location *on*:
+
+   - ++курсин==и== би++  
+     --it's ==on== the chair--
+   - ++ччеме==й==++  
+     --==on== the bridge--
+
+3. Certain destinations of motion:
+
+   - ++еркь==и== вегур++  
+     --departed ==to== the river--
+   - ++ҡҡатта==й==++  
+     --==to== the gorge--
+
+::: warning Attention
+
+The widspread earlier forms of dative use ++-ж++ / ++-жи++ instead: ++аттаж++, ++шинеж++, ++курсинжи++, ++еттиж++, ++дамижи++.
+
+:::
+
+## 5 Commitative {#5}
+
+- WITH
+- BY
+- FROM
