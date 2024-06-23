@@ -29,7 +29,7 @@ There're only a few such particles. Two for questions:
 - [polar questions](./questions#1) — ++у++;  
   ++уцци ҡил ==у==?++  
   --==is== brother home?--  
-- [content questions](./questions#2) — ++йа / ай++.  
+- [content questions](./questions#2) — ++йа / ей++.  
   ++ҡил ча ==йа==?++  
   --who ==is== home?--
 

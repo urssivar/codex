@@ -94,19 +94,19 @@ After a vowel the particle is often reduced to ++й++:
 
 :::
 
-After consonants (except for ++й++) the particle reverses to ++ай++:
+After consonants (except for ++й++) the particle reverses to ++ей++:
 
-- ++==коцци== вярун ==ай==? ҡил.++  
+- ++==коцци== вярун ==ей==? ҡил.++  
   --==where== did [he] go? home.--
-- ++==ци== машин ==ай==? Жип це.++  
+- ++==ци== машин ==ей==? Жип це.++  
   --==what== car is [that]? Jeep.--
 
 ::: info Note
 
-After a consonant the particle can be pronounced as ++ей++ or ++а++/++е++:  
+After a consonant the particle can be pronounced as ++ай++ or ++а++/++е++:  
 
-- ++вярун ==ай==++ ➡️ ++вярун=='ей==++;
-- ++кон ==ай==++ ➡️ ++кон=='а==++.
+- ++вярун ==ей==++ ➡️ ++вярун=='ай==++;
+- ++кон ==ей==++ ➡️ ++кон=='а==++.
 
 :::
 
@@ -116,7 +116,7 @@ The *rhetoric* questions convey broad meaning like *"hmm, I wonder..."*. Both *p
 
 - ++атта ҡил ==у ра==?++  
   --==[I wonder if]== father is at home?--
-- ++кон вярун ==ай ра==?++  
+- ++кон вярун ==ей ра==?++  
   --==[interesting,]== where did he go?--
 - ++чун машин ди ==йа ра==?++  
   --==[hmm,]== how many car are there?--
@@ -125,6 +125,6 @@ The *rhetoric* questions convey broad meaning like *"hmm, I wonder..."*. Both *p
 
 In *rhetoric* questions we can always replace the *polar* particle ++у++ with ++йа++:  
 
-- ++ҡил ==у ра==++ ➡️ ++ҡил ==ай ра==++.
+- ++ҡил ==у ра==++ ➡️ ++ҡил ==ей ра==++.
 
 :::
