@@ -7,8 +7,8 @@ Kaitag has 5 abstract cases which we deal with most of the time. There're also 3
 | Absolutive <br> --intransitive agent: *who?*-- | ++==атта== вегур++ <br> --==father== departed-- |
 | Ergative: ++-л++ / ++-ли++ <br> --transitive agent: *by whom?*-- | ++атта==л== бурсив++ <br> --==father== told-- |
 | Genitive: ++-ла++ <br> --possession: *of what?*-- | ++атта==ла== машин++ <br> --father=='s== car-- |
-| Dative: ++-й++ / ++-и++ <br> --action target: *to what?*-- | ++атта==й== беччив++ <br> --gave ==to== father-- |
-| Commitative ++-ццил++ <br> --action tool: *with what?*--  | ++машин==ццил== вегур++ <br> --departed ==by== car-- |
+| Dative: ++-й++ / ++-и++ / ++-жи++ <br> --target: *to what?*-- | ++атта==й== беччив++ <br> --gave ==to== father-- |
+| Commitative: ++-ццил++ <br> --tool: *with what?*--  | ++машин==ццил== вегур++ <br> --departed ==by== car-- |
 {.bl}
 
 ## 1 Absolutive {#1}
@@ -103,7 +103,7 @@ Genitive is formed by ++-ла++. In the basic sense corresponds to English *of* 
 
 ::: info Note
 
-The genitive of the personal pronoun ++ду++ --I-- is ++дила++ --my--.
+The genitive of the personal pronoun ++ду++ --"I"-- is ++дила++ --"my"--.
 
 :::
 
@@ -134,23 +134,25 @@ The genitive of the personal pronoun ++ду++ --I-- is ++дила++ --my--.
 
 ## 4 Dative {#4}
 
-The dative case is marked by ++-и++ or ++-й++ after vowels. It combines both abstract and locative uses:
+The dative case is marked by ++-й++ after vowels, ++-жи++ after ++л++ / ++й++, and ++-и++ otherwise. It combines both abstract and locative uses:
 
 1. Target of some transitive verbs, like *"to"* or *"for"*:
 
    - ++атта==й== беччивда++  
      --I gave ==to== father--
-   - ++убал ==дам== бурсив++  
-     --mother told ==me==--
    - ++шине==й== вегур++  
      --departed ==for== water (i.e. to bring some)--
+   - ++цяунил==жи== катьивда++  
+     --poured ==for== the one who came--
+   - ++убал ==дам== бурсив++  
+     --mother told ==me==--
 
 ::: info Note
 
 These two personal pronouns have irregular dative forms:
 
-- ++ду++ --I-- ➡️ ++дам++ --me--
-- ++и++ --you (sg.)-- ➡️ ++етти++ --(to) you-- or ++ет++
+- ++ду++ --"I"-- ➡️ ++дам++ --"me"--
+- ++и++ --"you (sg.)"-- ➡️ ++етти++ --"(to) you"-- or ++ет++
 
 :::
 
@@ -160,6 +162,8 @@ These two personal pronouns have irregular dative forms:
      --it's ==on== the chair--
    - ++ччеме==й==++  
      --==on== the bridge--
+   - ++усттул==жи==++  
+     --==on== the table--
 
 3. Certain destinations of motion:
 
@@ -167,10 +171,17 @@ These two personal pronouns have irregular dative forms:
      --departed ==to== the river--
    - ++ҡҡатта==й==++  
      --==to== the gorge--
+   - ++хяв==и==++  
+     --==to== the grave--
 
-::: warning Attention
+::: info Note
 
-The widspread earlier forms of dative use ++-ж++ / ++-жи++ instead: ++аттаж++, ++шинеж++, ++курсинжи++, ++еттиж++, ++дамижи++.
+The widspread earlier dative forms always contain ++ж++:
+
+- ++атта==й==++ ⬅️ ++атта==ж==++
+- ++курсин==и==++ ⬅️ ++курсин==жи==++
+- ++етти++ ⬅️ ++етти==жи==++
+- ++дам++ ⬅️ ++дам==ижи==++
 
 :::
 
