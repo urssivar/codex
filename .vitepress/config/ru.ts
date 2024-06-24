@@ -95,6 +95,10 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
                     text: 'Предикативные частицы',
                     link: 'predicatives'
                 },
+                {
+                    text: 'Падежи',
+                    link: 'cases'
+                },
             ]
         },
         {

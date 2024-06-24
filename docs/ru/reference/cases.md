@@ -1,6 +1,6 @@
-# Падежи
+# Cases
 
-Kaitag has five abstract cases which we deal with most of the time. There're also three locative cases with their own uses. <!-- #TODO link -->
+В кайтагском пять абстрактных падежей, с которыми мы чаще всего имеем дело. И есть ещё три пространственных падежа со своими применениями.
 
 |
 | **CHEATSHEET** ||
