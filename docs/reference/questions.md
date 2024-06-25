@@ -14,7 +14,7 @@ Kaitag has two main question types: **polar** and **content**. From them also **
 |
 | ++ча, чила++ | --who, whose-- |
 | ++ци++ | --what-- |
-| ++коцци / кон++ | --where-- |
+| ++коцци/кон++ | --where-- |
 | ++чун++ | --how many-- |
 | <br> |
 | ++дила++ | --my-- |
@@ -30,7 +30,7 @@ Kaitag has two main question types: **polar** and **content**. From them also **
 
 ## 1 Polar {#1}
 
-The *polar* questions are formed by particle ++y++. Such question can be given simple *yes / no* asnwer.
+The *polar* questions are formed by particle ++y++. Such question can be given simple *yes/no* asnwer.
 
 - ++и ҡил де ==у==? е.++  
   --are you at home? yes.--

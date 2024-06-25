@@ -18,9 +18,9 @@ Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, a
 | ++ниса++ | --we-- |
 | ++чяй++ | --tea-- |
 | ++ҡил++ | --at home-- |
-| ++разил++ | --glad / happy-- |
+| ++разил++ | --glad/happy-- |
 | ++тухтур++ | --doctor-- |
-| ++рирси++ | --girl / daughter-- |
+| ++рирси++ | --girl/daughter-- |
 | ++улшун++ | --working-- |
 {.gl}
 
