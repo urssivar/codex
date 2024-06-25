@@ -1,20 +1,20 @@
-# Падежи
+# Cases
 
-Kaitag has five abstract cases which we deal with most of the time. There're also three locative cases with their own uses. <!-- #TODO link -->
+Kaitag has five abstract cases which we deal with most of the time. There're also three locative cases with their own distinct usecases. <!-- #TODO link -->
 
 |
-| **CHEATSHEET** ||
+| **Cheatsheet** ||
 | Absolutive <br> --intransitive agent: *who?*-- | ++==атта== вегур++ <br> --==father== left-- |
-| Ergative: ++-л++ / ++-ли++ <br> --transitive agent: *by whom?*-- | ++атта==л== беччив++ <br> --==father== gave-- |
+| Ergative: ++-л++/++-ли++ <br> --transitive agent: *by whom?*-- | ++атта==л== беччив++ <br> --==father== gave-- |
 | Genitive: ++-ла++ <br> --possession: *of what?*-- | ++атта==ла== машин++ <br> --father=='s== car-- |
-| Dative: ++-й++ / ++-и++ / ++-жи++ <br> --target: *to what?*-- | ++атта==й== беччив++ <br> --gave ==to== father-- |
-| Commitative: ++-ццил++ <br> --tool: *with what?*--  | ++машин==ццил== вегур++ <br> --left ==by== car-- |
+| Dative: ++-й++/++-и++/++-жи++ <br> --target: *to what?*-- | ++атта==й== беччив++ <br> --gave ==to== father-- |
+| Comitative: ++-ццил++ <br> --tool: *with what?*--  | ++машин==ццил== вегур++ <br> --left ==by== car-- |
 {.bl}
 
 ::: details Glossary
 
 |
-| ++ду, дила, дам++ | --I, my, (to) me-- |
+| ++ду, дила, дами++ | --I, my, (to) me-- |
 | ++и, ила, етти++ | --you, your, (to) you-- |
 | ++атта++ | --father-- |
 | ++дярья++ | --child-- |
@@ -22,11 +22,11 @@ Kaitag has five abstract cases which we deal with most of the time. There're als
 | ++машин++ | --car-- |
 | ++исттикан++ | --glass cup-- |
 | ++шин++ | --water-- |
-| ++хурег++ | --meal-- |
+| ++хурег++ | --meal/food-- |
 | ++курси++ | --chair-- |
 | ++цяун, цябунте++ | --came, those who came-- |
 | ++вегур++ | --left-- |
-| ++чибажив, чиважив++ | --saw it, saw him-- |
+| ++чибажив++ | --saw-- |
 | ++беччив++ | --gave-- |
 | ++барив++ | --did-- |
 | ++катьив, китьул++ | --poured, pouring-- |
@@ -38,7 +38,7 @@ Kaitag has five abstract cases which we deal with most of the time. There're als
 
 ## 1 Absolutive {#1}
 
-Absolutive case is the bare stem of a word in the following contexts:
+Absolutive case is the bare stem of a word, used in the following contexts:
 
 1. Agent of intransitive verbs & copulas:
 
@@ -89,16 +89,16 @@ The ergative is marked with ++-ли++ or ++-л++ after vowels. The two main uses
    - ++ккиша==л== *увкьул*++  
      --*dying* ==of== hunger--
 
-Additional idiosyncratic uses include:
+Additional special uses include:
 
-3. The verb "to fill":
+3. The verb *"to fill"*:
 
    - ++шине==л== бицьив исттикан++  
      --the glass filled ==with== water--
 
 ::: warning Attention
 
-The case attaches not directly to ++шин++ but to the word's oblique stem ++шине-++. Similarly, adjectives too require ++-це++/++-ил++ before cases. <!-- #TODO link -->  <!-- #TODO link -->
+The case suffix attaches not directly to ++шин++ but to the word's oblique stem ++шине-++. Similarly, adjectives too require ++-це++/++-ил++ before cases. <!-- #TODO link -->  <!-- #TODO link -->
 
 :::
 
@@ -112,14 +112,14 @@ The case attaches not directly to ++шин++ but to the word's oblique stem ++ш
    - ++ца сяят==ли== хурег барив++  
      --prepared the meal ==in== an hour--
 
-6. Marking a tool, although [commitative case](#5) is more often used:
+6. Marking a tool, although [comitative case](#5) is more often used:
 
    - ++исттикан==ли== катьив++  
      --poured ==with== a glass--
 
 ## 3 Genitive {#3}
 
-The genitive is formed by ++-ла++. In the basic sense corresponds to English *of* or *'s*:
+The genitive is formed by ++-ла++. It several uses, the main one of which corresponds to English *of* or *'s*:
 
 1. Relation & possession:
 
@@ -140,16 +140,16 @@ The genitive of the personal pronoun ++ду++ --"I"-- is ++дила++ --"my"--.
 
 2. Content & substance:
 
+   - ++шине==ла== исттикан++  
+     --a glass ==of== water--
    - ++урцул==ла== курси++  
      --==wooden== chair--
    - ++курсин==ла== муса++  
      --the place ==of== the chair--
-   - ++шине==ла== исттикан++  
-     --a glass ==of== water--
    - ++дигу==ла== хурег++  
      --==meat== dish--
 
-3. Most spatial postpositions:  <!-- #TODO link -->
+3. Most postpositions:  <!-- #TODO link -->
 
    - ++курсин==ла== че++  
      --above ==the chair==--
@@ -158,7 +158,7 @@ The genitive of the personal pronoun ++ду++ --"I"-- is ++дила++ --"my"--.
    - ++машин==ла== мяҡье++  
      --next ==to the car==--
 
-4. Various temporal relations: <!-- #TODO link -->
+4. Various temporal expressions: <!-- #TODO link -->
 
    - ++нисна==ла== вегур++  
      --he left ==on== the evening--
@@ -167,7 +167,7 @@ The genitive of the personal pronoun ++ду++ --"I"-- is ++дила++ --"my"--.
 
 ## 4 Dative {#4}
 
-The dative is marked by ++-й++ after vowels, ++-жи++ after ++л++ / ++й++, and ++-и++ otherwise. It combines both abstract and locative uses:
+The dative is marked by ++-й++ after vowels, ++-жи++ after ++л++/++й++, and ++-и++ otherwise. It combines both abstract and locative uses:
 
 1. Target of some transitive verbs, like *"to"* or *"for"*:
 
@@ -177,15 +177,15 @@ The dative is marked by ++-й++ after vowels, ++-жи++ after ++л++ / ++й++, a
      --left ==for== water (i.e. to bring some)--
    - ++цяунил==жи== катьивда++  
      --poured ==for== the one who came--
-   - ++==дам== хурег барив++  
+   - ++==дами== хурег барив++  
      --cooked meal for ==me==--
 
 ::: info Note
 
 These two personal pronouns have irregular dative forms:
 
-- ++ду++ --"I"-- ➡️ ++дам++ --"me"--
-- ++и++ --"you (sg.)"-- ➡️ ++етти++ --"(to) you"-- or ++ет++
+- ++ду++ --"I"-- ➡️ ++дами++ --"me"--
+- ++и++ --"you (sg.)"-- ➡️ ++етти++ --"(to) you"--
 
 :::
 
@@ -214,13 +214,13 @@ The widspread earlier dative forms always contain ++ж++:
 - ++атта==й==++ ⬅️ ++атта==ж==++
 - ++курсин==и==++ ⬅️ ++курсин==жи==++
 - ++етти++ ⬅️ ++етти==жи==++
-- ++дам++ ⬅️ ++дам==ижи==++
+- ++дами++ ⬅️ ++дами==жи==++
 
 :::
 
-## 5 Commitative {#5}
+## 5 Comitative {#5}
 
-The commitative suffix is ++-ццил++. It has three distinct usecases:
+The comitative suffix is ++-ццил++. It has three distinct usecases:
 
 1. Marking tools:
 
@@ -230,8 +230,8 @@ The commitative suffix is ++-ццил++. It has three distinct usecases:
      --she left ==by== car--
    - ++атта урцул==ццил== улшу++  
      --father works ==with== wood--
-   - ++етти беччивил==ццил== баривде++  
-     --you did ==with== what was given to you--
+   - ++ил дами беччивил==ццил== цяунда++  
+     --I came ==with== what you gave me--
 
 2. Marking co-actors:
 
