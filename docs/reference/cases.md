@@ -283,6 +283,6 @@ The suffix has variants ++-ццелли++, ++-ццер++.
 
 ::: warning Attention
 
-The meaning *"from"* got merged from another, locative cases ++-ццир++ which many use instead in this particular context. <!-- #TODO link -->
+The meaning *"from"* got merged from another, locative cases ++-ццир++ which many use instead in this context. <!-- #TODO link -->
 
 :::
