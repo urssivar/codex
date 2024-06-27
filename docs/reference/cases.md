@@ -2,6 +2,8 @@
 
 Kaitag has five main abstract cases.
 
+<div class="table-wide">
+
 |
 | **Cheatsheet** ||
 | Absolutive <br> --intransitive agent: *who?*-- | ++==атта== вегур++ <br> --==father== left-- |
@@ -9,11 +11,14 @@ Kaitag has five main abstract cases.
 | Genitive: ++-ла++ <br> --possession: *of what?*-- | ++атта==ла== машин++ <br> --father=='s== car-- |
 | Dative: ++-й++/++-и++/++-жи++ <br> --target: *to what?*-- | ++атта==й== беччив++ <br> --gave ==to== father-- |
 | Comitative: ++-ццил++ <br> --tool: *with what?*--  | ++машин==ццил== вегур++ <br> --left ==by== car-- |
-{.bl}
+
+</div>
 
  There're also three locative cases with their own usecases. <!-- #TODO link -->
 
 ::: details Glossary
+
+<div class="table-transparent">
 
 |
 | ++ду, дила, дами++ | --I, my, (to) me-- |
@@ -34,7 +39,8 @@ Kaitag has five main abstract cases.
 | ++катьив, китьул++ | --poured, pouring-- |
 | ++улшу, улшун++ | --works, working-- |
 | ++виргул++ | --playing-- |
-{.gl}
+
+</div>
 
 :::
 

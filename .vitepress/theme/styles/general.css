@@ -17,56 +17,58 @@
 
 .hl {
     position: relative;
+
+    &::before {
+        content: "";
+        background: var(--highlight);
+        position: absolute;
+        width: 100%;
+        height: .2em;
+        border-radius: 2px;
+        bottom: -.1em;
+        z-index: -1;
+
+    }
 }
 
-.hl::before {
-    content: "";
-    background: var(--highlight);
-    position: absolute;
-    width: 100%;
-    height: .2em;
-    border-radius: 2px;
-    bottom: -.1em;
-    z-index: -1;
+div.table-transparent>table {
+
+    &,
+    tbody {
+        border-style: hidden;
+    }
+
+    td {
+        font-size: inherit;
+        text-align: start !important;
+        padding: 0;
+        border-width: 0 1em;
+        border-color: transparent;
+    }
+
+    tr {
+        border: none !important;
+        background-color: transparent !important;
+    }
+
 }
 
-table.gl td {
-    font-size: inherit;
-}
-
-table.gl tr {
-    border: none !important;
-    background-color: transparent !important;
-}
-
-table.gl,
-table.gl tbody {
-    border-style: hidden;
-}
-
-table.gl td {
-    text-align: start !important;
-    padding: 0;
-    border-width: 0 1em;
-    border-color: transparent;
-}
-
-table.bl {
+div.table-wide>table {
     border-radius: 8px;
     border-collapse: collapse;
     border-style: hidden;
     overflow-x: auto;
     background-color: var(--vp-custom-block-details-bg);
-}
 
-table.bl tbody {
-    border-style: hidden;
-    display: table;
-    width: 100%;
-}
+    tbody {
+        border-style: hidden;
+        display: table;
+        width: 100%;
+    }
 
-table.bl td,
-table.bl tr {
-    border: 1px solid var(--vp-c-divider);
-    background-color: transparent !important;
+    td,
+    tr {
+        border: 1px solid var(--vp-c-divider);
+        background-color: transparent !important;
+    }
 }

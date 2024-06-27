@@ -2,13 +2,18 @@
 
 There's a limited set of particles that interact with [copulas](./copulas) and sometime replace them.
 
+<div class="table-wide">
+
 |
 | **Cheatsheet** ||
 | ❓ | question particles: <br>  ++у, йа++ | ++уцци ҡил ==у==?++ <br> --==is== brother home?-- |
 | 💭 | modal particles: <br> ++ҡьал, ккотте++ | ++уцци ҡил ==ҡьал==++ <br> --==surely== brother ==is== home-- |
-{.bl}
+
+</div>
 
 ::: details Glossary
+
+<div class="table-transparent">
 
 |
 | ++ча++ | --who-- |
@@ -18,7 +23,8 @@ There's a limited set of particles that interact with [copulas](./copulas) and s
 | ++уцци++ | --brother-- |
 | ++ҡил++ | --at home-- |
 | ++цянне++ | --coming-- |
-{.gl}
+
+</div>
 
 :::
 

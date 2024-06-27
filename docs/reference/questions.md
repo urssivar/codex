@@ -2,14 +2,19 @@
 
 Kaitag has two main question types: **polar** and **content**. From them also **rhetoric** questions are made. The question particles follow the [predicative logic](./predicatives).
 
+<div class="table-wide">
+
 |
 | **Cheatsheet** |||
 | ✔️ | ++атта ҡил ==у==?++ <br> --==is== father at home?-- | ++е / акку++ <br> --yes / no-- |
 | ❓ | ++ҡил ==ча йа==?++ <br> --==who is== at home?-- | ++атта це++ <br> --father is-- |
 | 🤔 | ++атта ҡил ==у ра==?++ <br> --==I wonder if== father's home?-- | ++е / вейкку++ <br> --yes / he isn't-- |
-{.bl}
+
+</div>
 
 ::: details Glossary
+
+<div class="table-transparent">
 
 |
 | ++ча, чила++ | --who, whose-- |
@@ -24,7 +29,8 @@ Kaitag has two main question types: **polar** and **content**. From them also **
 | ++ҡил++ | --at home-- |
 | ++вярун++ | --[he] went-- |
 | ++чьвел++ | --two-- |
-{.gl}
+
+</div>
 
 :::
 

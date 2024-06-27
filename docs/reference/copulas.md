@@ -2,15 +2,20 @@
 
 Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, and **"to still have"**.
 
+<div class="table-wide">
+
 |
 | **Cheatsheet** ||
 | ✅ | ❎ |
 | ++чяй ==це==++ <br> --==is== tea-- | ++чяй ==акку==++ <br> --==is not== tea-- |
 | ++чяй ==ди==++ <br> --==there's== tea-- | ++чяй ==дейкку==++ <br> --==no== tea-- |
 | ++чяй ==дел==++ <br> --tea ==left==-- | ++чяй ==адел==++ <br> --==no more== tea-- |
-{.bl}
+
+</div>
 
 ::: details Glossary
+
+<div class="table-transparent">
 
 |
 | ++ду, дила++ | --I, my-- |
@@ -22,17 +27,21 @@ Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, a
 | ++тухтур++ | --doctor-- |
 | ++рирси++ | --girl/daughter-- |
 | ++улшун++ | --working-- |
-{.gl}
+
+</div>
 
 :::
 
 ## 1 Facts {#1}
 
+<div class="table-wide">
+
 | :-: | :-: | :-: | :-: | :-: |
 | | I, we | you (sg.) | you | he, she, it, they |
 | present | ++да++ | ++де++ | ++да++ | ++це++ |
 | past | ++де++ ||||
-{.bl}
+
+</div>
 
 The basic series corresponds to *"to be"* and mainly used for:
 
@@ -70,11 +79,14 @@ Instead of ++це++ many villages use the old form ++ца==би==++ with class a
 
 The negative counterparts, *"to be not"*:
 
+<div class="table-wide">
+
 | :-: | :-: | :-: | :-: | :-: |
 | | I, we | you (sg.) | you | he, she, it, they |
 | present | ++аккод++ | ++аккотте++ | ++аккотта++ | ++акку++ |
 | past | ++аччу++ ||||
-{.bl}
+
+</div>
 
 - ++ду тухтур ==аккод==++  
   --I ==am not== a doctor--
@@ -87,11 +99,14 @@ The negative counterparts, *"to be not"*:
 
 <Context :options="['masc.', 'fem.', 'neut.']">
 
+<div class="table-wide">
+
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | | I | we | you (sg.) | you | he, she, it | they |
 | present | ++[ви]{c=0}[ри]{c=1}[би]{c=2} ==да==++ | ++ди ==да==++ | ++[ви]{c=0}[ри]{c=1}[би]{c=2} ==де==++ | ++ди ==да==++ | ++[ви]{c=0}[ри]{c=1}[би]{c=2}++ | ++[би]{c=0}[би]{c=1}[ди]{c=2}++ |
 | past |  ++^[ви](m.)~^[ри](f.)~^[би](n., f.~m. pl.)~^[ди](n. pl., 1st~2nd p. pl.) ==де==++ ||||||
-{.bl}
+
+</div>
 
 </Context>
 
@@ -122,11 +137,14 @@ The negative counterparts are irregular and have classes as well:
 
 <Context :options="['masc.', 'fem.', 'neut.']">
 
+<div class="table-wide">
+
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | | I | we | you (sg.) | you | he, she, it | they |
 | present | ++[вей]{c=0}[рей]{c=1}[бей]{c=2}ккод++ | ++дейккод++ | ++[вей]{c=0}[рей]{c=1}[бей]{c=2}ккотте++ | ++дейккотта++ | ++[вей]{c=0}[рей]{c=1}[бей]{c=2}кку++ | ++[бей]{c=0}[бей]{c=1}[дей]{c=2}кку++ |
 | past |  ++^[вейччу](m.)~^[рейччу](f.)~^[бейччу](n., f.~m. pl.)~^[дейччу](n. pl., 1st~2nd p. pl.)++ ||||||
-{.bl}
+
+</div>
 
 </Context>
 
@@ -149,11 +167,14 @@ Some villages use the variants with ++-а-++: ++байкку++, ++дайккод
 
 <Context :options="['masc.', 'fem.', 'neut.']">
 
+<div class="table-wide">
+
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | | I | we | you (sg.) | you | he, she, it | they |
 | present | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==да==++ | ++дел ==да==++ | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==де==++  | ++дел ==да==++ | ++[вел]{c=0}[рел]{c=1}[бел]{c=2}++ | ++[бел]{c=0}[бел]{c=1}[дел]{c=2}++ |
 | past |  ++^[вел](m.)~^[рел](f.)~^[бел](n., f.~m. pl.)~^[дел](n. pl., 1st~2nd p. pl.) ==де==++ ||||||
-{.bl}
+
+</div>
 
 </Context>
 

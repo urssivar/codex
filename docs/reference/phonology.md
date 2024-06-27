@@ -20,12 +20,17 @@ Compared to other relatives in Dagestan, Kaitag is fairly simple.
 - ~[++з++ --[z]--](./з.m4a) — ~[++зей++](./зей.m4a)
 - ~[++з++ --[z]--](./з.m4a) — ~[++зей++](./зей.m4a) -->
 
+<div class="table-wide">
+
 |
 | **STOPS** | voiceless| voiced| geminate|ejective |
 |  п|  | |
-{.bl}
+
+</div>
 
 ### Summary
+
+<div class="table-wide">
 
 |
 | **CONSONANTS (36)** ||||||||
@@ -41,7 +46,10 @@ Compared to other relatives in Dagestan, Kaitag is fairly simple.
 |  |  |s  |ʃ  |ç|  |χ |h|
 |  |  |ɾ  |   | |  |  | |
 |  |l |   |   |j|  |  | |
-{.bl}
+
+</div>
+
+<div class="table-wide">
 
 |
 | **VOWELS (6)** |||
@@ -49,4 +57,4 @@ Compared to other relatives in Dagestan, Kaitag is fairly simple.
 |ɛ|ɐ|ɔ|  
 |æ| | |
 
-{.bl}
+</div>
