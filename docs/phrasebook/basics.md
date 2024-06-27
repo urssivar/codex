@@ -42,3 +42,5 @@
 | Иргъул да.                        | I understand                     |
 | Аиргъул да.                       | I do not understand              |
 | Иргъул де'в?                      | Do you understand                |
+
+ -->
