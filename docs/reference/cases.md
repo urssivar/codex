@@ -1,6 +1,6 @@
 # Cases
 
-Kaitag has five abstract cases which we deal with most of the time. There're also three locative cases with their own distinct usecases. <!-- #TODO link -->
+Kaitag has five main abstract cases. And there're also three locative cases with their own usecases. <!-- #TODO link -->
 
 |
 | **Cheatsheet** ||
@@ -38,7 +38,7 @@ Kaitag has five abstract cases which we deal with most of the time. There're als
 
 ## 1 Absolutive {#1}
 
-Absolutive case is the bare stem of a word, used in the following contexts:
+Absolutive case is the basic form of a word, used in the following contexts:
 
 1. Agent of intransitive verbs & copulas:
 
@@ -89,7 +89,7 @@ The ergative is marked with ++-ли++ or ++-л++ after vowels. The two main uses
    - ++ккиша==л== *увкьул*++  
      --*dying* ==of== hunger--
 
-Additional special uses include:
+Additional uses include:
 
 3. The verb *"to fill"*:
 
@@ -112,14 +112,14 @@ The case suffix attaches not directly to ++шин++ but to the word's oblique st
    - ++ца сяят==ли== хурег барив++  
      --prepared the meal ==in== an hour--
 
-6. Marking a tool, although [comitative case](#5) is more often used:
+6. Marking a tool, although [comitative case](#5) is more often used here:
 
    - ++исттикан==ли== катьив++  
      --poured ==with== a glass--
 
 ## 3 Genitive {#3}
 
-The genitive is formed by ++-ла++. It several uses, the main one of which corresponds to English *of* or *'s*:
+The genitive is formed by ++-ла++. The main use corresponds to English *of* or *'s*:
 
 1. Relation & possession:
 
@@ -144,8 +144,6 @@ The genitive of the personal pronoun ++ду++ --"I"-- is ++дила++ --"my"--.
      --a glass ==of== water--
    - ++урцул==ла== курси++  
      --==wooden== chair--
-   - ++курсин==ла== муса++  
-     --the place ==of== the chair--
    - ++дигу==ла== хурег++  
      --==meat== dish--
 
@@ -158,16 +156,17 @@ The genitive of the personal pronoun ++ду++ --"I"-- is ++дила++ --"my"--.
    - ++машин==ла== мяҡье++  
      --next ==to the car==--
 
-4. Various temporal expressions: <!-- #TODO link -->
+4. Temporal expressions: <!-- #TODO link -->
 
    - ++нисна==ла== вегур++  
      --he left ==on== the evening--
    - ++атта цеғив==ла==++  
-     --==since== father arrived--
+     --==since== father arrived--  
+     *Uses verb aorist* <!-- #TODO link -->
 
 ## 4 Dative {#4}
 
-The dative is marked by ++-й++ after vowels, ++-жи++ after ++л++/++й++, and ++-и++ otherwise. It combines both abstract and locative uses:
+The dative is marked by ++-й++ after vowels, ++-жи++ after ++л++/++й++, and ++-и++ otherwise. It combines abstract and locative uses:
 
 1. Target of some transitive verbs, like *"to"* or *"for"*:
 
@@ -198,6 +197,17 @@ These two personal pronouns have irregular dative forms:
    - ++усттул==жи==++  
      --==on== the table--
 
+::: info Note
+
+The widspread earlier dative form with ++ж++:
+
+- ++атта==й==++ ⬅️ ++атта==ж==++
+- ++курсин==и==++ ⬅️ ++курсин==жи==++
+- ++етти++ ⬅️ ++етти==жи==++
+- ++дами++ ⬅️ ++дами==жи==++
+
+:::
+
 3. Certain destinations of motion:
 
    - ++еркь==и== вегур++  
@@ -209,18 +219,28 @@ These two personal pronouns have irregular dative forms:
 
 ::: info Note
 
-The widspread earlier dative forms always contain ++ж++:
+Instead of ++-и++ also variant ++-е++ is used:
 
-- ++атта==й==++ ⬅️ ++атта==ж==++
-- ++курсин==и==++ ⬅️ ++курсин==жи==++
-- ++етти++ ⬅️ ++етти==жи==++
-- ++дами++ ⬅️ ++дами==жи==++
+- ++курсин==и==++ ↔️ ++курсин==е==++
+- ++хяв==и==++ ↔️ ++хяв==е==++
 
 :::
 
+4. Temporal meaning *"by"*:
+
+   - ++атта цеғара==й==++  
+     --==by the time== father arrives--  
+     *Uses verb infinitive* <!-- #TODO link -->
+   - ++нисна==й==++  
+     --==by== the event--
+   - ++сяят ==цалжи==++  
+     --==by== one o'clock--
+   - ++сяят ==уғи==++  
+     --==by== four o'clock--
+
 ## 5 Comitative {#5}
 
-The comitative suffix is ++-ццил++. It has three distinct usecases:
+The comitative suffix is marked by suffix ++-ццил++. It has three distinct usecases:
 
 1. Marking tools:
 
@@ -246,7 +266,7 @@ The comitative suffix is ++-ццил++. It has three distinct usecases:
 
 ::: info Note
 
-The suffix has variants ++-ццелли++ or ++-ццер++.
+The suffix has variants ++-ццелли++, ++-ццер++.
 
 :::
 
@@ -261,6 +281,6 @@ The suffix has variants ++-ццелли++ or ++-ццер++.
 
 ::: warning Attention
 
-The meaning *"from"* got merged from another locative form ++-ццир++ which many instead in this particular context. <!-- #TODO link -->
+The meaning *"from"* got merged from another, locative cases ++-ццир++ which many use instead in this particular context. <!-- #TODO link -->
 
 :::
