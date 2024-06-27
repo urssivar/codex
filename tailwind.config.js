@@ -5,6 +5,7 @@ export default {
     "./components/**/*.{vue,js,ts,jsx,tsx}",
     "./.vitepress/**/*.{vue,js,ts,jsx,tsx}",
   ],
+  prefix: 'tw-',
   theme: {
     extend: {},
   },
