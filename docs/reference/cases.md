@@ -1,6 +1,6 @@
 # Cases
 
-Kaitag has five main abstract cases. And there're also three locative cases with their own usecases. <!-- #TODO link -->
+Kaitag has five main abstract cases.
 
 |
 | **Cheatsheet** ||
@@ -10,6 +10,8 @@ Kaitag has five main abstract cases. And there're also three locative cases with
 | Dative: ++-й++/++-и++/++-жи++ <br> --target: *to what?*-- | ++атта==й== беччив++ <br> --gave ==to== father-- |
 | Comitative: ++-ццил++ <br> --tool: *with what?*--  | ++машин==ццил== вегур++ <br> --left ==by== car-- |
 {.bl}
+
+ There're also three locative cases with their own usecases. <!-- #TODO link -->
 
 ::: details Glossary
 
