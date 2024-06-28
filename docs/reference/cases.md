@@ -258,8 +258,8 @@ The comitative suffix is marked by suffix ++-ццил++. It has three distinct u
      --she left ==by== car--
    - ++атта урцул==ццил== улшу++  
      --father works ==with== wood--
-   - ++ил дами беччивил==ццил== цяунда++  
-     --I came ==with== what you gave me--
+   - ++ил дами беччивил==ццил== баривда++  
+     --I did ==with== what you gave me--
 
 2. Marking co-actors:
 
