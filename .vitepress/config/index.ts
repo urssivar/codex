@@ -10,6 +10,9 @@ import { pwa } from './pwa'
 
 export default withPwa(defineConfig({
   srcDir: "./docs",
+  sitemap: {
+    hostname: "https://codex.urssivar.com",
+  },
   vue: {
     template: {
       transformAssetUrls: {
