@@ -31,7 +31,8 @@
     }
 }
 
-div.table-transparent>table {
+div.table-transparent table {
+    @apply tw-overflow-visible;
 
     &,
     tbody {
@@ -53,7 +54,7 @@ div.table-transparent>table {
 
 }
 
-div.table-wide>table {
+div.table-wide table {
     border-radius: 8px;
     border-collapse: collapse;
     border-style: hidden;
