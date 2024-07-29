@@ -56,7 +56,7 @@ function refresh() {
 
 function keyboardTap(k: string | undefined) {
     if (k) {
-        if (input.value.length < word.value.length - 1) {
+        if (input.value.length < word.value.length) {
             input.value += k;
         }
     } else if (input.value) {
