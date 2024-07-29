@@ -76,7 +76,7 @@ function keyboardTap(k: string | undefined) {
     </div>
     <InputOtp class="tw-my-8"v-model="input" :length="word.length">
         <template #default="{ attrs, events, index: i }">
-            <input type="text" v-bind="attrs" v-on="events" :readonly="passed" class="p-inputotp-input"
+            <input type="text" v-bind="attrs" v-on="events" :readonly="passed" class="letter"
                 :class="input[i - 1] ? input[i - 1] == word[i - 1] ? 'corr' : 'err' : ''" />
         </template>
     </InputOtp>
@@ -88,8 +88,8 @@ function keyboardTap(k: string | undefined) {
     @apply !tw-gap-1 !tw-justify-center;
 }
 
-.p-inputotp-input {
-    @apply tw-duration-150 tw-rounded-md tw-font-medium tw-text-xl tw-py-2 tw-bg-slate-100 tw-text-slate-800;
+.letter {
+    @apply tw-duration-150 tw-rounded-md tw-font-medium tw-text-xl tw-p-2 tw-bg-slate-100 tw-text-slate-800 tw-w-8 tw-text-center;
 
     &.corr {
         @apply tw-bg-green-100;
