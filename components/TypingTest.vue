@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import { ref, computed, onMounted, onUnmounted } from 'vue';
+import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
 import Keyboard from '@/Keyboard.vue';
 
 defineProps<{
@@ -10,6 +10,10 @@ let words = [] as [string, string][];
 const word = ref('');
 const audio = new Audio();
 const input = ref("");
+
+watch(input, () => {
+    input.value = input.value.toLowerCase()
+});
 
 const first = ref(true);
 const passed = computed(() => {
@@ -74,7 +78,7 @@ function keyboardTap(k: string | undefined) {
         <Button @click="refresh" :label="labels['next']" icon="pi pi-arrow-right" size="small"
             :severity="passed ? 'primary' : 'secondary'" />
     </div>
-    <InputOtp class="tw-my-8"v-model="input" :length="word.length">
+    <InputOtp class="tw-my-8" v-model="input" :length="word.length">
         <template #default="{ attrs, events, index: i }">
             <input type="text" v-bind="attrs" v-on="events" :readonly="passed" class="letter"
                 :class="input[i - 1] ? input[i - 1] == word[i - 1] ? 'corr' : 'err' : ''" />

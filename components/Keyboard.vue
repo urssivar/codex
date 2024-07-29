@@ -1,6 +1,6 @@
 <script setup lang="ts">
 defineProps<{
-    onTap: (k: string | undefined) => void
+    onTap: (k?: string) => void
 }>();
 
 const keys = [
