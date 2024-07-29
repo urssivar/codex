@@ -31,11 +31,10 @@ onMounted(async () => {
     for (let i = 1; i < avdan.length; i++) {
         const cards = avdan[i].cards;
         for (const c of cards) {
-            if (c.caption.main.contains(' ')) continue;
+            if (c.caption.main.includes(' ')) continue;
             words.push([c.caption.main, c.audioPath]);
         }
     }
-
     refresh();
 });
 
