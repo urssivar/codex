@@ -13,7 +13,7 @@ export const ru = defineConfig({
     ],
 
     themeConfig: {
-        
+
         nav: nav(),
 
         sidebar: {
@@ -27,8 +27,8 @@ export const ru = defineConfig({
             // }
         },
 
-        outline: { 
-            label: 'Содержание страницы', 
+        outline: {
+            label: 'Содержание страницы',
             level: [2, 4]
         },
 
@@ -62,6 +62,11 @@ function nav(): DefaultTheme.NavItem[] {
         //     link: "/ru/phrasebook/basics/",
         //     activeMatch: "/ru/phrasebook/",
         // },
+        {
+            text: "Проверка письма",
+            link: "/typing",
+            activeMatch: "/typing",
+        },
         {
             text: "Приложения",
             items: [
