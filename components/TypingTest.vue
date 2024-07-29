@@ -6,7 +6,14 @@ const word = ref('');
 const audio = new Audio();
 const input = ref("");
 
-const passed = computed(() => input.value == word.value);
+const first = ref(true);
+const passed = computed(() => {
+    const passed = word.value && input.value == word.value;
+    if (passed) {
+        first.value = false;
+    }
+    return passed;
+});
 
 onMounted(async () => {
     const avdan = await fetch('/typing/words.json')
@@ -18,6 +25,14 @@ onMounted(async () => {
             words.push([c.caption.main, c.audioPath]);
         }
     }
+
+    refresh();
+});
+
+window.addEventListener('keydown', (e) => {
+    if (e.key == 'Enter') {
+        refresh();
+    }
 });
 
 function refresh() {
@@ -27,22 +42,23 @@ function refresh() {
 
     audio.play();
     input.value = '';
-    document.getElementById('first')?.focus();
+    document.querySelector<HTMLAudioElement>('.p-inputotp input')?.focus();
 }
 </script>
 
 <template>
     <div class="tw-flex tw-gap-4 tw-m-4 tw-justify-center">
-        <Button @click="audio.play()" label="Listen" icon="pi pi-volume-down" size="small" severity="secondary" />
+        <Button @click="audio.play()" label="Listen" icon="pi pi-volume-down" size="small"
+            :severity="first ? 'primary' : 'secondary'" />
         <Button @click="input = word" label="Reveal" icon="pi pi-eye" size="small" severity="secondary"
             :disabled="passed" />
         <Button @click="refresh" label="Next" icon="pi pi-arrow-right" size="small"
             :severity="passed ? 'primary' : 'secondary'" />
     </div>
     <InputOtp v-model="input" :length="word.length">
-        <template #default="{ attrs, events, index }">
+        <template #default="{ attrs, events, index: i }">
             <input type="text" v-bind="attrs" v-on="events" :readonly="passed" class="p-inputotp-input"
-                :class="{ corr: input[index - 1] == word[index - 1] }" :id="index ? 'first' : ''" />
+                :class="input[i - 1] ? input[i - 1] == word[i - 1] ? 'corr' : 'err' : ''" />
         </template>
     </InputOtp>
 </template>
@@ -57,6 +73,10 @@ function refresh() {
 
     &.corr {
         @apply tw-bg-green-200;
+    }
+
+    &.err {
+        @apply tw-bg-red-200;
     }
 }
 </style>
