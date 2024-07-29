@@ -6,9 +6,9 @@ outline: false
 import TypingTest from '@/TypingTest.vue';
 
 const labels = {
-    'listen': 'Listen',
-    'reveal': 'Reveal',
-    'next': 'Next',
+    'listen': 'Прослушать',
+    'reveal': 'Раскрыть',
+    'next': 'Далее',
 }
 </script>
 

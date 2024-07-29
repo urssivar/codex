@@ -1,5 +1,9 @@
 <script setup lang="ts">
-import { ref, onMounted, computed } from 'vue';
+import { ref, computed, onMounted, onUnmounted } from 'vue';
+
+defineProps<{
+    labels: Record<string, string>
+}>();
 
 let words = [] as [string, string][];
 const word = ref('');
@@ -29,6 +33,10 @@ onMounted(async () => {
     refresh();
 });
 
+onUnmounted(() => {
+    audio.remove();
+})
+
 window.addEventListener('keydown', (e) => {
     if (e.key == 'Enter') {
         refresh();
@@ -42,17 +50,17 @@ function refresh() {
 
     audio.play();
     input.value = '';
-    document.querySelector<HTMLAudioElement>('.p-inputotp input')?.focus();
+    document.querySelector<HTMLInputElement>('.p-inputotp input')?.focus();
 }
 </script>
 
 <template>
-    <div class="tw-flex tw-gap-4 tw-m-4 tw-justify-center">
-        <Button @click="audio.play()" label="Listen" icon="pi pi-volume-down" size="small"
+    <div class="tw-flex tw-gap-4 tw-mb-4 tw-justify-center">
+        <Button @click="audio.play()" :label="labels['listen']" icon="pi pi-volume-down" size="small"
             :severity="first ? 'primary' : 'secondary'" />
-        <Button @click="input = word" label="Reveal" icon="pi pi-eye" size="small" severity="secondary"
-            :disabled="passed" />
-        <Button @click="refresh" label="Next" icon="pi pi-arrow-right" size="small"
+        <Button @click="input = word" :label="labels['reveal']" icon="pi pi-eye" size="small" :disabled="passed"
+            severity="secondary" text />
+        <Button @click="refresh" :label="labels['next']" icon="pi pi-arrow-right" size="small"
             :severity="passed ? 'primary' : 'secondary'" />
     </div>
     <InputOtp v-model="input" :length="word.length">
@@ -69,14 +77,14 @@ function refresh() {
 }
 
 .p-inputotp-input {
-    @apply tw-rounded-md tw-bg-slate-100 tw-font-medium tw-text-lg tw-p-2;
+    @apply tw-duration-150 tw-rounded-md tw-font-medium tw-text-xl tw-py-2 tw-bg-slate-100 tw-text-slate-800;
 
     &.corr {
-        @apply tw-bg-green-200;
+        @apply tw-bg-green-100;
     }
 
     &.err {
-        @apply tw-bg-red-200;
+        @apply tw-bg-red-100;
     }
 }
 </style>
