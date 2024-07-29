@@ -1,0 +1,7002 @@
+[
+  {
+    "length": 43,
+    "cards": [
+      {
+        "caption": {
+          "main": "алип",
+          "alt": "alip"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "alphabet"
+          },
+          {
+            "language": "russian",
+            "text": "алфавит"
+          }
+        ],
+        "audioPath": "alphabet/alphabet.mp3",
+        "imagePath": "alphabet/а б в г ғ д е ж з и й к кк кь ҡ ҡҡ ҡь л м н о п пп пь р с т тт ть у х ҳ ц цц ць ч чч чь ш ъ ь я.png",
+        "preview": {
+          "main": "а",
+          "alt": "a"
+        }
+      },
+      {
+        "caption": {
+          "main": "а",
+          "alt": "a"
+        },
+        "audioPath": "alphabet/a.mp3"
+      },
+      {
+        "caption": {
+          "main": "б",
+          "alt": "b"
+        },
+        "audioPath": "alphabet/b.mp3"
+      },
+      {
+        "caption": {
+          "main": "в",
+          "alt": "v"
+        },
+        "audioPath": "alphabet/v.mp3"
+      },
+      {
+        "caption": {
+          "main": "г",
+          "alt": "g"
+        },
+        "audioPath": "alphabet/g.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғ",
+          "alt": "ğ"
+        },
+        "audioPath": "alphabet/ğ.mp3"
+      },
+      {
+        "caption": {
+          "main": "д",
+          "alt": "d"
+        },
+        "audioPath": "alphabet/d.mp3"
+      },
+      {
+        "caption": {
+          "main": "е",
+          "alt": "e"
+        },
+        "audioPath": "alphabet/e.mp3"
+      },
+      {
+        "caption": {
+          "main": "ж",
+          "alt": "ž"
+        },
+        "audioPath": "alphabet/ž.mp3"
+      },
+      {
+        "caption": {
+          "main": "з",
+          "alt": "z"
+        },
+        "audioPath": "alphabet/z.mp3"
+      },
+      {
+        "caption": {
+          "main": "и",
+          "alt": "i"
+        },
+        "audioPath": "alphabet/i.mp3"
+      },
+      {
+        "caption": {
+          "main": "й",
+          "alt": "y"
+        },
+        "audioPath": "alphabet/y.mp3"
+      },
+      {
+        "caption": {
+          "main": "к",
+          "alt": "k"
+        },
+        "audioPath": "alphabet/k.mp3"
+      },
+      {
+        "caption": {
+          "main": "кк",
+          "alt": "kk"
+        },
+        "audioPath": "alphabet/kk.mp3"
+      },
+      {
+        "caption": {
+          "main": "кь",
+          "alt": "kh"
+        },
+        "audioPath": "alphabet/kh.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡ",
+          "alt": "q"
+        },
+        "audioPath": "alphabet/q.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡ",
+          "alt": "qq"
+        },
+        "audioPath": "alphabet/qq.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡь",
+          "alt": "qh"
+        },
+        "audioPath": "alphabet/qh.mp3"
+      },
+      {
+        "caption": {
+          "main": "л",
+          "alt": "l"
+        },
+        "audioPath": "alphabet/l.mp3"
+      },
+      {
+        "caption": {
+          "main": "м",
+          "alt": "m"
+        },
+        "audioPath": "alphabet/m.mp3"
+      },
+      {
+        "caption": {
+          "main": "н",
+          "alt": "n"
+        },
+        "audioPath": "alphabet/n.mp3"
+      },
+      {
+        "caption": {
+          "main": "о",
+          "alt": "o"
+        },
+        "audioPath": "alphabet/o.mp3"
+      },
+      {
+        "caption": {
+          "main": "п",
+          "alt": "p"
+        },
+        "audioPath": "alphabet/p.mp3"
+      },
+      {
+        "caption": {
+          "main": "пп",
+          "alt": "pp"
+        },
+        "audioPath": "alphabet/pp.mp3"
+      },
+      {
+        "caption": {
+          "main": "пь",
+          "alt": "ph"
+        },
+        "audioPath": "alphabet/ph.mp3"
+      },
+      {
+        "caption": {
+          "main": "р",
+          "alt": "r"
+        },
+        "audioPath": "alphabet/r.mp3"
+      },
+      {
+        "caption": {
+          "main": "с",
+          "alt": "s"
+        },
+        "audioPath": "alphabet/s.mp3"
+      },
+      {
+        "caption": {
+          "main": "т",
+          "alt": "t"
+        },
+        "audioPath": "alphabet/t.mp3"
+      },
+      {
+        "caption": {
+          "main": "тт",
+          "alt": "tt"
+        },
+        "audioPath": "alphabet/tt.mp3"
+      },
+      {
+        "caption": {
+          "main": "ть",
+          "alt": "th"
+        },
+        "audioPath": "alphabet/th.mp3"
+      },
+      {
+        "caption": {
+          "main": "у",
+          "alt": "u"
+        },
+        "audioPath": "alphabet/u.mp3"
+      },
+      {
+        "caption": {
+          "main": "х",
+          "alt": "x"
+        },
+        "audioPath": "alphabet/x.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҳ",
+          "alt": "j"
+        },
+        "audioPath": "alphabet/j.mp3"
+      },
+      {
+        "caption": {
+          "main": "ц",
+          "alt": "c"
+        },
+        "audioPath": "alphabet/c.mp3"
+      },
+      {
+        "caption": {
+          "main": "цц",
+          "alt": "cc"
+        },
+        "audioPath": "alphabet/cc.mp3"
+      },
+      {
+        "caption": {
+          "main": "ць",
+          "alt": "ch"
+        },
+        "audioPath": "alphabet/ch.mp3"
+      },
+      {
+        "caption": {
+          "main": "ч",
+          "alt": "ç"
+        },
+        "audioPath": "alphabet/ç.mp3"
+      },
+      {
+        "caption": {
+          "main": "чч",
+          "alt": "çç"
+        },
+        "audioPath": "alphabet/çç.mp3"
+      },
+      {
+        "caption": {
+          "main": "чь",
+          "alt": "çh"
+        },
+        "audioPath": "alphabet/çh.mp3"
+      },
+      {
+        "caption": {
+          "main": "ш",
+          "alt": "ş"
+        },
+        "audioPath": "alphabet/ş.mp3"
+      },
+      {
+        "caption": {
+          "main": "ъ",
+          "alt": "ý"
+        },
+        "audioPath": "alphabet/ý.mp3"
+      },
+      {
+        "caption": {
+          "main": "ь",
+          "alt": "h"
+        },
+        "audioPath": "alphabet/h.mp3"
+      },
+      {
+        "caption": {
+          "main": "я",
+          "alt": "æ"
+        },
+        "audioPath": "alphabet/æ.mp3"
+      }
+    ],
+    "color": "26A69A"
+  },
+  {
+    "length": 17,
+    "cards": [
+      {
+        "caption": {
+          "main": "укка",
+          "alt": "ukka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "people"
+          },
+          {
+            "language": "russian",
+            "text": "люди"
+          }
+        ],
+        "audioPath": "people/people.mp3",
+        "imagePath": "people/senior.png"
+      },
+      {
+        "caption": {
+          "main": "хулел",
+          "alt": "xulel"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "senior"
+          },
+          {
+            "language": "russian",
+            "text": "старший"
+          }
+        ],
+        "imagePath": "people/senior.png",
+        "audioPath": "people/senior.mp3"
+      },
+      {
+        "caption": {
+          "main": "мургул",
+          "alt": "murgul"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "man"
+          },
+          {
+            "language": "russian",
+            "text": "мужчина"
+          }
+        ],
+        "imagePath": "people/man.png",
+        "audioPath": "people/man.mp3"
+      },
+      {
+        "caption": {
+          "main": "баьинте",
+          "alt": "bahinte"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "parents"
+          },
+          {
+            "language": "russian",
+            "text": "родители"
+          }
+        ],
+        "imagePath": "people/parents.png",
+        "audioPath": "people/parents.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҳулум",
+          "alt": "julum"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "woman"
+          },
+          {
+            "language": "russian",
+            "text": "женщина "
+          }
+        ],
+        "imagePath": "people/woman.png",
+        "audioPath": "people/woman.mp3"
+      },
+      {
+        "caption": {
+          "main": "уба",
+          "alt": "uba"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "mother"
+          },
+          {
+            "language": "russian",
+            "text": "мама"
+          }
+        ],
+        "imagePath": "people/mother.png",
+        "audioPath": "people/mother.mp3"
+      },
+      {
+        "caption": {
+          "main": "атта",
+          "alt": "atta"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "father"
+          },
+          {
+            "language": "russian",
+            "text": "папа"
+          }
+        ],
+        "imagePath": "people/father.png",
+        "audioPath": "people/father.mp3"
+      },
+      {
+        "caption": {
+          "main": "уцци",
+          "alt": "ucci"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "brother"
+          },
+          {
+            "language": "russian",
+            "text": "брат"
+          }
+        ],
+        "imagePath": "people/brother.png",
+        "audioPath": "people/brother.mp3"
+      },
+      {
+        "caption": {
+          "main": "рицци",
+          "alt": "rucci"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sister"
+          },
+          {
+            "language": "russian",
+            "text": "сестра"
+          }
+        ],
+        "imagePath": "people/sister.png",
+        "audioPath": "people/sister.mp3"
+      },
+      {
+        "caption": {
+          "main": "абаба",
+          "alt": "ababa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "grandmother"
+          },
+          {
+            "language": "russian",
+            "text": "бабушка"
+          }
+        ],
+        "imagePath": "people/grandmother.png",
+        "audioPath": "people/grandmother.mp3"
+      },
+      {
+        "caption": {
+          "main": "холатта",
+          "alt": "xolatta"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "grandfather"
+          },
+          {
+            "language": "russian",
+            "text": "дедушка"
+          }
+        ],
+        "imagePath": "people/grandfather.png",
+        "audioPath": "people/grandfather.mp3"
+      },
+      {
+        "caption": {
+          "main": "кулпет",
+          "alt": "kulpet"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "family"
+          },
+          {
+            "language": "russian",
+            "text": "семья"
+          }
+        ],
+        "imagePath": "people/family.png",
+        "audioPath": "people/family.mp3"
+      },
+      {
+        "caption": {
+          "main": "урши",
+          "alt": "urşi"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "boy"
+          },
+          {
+            "language": "russian",
+            "text": "мальчик"
+          }
+        ],
+        "imagePath": "people/boy.png",
+        "audioPath": "people/boy.mp3"
+      },
+      {
+        "caption": {
+          "main": "рирси",
+          "alt": "rirsi"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "girl"
+          },
+          {
+            "language": "russian",
+            "text": "девочка"
+          }
+        ],
+        "imagePath": "people/girl.png",
+        "audioPath": "people/girl.mp3"
+      },
+      {
+        "caption": {
+          "main": "дярья",
+          "alt": "dærhæ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "child"
+          },
+          {
+            "language": "russian",
+            "text": "ребенок"
+          }
+        ],
+        "imagePath": "people/child.png",
+        "audioPath": "people/child.mp3"
+      },
+      {
+        "caption": {
+          "main": "уртах",
+          "alt": "urtax"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "friend"
+          },
+          {
+            "language": "russian",
+            "text": "друг"
+          }
+        ],
+        "imagePath": "people/friend.png",
+        "audioPath": "people/friend.mp3"
+      },
+      {
+        "caption": {
+          "main": "умра",
+          "alt": "umra"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "neighbour"
+          },
+          {
+            "language": "russian",
+            "text": "сосед"
+          }
+        ],
+        "imagePath": "people/neighbour.png",
+        "audioPath": "people/neighbour.mp3"
+      }
+    ],
+    "color": "607d8b"
+  },
+  {
+    "length": 35,
+    "cards": [
+      {
+        "caption": {
+          "main": "букан",
+          "alt": "bukan"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "food"
+          },
+          {
+            "language": "russian",
+            "text": "еда"
+          }
+        ],
+        "audioPath": "food/food.mp3",
+        "imagePath": "food/pie.png"
+      },
+      {
+        "caption": {
+          "main": "чутту",
+          "alt": "çuttu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pie"
+          },
+          {
+            "language": "russian",
+            "text": "пирог"
+          }
+        ],
+        "imagePath": "food/pie.png",
+        "audioPath": "food/pie.mp3"
+      },
+      {
+        "caption": {
+          "main": "чьаҡьо",
+          "alt": "çhaqho"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bread"
+          },
+          {
+            "language": "russian",
+            "text": "хлеб"
+          }
+        ],
+        "imagePath": "food/bread.png",
+        "audioPath": "food/bread.mp3"
+      },
+      {
+        "caption": {
+          "main": "мичер",
+          "alt": "miçer"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cornpone"
+          },
+          {
+            "language": "russian",
+            "text": "кукурузный чурек"
+          }
+        ],
+        "imagePath": "food/cornpone.png",
+        "audioPath": "food/cornpone.mp3"
+      },
+      {
+        "caption": {
+          "main": "шин",
+          "alt": "şin"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "water"
+          },
+          {
+            "language": "russian",
+            "text": "вода"
+          }
+        ],
+        "imagePath": "food/water.png",
+        "audioPath": "food/water.mp3"
+      },
+      {
+        "caption": {
+          "main": "цце",
+          "alt": "cce"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "salt"
+          },
+          {
+            "language": "russian",
+            "text": "соль"
+          }
+        ],
+        "imagePath": "food/salt.png",
+        "audioPath": "food/salt.mp3"
+      },
+      {
+        "caption": {
+          "main": "чакар",
+          "alt": "çakar"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sugar"
+          },
+          {
+            "language": "russian",
+            "text": "сахар"
+          }
+        ],
+        "imagePath": "food/sugar.png",
+        "audioPath": "food/sugar.mp3"
+      },
+      {
+        "caption": {
+          "main": "исут",
+          "alt": "isut"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pepper"
+          },
+          {
+            "language": "russian",
+            "text": "перец"
+          }
+        ],
+        "imagePath": "food/pepper.png",
+        "audioPath": "food/pepper.mp3"
+      },
+      {
+        "caption": {
+          "main": "диг",
+          "alt": "dig"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "meat"
+          },
+          {
+            "language": "russian",
+            "text": "мясо"
+          }
+        ],
+        "imagePath": "food/meat.png",
+        "audioPath": "food/meat.mp3"
+      },
+      {
+        "caption": {
+          "main": "нег",
+          "alt": "neg"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "milk"
+          },
+          {
+            "language": "russian",
+            "text": "молоко"
+          }
+        ],
+        "imagePath": "food/milk.png",
+        "audioPath": "food/milk.mp3"
+      },
+      {
+        "caption": {
+          "main": "мяъ",
+          "alt": "mæý"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "egg"
+          },
+          {
+            "language": "russian",
+            "text": "яйцо"
+          }
+        ],
+        "imagePath": "food/egg.png",
+        "audioPath": "food/egg.mp3"
+      },
+      {
+        "caption": {
+          "main": "берта",
+          "alt": "berta"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "scrambled eggs"
+          },
+          {
+            "language": "russian",
+            "text": "яичница"
+          }
+        ],
+        "imagePath": "food/scrambled eggs.png",
+        "audioPath": "food/scrambled eggs.mp3"
+      },
+      {
+        "caption": {
+          "main": "дертур нег",
+          "alt": "dertur neg"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "kefir"
+          },
+          {
+            "language": "russian",
+            "text": "кефир"
+          }
+        ],
+        "imagePath": "food/kefir.png",
+        "audioPath": "food/kefir.mp3"
+      },
+      {
+        "caption": {
+          "main": "бурт",
+          "alt": "burt"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sour cream"
+          },
+          {
+            "language": "russian",
+            "text": "сметана"
+          }
+        ],
+        "imagePath": "food/sour cream.png",
+        "audioPath": "food/sour cream.mp3"
+      },
+      {
+        "caption": {
+          "main": "авжат",
+          "alt": "avžat"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "flour porridge"
+          },
+          {
+            "language": "russian",
+            "text": "мучная каша"
+          }
+        ],
+        "imagePath": "food/flour porridge.png",
+        "audioPath": "food/flour porridge.mp3"
+      },
+      {
+        "caption": {
+          "main": "метье",
+          "alt": "methe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "oil"
+          },
+          {
+            "language": "russian",
+            "text": "масло растительное"
+          }
+        ],
+        "imagePath": "food/oil.png",
+        "audioPath": "food/oil.mp3"
+      },
+      {
+        "caption": {
+          "main": "чьеме",
+          "alt": "çheme"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "butter"
+          },
+          {
+            "language": "russian",
+            "text": "масло сливочное"
+          }
+        ],
+        "imagePath": "food/butter.png",
+        "audioPath": "food/butter.mp3"
+      },
+      {
+        "caption": {
+          "main": "бетьу",
+          "alt": "bethu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "flour"
+          },
+          {
+            "language": "russian",
+            "text": "мука"
+          }
+        ],
+        "imagePath": "food/flour.png",
+        "audioPath": "food/flour.mp3"
+      },
+      {
+        "caption": {
+          "main": "чяй",
+          "alt": "çæy"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "tea"
+          },
+          {
+            "language": "russian",
+            "text": "чай"
+          }
+        ],
+        "imagePath": "food/tea.png",
+        "audioPath": "food/tea.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡьава",
+          "alt": "qhava"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "coffee"
+          },
+          {
+            "language": "russian",
+            "text": "кофе"
+          }
+        ],
+        "imagePath": "food/coffee.png",
+        "audioPath": "food/coffee.mp3"
+      },
+      {
+        "caption": {
+          "main": "буттуғ",
+          "alt": "buttuğ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "porridge"
+          },
+          {
+            "language": "russian",
+            "text": "каша"
+          }
+        ],
+        "imagePath": "food/porridge.png",
+        "audioPath": "food/porridge.mp3"
+      },
+      {
+        "caption": {
+          "main": "нерғ",
+          "alt": "nerğ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "soup"
+          },
+          {
+            "language": "russian",
+            "text": "суп"
+          }
+        ],
+        "imagePath": "food/soup.png",
+        "audioPath": "food/soup.mp3"
+      },
+      {
+        "caption": {
+          "main": "ялутьа",
+          "alt": "ælutha"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bagel"
+          },
+          {
+            "language": "russian",
+            "text": "бублик"
+          }
+        ],
+        "imagePath": "food/bagel.png",
+        "audioPath": "food/bagel.mp3"
+      },
+      {
+        "caption": {
+          "main": "ликка",
+          "alt": "likka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bone"
+          },
+          {
+            "language": "russian",
+            "text": "кость"
+          }
+        ],
+        "imagePath": "food/bone.png",
+        "audioPath": "food/bone.mp3"
+      },
+      {
+        "caption": {
+          "main": "дигла баццикь",
+          "alt": "digla baccikh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "meat pie"
+          },
+          {
+            "language": "russian",
+            "text": "чуду с мясом"
+          }
+        ],
+        "imagePath": "food/meat pie.png",
+        "audioPath": "food/meat pie.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғибела баццикь",
+          "alt": "ğibela baccikh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "potato pie"
+          },
+          {
+            "language": "russian",
+            "text": "чуду с картофелем"
+          }
+        ],
+        "imagePath": "food/potato pie.png",
+        "audioPath": "food/potato pie.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡабағла баццикь",
+          "alt": "qqabağla baccikh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pumpkin pie"
+          },
+          {
+            "language": "russian",
+            "text": "чуду с тыквой"
+          }
+        ],
+        "imagePath": "food/pumpkin pie.png",
+        "audioPath": "food/pumpkin pie.mp3"
+      },
+      {
+        "caption": {
+          "main": "нисела баццикь",
+          "alt": "nisela baccikh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cheese pie"
+          },
+          {
+            "language": "russian",
+            "text": "чуду с сыром"
+          }
+        ],
+        "imagePath": "food/cheese pie.png",
+        "audioPath": "food/cheese pie.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡьайла баццикь",
+          "alt": "qhayla baccikh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "beet leaf pie"
+          },
+          {
+            "language": "russian",
+            "text": "чуду с листьями свеклы"
+          }
+        ],
+        "imagePath": "food/beet leaf pie.png",
+        "audioPath": "food/beet leaf pie.mp3"
+      },
+      {
+        "caption": {
+          "main": "ччашин",
+          "alt": "ççaşin"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sauce"
+          },
+          {
+            "language": "russian",
+            "text": "соус (приправа)"
+          }
+        ],
+        "imagePath": "food/sauce.png",
+        "audioPath": "food/sauce.mp3"
+      },
+      {
+        "caption": {
+          "main": "нису",
+          "alt": "nisu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sour cream sauce"
+          },
+          {
+            "language": "russian",
+            "text": "сметанный соус"
+          }
+        ],
+        "imagePath": "food/sour cream sauce.png",
+        "audioPath": "food/sour cream sauce.mp3"
+      },
+      {
+        "caption": {
+          "main": "музидеҳ",
+          "alt": "muzidej"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sweets"
+          },
+          {
+            "language": "russian",
+            "text": "сладости"
+          }
+        ],
+        "imagePath": "food/sweets.png",
+        "audioPath": "food/sweets.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡампит",
+          "alt": "qqampit"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "candy"
+          },
+          {
+            "language": "russian",
+            "text": "конфета"
+          }
+        ],
+        "imagePath": "food/candy.png",
+        "audioPath": "food/candy.mp3"
+      },
+      {
+        "caption": {
+          "main": "мереппа",
+          "alt": "mereppa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "jam"
+          },
+          {
+            "language": "russian",
+            "text": "варенье"
+          }
+        ],
+        "imagePath": "food/jam.png",
+        "audioPath": "food/jam.mp3"
+      },
+      {
+        "caption": {
+          "main": "нисе",
+          "alt": "nise"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cheese"
+          },
+          {
+            "language": "russian",
+            "text": "сыр"
+          }
+        ],
+        "imagePath": "food/cheese.png",
+        "audioPath": "food/cheese.mp3"
+      }
+    ],
+    "color": "ffc107"
+  },
+  {
+    "length": 41,
+    "cards": [
+      {
+        "caption": {
+          "main": "бурха",
+          "alt": "burxa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "home"
+          },
+          {
+            "language": "russian",
+            "text": "дом"
+          }
+        ],
+        "audioPath": "home/home.mp3",
+        "imagePath": "home/apartment.png"
+      },
+      {
+        "caption": {
+          "main": "секццей",
+          "alt": "sekccey"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "apartment"
+          },
+          {
+            "language": "russian",
+            "text": "квартира"
+          }
+        ],
+        "imagePath": "home/apartment.png",
+        "audioPath": "home/apartment.mp3"
+      },
+      {
+        "caption": {
+          "main": "тах",
+          "alt": "tax"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bed"
+          },
+          {
+            "language": "russian",
+            "text": "кровать"
+          }
+        ],
+        "imagePath": "home/bed.png",
+        "audioPath": "home/bed.mp3"
+      },
+      {
+        "caption": {
+          "main": "учах",
+          "alt": "uçax"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "kitchen"
+          },
+          {
+            "language": "russian",
+            "text": "кухня"
+          }
+        ],
+        "imagePath": "home/kitchen.png",
+        "audioPath": "home/kitchen.mp3"
+      },
+      {
+        "caption": {
+          "main": "пич",
+          "alt": "piç"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "stove"
+          },
+          {
+            "language": "russian",
+            "text": "печка"
+          }
+        ],
+        "imagePath": "home/stove.png",
+        "audioPath": "home/stove.mp3"
+      },
+      {
+        "caption": {
+          "main": "яҡҡе",
+          "alt": "æqqe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "hearth"
+          },
+          {
+            "language": "russian",
+            "text": "очаг"
+          }
+        ],
+        "imagePath": "home/hearth.png",
+        "audioPath": "home/hearth.mp3"
+      },
+      {
+        "caption": {
+          "main": "усттул",
+          "alt": "usthul"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "table"
+          },
+          {
+            "language": "russian",
+            "text": "стол"
+          }
+        ],
+        "imagePath": "home/table.png",
+        "audioPath": "home/table.mp3"
+      },
+      {
+        "caption": {
+          "main": "курси",
+          "alt": "kursi"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "chair"
+          },
+          {
+            "language": "russian",
+            "text": "стул"
+          }
+        ],
+        "imagePath": "home/chair.png",
+        "audioPath": "home/chair.mp3"
+      },
+      {
+        "caption": {
+          "main": "пяхтте",
+          "alt": "pæxtte"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "refrigerator"
+          },
+          {
+            "language": "russian",
+            "text": "холодильник"
+          }
+        ],
+        "imagePath": "home/refrigerator.png",
+        "audioPath": "home/refrigerator.mp3"
+      },
+      {
+        "caption": {
+          "main": "ағлав",
+          "alt": "ağlav"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pan"
+          },
+          {
+            "language": "russian",
+            "text": "сковорода"
+          }
+        ],
+        "imagePath": "home/pan.png",
+        "audioPath": "home/pan.mp3"
+      },
+      {
+        "caption": {
+          "main": "сукра",
+          "alt": "sukra"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "plate"
+          },
+          {
+            "language": "russian",
+            "text": "тарелка"
+          }
+        ],
+        "imagePath": "home/plate.png",
+        "audioPath": "home/plate.mp3"
+      },
+      {
+        "caption": {
+          "main": "ваҡ",
+          "alt": "vaq"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cup"
+          },
+          {
+            "language": "russian",
+            "text": "чашка"
+          }
+        ],
+        "imagePath": "home/cup.png",
+        "audioPath": "home/cup.mp3"
+      },
+      {
+        "caption": {
+          "main": "шиша",
+          "alt": "şişa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bottle"
+          },
+          {
+            "language": "russian",
+            "text": "бутылка"
+          }
+        ],
+        "imagePath": "home/bottle.png",
+        "audioPath": "home/bottle.mp3"
+      },
+      {
+        "caption": {
+          "main": "кьацьул",
+          "alt": "khachul"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "spoon"
+          },
+          {
+            "language": "russian",
+            "text": "ложка"
+          }
+        ],
+        "imagePath": "home/spoon.png",
+        "audioPath": "home/spoon.mp3"
+      },
+      {
+        "caption": {
+          "main": "чьала",
+          "alt": "çhala"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fork"
+          },
+          {
+            "language": "russian",
+            "text": "вилка"
+          }
+        ],
+        "imagePath": "home/fork.png",
+        "audioPath": "home/fork.mp3"
+      },
+      {
+        "caption": {
+          "main": "имси",
+          "alt": "imsi"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "scissors"
+          },
+          {
+            "language": "russian",
+            "text": "ножницы"
+          }
+        ],
+        "imagePath": "home/scissors.png",
+        "audioPath": "home/scissors.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡале",
+          "alt": "qale"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "room"
+          },
+          {
+            "language": "russian",
+            "text": "комната"
+          }
+        ],
+        "imagePath": "home/room.png",
+        "audioPath": "home/room.mp3"
+      },
+      {
+        "caption": {
+          "main": "тав",
+          "alt": "tav"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "living room"
+          },
+          {
+            "language": "russian",
+            "text": "гостинная"
+          }
+        ],
+        "imagePath": "home/living room.png",
+        "audioPath": "home/living room.mp3"
+      },
+      {
+        "caption": {
+          "main": "буснат",
+          "alt": "busnat"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bedroom"
+          },
+          {
+            "language": "russian",
+            "text": "спальня"
+          }
+        ],
+        "imagePath": "home/bedroom.png",
+        "audioPath": "home/bedroom.mp3"
+      },
+      {
+        "caption": {
+          "main": "йулған",
+          "alt": "yulğan"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "blanket"
+          },
+          {
+            "language": "russian",
+            "text": "одеяло"
+          }
+        ],
+        "imagePath": "home/blanket.png",
+        "audioPath": "home/blanket.mp3"
+      },
+      {
+        "caption": {
+          "main": "гута",
+          "alt": "guta"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pillow"
+          },
+          {
+            "language": "russian",
+            "text": "подушка"
+          }
+        ],
+        "imagePath": "home/pillow.png",
+        "audioPath": "home/pillow.mp3"
+      },
+      {
+        "caption": {
+          "main": "шинт",
+          "alt": "şint"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cradle"
+          },
+          {
+            "language": "russian",
+            "text": "колыбель"
+          }
+        ],
+        "imagePath": "home/cradle.png",
+        "audioPath": "home/cradle.mp3"
+      },
+      {
+        "caption": {
+          "main": "луцума",
+          "alt": "lucuma"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "toy"
+          },
+          {
+            "language": "russian",
+            "text": "игрушка"
+          }
+        ],
+        "imagePath": "home/toy.png",
+        "audioPath": "home/toy.mp3"
+      },
+      {
+        "caption": {
+          "main": "нини",
+          "alt": "nini"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "doll"
+          },
+          {
+            "language": "russian",
+            "text": "кукла"
+          }
+        ],
+        "imagePath": "home/doll.png",
+        "audioPath": "home/doll.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡағар",
+          "alt": "qağar"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "paper"
+          },
+          {
+            "language": "russian",
+            "text": "бумага"
+          }
+        ],
+        "imagePath": "home/paper.png",
+        "audioPath": "home/paper.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡамас",
+          "alt": "qqamas"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "wardrobe"
+          },
+          {
+            "language": "russian",
+            "text": "шкаф"
+          }
+        ],
+        "imagePath": "home/wardrobe.png",
+        "audioPath": "home/wardrobe.mp3"
+      },
+      {
+        "caption": {
+          "main": "тамҡ",
+          "alt": "tamq"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sofa"
+          },
+          {
+            "language": "russian",
+            "text": "диван"
+          }
+        ],
+        "imagePath": "home/sofa.png",
+        "audioPath": "home/sofa.mp3"
+      },
+      {
+        "caption": {
+          "main": "бяне",
+          "alt": "bæne"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bathroom"
+          },
+          {
+            "language": "russian",
+            "text": "ванная"
+          }
+        ],
+        "imagePath": "home/bathroom.png",
+        "audioPath": "home/bathroom.mp3"
+      },
+      {
+        "caption": {
+          "main": "меъле",
+          "alt": "meýle"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "window"
+          },
+          {
+            "language": "russian",
+            "text": "окно"
+          }
+        ],
+        "imagePath": "home/window.png",
+        "audioPath": "home/window.mp3"
+      },
+      {
+        "caption": {
+          "main": "тьавтар",
+          "alt": "thavtar"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "book"
+          },
+          {
+            "language": "russian",
+            "text": "книга"
+          }
+        ],
+        "imagePath": "home/book.png",
+        "audioPath": "home/book.mp3"
+      },
+      {
+        "caption": {
+          "main": "мярц",
+          "alt": "мærc"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "wall"
+          },
+          {
+            "language": "russian",
+            "text": "стена"
+          }
+        ],
+        "imagePath": "home/wall.png",
+        "audioPath": "home/wall.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡоч",
+          "alt": "qqoç"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "painting"
+          },
+          {
+            "language": "russian",
+            "text": "картина"
+          }
+        ],
+        "imagePath": "home/painting.png",
+        "audioPath": "home/painting.mp3"
+      },
+      {
+        "caption": {
+          "main": "сурат",
+          "alt": "surat"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "photo"
+          },
+          {
+            "language": "russian",
+            "text": "фотография"
+          }
+        ],
+        "imagePath": "home/photo.png",
+        "audioPath": "home/photo.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡямз",
+          "alt": "qqæmz"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "corner"
+          },
+          {
+            "language": "russian",
+            "text": "угол"
+          }
+        ],
+        "imagePath": "home/corner.png",
+        "audioPath": "home/corner.mp3"
+      },
+      {
+        "caption": {
+          "main": "чирағ",
+          "alt": "çirağ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "chandelier"
+          },
+          {
+            "language": "russian",
+            "text": "люстра"
+          }
+        ],
+        "imagePath": "home/chandelier.png",
+        "audioPath": "home/chandelier.mp3"
+      },
+      {
+        "caption": {
+          "main": "сят",
+          "alt": "sæt"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "clock"
+          },
+          {
+            "language": "russian",
+            "text": "часы"
+          }
+        ],
+        "imagePath": "home/clock.png",
+        "audioPath": "home/clock.mp3"
+      },
+      {
+        "caption": {
+          "main": "уцца",
+          "alt": "ucca"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "door"
+          },
+          {
+            "language": "russian",
+            "text": "дверь"
+          }
+        ],
+        "imagePath": "home/door.png",
+        "audioPath": "home/door.mp3"
+      },
+      {
+        "caption": {
+          "main": "унҳу",
+          "alt": "unju"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "key"
+          },
+          {
+            "language": "russian",
+            "text": "ключ"
+          }
+        ],
+        "imagePath": "home/key.png",
+        "audioPath": "home/key.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғулмуҳ",
+          "alt": "ğulmuj"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "lock"
+          },
+          {
+            "language": "russian",
+            "text": "замок"
+          }
+        ],
+        "imagePath": "home/lock.png",
+        "audioPath": "home/lock.mp3"
+      },
+      {
+        "caption": {
+          "main": "миччер",
+          "alt": "miççer"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "stairs"
+          },
+          {
+            "language": "russian",
+            "text": "лестница"
+          }
+        ],
+        "imagePath": "home/stairs.png",
+        "audioPath": "home/stairs.mp3"
+      },
+      {
+        "caption": {
+          "main": "дярҡ",
+          "alt": "dærq"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "floor"
+          },
+          {
+            "language": "russian",
+            "text": "этаж"
+          }
+        ],
+        "imagePath": "home/floor.png",
+        "audioPath": "home/floor.mp3"
+      }
+    ],
+    "color": "03A9F3"
+  },
+  {
+    "length": 15,
+    "cards": [
+      {
+        "caption": {
+          "main": "цьидеҳ",
+          "alt": "chidej"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fruits"
+          },
+          {
+            "language": "russian",
+            "text": "фрукты"
+          }
+        ],
+        "audioPath": "fruits/fruits.mp3",
+        "imagePath": "fruits/raspberry.png"
+      },
+      {
+        "caption": {
+          "main": "зезе",
+          "alt": "zeze"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "raspberry"
+          },
+          {
+            "language": "russian",
+            "text": "малина"
+          }
+        ],
+        "imagePath": "fruits/raspberry.png",
+        "audioPath": "fruits/raspberry.mp3"
+      },
+      {
+        "caption": {
+          "main": "тьутьи",
+          "alt": "thuthi"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "grapes"
+          },
+          {
+            "language": "russian",
+            "text": "виноград"
+          }
+        ],
+        "imagePath": "fruits/grapes.png",
+        "audioPath": "fruits/grapes.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡяр",
+          "alt": "qær"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pear"
+          },
+          {
+            "language": "russian",
+            "text": "груша"
+          }
+        ],
+        "imagePath": "fruits/pear.png",
+        "audioPath": "fruits/pear.mp3"
+      },
+      {
+        "caption": {
+          "main": "пьяпьян",
+          "alt": "phæphæn"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cherry"
+          },
+          {
+            "language": "russian",
+            "text": "вишня"
+          }
+        ],
+        "imagePath": "fruits/cherry.png",
+        "audioPath": "fruits/cherry.mp3"
+      },
+      {
+        "caption": {
+          "main": "ьабарзаг",
+          "alt": "habarzag"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "melon"
+          },
+          {
+            "language": "russian",
+            "text": "дыня"
+          }
+        ],
+        "imagePath": "fruits/melon.png",
+        "audioPath": "fruits/melon.mp3"
+      },
+      {
+        "caption": {
+          "main": "ччимсе",
+          "alt": "ççimse"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "quince"
+          },
+          {
+            "language": "russian",
+            "text": "айва"
+          }
+        ],
+        "imagePath": "fruits/quince.png",
+        "audioPath": "fruits/quince.mp3"
+      },
+      {
+        "caption": {
+          "main": "лазе",
+          "alt": "laze"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "strawberry"
+          },
+          {
+            "language": "russian",
+            "text": "клубника"
+          }
+        ],
+        "imagePath": "fruits/strawberry.png",
+        "audioPath": "fruits/strawberry.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡазе",
+          "alt": "qaze"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "currant"
+          },
+          {
+            "language": "russian",
+            "text": "смородина"
+          }
+        ],
+        "imagePath": "fruits/currant.png",
+        "audioPath": "fruits/currant.mp3"
+      },
+      {
+        "caption": {
+          "main": "мямяр",
+          "alt": "mæmær"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "blackberry"
+          },
+          {
+            "language": "russian",
+            "text": "ежевика"
+          }
+        ],
+        "imagePath": "fruits/blackberry.png",
+        "audioPath": "fruits/blackberry.mp3"
+      },
+      {
+        "caption": {
+          "main": "ьинце",
+          "alt": "hince"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "apple"
+          },
+          {
+            "language": "russian",
+            "text": "яблоко"
+          }
+        ],
+        "imagePath": "fruits/apple.png",
+        "audioPath": "fruits/apple.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғимғе",
+          "alt": "ğimğe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "plum"
+          },
+          {
+            "language": "russian",
+            "text": "слива"
+          }
+        ],
+        "imagePath": "fruits/plum.png",
+        "audioPath": "fruits/plum.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡьвярче",
+          "alt": "qhværçe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "peach"
+          },
+          {
+            "language": "russian",
+            "text": "персик"
+          }
+        ],
+        "imagePath": "fruits/peach.png",
+        "audioPath": "fruits/peach.mp3"
+      },
+      {
+        "caption": {
+          "main": "гариҳан",
+          "alt": "garij"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "watermelon"
+          },
+          {
+            "language": "russian",
+            "text": "арбуз"
+          }
+        ],
+        "imagePath": "fruits/watermelon.png",
+        "audioPath": "fruits/watermelon.mp3"
+      },
+      {
+        "caption": {
+          "main": "коркко",
+          "alt": "korkko"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "apricot"
+          },
+          {
+            "language": "russian",
+            "text": "абрикос"
+          }
+        ],
+        "imagePath": "fruits/apricot.png",
+        "audioPath": "fruits/apricot.mp3"
+      }
+    ],
+    "color": "CDDC38"
+  },
+  {
+    "length": 12,
+    "cards": [
+      {
+        "caption": {
+          "main": "ҡудеҳ",
+          "alt": "qudej"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "vegetables"
+          },
+          {
+            "language": "russian",
+            "text": "овощи"
+          }
+        ],
+        "audioPath": "vegetables/vegetables.mp3",
+        "imagePath": "vegetables/potato.png"
+      },
+      {
+        "caption": {
+          "main": "ғибе",
+          "alt": "ğibe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "potato"
+          },
+          {
+            "language": "russian",
+            "text": "картошка"
+          }
+        ],
+        "imagePath": "vegetables/potato.png",
+        "audioPath": "vegetables/potato.mp3"
+      },
+      {
+        "caption": {
+          "main": "житьа",
+          "alt": "žitha"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "carrot"
+          },
+          {
+            "language": "russian",
+            "text": "морковь"
+          }
+        ],
+        "imagePath": "vegetables/carrot.png",
+        "audioPath": "vegetables/carrot.mp3"
+      },
+      {
+        "caption": {
+          "main": "кьай",
+          "alt": "qhay"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "beet"
+          },
+          {
+            "language": "russian",
+            "text": "свекла"
+          }
+        ],
+        "imagePath": "vegetables/beet.png",
+        "audioPath": "vegetables/beet.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡабағ",
+          "alt": "qqabağ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pumpkin"
+          },
+          {
+            "language": "russian",
+            "text": "тыква"
+          }
+        ],
+        "imagePath": "vegetables/pumpkin.png",
+        "audioPath": "vegetables/pumpkin.mp3"
+      },
+      {
+        "caption": {
+          "main": "горгол",
+          "alt": "gorgol"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "onion"
+          },
+          {
+            "language": "russian",
+            "text": "лук"
+          }
+        ],
+        "imagePath": "vegetables/onion.png",
+        "audioPath": "vegetables/onion.mp3"
+      },
+      {
+        "caption": {
+          "main": "шерже",
+          "alt": "şerže"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "garlic"
+          },
+          {
+            "language": "russian",
+            "text": "чеснок"
+          }
+        ],
+        "imagePath": "vegetables/garlic.png",
+        "audioPath": "vegetables/garlic.mp3"
+      },
+      {
+        "caption": {
+          "main": "тунт исут",
+          "alt": "tunt isut"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "paprica"
+          },
+          {
+            "language": "russian",
+            "text": "перец красный"
+          }
+        ],
+        "imagePath": "vegetables/paprica.png",
+        "audioPath": "vegetables/paprica.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡара",
+          "alt": "qara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bean"
+          },
+          {
+            "language": "russian",
+            "text": "фасоль"
+          }
+        ],
+        "imagePath": "vegetables/bean.png",
+        "audioPath": "vegetables/bean.mp3"
+      },
+      {
+        "caption": {
+          "main": "хийар",
+          "alt": "xiyar"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cucumber"
+          },
+          {
+            "language": "russian",
+            "text": "огурец"
+          }
+        ],
+        "imagePath": "vegetables/cucumber.png",
+        "audioPath": "vegetables/cucumber.mp3"
+      },
+      {
+        "caption": {
+          "main": "келем",
+          "alt": "kelem"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cabbage"
+          },
+          {
+            "language": "russian",
+            "text": "капуста"
+          }
+        ],
+        "imagePath": "vegetables/cabbage.png",
+        "audioPath": "vegetables/cabbage.mp3"
+      },
+      {
+        "caption": {
+          "main": "памадур",
+          "alt": "pamadur"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "tomato"
+          },
+          {
+            "language": "russian",
+            "text": "помидор"
+          }
+        ],
+        "imagePath": "vegetables/tomato.png",
+        "audioPath": "vegetables/tomato.mp3"
+      }
+    ],
+    "color": "4CAF49"
+  },
+  {
+    "length": 30,
+    "cards": [
+      {
+        "caption": {
+          "main": "шаьар",
+          "alt": "şahar"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "city"
+          },
+          {
+            "language": "russian",
+            "text": "город"
+          }
+        ],
+        "audioPath": "city/city.mp3",
+        "imagePath": "city/mosque.png"
+      },
+      {
+        "caption": {
+          "main": "мисттикь",
+          "alt": "misttikh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "mosque"
+          },
+          {
+            "language": "russian",
+            "text": "мечеть"
+          }
+        ],
+        "imagePath": "city/mosque.png",
+        "audioPath": "city/mosque.mp3"
+      },
+      {
+        "caption": {
+          "main": "ши",
+          "alt": "şi"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "village"
+          },
+          {
+            "language": "russian",
+            "text": "аул"
+          }
+        ],
+        "imagePath": "city/village.png",
+        "audioPath": "city/village.mp3"
+      },
+      {
+        "caption": {
+          "main": "цьур",
+          "alt": "chur"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "tower"
+          },
+          {
+            "language": "russian",
+            "text": "башня"
+          }
+        ],
+        "imagePath": "city/tower.png",
+        "audioPath": "city/tower.mp3"
+      },
+      {
+        "caption": {
+          "main": "ккяла",
+          "alt": "kkæla"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "castle"
+          },
+          {
+            "language": "russian",
+            "text": "замок"
+          }
+        ],
+        "imagePath": "city/castle.png",
+        "audioPath": "city/castle.mp3"
+      },
+      {
+        "caption": {
+          "main": "пир",
+          "alt": "pir"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "crypt"
+          },
+          {
+            "language": "russian",
+            "text": "склеп"
+          }
+        ],
+        "imagePath": "city/crypt.png",
+        "audioPath": "city/crypt.mp3"
+      },
+      {
+        "caption": {
+          "main": "хирби",
+          "alt": "xirbи"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cemetery"
+          },
+          {
+            "language": "russian",
+            "text": "кладбище"
+          }
+        ],
+        "imagePath": "city/cemetery.png",
+        "audioPath": "city/cemetery.mp3"
+      },
+      {
+        "caption": {
+          "main": "ттатте",
+          "alt": "ttatte"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "monument"
+          },
+          {
+            "language": "russian",
+            "text": "памятник"
+          }
+        ],
+        "imagePath": "city/monument.png",
+        "audioPath": "city/monument.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҳуне",
+          "alt": "june"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "road"
+          },
+          {
+            "language": "russian",
+            "text": "дорога"
+          }
+        ],
+        "imagePath": "city/road.png",
+        "audioPath": "city/road.mp3"
+      },
+      {
+        "caption": {
+          "main": "уцце",
+          "alt": "ucce"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "street"
+          },
+          {
+            "language": "russian",
+            "text": "улица"
+          }
+        ],
+        "imagePath": "city/street.png",
+        "audioPath": "city/street.mp3"
+      },
+      {
+        "caption": {
+          "main": "дашкка",
+          "alt": "daşkka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "square"
+          },
+          {
+            "language": "russian",
+            "text": "площадь"
+          }
+        ],
+        "imagePath": "city/square.png",
+        "audioPath": "city/square.mp3"
+      },
+      {
+        "caption": {
+          "main": "дяғ",
+          "alt": "dæğ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fence"
+          },
+          {
+            "language": "russian",
+            "text": "забор"
+          }
+        ],
+        "imagePath": "city/fence.png",
+        "audioPath": "city/fence.mp3"
+      },
+      {
+        "caption": {
+          "main": "машин",
+          "alt": "maşin"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "car"
+          },
+          {
+            "language": "russian",
+            "text": "машина"
+          }
+        ],
+        "imagePath": "city/car.png",
+        "audioPath": "city/car.mp3"
+      },
+      {
+        "caption": {
+          "main": "яла",
+          "alt": "æla"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "wheel"
+          },
+          {
+            "language": "russian",
+            "text": "колесо"
+          }
+        ],
+        "imagePath": "city/wheel.png",
+        "audioPath": "city/wheel.mp3"
+      },
+      {
+        "caption": {
+          "main": "кьас",
+          "alt": "qhas"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bench"
+          },
+          {
+            "language": "russian",
+            "text": "лавочка"
+          }
+        ],
+        "imagePath": "city/bench.png",
+        "audioPath": "city/bench.mp3"
+      },
+      {
+        "caption": {
+          "main": "килас",
+          "alt": "kilas"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "church"
+          },
+          {
+            "language": "russian",
+            "text": "церковь"
+          }
+        ],
+        "imagePath": "city/church.png",
+        "audioPath": "city/church.mp3"
+      },
+      {
+        "caption": {
+          "main": "ччеме",
+          "alt": "ççeme"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bridge"
+          },
+          {
+            "language": "russian",
+            "text": "мост"
+          }
+        ],
+        "imagePath": "city/bridge.png",
+        "audioPath": "city/bridge.mp3"
+      },
+      {
+        "caption": {
+          "main": "ккаме",
+          "alt": "kkame"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "ship"
+          },
+          {
+            "language": "russian",
+            "text": "корабль"
+          }
+        ],
+        "imagePath": "city/ship.png",
+        "audioPath": "city/ship.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡяйҡ",
+          "alt": "qæyq"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "boat"
+          },
+          {
+            "language": "russian",
+            "text": "лодка"
+          }
+        ],
+        "imagePath": "city/boat.png",
+        "audioPath": "city/boat.mp3"
+      },
+      {
+        "caption": {
+          "main": "ушккул",
+          "alt": "uşkkul"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "school"
+          },
+          {
+            "language": "russian",
+            "text": "школа"
+          }
+        ],
+        "imagePath": "city/school.png",
+        "audioPath": "city/school.mp3"
+      },
+      {
+        "caption": {
+          "main": "сядиг",
+          "alt": "sædig"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "kindergarten"
+          },
+          {
+            "language": "russian",
+            "text": "детский сад"
+          }
+        ],
+        "imagePath": "city/kindergarten.png",
+        "audioPath": "city/kindergarten.mp3"
+      },
+      {
+        "caption": {
+          "main": "кеве",
+          "alt": "keve"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cafe"
+          },
+          {
+            "language": "russian",
+            "text": "кафе"
+          }
+        ],
+        "imagePath": "city/cafe.png",
+        "audioPath": "city/cafe.mp3"
+      },
+      {
+        "caption": {
+          "main": "тукен",
+          "alt": "tuken"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "store"
+          },
+          {
+            "language": "russian",
+            "text": "магазин"
+          }
+        ],
+        "imagePath": "city/store.png",
+        "audioPath": "city/store.mp3"
+      },
+      {
+        "caption": {
+          "main": "думасал",
+          "alt": "dumasal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "quay"
+          },
+          {
+            "language": "russian",
+            "text": "набережная"
+          }
+        ],
+        "imagePath": "city/quay.png",
+        "audioPath": "city/quay.mp3"
+      },
+      {
+        "caption": {
+          "main": "кьай",
+          "alt": "khay"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pond"
+          },
+          {
+            "language": "russian",
+            "text": "пруд"
+          }
+        ],
+        "imagePath": "city/pond.png",
+        "audioPath": "city/pond.mp3"
+      },
+      {
+        "caption": {
+          "main": "явттег",
+          "alt": "ævtteg"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pharmacy"
+          },
+          {
+            "language": "russian",
+            "text": "аптека"
+          }
+        ],
+        "imagePath": "city/pharmacy.png",
+        "audioPath": "city/pharmacy.mp3"
+      },
+      {
+        "caption": {
+          "main": "азар",
+          "alt": "azar"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "hospital"
+          },
+          {
+            "language": "russian",
+            "text": "больница"
+          }
+        ],
+        "imagePath": "city/hospital.png",
+        "audioPath": "city/hospital.mp3"
+      },
+      {
+        "caption": {
+          "main": "ухлат",
+          "alt": "uxlat"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "hotel"
+          },
+          {
+            "language": "russian",
+            "text": "гостиница"
+          }
+        ],
+        "imagePath": "city/hotel.png",
+        "audioPath": "city/hotel.mp3"
+      },
+      {
+        "caption": {
+          "main": "цях",
+          "alt": "cæx"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "entrance"
+          },
+          {
+            "language": "russian",
+            "text": "вход"
+          }
+        ],
+        "imagePath": "city/entrance.png",
+        "audioPath": "city/entrance.mp3"
+      },
+      {
+        "caption": {
+          "main": "бях",
+          "alt": "bæx"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "exit"
+          },
+          {
+            "language": "russian",
+            "text": "выход"
+          }
+        ],
+        "imagePath": "city/exit.png",
+        "audioPath": "city/exit.mp3"
+      }
+    ],
+    "color": "2196F2"
+  },
+  {
+    "length": 38,
+    "cards": [
+      {
+        "caption": {
+          "main": "тьябят",
+          "alt": "thæbæt"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "nature"
+          },
+          {
+            "language": "russian",
+            "text": "природа"
+          }
+        ],
+        "audioPath": "nature/nature.mp3",
+        "imagePath": "nature/tree.png"
+      },
+      {
+        "caption": {
+          "main": "ккалкка",
+          "alt": "kkalkka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "tree"
+          },
+          {
+            "language": "russian",
+            "text": "дерево"
+          }
+        ],
+        "imagePath": "nature/tree.png",
+        "audioPath": "nature/tree.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡьоте",
+          "alt": "qot"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bush"
+          },
+          {
+            "language": "russian",
+            "text": "куст"
+          }
+        ],
+        "imagePath": "nature/bush.png",
+        "audioPath": "nature/bush.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡьар",
+          "alt": "qhar"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "grass"
+          },
+          {
+            "language": "russian",
+            "text": "трава"
+          }
+        ],
+        "imagePath": "nature/grass.png",
+        "audioPath": "nature/grass.mp3"
+      },
+      {
+        "caption": {
+          "main": "шара",
+          "alt": "şara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "puddle"
+          },
+          {
+            "language": "russian",
+            "text": "лужа"
+          }
+        ],
+        "imagePath": "nature/puddle.png",
+        "audioPath": "nature/puddle.mp3"
+      },
+      {
+        "caption": {
+          "main": "дуцца",
+          "alt": "ducca"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "forest"
+          },
+          {
+            "language": "russian",
+            "text": "лес"
+          }
+        ],
+        "imagePath": "nature/forest.png",
+        "audioPath": "nature/forest.mp3"
+      },
+      {
+        "caption": {
+          "main": "жуже",
+          "alt": "žuže"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "flower"
+          },
+          {
+            "language": "russian",
+            "text": "цветок"
+          }
+        ],
+        "imagePath": "nature/flower.png",
+        "audioPath": "nature/flower.mp3"
+      },
+      {
+        "caption": {
+          "main": "еркь",
+          "alt": "erkh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "river"
+          },
+          {
+            "language": "russian",
+            "text": "река"
+          }
+        ],
+        "imagePath": "nature/river.png",
+        "audioPath": "nature/river.mp3"
+      },
+      {
+        "caption": {
+          "main": "ццав",
+          "alt": "ccav"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sky"
+          },
+          {
+            "language": "russian",
+            "text": "небо"
+          }
+        ],
+        "imagePath": "nature/sky.png",
+        "audioPath": "nature/sky.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡерме",
+          "alt": "qqerme"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "clouds"
+          },
+          {
+            "language": "russian",
+            "text": "облака"
+          }
+        ],
+        "imagePath": "nature/clouds.png",
+        "audioPath": "nature/clouds.mp3"
+      },
+      {
+        "caption": {
+          "main": "риьял",
+          "alt": "rihæl"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "rainbow"
+          },
+          {
+            "language": "russian",
+            "text": "радуга"
+          }
+        ],
+        "imagePath": "nature/rainbow.png",
+        "audioPath": "nature/rainbow.mp3"
+      },
+      {
+        "caption": {
+          "main": "мурккул",
+          "alt": "murkkul"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "meadow"
+          },
+          {
+            "language": "russian",
+            "text": "поляна\n"
+          }
+        ],
+        "imagePath": "nature/meadow.png",
+        "audioPath": "nature/meadow.mp3"
+      },
+      {
+        "caption": {
+          "main": "дирҡьаг",
+          "alt": "dirqhag"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "flatland"
+          },
+          {
+            "language": "russian",
+            "text": "равнина"
+          }
+        ],
+        "imagePath": "nature/flatland.png",
+        "audioPath": "nature/flatland.mp3"
+      },
+      {
+        "caption": {
+          "main": "урҡме",
+          "alt": "urqme"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "mountains"
+          },
+          {
+            "language": "russian",
+            "text": "горы"
+          }
+        ],
+        "imagePath": "nature/mountains.png",
+        "audioPath": "nature/mountains.mp3"
+      },
+      {
+        "caption": {
+          "main": "гатт",
+          "alt": "gatt"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "hill"
+          },
+          {
+            "language": "russian",
+            "text": "холм"
+          }
+        ],
+        "imagePath": "nature/hill.png",
+        "audioPath": "nature/hill.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡатте",
+          "alt": "qqatte"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "ravine"
+          },
+          {
+            "language": "russian",
+            "text": "ущелье"
+          }
+        ],
+        "imagePath": "nature/ravine.png",
+        "audioPath": "nature/ravine.mp3"
+      },
+      {
+        "caption": {
+          "main": "урҳу",
+          "alt": "urju"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sea"
+          },
+          {
+            "language": "russian",
+            "text": "море"
+          }
+        ],
+        "imagePath": "nature/sea.png",
+        "audioPath": "nature/sea.mp3"
+      },
+      {
+        "caption": {
+          "main": "багниг",
+          "alt": "bagnig"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "island"
+          },
+          {
+            "language": "russian",
+            "text": "остров"
+          }
+        ],
+        "imagePath": "nature/island.png",
+        "audioPath": "nature/island.mp3"
+      },
+      {
+        "caption": {
+          "main": "га",
+          "alt": "ga"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "winter"
+          },
+          {
+            "language": "russian",
+            "text": "зима"
+          }
+        ],
+        "imagePath": "nature/winter.png",
+        "audioPath": "nature/winter.mp3"
+      },
+      {
+        "caption": {
+          "main": "ев",
+          "alt": "ev"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "spring"
+          },
+          {
+            "language": "russian",
+            "text": "весна"
+          }
+        ],
+        "imagePath": "nature/spring.png",
+        "audioPath": "nature/spring.mp3"
+      },
+      {
+        "caption": {
+          "main": "ьанши",
+          "alt": "hanşi"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "summer"
+          },
+          {
+            "language": "russian",
+            "text": "лето"
+          }
+        ],
+        "imagePath": "nature/summer.png",
+        "audioPath": "nature/summer.mp3"
+      },
+      {
+        "caption": {
+          "main": "ивҳ",
+          "alt": "ivj"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "autumn"
+          },
+          {
+            "language": "russian",
+            "text": "осень"
+          }
+        ],
+        "imagePath": "nature/autumn.png",
+        "audioPath": "nature/autumn.mp3"
+      },
+      {
+        "caption": {
+          "main": "дяь",
+          "alt": "dæh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "snow"
+          },
+          {
+            "language": "russian",
+            "text": "снег"
+          }
+        ],
+        "imagePath": "nature/snow.png",
+        "audioPath": "nature/snow.mp3"
+      },
+      {
+        "caption": {
+          "main": "марка",
+          "alt": "marka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "rain"
+          },
+          {
+            "language": "russian",
+            "text": "дождь"
+          }
+        ],
+        "imagePath": "nature/rain.png",
+        "audioPath": "nature/rain.mp3"
+      },
+      {
+        "caption": {
+          "main": "дириҳ",
+          "alt": "dirij"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fog"
+          },
+          {
+            "language": "russian",
+            "text": "туман"
+          }
+        ],
+        "imagePath": "nature/fog.png",
+        "audioPath": "nature/fog.mp3"
+      },
+      {
+        "caption": {
+          "main": "баре",
+          "alt": "bare"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sun"
+          },
+          {
+            "language": "russian",
+            "text": "солнце"
+          }
+        ],
+        "imagePath": "nature/sun.png",
+        "audioPath": "nature/sun.mp3"
+      },
+      {
+        "caption": {
+          "main": "бацц",
+          "alt": "bacc"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "moon"
+          },
+          {
+            "language": "russian",
+            "text": "луна"
+          }
+        ],
+        "imagePath": "nature/moon.png",
+        "audioPath": "nature/moon.mp3"
+      },
+      {
+        "caption": {
+          "main": "шере",
+          "alt": "şere"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "wind"
+          },
+          {
+            "language": "russian",
+            "text": "ветер"
+          }
+        ],
+        "imagePath": "nature/wind.png",
+        "audioPath": "nature/wind.mp3"
+      },
+      {
+        "caption": {
+          "main": "дярхя",
+          "alt": "dærxæ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "night"
+          },
+          {
+            "language": "russian",
+            "text": "ночь"
+          }
+        ],
+        "imagePath": "nature/night.png",
+        "audioPath": "nature/night.mp3"
+      },
+      {
+        "caption": {
+          "main": "ере",
+          "alt": "ere"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "day"
+          },
+          {
+            "language": "russian",
+            "text": "день"
+          }
+        ],
+        "imagePath": "nature/day.png",
+        "audioPath": "nature/day.mp3"
+      },
+      {
+        "caption": {
+          "main": "чирка",
+          "alt": "çirka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "morning"
+          },
+          {
+            "language": "russian",
+            "text": "утро"
+          }
+        ],
+        "imagePath": "nature/morning.png",
+        "audioPath": "nature/morning.mp3"
+      },
+      {
+        "caption": {
+          "main": "нисна",
+          "alt": "nisna"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "evening"
+          },
+          {
+            "language": "russian",
+            "text": "вечер"
+          }
+        ],
+        "imagePath": "nature/evening.png",
+        "audioPath": "nature/evening.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡарҡҡа",
+          "alt": "qqarqqa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "stone"
+          },
+          {
+            "language": "russian",
+            "text": "камень"
+          }
+        ],
+        "imagePath": "nature/stone.png",
+        "audioPath": "nature/stone.mp3"
+      },
+      {
+        "caption": {
+          "main": "шин",
+          "alt": "şin"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "water"
+          },
+          {
+            "language": "russian",
+            "text": "вода"
+          }
+        ],
+        "imagePath": "nature/water.png",
+        "audioPath": "nature/water.mp3"
+      },
+      {
+        "caption": {
+          "main": "миг",
+          "alt": "mig"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "ice"
+          },
+          {
+            "language": "russian",
+            "text": "лед"
+          }
+        ],
+        "imagePath": "nature/ice.png",
+        "audioPath": "nature/ice.mp3"
+      },
+      {
+        "caption": {
+          "main": "цьа",
+          "alt": "cha"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fire"
+          },
+          {
+            "language": "russian",
+            "text": "огонь"
+          }
+        ],
+        "imagePath": "nature/fire.png",
+        "audioPath": "nature/fire.mp3"
+      },
+      {
+        "caption": {
+          "main": "зуре",
+          "alt": "zure"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "star"
+          },
+          {
+            "language": "russian",
+            "text": "звезда"
+          }
+        ],
+        "imagePath": "nature/star.png",
+        "audioPath": "nature/star.mp3"
+      },
+      {
+        "caption": {
+          "main": "ццере",
+          "alt": "ccere"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "universe"
+          },
+          {
+            "language": "russian",
+            "text": "вселенная"
+          }
+        ],
+        "imagePath": "nature/universe.png",
+        "audioPath": "nature/universe.mp3"
+      }
+    ],
+    "color": "FFCC80"
+  },
+  {
+    "length": 9,
+    "cards": [
+      {
+        "caption": {
+          "main": "зулларгъе",
+          "alt": "zullarğe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pronouns"
+          },
+          {
+            "language": "russian",
+            "text": "местоимения"
+          }
+        ],
+        "audioPath": "pronouns/pronouns.mp3",
+        "imagePath": "pronouns/you.png"
+      },
+      {
+        "caption": {
+          "main": "и",
+          "alt": "i"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "you"
+          },
+          {
+            "language": "russian",
+            "text": "ты"
+          }
+        ],
+        "imagePath": "pronouns/you.png",
+        "audioPath": "pronouns/you.mp3"
+      },
+      {
+        "caption": {
+          "main": "ду",
+          "alt": "du"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "I"
+          },
+          {
+            "language": "russian",
+            "text": "я"
+          }
+        ],
+        "imagePath": "pronouns/I.png",
+        "audioPath": "pronouns/I.mp3"
+      },
+      {
+        "caption": {
+          "main": "ьел",
+          "alt": "hel"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "he"
+          },
+          {
+            "language": "russian",
+            "text": "он"
+          }
+        ],
+        "imagePath": "pronouns/he.png",
+        "audioPath": "pronouns/he.mp3"
+      },
+      {
+        "caption": {
+          "main": "ьел",
+          "alt": "hel"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "she"
+          },
+          {
+            "language": "russian",
+            "text": "она"
+          }
+        ],
+        "imagePath": "pronouns/she.png",
+        "audioPath": "pronouns/she.mp3"
+      },
+      {
+        "caption": {
+          "main": "ьел",
+          "alt": "hel"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "it"
+          },
+          {
+            "language": "russian",
+            "text": "оно"
+          }
+        ],
+        "imagePath": "pronouns/it.png",
+        "audioPath": "pronouns/it.mp3"
+      },
+      {
+        "caption": {
+          "main": "ниса",
+          "alt": "nisa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "we"
+          },
+          {
+            "language": "russian",
+            "text": "мы"
+          }
+        ],
+        "imagePath": "pronouns/we.png",
+        "audioPath": "pronouns/we.mp3"
+      },
+      {
+        "caption": {
+          "main": "ниша",
+          "alt": "nişa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "you (plural)"
+          },
+          {
+            "language": "russian",
+            "text": "вы"
+          }
+        ],
+        "imagePath": "pronouns/you (plural).png",
+        "audioPath": "pronouns/you (plural).mp3"
+      },
+      {
+        "caption": {
+          "main": "ьелтти",
+          "alt": "heltti"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "they"
+          },
+          {
+            "language": "russian",
+            "text": "они"
+          }
+        ],
+        "imagePath": "pronouns/they.png",
+        "audioPath": "pronouns/they.mp3"
+      }
+    ],
+    "color": "80CBC4"
+  },
+  {
+    "length": 34,
+    "cards": [
+      {
+        "caption": {
+          "main": "мицьираге",
+          "alt": "michirage"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "animals"
+          },
+          {
+            "language": "russian",
+            "text": "животные"
+          }
+        ],
+        "audioPath": "animals/animals.mp3",
+        "imagePath": "animals/bear.png"
+      },
+      {
+        "caption": {
+          "main": "сика",
+          "alt": "sika"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bear"
+          },
+          {
+            "language": "russian",
+            "text": "медведь"
+          }
+        ],
+        "imagePath": "animals/bear.png",
+        "audioPath": "animals/bear.mp3"
+      },
+      {
+        "caption": {
+          "main": "бизи",
+          "alt": "bizi"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cat"
+          },
+          {
+            "language": "russian",
+            "text": "кот"
+          }
+        ],
+        "imagePath": "animals/cat.png",
+        "audioPath": "animals/cat.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡьвял",
+          "alt": "qhvæl"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cow"
+          },
+          {
+            "language": "russian",
+            "text": "корова"
+          }
+        ],
+        "imagePath": "animals/cow.png",
+        "audioPath": "animals/cow.mp3"
+      },
+      {
+        "caption": {
+          "main": "ярҡьо",
+          "alt": "ærqho"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "chicken"
+          },
+          {
+            "language": "russian",
+            "text": "курица"
+          }
+        ],
+        "imagePath": "animals/chicken.png",
+        "audioPath": "animals/chicken.mp3"
+      },
+      {
+        "caption": {
+          "main": "бятьбять",
+          "alt": "bæthbæth"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "duck"
+          },
+          {
+            "language": "russian",
+            "text": "утка"
+          }
+        ],
+        "imagePath": "animals/duck.png",
+        "audioPath": "animals/duck.mp3"
+      },
+      {
+        "caption": {
+          "main": "кьуркьур",
+          "alt": "khurkhur"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "turkey"
+          },
+          {
+            "language": "russian",
+            "text": "индюк"
+          }
+        ],
+        "imagePath": "animals/turkey.png",
+        "audioPath": "animals/turkey.mp3"
+      },
+      {
+        "caption": {
+          "main": "айдагьа",
+          "alt": "aydaha"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "crocodile"
+          },
+          {
+            "language": "russian",
+            "text": "крокодил"
+          }
+        ],
+        "imagePath": "animals/crocodile.png",
+        "audioPath": "animals/crocodile.mp3"
+      },
+      {
+        "caption": {
+          "main": "хвя",
+          "alt": "xvæ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "dog"
+          },
+          {
+            "language": "russian",
+            "text": "собака"
+          }
+        ],
+        "imagePath": "animals/dog.png",
+        "audioPath": "animals/dog.mp3"
+      },
+      {
+        "caption": {
+          "main": "лаҳо",
+          "alt": "lajo"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "dove"
+          },
+          {
+            "language": "russian",
+            "text": "голубь"
+          }
+        ],
+        "imagePath": "animals/dove.png",
+        "audioPath": "animals/dove.mp3"
+      },
+      {
+        "caption": {
+          "main": "чако",
+          "alt": "çako"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sparrow"
+          },
+          {
+            "language": "russian",
+            "text": "воробей"
+          }
+        ],
+        "imagePath": "animals/sparrow.png",
+        "audioPath": "animals/sparrow.mp3"
+      },
+      {
+        "caption": {
+          "main": "жялтта",
+          "alt": "žæltta"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "swallow"
+          },
+          {
+            "language": "russian",
+            "text": "ласточка"
+          }
+        ],
+        "imagePath": "animals/swallow.png",
+        "audioPath": "animals/swallow.mp3"
+      },
+      {
+        "caption": {
+          "main": "чьака",
+          "alt": "çhaka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "eagle"
+          },
+          {
+            "language": "russian",
+            "text": "орел"
+          }
+        ],
+        "imagePath": "animals/eagle.png",
+        "audioPath": "animals/eagle.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғулуҳ",
+          "alt": "ğuluj"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "falcon"
+          },
+          {
+            "language": "russian",
+            "text": "сокол"
+          }
+        ],
+        "imagePath": "animals/falcon.png",
+        "audioPath": "animals/falcon.mp3"
+      },
+      {
+        "caption": {
+          "main": "ккуртта",
+          "alt": "kkurtta"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fox"
+          },
+          {
+            "language": "russian",
+            "text": "лиса"
+          }
+        ],
+        "imagePath": "animals/fox.png",
+        "audioPath": "animals/fox.mp3"
+      },
+      {
+        "caption": {
+          "main": "ятьа",
+          "alt": "ætha"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "frog"
+          },
+          {
+            "language": "russian",
+            "text": "лягушка"
+          }
+        ],
+        "imagePath": "animals/frog.png",
+        "audioPath": "animals/frog.mp3"
+      },
+      {
+        "caption": {
+          "main": "шетьа",
+          "alt": "şetha"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "lizard"
+          },
+          {
+            "language": "russian",
+            "text": "ящерица"
+          }
+        ],
+        "imagePath": "animals/lizard.png",
+        "audioPath": "animals/lizard.mp3"
+      },
+      {
+        "caption": {
+          "main": "цьецье",
+          "alt": "cheche"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "snake"
+          },
+          {
+            "language": "russian",
+            "text": "змея"
+          }
+        ],
+        "imagePath": "animals/snake.png",
+        "audioPath": "animals/snake.mp3"
+      },
+      {
+        "caption": {
+          "main": "чьакь",
+          "alt": "çhakh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fish"
+          },
+          {
+            "language": "russian",
+            "text": "рыба"
+          }
+        ],
+        "imagePath": "animals/fish.png",
+        "audioPath": "animals/fish.mp3"
+      },
+      {
+        "caption": {
+          "main": "аҳлиҡья",
+          "alt": "ajliqhæ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bird"
+          },
+          {
+            "language": "russian",
+            "text": "птица"
+          }
+        ],
+        "imagePath": "animals/bird.png",
+        "audioPath": "animals/bird.mp3"
+      },
+      {
+        "caption": {
+          "main": "пил",
+          "alt": "pil"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "elephant"
+          },
+          {
+            "language": "russian",
+            "text": "слон"
+          }
+        ],
+        "imagePath": "animals/elephant.png",
+        "audioPath": "animals/elephant.mp3"
+      },
+      {
+        "caption": {
+          "main": "йябу",
+          "alt": "yæbu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "horse"
+          },
+          {
+            "language": "russian",
+            "text": "лошадь"
+          }
+        ],
+        "imagePath": "animals/horse.png",
+        "audioPath": "animals/horse.mp3"
+      },
+      {
+        "caption": {
+          "main": "цьерҡ",
+          "alt": "cherq"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "leopard"
+          },
+          {
+            "language": "russian",
+            "text": "барс"
+          }
+        ],
+        "imagePath": "animals/leopard.png",
+        "audioPath": "animals/leopard.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғалбець",
+          "alt": "ğalbech"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "lion"
+          },
+          {
+            "language": "russian",
+            "text": "лев"
+          }
+        ],
+        "imagePath": "animals/lion.png",
+        "audioPath": "animals/lion.mp3"
+      },
+      {
+        "caption": {
+          "main": "маймун",
+          "alt": "maymun"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "monkey"
+          },
+          {
+            "language": "russian",
+            "text": "обезьяна"
+          }
+        ],
+        "imagePath": "animals/monkey.png",
+        "audioPath": "animals/monkey.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡесҡа",
+          "alt": "qesqa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "spider"
+          },
+          {
+            "language": "russian",
+            "text": "паук"
+          }
+        ],
+        "imagePath": "animals/spider.png",
+        "audioPath": "animals/spider.mp3"
+      },
+      {
+        "caption": {
+          "main": "ппиғя",
+          "alt": "ppiğæ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "beetle"
+          },
+          {
+            "language": "russian",
+            "text": "жук"
+          }
+        ],
+        "imagePath": "animals/beetle.png",
+        "audioPath": "animals/beetle.mp3"
+      },
+      {
+        "caption": {
+          "main": "гоца",
+          "alt": "goca"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "mouse"
+          },
+          {
+            "language": "russian",
+            "text": "мышь"
+          }
+        ],
+        "imagePath": "animals/mouse.png",
+        "audioPath": "animals/mouse.mp3"
+      },
+      {
+        "caption": {
+          "main": "тьумя",
+          "alt": "thumæ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "owl"
+          },
+          {
+            "language": "russian",
+            "text": "сова"
+          }
+        ],
+        "imagePath": "animals/owl.png",
+        "audioPath": "animals/owl.mp3"
+      },
+      {
+        "caption": {
+          "main": "уц",
+          "alt": "uc"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bison"
+          },
+          {
+            "language": "russian",
+            "text": "зубр"
+          }
+        ],
+        "imagePath": "animals/bison.png",
+        "audioPath": "animals/bison.mp3"
+      },
+      {
+        "caption": {
+          "main": "гаймиш",
+          "alt": "gaymiş"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "buffalo"
+          },
+          {
+            "language": "russian",
+            "text": "буйвол"
+          }
+        ],
+        "imagePath": "animals/buffalo.png",
+        "audioPath": "animals/buffalo.mp3"
+      },
+      {
+        "caption": {
+          "main": "мярцца",
+          "alt": "mærcca"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sheep"
+          },
+          {
+            "language": "russian",
+            "text": "овца"
+          }
+        ],
+        "imagePath": "animals/sheep.png",
+        "audioPath": "animals/sheep.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡьяца",
+          "alt": "qhæca"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "goat"
+          },
+          {
+            "language": "russian",
+            "text": "козел"
+          }
+        ],
+        "imagePath": "animals/goat.png",
+        "audioPath": "animals/goat.mp3"
+      },
+      {
+        "caption": {
+          "main": "бець",
+          "alt": "bech"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "wolf"
+          },
+          {
+            "language": "russian",
+            "text": "волк"
+          }
+        ],
+        "imagePath": "animals/wolf.png",
+        "audioPath": "animals/wolf.mp3"
+      }
+    ],
+    "color": "81C784"
+  },
+  {
+    "length": 36,
+    "cards": [
+      {
+        "caption": {
+          "main": "вянҡьяте",
+          "alt": "vænqhæte"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "belongings"
+          },
+          {
+            "language": "russian",
+            "text": "вещи"
+          }
+        ],
+        "audioPath": "belongings/belongings.mp3",
+        "imagePath": "belongings/felt hat.png"
+      },
+      {
+        "caption": {
+          "main": "киз ҡати",
+          "alt": "kiz qati"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "felt hat"
+          },
+          {
+            "language": "russian",
+            "text": "войлочная шляпа"
+          }
+        ],
+        "imagePath": "belongings/felt hat.png",
+        "audioPath": "belongings/felt hat.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡати",
+          "alt": "qati"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "hat"
+          },
+          {
+            "language": "russian",
+            "text": "шапка"
+          }
+        ],
+        "imagePath": "belongings/hat.png",
+        "audioPath": "belongings/hat.mp3"
+      },
+      {
+        "caption": {
+          "main": "ясятин ҡати",
+          "alt": "æsætin qati"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "karakul hat"
+          },
+          {
+            "language": "russian",
+            "text": "папаха каракулевая"
+          }
+        ],
+        "imagePath": "belongings/karakul hat.png",
+        "audioPath": "belongings/karakul hat.mp3"
+      },
+      {
+        "caption": {
+          "main": "дуклуш ҡати",
+          "alt": "dukluş qati"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "muton hat"
+          },
+          {
+            "language": "russian",
+            "text": "папаха овчинная"
+          }
+        ],
+        "imagePath": "belongings/muton hat.png",
+        "audioPath": "belongings/muton hat.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡичу",
+          "alt": "qqiçu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "caucasian coat"
+          },
+          {
+            "language": "russian",
+            "text": "черкесска"
+          }
+        ],
+        "imagePath": "belongings/caucasian coat.png",
+        "audioPath": "belongings/caucasian coat.mp3"
+      },
+      {
+        "caption": {
+          "main": "ккуртте",
+          "alt": "kkurtte"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "shirt"
+          },
+          {
+            "language": "russian",
+            "text": "рубашка"
+          }
+        ],
+        "imagePath": "belongings/shirt.png",
+        "audioPath": "belongings/shirt.mp3"
+      },
+      {
+        "caption": {
+          "main": "ьявсур",
+          "alt": "hævsur"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "kaftan"
+          },
+          {
+            "language": "russian",
+            "text": "бешмет"
+          }
+        ],
+        "imagePath": "belongings/kaftan.png",
+        "audioPath": "belongings/kaftan.mp3"
+      },
+      {
+        "caption": {
+          "main": "чяба",
+          "alt": "çæba"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "hood"
+          },
+          {
+            "language": "russian",
+            "text": "башлык"
+          }
+        ],
+        "imagePath": "belongings/hood.png",
+        "audioPath": "belongings/hood.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡьупа",
+          "alt": "qhupa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "button"
+          },
+          {
+            "language": "russian",
+            "text": "пуговица"
+          }
+        ],
+        "imagePath": "belongings/button.png",
+        "audioPath": "belongings/button.mp3"
+      },
+      {
+        "caption": {
+          "main": "вачаг",
+          "alt": "vaçag"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pants"
+          },
+          {
+            "language": "russian",
+            "text": "штаны"
+          }
+        ],
+        "imagePath": "belongings/pants.png",
+        "audioPath": "belongings/pants.mp3"
+      },
+      {
+        "caption": {
+          "main": "чакма",
+          "alt": "çakma"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "riding boots"
+          },
+          {
+            "language": "russian",
+            "text": "сапоги"
+          }
+        ],
+        "imagePath": "belongings/riding boots.png",
+        "audioPath": "belongings/riding boots.mp3"
+      },
+      {
+        "caption": {
+          "main": "тьиппри",
+          "alt": "thippri"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "shoes"
+          },
+          {
+            "language": "russian",
+            "text": "обувь"
+          }
+        ],
+        "imagePath": "belongings/shoes.png",
+        "audioPath": "belongings/shoes.mp3"
+      },
+      {
+        "caption": {
+          "main": "гава",
+          "alt": "gava"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "dress"
+          },
+          {
+            "language": "russian",
+            "text": "платье"
+          }
+        ],
+        "imagePath": "belongings/dress.png",
+        "audioPath": "belongings/dress.mp3"
+      },
+      {
+        "caption": {
+          "main": "йувкка",
+          "alt": "yuvkka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "skirt"
+          },
+          {
+            "language": "russian",
+            "text": "юбка"
+          }
+        ],
+        "imagePath": "belongings/skirt.png",
+        "audioPath": "belongings/skirt.mp3"
+      },
+      {
+        "caption": {
+          "main": "кьана",
+          "alt": "khana"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "headscarf"
+          },
+          {
+            "language": "russian",
+            "text": "платок "
+          }
+        ],
+        "imagePath": "belongings/headscarf.png",
+        "audioPath": "belongings/headscarf.mp3"
+      },
+      {
+        "caption": {
+          "main": "ашмаг",
+          "alt": "aşmag"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "shawl"
+          },
+          {
+            "language": "russian",
+            "text": "шаль"
+          }
+        ],
+        "imagePath": "belongings/shawl.png",
+        "audioPath": "belongings/shawl.mp3"
+      },
+      {
+        "caption": {
+          "main": "кьаз",
+          "alt": "khaz"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "scarf"
+          },
+          {
+            "language": "russian",
+            "text": "шарф"
+          }
+        ],
+        "imagePath": "belongings/scarf.png",
+        "audioPath": "belongings/scarf.mp3"
+      },
+      {
+        "caption": {
+          "main": "котьне",
+          "alt": "kothne"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "gloves"
+          },
+          {
+            "language": "russian",
+            "text": "перчатки"
+          }
+        ],
+        "imagePath": "belongings/gloves.png",
+        "audioPath": "belongings/gloves.mp3"
+      },
+      {
+        "caption": {
+          "main": "динди",
+          "alt": "dindi"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "socks"
+          },
+          {
+            "language": "russian",
+            "text": "носки"
+          }
+        ],
+        "imagePath": "belongings/socks.png",
+        "audioPath": "belongings/socks.mp3"
+      },
+      {
+        "caption": {
+          "main": "ьяка",
+          "alt": "hæka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fur or sheepskin coat"
+          },
+          {
+            "language": "russian",
+            "text": "шуба/дубленка"
+          }
+        ],
+        "imagePath": "belongings/fur or sheepskin coat.png",
+        "audioPath": "belongings/fur or sheepskin coat.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡьуцур",
+          "alt": "qhucur"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "handbag"
+          },
+          {
+            "language": "russian",
+            "text": "сумка"
+          }
+        ],
+        "imagePath": "belongings/handbag.png",
+        "audioPath": "belongings/handbag.mp3"
+      },
+      {
+        "caption": {
+          "main": "дуккал",
+          "alt": "dukkal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "wallet"
+          },
+          {
+            "language": "russian",
+            "text": "кошелек"
+          }
+        ],
+        "imagePath": "belongings/wallet.png",
+        "audioPath": "belongings/wallet.mp3"
+      },
+      {
+        "caption": {
+          "main": "арц",
+          "alt": "arc"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "money"
+          },
+          {
+            "language": "russian",
+            "text": "деньги"
+          }
+        ],
+        "imagePath": "belongings/money.png",
+        "audioPath": "belongings/money.mp3"
+      },
+      {
+        "caption": {
+          "main": "ппяни",
+          "alt": "ppæni"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "belt"
+          },
+          {
+            "language": "russian",
+            "text": "пояс"
+          }
+        ],
+        "imagePath": "belongings/belt.png",
+        "audioPath": "belongings/belt.mp3"
+      },
+      {
+        "caption": {
+          "main": "сят",
+          "alt": "sæt"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "watch"
+          },
+          {
+            "language": "russian",
+            "text": "часы"
+          }
+        ],
+        "imagePath": "belongings/watch.png",
+        "audioPath": "belongings/watch.mp3"
+      },
+      {
+        "caption": {
+          "main": "тьуппуга",
+          "alt": "thuppuga"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "ring"
+          },
+          {
+            "language": "russian",
+            "text": "кольцо"
+          }
+        ],
+        "imagePath": "belongings/ring.png",
+        "audioPath": "belongings/ring.mp3"
+      },
+      {
+        "caption": {
+          "main": "ккиса",
+          "alt": "kkisa"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "pocket"
+          },
+          {
+            "language": "russian",
+            "text": "карман"
+          }
+        ],
+        "imagePath": "belongings/pocket.png",
+        "audioPath": "belongings/pocket.mp3"
+      },
+      {
+        "caption": {
+          "main": "илбисне",
+          "alt": "ilbisne"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "glasses"
+          },
+          {
+            "language": "russian",
+            "text": "очки"
+          }
+        ],
+        "imagePath": "belongings/glasses.png",
+        "audioPath": "belongings/glasses.mp3"
+      },
+      {
+        "caption": {
+          "main": "тилпун",
+          "alt": "tilpun"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "phone"
+          },
+          {
+            "language": "russian",
+            "text": "телефон"
+          }
+        ],
+        "imagePath": "belongings/phone.png",
+        "audioPath": "belongings/phone.mp3"
+      },
+      {
+        "caption": {
+          "main": "бирцьле",
+          "alt": "birchlе"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bandolier"
+          },
+          {
+            "language": "russian",
+            "text": "газыри"
+          }
+        ],
+        "imagePath": "belongings/bandolier.png",
+        "audioPath": "belongings/bandolier.mp3"
+      },
+      {
+        "caption": {
+          "main": "хилжан",
+          "alt": "xilžan"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "dagger"
+          },
+          {
+            "language": "russian",
+            "text": "кинжал"
+          }
+        ],
+        "imagePath": "belongings/dagger.png",
+        "audioPath": "belongings/dagger.mp3"
+      },
+      {
+        "caption": {
+          "main": "шушкка",
+          "alt": "şuşkka"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sabre"
+          },
+          {
+            "language": "russian",
+            "text": "сабля"
+          }
+        ],
+        "imagePath": "belongings/sabre.png",
+        "audioPath": "belongings/sabre.mp3"
+      },
+      {
+        "caption": {
+          "main": "тупанг",
+          "alt": "tupang"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "rifle"
+          },
+          {
+            "language": "russian",
+            "text": "ружье"
+          }
+        ],
+        "imagePath": "belongings/rifle.png",
+        "audioPath": "belongings/rifle.mp3"
+      },
+      {
+        "caption": {
+          "main": "лаган",
+          "alt": "lagan"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "gun"
+          },
+          {
+            "language": "russian",
+            "text": "пистолет"
+          }
+        ],
+        "imagePath": "belongings/gun.png",
+        "audioPath": "belongings/gun.mp3"
+      },
+      {
+        "caption": {
+          "main": "жили",
+          "alt": "žili"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "saddle"
+          },
+          {
+            "language": "russian",
+            "text": "седло"
+          }
+        ],
+        "imagePath": "belongings/saddle.png",
+        "audioPath": "belongings/saddle.mp3"
+      }
+    ],
+    "color": "9575CD"
+  },
+  {
+    "length": 19,
+    "cards": [
+      {
+        "caption": {
+          "main": "хамхала биркьме",
+          "alt": "xamxala birkhme"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "body parts"
+          },
+          {
+            "language": "russian",
+            "text": "части тела"
+          }
+        ],
+        "audioPath": "body parts/body parts.mp3",
+        "imagePath": "body parts/hand.png"
+      },
+      {
+        "caption": {
+          "main": "няҡҡ",
+          "alt": "næqq"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "hand"
+          },
+          {
+            "language": "russian",
+            "text": "рука"
+          }
+        ],
+        "imagePath": "body parts/hand.png",
+        "audioPath": "body parts/hand.mp3"
+      },
+      {
+        "caption": {
+          "main": "тьупп",
+          "alt": "thupp"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "finger"
+          },
+          {
+            "language": "russian",
+            "text": "палец"
+          }
+        ],
+        "imagePath": "body parts/finger.png",
+        "audioPath": "body parts/finger.mp3"
+      },
+      {
+        "caption": {
+          "main": "бекь",
+          "alt": "bekh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "head"
+          },
+          {
+            "language": "russian",
+            "text": "голова"
+          }
+        ],
+        "imagePath": "body parts/head.png",
+        "audioPath": "body parts/head.mp3"
+      },
+      {
+        "caption": {
+          "main": "дяъ",
+          "alt": "dæhh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "face"
+          },
+          {
+            "language": "russian",
+            "text": "лицо"
+          }
+        ],
+        "imagePath": "body parts/face.png",
+        "audioPath": "body parts/face.mp3"
+      },
+      {
+        "caption": {
+          "main": "уле",
+          "alt": "ule"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "eye"
+          },
+          {
+            "language": "russian",
+            "text": "глаз"
+          }
+        ],
+        "imagePath": "body parts/eye.png",
+        "audioPath": "body parts/eye.mp3"
+      },
+      {
+        "caption": {
+          "main": "ляъ",
+          "alt": "læhh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "ear"
+          },
+          {
+            "language": "russian",
+            "text": "ухо"
+          }
+        ],
+        "imagePath": "body parts/ear.png",
+        "audioPath": "body parts/ear.mp3"
+      },
+      {
+        "caption": {
+          "main": "мял",
+          "alt": "mæl"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "nose"
+          },
+          {
+            "language": "russian",
+            "text": "нос"
+          }
+        ],
+        "imagePath": "body parts/nose.png",
+        "audioPath": "body parts/nose.mp3"
+      },
+      {
+        "caption": {
+          "main": "антта",
+          "alt": "antta"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "forehead"
+          },
+          {
+            "language": "russian",
+            "text": "лоб"
+          }
+        ],
+        "imagePath": "body parts/forehead.png",
+        "audioPath": "body parts/forehead.mp3"
+      },
+      {
+        "caption": {
+          "main": "ирҡҡе",
+          "alt": "irqqe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "cheek"
+          },
+          {
+            "language": "russian",
+            "text": "щека"
+          }
+        ],
+        "imagePath": "body parts/cheek.png",
+        "audioPath": "body parts/cheek.mp3"
+      },
+      {
+        "caption": {
+          "main": "ттутту",
+          "alt": "ttuttu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "mouth"
+          },
+          {
+            "language": "russian",
+            "text": "рот"
+          }
+        ],
+        "imagePath": "body parts/mouth.png",
+        "audioPath": "body parts/mouth.mp3"
+      },
+      {
+        "caption": {
+          "main": "чьунтьре",
+          "alt": "çhunthre"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "lips"
+          },
+          {
+            "language": "russian",
+            "text": "губы"
+          }
+        ],
+        "imagePath": "body parts/lips.png",
+        "audioPath": "body parts/lips.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡяв",
+          "alt": "qæv"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "neck"
+          },
+          {
+            "language": "russian",
+            "text": "шея"
+          }
+        ],
+        "imagePath": "body parts/neck.png",
+        "audioPath": "body parts/neck.mp3"
+      },
+      {
+        "caption": {
+          "main": "тья",
+          "alt": "thæ"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "leg"
+          },
+          {
+            "language": "russian",
+            "text": "нога"
+          }
+        ],
+        "imagePath": "body parts/leg.png",
+        "audioPath": "body parts/leg.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡаҡҡ",
+          "alt": "qqaqq"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "back"
+          },
+          {
+            "language": "russian",
+            "text": "спина"
+          }
+        ],
+        "imagePath": "body parts/back.png",
+        "audioPath": "body parts/back.mp3"
+      },
+      {
+        "caption": {
+          "main": "кьултьа",
+          "alt": "khultha"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "stomach"
+          },
+          {
+            "language": "russian",
+            "text": "живот"
+          }
+        ],
+        "imagePath": "body parts/stomach.png",
+        "audioPath": "body parts/stomach.mp3"
+      },
+      {
+        "caption": {
+          "main": "урчье",
+          "alt": "urçhe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "heart"
+          },
+          {
+            "language": "russian",
+            "text": "сердце"
+          }
+        ],
+        "imagePath": "body parts/heart.png",
+        "audioPath": "body parts/heart.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғизбе",
+          "alt": "ğizbe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "hair"
+          },
+          {
+            "language": "russian",
+            "text": "волосы"
+          }
+        ],
+        "imagePath": "body parts/hair.png",
+        "audioPath": "body parts/hair.mp3"
+      },
+      {
+        "caption": {
+          "main": "цилбе",
+          "alt": "cilbe"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "teeth"
+          },
+          {
+            "language": "russian",
+            "text": "зубы"
+          }
+        ],
+        "imagePath": "body parts/teeth.png",
+        "audioPath": "body parts/teeth.mp3"
+      }
+    ],
+    "color": "42A5F5"
+  },
+  {
+    "length": 30,
+    "cards": [
+      {
+        "caption": {
+          "main": "галагулте",
+          "alt": "galagulte"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "verbs"
+          },
+          {
+            "language": "russian",
+            "text": "глаголы"
+          }
+        ],
+        "audioPath": "verbs/verbs.mp3",
+        "imagePath": "verbs/to hear.png"
+      },
+      {
+        "caption": {
+          "main": "биҡьара",
+          "alt": "biqhara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to hear"
+          },
+          {
+            "language": "russian",
+            "text": "слышать"
+          }
+        ],
+        "imagePath": "verbs/to hear.png",
+        "audioPath": "verbs/to hear.mp3"
+      },
+      {
+        "caption": {
+          "main": "икьора",
+          "alt": "ikhora"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to speak"
+          },
+          {
+            "language": "russian",
+            "text": "говорить"
+          }
+        ],
+        "imagePath": "verbs/to speak.png",
+        "audioPath": "verbs/to speak.mp3"
+      },
+      {
+        "caption": {
+          "main": "барьара",
+          "alt": "barhara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to know"
+          },
+          {
+            "language": "russian",
+            "text": "знать"
+          }
+        ],
+        "imagePath": "verbs/to know.png",
+        "audioPath": "verbs/to know.mp3"
+      },
+      {
+        "caption": {
+          "main": "ваҳара",
+          "alt": "vajara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to walk"
+          },
+          {
+            "language": "russian",
+            "text": "идти"
+          }
+        ],
+        "imagePath": "verbs/to walk.png",
+        "audioPath": "verbs/to walk.mp3"
+      },
+      {
+        "caption": {
+          "main": "чибигара",
+          "alt": "çibigara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to see"
+          },
+          {
+            "language": "russian",
+            "text": "видеть"
+          }
+        ],
+        "imagePath": "verbs/to see.png",
+        "audioPath": "verbs/to see.mp3"
+      },
+      {
+        "caption": {
+          "main": "бирара",
+          "alt": "birara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to do"
+          },
+          {
+            "language": "russian",
+            "text": "делать"
+          }
+        ],
+        "imagePath": "verbs/to do.png",
+        "audioPath": "verbs/to do.mp3"
+      },
+      {
+        "caption": {
+          "main": "ьервирьора",
+          "alt": "hervirhora"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to live"
+          },
+          {
+            "language": "russian",
+            "text": "жить"
+          }
+        ],
+        "imagePath": "verbs/to live.png",
+        "audioPath": "verbs/to live.mp3"
+      },
+      {
+        "caption": {
+          "main": "улккана",
+          "alt": "ulkkana"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to pray"
+          },
+          {
+            "language": "russian",
+            "text": "молиться"
+          }
+        ],
+        "imagePath": "verbs/to pray.png",
+        "audioPath": "verbs/to pray.mp3"
+      },
+      {
+        "caption": {
+          "main": "чиьара",
+          "alt": "çihara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to watch"
+          },
+          {
+            "language": "russian",
+            "text": "смотреть"
+          }
+        ],
+        "imagePath": "verbs/to watch.png",
+        "audioPath": "verbs/to watch.mp3"
+      },
+      {
+        "caption": {
+          "main": "улшана",
+          "alt": "ulşana"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to work"
+          },
+          {
+            "language": "russian",
+            "text": "работать"
+          }
+        ],
+        "imagePath": "verbs/to work.png",
+        "audioPath": "verbs/to work.mp3"
+      },
+      {
+        "caption": {
+          "main": "виргара",
+          "alt": "virgara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to play"
+          },
+          {
+            "language": "russian",
+            "text": "играть"
+          }
+        ],
+        "imagePath": "verbs/to play.png",
+        "audioPath": "verbs/to play.mp3"
+      },
+      {
+        "caption": {
+          "main": "хьар виғара",
+          "alt": "jar viğara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to ask"
+          },
+          {
+            "language": "russian",
+            "text": "спрашивать"
+          }
+        ],
+        "imagePath": "verbs/to ask.png",
+        "audioPath": "verbs/to ask.mp3"
+      },
+      {
+        "caption": {
+          "main": "луккана",
+          "alt": "lukkana"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to give"
+          },
+          {
+            "language": "russian",
+            "text": "давать"
+          }
+        ],
+        "imagePath": "verbs/to give.png",
+        "audioPath": "verbs/to give.mp3"
+      },
+      {
+        "caption": {
+          "main": "виччихара",
+          "alt": "viççixara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to love"
+          },
+          {
+            "language": "russian",
+            "text": "любить"
+          }
+        ],
+        "imagePath": "verbs/to love.png",
+        "audioPath": "verbs/to love.mp3"
+      },
+      {
+        "caption": {
+          "main": "лигона",
+          "alt": "ligona"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to count"
+          },
+          {
+            "language": "russian",
+            "text": "считать"
+          }
+        ],
+        "imagePath": "verbs/to count.png",
+        "audioPath": "verbs/to count.mp3"
+      },
+      {
+        "caption": {
+          "main": "лукьана",
+          "alt": "lukhana"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to write"
+          },
+          {
+            "language": "russian",
+            "text": "писать"
+          }
+        ],
+        "imagePath": "verbs/to write.png",
+        "audioPath": "verbs/to write.mp3"
+      },
+      {
+        "caption": {
+          "main": "булчьана",
+          "alt": "bulçhana"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to read"
+          },
+          {
+            "language": "russian",
+            "text": "читать"
+          }
+        ],
+        "imagePath": "verbs/to read.png",
+        "audioPath": "verbs/to read.mp3"
+      },
+      {
+        "caption": {
+          "main": "киццара",
+          "alt": "kiccara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to stand"
+          },
+          {
+            "language": "russian",
+            "text": "стоять"
+          }
+        ],
+        "imagePath": "verbs/to stand.png",
+        "audioPath": "verbs/to stand.mp3"
+      },
+      {
+        "caption": {
+          "main": "увцьара",
+          "alt": "uvchara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to search"
+          },
+          {
+            "language": "russian",
+            "text": "искать"
+          }
+        ],
+        "imagePath": "verbs/to search.png",
+        "audioPath": "verbs/to search.mp3"
+      },
+      {
+        "caption": {
+          "main": "чьяғ икьора",
+          "alt": "çhæğ ikhora"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to shout"
+          },
+          {
+            "language": "russian",
+            "text": "кричать"
+          }
+        ],
+        "imagePath": "verbs/to shout.png",
+        "audioPath": "verbs/to shout.mp3"
+      },
+      {
+        "caption": {
+          "main": "укана",
+          "alt": "ukana"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to eat"
+          },
+          {
+            "language": "russian",
+            "text": "кушать"
+          }
+        ],
+        "imagePath": "verbs/to eat.png",
+        "audioPath": "verbs/to eat.mp3"
+      },
+      {
+        "caption": {
+          "main": "уччара",
+          "alt": "uççara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to drink"
+          },
+          {
+            "language": "russian",
+            "text": "пить"
+          }
+        ],
+        "imagePath": "verbs/to drink.png",
+        "audioPath": "verbs/to drink.mp3"
+      },
+      {
+        "caption": {
+          "main": "висара",
+          "alt": "visara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to cry"
+          },
+          {
+            "language": "russian",
+            "text": "плакать"
+          }
+        ],
+        "imagePath": "verbs/to cry.png",
+        "audioPath": "verbs/to cry.mp3"
+      },
+      {
+        "caption": {
+          "main": "калтьана",
+          "alt": "kalthana"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to build"
+          },
+          {
+            "language": "russian",
+            "text": "строить"
+          }
+        ],
+        "imagePath": "verbs/to build.png",
+        "audioPath": "verbs/to build.mp3"
+      },
+      {
+        "caption": {
+          "main": "чибурҳара",
+          "alt": "çiburjara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to point"
+          },
+          {
+            "language": "russian",
+            "text": "указывать"
+          }
+        ],
+        "imagePath": "verbs/to point.png",
+        "audioPath": "verbs/to point.mp3"
+      },
+      {
+        "caption": {
+          "main": "кигара",
+          "alt": "kigara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to sit"
+          },
+          {
+            "language": "russian",
+            "text": "сидеть"
+          }
+        ],
+        "imagePath": "verbs/to sit.png",
+        "audioPath": "verbs/to sit.mp3"
+      },
+      {
+        "caption": {
+          "main": "дуць виргара",
+          "alt": "duch virgara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to run"
+          },
+          {
+            "language": "russian",
+            "text": "бежать"
+          }
+        ],
+        "imagePath": "verbs/to run.png",
+        "audioPath": "verbs/to run.mp3"
+      },
+      {
+        "caption": {
+          "main": "бурцара",
+          "alt": "burcara"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to hold"
+          },
+          {
+            "language": "russian",
+            "text": "держать"
+          }
+        ],
+        "imagePath": "verbs/to hold.png",
+        "audioPath": "verbs/to hold.mp3"
+      },
+      {
+        "caption": {
+          "main": "дикал вирьора",
+          "alt": "dikal virhora"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "to laugh"
+          },
+          {
+            "language": "russian",
+            "text": "смеяться"
+          }
+        ],
+        "imagePath": "verbs/to laugh.png",
+        "audioPath": "verbs/to laugh.mp3"
+      }
+    ],
+    "color": "FFB74D"
+  },
+  {
+    "length": 9,
+    "cards": [
+      {
+        "caption": {
+          "main": "ранге",
+          "alt": "range"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "colors"
+          },
+          {
+            "language": "russian",
+            "text": "цвета"
+          }
+        ],
+        "audioPath": "colors/colors.mp3",
+        "imagePath": "colors/white.png"
+      },
+      {
+        "caption": {
+          "main": "цьяв",
+          "alt": "chæv"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "white"
+          },
+          {
+            "language": "russian",
+            "text": "белый"
+          }
+        ],
+        "imagePath": "colors/white.png",
+        "audioPath": "colors/white.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡерҡ",
+          "alt": "qerq"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "black"
+          },
+          {
+            "language": "russian",
+            "text": "черный"
+          }
+        ],
+        "imagePath": "colors/black.png",
+        "audioPath": "colors/black.mp3"
+      },
+      {
+        "caption": {
+          "main": "шяв",
+          "alt": "şæv"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "grey"
+          },
+          {
+            "language": "russian",
+            "text": "серый"
+          }
+        ],
+        "imagePath": "colors/grey.png",
+        "audioPath": "colors/grey.mp3"
+      },
+      {
+        "caption": {
+          "main": "итьин",
+          "alt": "ithin"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "red"
+          },
+          {
+            "language": "russian",
+            "text": "красный"
+          }
+        ],
+        "imagePath": "colors/red.png",
+        "audioPath": "colors/red.mp3"
+      },
+      {
+        "caption": {
+          "main": "бера",
+          "alt": "bera"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "brown"
+          },
+          {
+            "language": "russian",
+            "text": "коричневый"
+          }
+        ],
+        "imagePath": "colors/brown.png",
+        "audioPath": "colors/brown.mp3"
+      },
+      {
+        "caption": {
+          "main": "буҡу",
+          "alt": "buqu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "yellow"
+          },
+          {
+            "language": "russian",
+            "text": "желтый"
+          }
+        ],
+        "imagePath": "colors/yellow.png",
+        "audioPath": "colors/yellow.mp3"
+      },
+      {
+        "caption": {
+          "main": "шиниш",
+          "alt": "şiniş"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "green"
+          },
+          {
+            "language": "russian",
+            "text": "зеленый"
+          }
+        ],
+        "imagePath": "colors/green.png",
+        "audioPath": "colors/green.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҳаць",
+          "alt": "jach"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "blue"
+          },
+          {
+            "language": "russian",
+            "text": "синий"
+          }
+        ],
+        "imagePath": "colors/blue.png",
+        "audioPath": "colors/blue.mp3"
+      }
+    ],
+    "color": "9ca3af"
+  },
+  {
+    "length": 19,
+    "cards": [
+      {
+        "caption": {
+          "main": "чицирҳанте",
+          "alt": "çicirjante"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "adjectives"
+          },
+          {
+            "language": "russian",
+            "text": "прилагательные"
+          }
+        ],
+        "audioPath": "adjectives/adjectives.mp3",
+        "imagePath": "adjectives/large.png"
+      },
+      {
+        "caption": {
+          "main": "хула",
+          "alt": "xula"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "large"
+          },
+          {
+            "language": "russian",
+            "text": "большой"
+          }
+        ],
+        "imagePath": "adjectives/large.png",
+        "audioPath": "adjectives/large.mp3"
+      },
+      {
+        "caption": {
+          "main": "никьо",
+          "alt": "nikho"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "little"
+          },
+          {
+            "language": "russian",
+            "text": "маленький"
+          }
+        ],
+        "imagePath": "adjectives/little.png",
+        "audioPath": "adjectives/little.mp3"
+      },
+      {
+        "caption": {
+          "main": "чеҡ",
+          "alt": "çeq"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "tall"
+          },
+          {
+            "language": "russian",
+            "text": "высокий"
+          }
+        ],
+        "imagePath": "adjectives/tall.png",
+        "audioPath": "adjectives/tall.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғук",
+          "alt": "ğuk"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "low"
+          },
+          {
+            "language": "russian",
+            "text": "низкий"
+          }
+        ],
+        "imagePath": "adjectives/low.png",
+        "audioPath": "adjectives/low.mp3"
+      },
+      {
+        "caption": {
+          "main": "буҡен",
+          "alt": "buqen"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "long"
+          },
+          {
+            "language": "russian",
+            "text": "длинный"
+          }
+        ],
+        "imagePath": "adjectives/long.png",
+        "audioPath": "adjectives/long.mp3"
+      },
+      {
+        "caption": {
+          "main": "куть",
+          "alt": "kuth"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "short"
+          },
+          {
+            "language": "russian",
+            "text": "короткий"
+          }
+        ],
+        "imagePath": "adjectives/short.png",
+        "audioPath": "adjectives/short.mp3"
+      },
+      {
+        "caption": {
+          "main": "букьал",
+          "alt": "bukhal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "thin"
+          },
+          {
+            "language": "russian",
+            "text": "тонкий"
+          }
+        ],
+        "imagePath": "adjectives/thin.png",
+        "audioPath": "adjectives/thin.mp3"
+      },
+      {
+        "caption": {
+          "main": "буршу",
+          "alt": "burşu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "thick"
+          },
+          {
+            "language": "russian",
+            "text": "толстый"
+          }
+        ],
+        "imagePath": "adjectives/thick.png",
+        "audioPath": "adjectives/thick.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғвярць",
+          "alt": "ğværch"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "narrow"
+          },
+          {
+            "language": "russian",
+            "text": "узкий"
+          }
+        ],
+        "imagePath": "adjectives/narrow.png",
+        "audioPath": "adjectives/narrow.mp3"
+      },
+      {
+        "caption": {
+          "main": "бяу",
+          "alt": "bæu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "wide"
+          },
+          {
+            "language": "russian",
+            "text": "широкий"
+          }
+        ],
+        "imagePath": "adjectives/wide.png",
+        "audioPath": "adjectives/wide.mp3"
+      },
+      {
+        "caption": {
+          "main": "ччакко",
+          "alt": "ççakko"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "beautiful"
+          },
+          {
+            "language": "russian",
+            "text": "красивый"
+          }
+        ],
+        "imagePath": "adjectives/beautiful.png",
+        "audioPath": "adjectives/beautiful.mp3"
+      },
+      {
+        "caption": {
+          "main": "унзу",
+          "alt": "unzu"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "clean"
+          },
+          {
+            "language": "russian",
+            "text": "чистый"
+          }
+        ],
+        "imagePath": "adjectives/clean.png",
+        "audioPath": "adjectives/clean.mp3"
+      },
+      {
+        "caption": {
+          "main": "пинцьа",
+          "alt": "pincha"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "dirty"
+          },
+          {
+            "language": "russian",
+            "text": "грязный"
+          }
+        ],
+        "imagePath": "adjectives/dirty.png",
+        "audioPath": "adjectives/dirty.mp3"
+      },
+      {
+        "caption": {
+          "main": "шала",
+          "alt": "şala"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "bright"
+          },
+          {
+            "language": "russian",
+            "text": "светлый"
+          }
+        ],
+        "imagePath": "adjectives/bright.png",
+        "audioPath": "adjectives/bright.mp3"
+      },
+      {
+        "caption": {
+          "main": "ҡҡуш",
+          "alt": "qquş"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "dark"
+          },
+          {
+            "language": "russian",
+            "text": "темный"
+          }
+        ],
+        "imagePath": "adjectives/dark.png",
+        "audioPath": "adjectives/dark.mp3"
+      },
+      {
+        "caption": {
+          "main": "цьаҡь",
+          "alt": "chaqh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "strong"
+          },
+          {
+            "language": "russian",
+            "text": "сильный"
+          }
+        ],
+        "imagePath": "adjectives/strong.png",
+        "audioPath": "adjectives/strong.mp3"
+      },
+      {
+        "caption": {
+          "main": "декь",
+          "alt": "dekh"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "heavy"
+          },
+          {
+            "language": "russian",
+            "text": "тяжелый"
+          }
+        ],
+        "imagePath": "adjectives/heavy.png",
+        "audioPath": "adjectives/heavy.mp3"
+      },
+      {
+        "caption": {
+          "main": "кук",
+          "alt": "kuk"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "light"
+          },
+          {
+            "language": "russian",
+            "text": "легкий"
+          }
+        ],
+        "imagePath": "adjectives/light.png",
+        "audioPath": "adjectives/light.mp3"
+      }
+    ],
+    "color": "93c5fd"
+  },
+  {
+    "length": 22,
+    "cards": [
+      {
+        "caption": {
+          "main": "белгме",
+          "alt": "belgme"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "numbers"
+          },
+          {
+            "language": "russian",
+            "text": "числа"
+          }
+        ],
+        "audioPath": "numbers/numbers.mp3",
+        "imagePath": "numbers/one.png"
+      },
+      {
+        "caption": {
+          "main": "ца",
+          "alt": "ca"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "one"
+          },
+          {
+            "language": "russian",
+            "text": "один"
+          }
+        ],
+        "imagePath": "numbers/one.png",
+        "audioPath": "numbers/one.mp3"
+      },
+      {
+        "caption": {
+          "main": "чьвел",
+          "alt": "çhvel"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "two"
+          },
+          {
+            "language": "russian",
+            "text": "два"
+          }
+        ],
+        "imagePath": "numbers/two.png",
+        "audioPath": "numbers/two.mp3"
+      },
+      {
+        "caption": {
+          "main": "ябал",
+          "alt": "æbal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "three"
+          },
+          {
+            "language": "russian",
+            "text": "три"
+          }
+        ],
+        "imagePath": "numbers/three.png",
+        "audioPath": "numbers/three.mp3"
+      },
+      {
+        "caption": {
+          "main": "уғал",
+          "alt": "uğal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "four"
+          },
+          {
+            "language": "russian",
+            "text": "четыре"
+          }
+        ],
+        "imagePath": "numbers/four.png",
+        "audioPath": "numbers/four.mp3"
+      },
+      {
+        "caption": {
+          "main": "швел",
+          "alt": "şvel"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "five"
+          },
+          {
+            "language": "russian",
+            "text": "пять"
+          }
+        ],
+        "imagePath": "numbers/five.png",
+        "audioPath": "numbers/five.mp3"
+      },
+      {
+        "caption": {
+          "main": "реккал",
+          "alt": "rekkal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "six"
+          },
+          {
+            "language": "russian",
+            "text": "шесть"
+          }
+        ],
+        "imagePath": "numbers/six.png",
+        "audioPath": "numbers/six.mp3"
+      },
+      {
+        "caption": {
+          "main": "верал",
+          "alt": "veral"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "seven"
+          },
+          {
+            "language": "russian",
+            "text": "семь"
+          }
+        ],
+        "imagePath": "numbers/seven.png",
+        "audioPath": "numbers/seven.mp3"
+      },
+      {
+        "caption": {
+          "main": "гаал",
+          "alt": "gaal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "eight"
+          },
+          {
+            "language": "russian",
+            "text": "восемь"
+          }
+        ],
+        "imagePath": "numbers/eight.png",
+        "audioPath": "numbers/eight.mp3"
+      },
+      {
+        "caption": {
+          "main": "ирчьамал",
+          "alt": "irçhamal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "nine"
+          },
+          {
+            "language": "russian",
+            "text": "девять"
+          }
+        ],
+        "imagePath": "numbers/nine.png",
+        "audioPath": "numbers/nine.mp3"
+      },
+      {
+        "caption": {
+          "main": "вецьал",
+          "alt": "vechal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "ten"
+          },
+          {
+            "language": "russian",
+            "text": "десять"
+          }
+        ],
+        "imagePath": "numbers/ten.png",
+        "audioPath": "numbers/ten.mp3"
+      },
+      {
+        "caption": {
+          "main": "ғаил",
+          "alt": "ğail"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "twenty"
+          },
+          {
+            "language": "russian",
+            "text": "двадцать"
+          }
+        ],
+        "imagePath": "numbers/twenty.png",
+        "audioPath": "numbers/twenty.mp3"
+      },
+      {
+        "caption": {
+          "main": "явцьали",
+          "alt": "ævchali"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "thirty"
+          },
+          {
+            "language": "russian",
+            "text": "тридцать"
+          }
+        ],
+        "imagePath": "numbers/thirty.png",
+        "audioPath": "numbers/thirty.mp3"
+      },
+      {
+        "caption": {
+          "main": "ухцьали",
+          "alt": "uxchali"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fourty"
+          },
+          {
+            "language": "russian",
+            "text": "сорок"
+          }
+        ],
+        "imagePath": "numbers/fourty.png",
+        "audioPath": "numbers/fourty.mp3"
+      },
+      {
+        "caption": {
+          "main": "шуцьали",
+          "alt": "şuchali"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "fifty"
+          },
+          {
+            "language": "russian",
+            "text": "пятьдесят"
+          }
+        ],
+        "imagePath": "numbers/fifty.png",
+        "audioPath": "numbers/fifty.mp3"
+      },
+      {
+        "caption": {
+          "main": "реҳцьали",
+          "alt": "rejchali"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "sixty"
+          },
+          {
+            "language": "russian",
+            "text": "шестьдесят"
+          }
+        ],
+        "imagePath": "numbers/sixty.png",
+        "audioPath": "numbers/sixty.mp3"
+      },
+      {
+        "caption": {
+          "main": "верцьали",
+          "alt": "verchali"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "seventy"
+          },
+          {
+            "language": "russian",
+            "text": "семьдесят"
+          }
+        ],
+        "imagePath": "numbers/seventy.png",
+        "audioPath": "numbers/seventy.mp3"
+      },
+      {
+        "caption": {
+          "main": "гаьцьали",
+          "alt": "gahchali"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "eighty"
+          },
+          {
+            "language": "russian",
+            "text": "восемьдесят"
+          }
+        ],
+        "imagePath": "numbers/eighty.png",
+        "audioPath": "numbers/eighty.mp3"
+      },
+      {
+        "caption": {
+          "main": "ирчьимцьали",
+          "alt": "irçhimchali"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "ninety"
+          },
+          {
+            "language": "russian",
+            "text": "девяносто"
+          }
+        ],
+        "imagePath": "numbers/ninety.png",
+        "audioPath": "numbers/ninety.mp3"
+      },
+      {
+        "caption": {
+          "main": "даршал",
+          "alt": "darşal"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "hundred"
+          },
+          {
+            "language": "russian",
+            "text": "сто"
+          }
+        ],
+        "imagePath": "numbers/hundred.png",
+        "audioPath": "numbers/hundred.mp3"
+      },
+      {
+        "caption": {
+          "main": "азир",
+          "alt": "azir"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "thousand"
+          },
+          {
+            "language": "russian",
+            "text": "тысяча"
+          }
+        ],
+        "imagePath": "numbers/thousand.png",
+        "audioPath": "numbers/thousand.mp3"
+      },
+      {
+        "caption": {
+          "main": "милум",
+          "alt": "milum"
+        },
+        "translations": [
+          {
+            "language": "english",
+            "text": "million"
+          },
+          {
+            "language": "russian",
+            "text": "миллион"
+          }
+        ],
+        "imagePath": "numbers/million.png",
+        "audioPath": "numbers/million.mp3"
+      }
+    ],
+    "color": "90A4AE"
+  }
+]
