@@ -13,6 +13,11 @@ import Theme from 'vitepress/theme'
 
 import RegisterSW from './components/RegisterSW.vue'
 
+import PrimeVue from 'primevue/config';
+import Aura from '@primevue/themes/aura';
+import InputOtp from 'primevue/inputotp';
+import Button from 'primevue/button';
+import 'primeicons/primeicons.css';
 
 export default {
     extends: DefaultTheme,
@@ -22,6 +27,9 @@ export default {
         })
     },
     enhanceApp({ app }) {
+        app.component("Context", Context);
+        app.component("Voice", Voice);
+
         app.use(FloatingVue, {
             themes: {
                 'hint': {
@@ -31,7 +39,14 @@ export default {
                 },
             },
         });
-        app.component("Context", Context);
-        app.component("Voice", Voice);
+
+        app.use(PrimeVue, {
+            theme: {
+                preset: Aura
+            }
+        });
+
+        app.component('InputOtp', InputOtp);
+        app.component('Button', Button);
     }
 }

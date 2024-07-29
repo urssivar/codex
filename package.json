@@ -17,6 +17,7 @@
     "preview": "vitepress preview"
   },
   "dependencies": {
+    "@primevue/themes": "^4.0.2",
     "@types/markdown-it": "^14.0.0",
     "@types/markdown-it-attrs": "^4.1.0",
     "@types/markdown-it-container": "^2.0.10",
@@ -26,6 +27,8 @@
     "markdown-it-bracketed-spans": "^1.0.1",
     "markdown-it-container": "^4.0.0",
     "markdown-it-multimd-table": "^4.2.3",
-    "markdown-it-regexp": "^0.4.0"
+    "markdown-it-regexp": "^0.4.0",
+    "primeicons": "^7.0.0",
+    "primevue": "^4.0.2"
   }
 }
