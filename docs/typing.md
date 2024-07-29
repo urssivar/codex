@@ -6,8 +6,6 @@ outline: false
 import TypingTest from '@/TypingTest.vue';
 </script>
 
-# Hello
-
 <TypingTest />
 
 <style>
