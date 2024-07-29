@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { ref, computed, onMounted, onUnmounted } from 'vue';
+import Keyboard from '@/Keyboard.vue';
 
 defineProps<{
     labels: Record<string, string>
@@ -52,10 +53,20 @@ function refresh() {
     input.value = '';
     document.querySelector<HTMLInputElement>('.p-inputotp input')?.focus();
 }
+
+function keyboardTap(k: string | undefined) {
+    if (k) {
+        if (input.value.length < word.value.length - 1) {
+            input.value += k;
+        }
+    } else if (input.value) {
+        input.value = input.value.substring(0, input.value.length - 1);
+    }
+}
 </script>
 
 <template>
-    <div class="tw-flex tw-gap-4 tw-mb-4 tw-justify-center">
+    <div class="tw-flex tw-gap-4 tw-justify-center">
         <Button @click="audio.play()" :label="labels['listen']" icon="pi pi-volume-down" size="small"
             :severity="first ? 'primary' : 'secondary'" />
         <Button @click="input = word" :label="labels['reveal']" icon="pi pi-eye" size="small" :disabled="passed"
@@ -63,12 +74,13 @@ function refresh() {
         <Button @click="refresh" :label="labels['next']" icon="pi pi-arrow-right" size="small"
             :severity="passed ? 'primary' : 'secondary'" />
     </div>
-    <InputOtp v-model="input" :length="word.length">
+    <InputOtp class="tw-my-8"v-model="input" :length="word.length">
         <template #default="{ attrs, events, index: i }">
             <input type="text" v-bind="attrs" v-on="events" :readonly="passed" class="p-inputotp-input"
                 :class="input[i - 1] ? input[i - 1] == word[i - 1] ? 'corr' : 'err' : ''" />
         </template>
     </InputOtp>
+    <Keyboard :onTap="keyboardTap" />
 </template>
 
 <style>
