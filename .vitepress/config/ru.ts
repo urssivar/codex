@@ -64,8 +64,8 @@ function nav(): DefaultTheme.NavItem[] {
         // },
         {
             text: "Проверка письма",
-            link: "/typing",
-            activeMatch: "/typing",
+            link: "/ru/typing",
+            activeMatch: "/ru/typing/",
         },
         {
             text: "Приложения",

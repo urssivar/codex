@@ -43,7 +43,7 @@ function nav(): DefaultTheme.NavItem[] {
         {
             text: "Typing test",
             link: "/typing",
-            activeMatch: "/typing",
+            activeMatch: "/typing/",
         },
         {
             text: "Apps",
