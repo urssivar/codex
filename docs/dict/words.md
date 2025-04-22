@@ -1,61 +1,71 @@
+## А {#_а}
+
 <div class='dictWord'>
 
-##### чибурцара [tʃiburˈtsara]{.ipa} {#чибурцара}
+##### азир [aˈzir]{.ipa} {#азир}
 
-[#глаг]{.tag} чибуцара, чибуцив, чибурцара
+[#num]{.tag}
 
-- прикладывать
-- обвинять
+- thousand
 
 </div>
+
+<div class='dictWord'>
+
+##### абартара [abarˈtara]{.ipa} {#абартара}
+
+[#v]{.tag} абатара, абатур, абартара
+
+- to harass
+- to prevent
+
+</div>
+
+## Б {#_б}
 
 <div class='dictWord'>
 
 ##### ҡьастт бирара [ˌqʼastː biˈrara]{.ipa}
 
-[#глаг]{.tag} ~ барара, ~ барив, ~ бирара
+[#v]{.tag} ~ барара, ~ барив, ~ бирара
 
-- решаться
+- to decide
 
 </div>
+
+## Ч {#_ч}
 
 <div class='dictWord'>
 
-##### бурсара [tʃiburˈtsara]{.ipa}
+##### чибурцара [tʃiburˈtsara]{.ipa} {#чибурцара}
 
-[#глаг]{.tag} бурсив, бурсара
+[#v]{.tag} чибуцара, чибуцив, чибурцара
 
-- прикладывать
-- обвинять
+- to apply
+- to suspect
 
 </div>
+
+## К {#_к}
 
 <div class='dictWord'>
 
 ##### ккалкка [ˈkːalkːa]{.ipa}
 
-[#сущ]{.tag} ккалкка, ккалккан-, ккилккне
+[#n]{.tag} ккалкка, ккалккан-, ккилккне
 
-- дерево
+- tree
 
 </div>
+
+## Я {#_я}
 
 <div class='dictWord'>
 
 ##### яхи [æˈxːi]{.ipa}
 
-[#прил]{.tag} яхи, ахел
+[#adj]{.tag} яхи, ахел
 
-- дерево
-
-</div>
-
-<div class='dictWord'>
-
-##### жуғ кабикьора [ˌʒuʁ kabiˈkʼora]{.ipa}
-
-[#глаг]{.tag}
-
-- течь
+- good
 
 </div>
