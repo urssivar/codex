@@ -41,6 +41,11 @@ function nav(): DefaultTheme.NavItem[] {
         //     activeMatch: "/phrasebook/",
         // },
         {
+            text: "Dictionary",
+            link: "/dict",
+            activeMatch: "/dict/",
+        },
+        {
             text: "Typing test",
             link: "/typing",
             activeMatch: "/typing/",

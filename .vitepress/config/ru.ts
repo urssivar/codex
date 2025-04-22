@@ -63,6 +63,11 @@ function nav(): DefaultTheme.NavItem[] {
         //     activeMatch: "/ru/phrasebook/",
         // },
         {
+            text: "Словарь",
+            link: "/ru/dict",
+            activeMatch: "/ru/dict/",
+        },
+        {
             text: "Проверка письма",
             link: "/ru/typing",
             activeMatch: "/ru/typing/",
