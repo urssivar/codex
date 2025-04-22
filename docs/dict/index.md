@@ -1,5 +1,7 @@
 ---
 pageClass: dict-page
+outline: false
+aside: false
 ---
 
 # Kaitag dictionary
@@ -17,7 +19,7 @@ const alphabet = [
 const empty = ['о', 'ъ'];
 </script>
 
----
+## Alphabet
 
 <div class='letters'>
     <template v-for="l in alphabet">
