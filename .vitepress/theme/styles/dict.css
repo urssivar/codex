@@ -30,11 +30,29 @@
     }
 
     div.word {
+        position: relative;
+
+        &::before {
+            transition: 150ms;
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -16px;
+            right: -16px;
+            border-radius: 8px;
+            z-index: -1;
+        }
+
+        &:hover::before {
+            background-color: var(--vp-code-block-bg);
+        }
+
         break-inside: avoid;
         transition: 150ms;
         border-radius: 8px;
         margin-top: .5em;
-        padding: 8px 20px;
+        padding: 8px 0;
 
         >p:nth-child(2) {
             font-size: small;
@@ -50,10 +68,6 @@
         li {
             margin: 0 !important;
             font-size: 14px;
-        }
-
-        &:hover {
-            background-color: var(--vp-code-block-bg);
         }
 
         >* {
