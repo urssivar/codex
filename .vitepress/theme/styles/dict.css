@@ -1,13 +1,12 @@
-.dictWord {
-    transition: 150ms;
-    border-radius: 8px;
-    margin-top: .5em;
-    padding: 8px 20px;
+.dict-page {
+    h2.letter {
+        text-transform: capitalize;
+    }
 
-    >p:nth-child(2) {
+    .ipa {
         font-size: small;
-        font-style: italic;
         color: var(--vp-c-text-2);
+        font-weight: 300;
     }
 
     .tag {
@@ -20,28 +19,35 @@
         padding: 2px 4px;
     }
 
-    li {
-        margin: 0 !important;
-        font-size: 14px;
-    }
+    div.word {
+        break-inside: avoid;
+        transition: 150ms;
+        border-radius: 8px;
+        margin-top: .5em;
+        padding: 8px 20px;
 
-    &:hover {
-        background-color: var(--vp-code-block-bg);
-    }
+        >p:nth-child(2) {
+            font-size: small;
+            font-style: italic;
+            color: var(--vp-c-text-2);
+        }
 
-    >* {
-        margin: 0 !important;
-    }
+        h5 {
+            display: flex;
+            justify-content: space-between;
+        }
 
+        li {
+            margin: 0 !important;
+            font-size: 14px;
+        }
 
-    .ipa {
-        font-size: small;
-        color: var(--vp-c-text-2);
-        font-weight: 300;
-    }
+        &:hover {
+            background-color: var(--vp-code-block-bg);
+        }
 
-    h5 {
-        display: flex;
-        justify-content: space-between;
+        >* {
+            margin: 0 !important;
+        }
     }
 }
