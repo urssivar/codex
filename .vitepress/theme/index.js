@@ -7,6 +7,7 @@ import './styles/vars.css';
 import './styles/general.css';
 import './styles/phrase.css';
 import './styles/tooltip.css';
+import './styles/dict.css';
 
 import { h } from 'vue'
 import Theme from 'vitepress/theme'
