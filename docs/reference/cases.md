@@ -14,7 +14,7 @@ Kaitag has five main abstract cases.
 
 </div>
 
- There're also three locative cases with their own usecases. <!-- #TODO link -->
+ There're also three locative cases with their own distinct usecases. <!-- #TODO link -->
 
 ::: details Glossary
 
@@ -31,7 +31,7 @@ Kaitag has five main abstract cases.
 | ++шин++ | --water-- |
 | ++хурег++ | --meal/food-- |
 | ++курси++ | --chair-- |
-| ++цяун, цябунте++ | --came, those who came-- |
+| ++цяун, цяунил, цябунте++ | --came, he who came, those who came-- |
 | ++вегур++ | --left-- |
 | ++чибажив++ | --saw-- |
 | ++беччив++ | --gave-- |
@@ -50,7 +50,7 @@ Absolutive case is the basic form of a word, used in the following contexts:
 
 1. Agent of intransitive verbs & copulas:
 
-   - ++==дярья== цяун++  
+   - ++==дярья== цяун++ {#exp1}  
      --the ==child== came--
    - ++==бизи== бегур++  
      --the ==cat== left--
@@ -178,8 +178,8 @@ The dative is marked by ++-й++ after vowels, ++-жи++ after ++л++/++й++, and
 
 1. Target of some transitive verbs, like *"to"* or *"for"*:
 
-   - ++атта==й== беччивда++  
-     --I gave ==to== father--
+   - ++атта==й== бесун++  
+     --sent ==to== father--
    - ++шине==й== вегур++  
      --left ==for== water (i.e. to bring some)--
    - ++цяунил==жи== катьивда++  
@@ -196,14 +196,10 @@ These two personal pronouns have irregular dative forms:
 
 :::
 
-2. Location *on*:
+2. Location at the surface (see locative cases <!-- #TODO link -->):
 
-   - ++курсин==и== би++  
-     --it's ==on== the chair--
-   - ++ччеме==й==++  
-     --==on== the bridge--
-   - ++усттул==жи==++  
-     --==on== the table--
+   - ++курсин==и== кижив++  
+     --sat ==on== the chair--
 
 ::: info Note
 
@@ -216,12 +212,12 @@ The widspread earlier dative form with ++ж++:
 
 :::
 
-3. Certain destinations of motion:
+3. Certain destinations of motion (see locative cases <!-- #TODO link -->):
 
    - ++еркь==и== вегур++  
      --left ==to== the river--
-   - ++ҡҡатта==й==++  
-     --==to== the gorge--
+   - ++янцце==й==++  
+     --==to== the spring--
    - ++хяв==и==++  
      --==to== the grave--
 
@@ -287,8 +283,8 @@ The suffix has variants ++-ццелли++, ++-ццер++.
    - ++машин==ццил== курчьив++  
      --he got out ==of== the car--
 
-::: warning Attention
+::: info Note
 
-The meaning *"from"* got merged from another, locative cases ++-ццир++ which many use instead in this context. <!-- #TODO link -->
+This can be expressed analytically using the particle ++тта++. <!-- #TODO link -->
 
 :::
