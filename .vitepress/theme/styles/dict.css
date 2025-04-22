@@ -1,4 +1,15 @@
 .dict-page {
+    div.letters {
+        display: flex;
+        flex-wrap: wrap;
+        text-transform: capitalize;
+        justify-content: center;
+
+        >* {
+            padding: 8px;
+        }
+    }
+
     h2.letter {
         text-transform: capitalize;
     }
