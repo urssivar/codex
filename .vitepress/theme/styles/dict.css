@@ -1,4 +1,10 @@
 .dict-page {
+
+    &,
+    * {
+        transition: 150ms;
+    }
+
     div.letters {
         display: flex;
         flex-wrap: wrap;
@@ -16,7 +22,8 @@
     .ipa {
         font-size: small;
         color: var(--vp-c-text-2);
-        font-weight: 300;
+        font-weight: normal;
+        font-family: "Noto Sans", sans-serif;
     }
 
     .tag {
@@ -31,10 +38,13 @@
 
     div.word {
         position: relative;
+        break-inside: avoid;
+        border-radius: 8px;
+        padding: 8px 0;
 
         &::before {
-            transition: 150ms;
             content: '';
+            transition: 150ms;
             position: absolute;
             top: 0;
             bottom: 0;
@@ -48,11 +58,11 @@
             background-color: var(--vp-code-block-bg);
         }
 
-        break-inside: avoid;
-        transition: 150ms;
-        border-radius: 8px;
-        margin-top: .5em;
-        padding: 8px 0;
+        >p:nth-child(1) {
+            display: flex;
+            font-weight: 600;
+            justify-content: space-between;
+        }
 
         >p:nth-child(2) {
             font-size: small;
@@ -60,17 +70,16 @@
             color: var(--vp-c-text-2);
         }
 
-        h5 {
-            display: flex;
-            justify-content: space-between;
+        ul {
+            margin: 4px 0;
         }
 
         li {
-            margin: 0 !important;
             font-size: 14px;
+            margin: 0 !important;
         }
 
-        >* {
+        >p {
             margin: 0 !important;
         }
     }

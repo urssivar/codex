@@ -28,8 +28,10 @@ const empty = ['о', 'ъ'];
     </template>
 </div>
 
-<!--@include: ./words.md-->
+<!--@include: ./words_1.md-->
+<!--@include: ./words_2.md-->
+<!--@include: ./words_3.md-->
 
 ---
 
-*5,512 lexemes • database 22.05.2024* {.tw-text-center .tw-text-sm}
+*4,175 lexemes • database 23.05.2025* {.tw-text-center .tw-text-sm}
