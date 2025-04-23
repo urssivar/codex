@@ -1,10 +1,4 @@
 .dict-page {
-
-    &,
-    * {
-        transition: 150ms;
-    }
-
     .ipa {
         font-size: small;
         color: var(--vp-c-text-2);
@@ -23,6 +17,8 @@
     }
 
     div.word {
+        transition: 150ms;
+
         &:first-of-type {
             margin-top: 16px;
         }
