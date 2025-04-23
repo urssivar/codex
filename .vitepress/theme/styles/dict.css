@@ -5,20 +5,6 @@
         transition: 150ms;
     }
 
-    div.letters {
-        display: flex;
-        flex-wrap: wrap;
-        text-transform: capitalize;
-
-        >* {
-            padding: 8px;
-        }
-    }
-
-    h2.letter {
-        text-transform: capitalize;
-    }
-
     .ipa {
         font-size: small;
         color: var(--vp-c-text-2);
@@ -37,6 +23,10 @@
     }
 
     div.word {
+        &:first-of-type {
+            margin-top: 16px;
+        }
+
         position: relative;
         break-inside: avoid;
         border-radius: 8px;
