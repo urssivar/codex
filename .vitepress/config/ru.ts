@@ -22,8 +22,8 @@ export const ru = defineConfig({
                 base: '/ru/reference/',
                 items: sidebarReference()
             },
-            '/dictionary/': {
-                base: '/dictionary/',
+            '/ru/dictionary/': {
+                base: '/ru/dictionary/',
                 items: sidebarDictionary()
             },
             // '/ru/phrasebook/': {
