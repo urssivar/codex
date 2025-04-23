@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed, watch, onMounted, onUnmounted } from 'vue';
-import Keyboard from '@/Keyboard.vue';
+import Keyboard from './Keyboard.vue';
+import player from "./audio-player";
 
 defineProps<{
     labels: Record<string, string>
@@ -8,7 +9,6 @@ defineProps<{
 
 let words = [] as [string, string][];
 const word = ref('');
-const audio = new Audio();
 const input = ref("");
 
 watch(input, () => {
@@ -21,10 +21,16 @@ const passed = computed(() => {
     if (passed) {
         first.value = false;
     }
-    return passed;
+    return !!passed;
 });
 
 onMounted(async () => {
+    window.addEventListener('keydown', (e) => {
+        if (e.key == 'Enter') {
+            refresh();
+        }
+    });
+
     const avdan = await fetch('/typing/words.json')
         .then(r => r.json());
     words = [];
@@ -38,22 +44,15 @@ onMounted(async () => {
     refresh();
 });
 
-onUnmounted(() => {
-    audio.remove();
-})
 
-window.addEventListener('keydown', (e) => {
-    if (e.key == 'Enter') {
-        refresh();
-    }
-});
+let audioSrc = '';
 
 function refresh() {
     const r = Math.floor(Math.random() * words.length);
     word.value = words[r][0];
-    audio.src = '/typing/audio/' + words[r][1];
+    audioSrc = '/typing/audio/' + words[r][1];
+    player.play(audioSrc);
 
-    audio.play();
     input.value = '';
     document.querySelector<HTMLInputElement>('.p-inputotp input')?.focus();
 }
@@ -71,7 +70,7 @@ function keyboardTap(k: string | undefined) {
 
 <template>
     <div class="tw:flex tw:gap-4 tw:justify-center">
-        <Button @click="audio.play()" :label="labels['listen']" icon="pi pi-volume-down" size="small"
+        <Button @click="player.play(audioSrc);" :label="labels['listen']" icon="pi pi-volume-down" size="small"
             :severity="first ? 'primary' : 'secondary'" />
         <Button @click="input = word" :label="labels['reveal']" icon="pi pi-eye" size="small" :disabled="passed"
             severity="secondary" text />
