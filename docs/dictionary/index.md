@@ -7,7 +7,7 @@ Lorem ipsum dolor sit a met, consectetur adipiscing elit. Phasellus purus ante, 
 ## Alphabet
 
 <script setup>
-import { alphabet } from '../../.vitepress/config/alphabet';
+import { alphabet } from '../../.vitepress/alphabet';
 </script>
 
 <div class='letters tw:flex tw:flex-wrap tw:capitalize'>

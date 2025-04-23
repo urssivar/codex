@@ -1,5 +1,5 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
-import { alphabet } from './alphabet';
+import { alphabet } from '../alphabet';
 
 export const en = defineConfig({
     lang: 'en-US',
