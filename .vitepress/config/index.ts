@@ -6,7 +6,7 @@ import { en } from './en'
 import { ru } from './ru'
 import { withPwa } from '@vite-pwa/vitepress'
 import { pwa } from './pwa'
-
+import tailwindcss from "@tailwindcss/vite";
 
 export default withPwa(defineConfig({
   srcDir: "./docs",
@@ -27,12 +27,15 @@ export default withPwa(defineConfig({
       },
     },
     assetsInclude: ["**/*.m4a"],
+    plugins: [
+      tailwindcss(),
+    ]
   },
   cleanUrls: true,
 
   head: [
-    ["link", { rel: "icon", href: "logo-light.png",media: "(prefers-color-scheme: light)"}],
-    ["link", { rel: "icon", href: "logo-dark.png",media: "(prefers-color-scheme: dark)"}],
+    ["link", { rel: "icon", href: "logo-light.png", media: "(prefers-color-scheme: light)" }],
+    ["link", { rel: "icon", href: "logo-dark.png", media: "(prefers-color-scheme: dark)" }],
   ],
 
   themeConfig: {
@@ -66,7 +69,7 @@ export default withPwa(defineConfig({
     root: { label: 'English', ...en },
     ru: { label: 'Русский', ...ru }
   },
-  
+
   markdown: {
     config: configureMarkdown,
   },

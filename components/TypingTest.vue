@@ -70,7 +70,7 @@ function keyboardTap(k: string | undefined) {
 </script>
 
 <template>
-    <div class="tw-flex tw-gap-4 tw-justify-center">
+    <div class="tw:flex tw:gap-4 tw:justify-center">
         <Button @click="audio.play()" :label="labels['listen']" icon="pi pi-volume-down" size="small"
             :severity="first ? 'primary' : 'secondary'" />
         <Button @click="input = word" :label="labels['reveal']" icon="pi pi-eye" size="small" :disabled="passed"
@@ -78,10 +78,11 @@ function keyboardTap(k: string | undefined) {
         <Button @click="refresh" :label="labels['next']" icon="pi pi-arrow-right" size="small"
             :severity="passed ? 'primary' : 'secondary'" />
     </div>
-    <InputOtp class="tw-my-8" v-model="input" :length="word.length">
+    <InputOtp class="tw:my-8" v-model="input" :length="word.length">
         <template #default="{ attrs, events, index: i }">
-            <input type="text" v-bind="attrs" v-on="events" :readonly="passed" class="letter"
-                :class="input[i - 1] ? input[i - 1] == word[i - 1] ? 'corr' : 'err' : ''" />
+            <input type="text" v-bind="attrs" v-on="events" :readonly="passed"
+                class="tw:duration-150 tw:rounded-md tw:font-medium tw:text-xl tw:p-2 tw:bg-slate-100 tw:text-slate-800 tw:w-8 tw:text-center"
+                :class="input[i - 1] ? input[i - 1] == word[i - 1] ? 'tw:bg-green-100' : 'tw:bg-red-100' : ''" />
         </template>
     </InputOtp>
     <Keyboard :onTap="keyboardTap" />
@@ -89,18 +90,7 @@ function keyboardTap(k: string | undefined) {
 
 <style>
 .p-inputotp {
-    @apply !tw-gap-1 !tw-justify-center;
-}
-
-.letter {
-    @apply tw-duration-150 tw-rounded-md tw-font-medium tw-text-xl tw-p-2 tw-bg-slate-100 tw-text-slate-800 tw-w-8 tw-text-center;
-
-    &.corr {
-        @apply tw-bg-green-100;
-    }
-
-    &.err {
-        @apply tw-bg-red-100;
-    }
+    gap: var(--tw-gap-1) !important;
+    justify-content: var(tw-justify-center) !important;
 }
 </style>

@@ -7,8 +7,7 @@
     }
 
     .tag {
-        color: var(--vp-c-bg);
-        background-color: var(--vp-c-text-2);
+        background-color: var(--vp-c-default-soft);
         font-weight: bolder;
         font-size: 11px;
         border-radius: 4px;
@@ -55,7 +54,7 @@
 
             >.ipa {
                 margin: 0;
-                line-height: 1em;
+
             }
         }
 

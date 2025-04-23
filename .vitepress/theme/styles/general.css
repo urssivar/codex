@@ -2,9 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss" prefix(tw);
 
 .lang {
     font-family: "Ysabeau Office", serif;
@@ -25,7 +23,7 @@
 }
 
 div.table-transparent table {
-    @apply tw-overflow-visible;
+    @apply tw:overflow-visible;
 
     &,
     tbody {
