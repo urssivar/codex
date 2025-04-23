@@ -18,6 +18,7 @@ Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, a
 
 <div class="table-transparent">
 
+||
 |
 | ++ду, дила++ | --I, my-- |
 | ++и, ила++ | --you, your-- |
@@ -37,6 +38,7 @@ Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, a
 
 <div class="table-wide">
 
+||
 | :-: | :-: | :-: | :-: | :-: |
 | | I, we | you (sg.) | you | he, she, it, they |
 | present | ++да++ | ++де++ | ++да++ | ++це++ |

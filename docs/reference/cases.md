@@ -21,6 +21,7 @@ Kaitag has five main abstract cases.
 
 <div class="table-transparent">
 
+||
 |
 | ++ду, дила, дами++ | --I, my, (to) me-- |
 | ++и, ила, етти++ | --you, your, (to) you-- |
