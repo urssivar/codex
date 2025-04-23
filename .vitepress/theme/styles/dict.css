@@ -48,10 +48,19 @@
             background-color: var(--vp-code-block-bg);
         }
 
-        >p:nth-child(1) {
+        h6>a.header-anchor {
+            display: none;
+        }
+
+        .title {
             display: flex;
-            font-weight: 600;
             justify-content: space-between;
+            align-items: center;
+
+            >.ipa {
+                margin: 0;
+                line-height: 1em;
+            }
         }
 
         >p:nth-child(2) {
