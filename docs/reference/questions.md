@@ -4,6 +4,7 @@ Kaitag has two main question types: **polar** and **content**. From them also **
 
 <div class="table-wide">
 
+||
 |
 | **Cheatsheet** |||
 | ✔️ | ++атта ҡил ==у==?++ <br> --==is== father at home?-- | ++е / акку++ <br> --yes / no-- |

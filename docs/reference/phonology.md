@@ -22,6 +22,7 @@ Compared to other relatives in Dagestan, Kaitag is fairly simple.
 
 <div class="table-wide">
 
+||
 |
 | **STOPS** | voiceless| voiced| geminate|ejective |
 |  п|  | |

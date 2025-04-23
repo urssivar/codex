@@ -4,6 +4,7 @@ Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, a
 
 <div class="table-wide">
 
+||
 |
 | **Cheatsheet** ||
 | ✅ | ❎ |
