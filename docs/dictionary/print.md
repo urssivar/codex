@@ -1,6 +1,7 @@
 ---
-outline: false
 sidebar: false
+outline: false
+aside: false
 next: false
 prev: false
 ---
@@ -24,5 +25,7 @@ import DWord from '~/components/Dictionary/DWord.vue';
     <h2 :id="letter" class="tw-break-before-page tw-mb-4">
         {{ capitalize(letter) }}
     </h2>
-    <DWord v-for="word in words" :key="word.id" :word="word"/>
+    <div class="tw-grid tw-grid-cols-2 tw-gap-x-8">
+        <DWord v-for="word in words" :key="word.id" :word="word"/>
+    </div>
 </template>
