@@ -6,7 +6,6 @@ import { en } from './en'
 import { ru } from './ru'
 import { withPwa } from '@vite-pwa/vitepress'
 import { pwa } from './pwa'
-import tailwindcss from "@tailwindcss/vite";
 
 export default withPwa(defineConfig({
   srcDir: "./docs",
@@ -27,9 +26,6 @@ export default withPwa(defineConfig({
       },
     },
     assetsInclude: ["**/*.m4a"],
-    plugins: [
-      tailwindcss(),
-    ]
   },
   cleanUrls: true,
 
