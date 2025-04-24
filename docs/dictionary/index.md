@@ -9,5 +9,5 @@ import { data as dict } from './data/dictionary.data';
 ## Alphabet
 
 <div class='tw-flex tw-gap-4 tw-flex-wrap tw-capitalize'>
-    <a v-for="l in dict.alphabet" :href='"./"+l'>{{ l }}</a>
+    <a v-for="(_, l) in dict" :href='"./"+l'>{{ l }}</a>
 </div>

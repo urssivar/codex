@@ -3,7 +3,7 @@ import dictLoader from "./data/dictionary.data";
 export default {
   paths() {
     const dict = dictLoader.load();
-    return dict.alphabet.map((letter) => ({
+    return Object.keys(dict).map((letter) => ({
       params: { letter }
     }));
   }

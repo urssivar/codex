@@ -8,7 +8,7 @@ sidebar: false
 <!--@include: ./intro.md-->
 
 <script setup>
-import Word from '~/components/Word.vue';
+import Word from '~/components/Dictionary/DWord.vue';
 import { data as dict } from './data/dictionary.data.ts'
 </script>
 
