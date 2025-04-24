@@ -14,7 +14,7 @@ defineProps<{
 <template>
     <div class="root tw-relative tw-break-inside-avoid tw-rounded-md tw-flex tw-flex-col tw-gap-0.5 tw-py-1">
         <div class="tw-flex tw-items-center tw-justify-between">
-            <h6 :id="word.id">{{ word.headword }}</h6>
+            <h6 :id="word.id" class=" tw-tracking-wide">{{ word.headword }}</h6>
             <span class="ipa tw-text-sm">{{ word.ipa }}</span>
         </div>
         <div class="tw-flex tw-text-xs tw-items-center tw-gap-1">
