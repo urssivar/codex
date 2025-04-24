@@ -1,16 +1,15 @@
 ---
-outline: deep
+outline: false
+sidebar: false
 ---
-
-# Kaitag dictionary
-
-*4,175 lexemes, database 23.05.2025* {.tw-text-sm}
 
 <script setup>
 import Word from '../../components/Word.vue';
 import { data as dict } from '../dict.data.ts'
 import { alphabet } from '../../.vitepress/alphabet';
 </script>
+
+<!--@include: ./intro.md-->
 
 <div class='tw-flex tw-gap-4 tw-flex-wrap tw-capitalize'>
     <template v-for="l in alphabet">
