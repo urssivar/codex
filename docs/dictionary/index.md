@@ -10,6 +10,6 @@ Lorem ipsum dolor sit a met, consectetur adipiscing elit. Phasellus purus ante, 
 import { alphabet } from '../../.vitepress/alphabet';
 </script>
 
-<div class='letters tw-flex tw-flex-wrap tw-capitalize'>
-    <a v-for="l in alphabet" :href='"./"+l' class="tw-p-2">{{ l }}</a>
+<div class='tw-flex tw-gap-4 tw-flex-wrap tw-capitalize'>
+    <a v-for="l in alphabet" :href='"./"+l'>{{ l }}</a>
 </div>

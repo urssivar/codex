@@ -1,8 +1,16 @@
-import { alphabet } from "../../.vitepress/alphabet"
+import dictData from "../dict.data";
 
 export default {
   paths() {
-    return alphabet.map((letter) => ({
+    const dict = dictData.load();
+    const letters = [] as string[];
+    for (const [letter, words] of Object.entries(dict)) {
+      if (words.length) {
+        letters.push(letter);
+      }
+    }
+
+    return letters.map((letter) => ({
       params: { letter }
     }));
   }

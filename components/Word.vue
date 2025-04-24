@@ -31,7 +31,7 @@ defineProps<{
     </div>
 </template>
 
-<style>
+<style scoped>
 .root {
     transition: 150ms;
 

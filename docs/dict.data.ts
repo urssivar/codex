@@ -1,4 +1,4 @@
-import * as words from "./words.json";
+import * as words from "./dict.json";
 
 export default {
     load() {
