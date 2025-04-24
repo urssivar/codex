@@ -2,6 +2,8 @@ import dictionary from "./dictionary.json";
 
 export default {
     load() {
-        return dictionary;
+        // return dictionary;
+        const letter = 'а';
+        return { [letter]: dictionary[letter] };
     }
 }

@@ -35,10 +35,6 @@ defineProps<{
 .root {
     transition: 150ms;
 
-    &:first-of-type {
-        margin-top: 16px;
-    }
-
     position: relative;
     break-inside: avoid;
     border-radius: 8px;

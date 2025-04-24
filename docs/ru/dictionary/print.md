@@ -1,6 +1,8 @@
 ---
 outline: false
 sidebar: false
+next: false
+prev: false
 ---
 
 # Словарь
@@ -19,7 +21,7 @@ import DWord from '~/components/Dictionary/DWord.vue';
 <DIndex :dict="dict" local/>
 
 <template v-for="(words, letter) in dict">
-    <h2 :id="letter" class="tw-break-before-page">
+    <h2 :id="letter" class="tw-break-before-page tw-mb-4">
         {{ capitalize(letter) }}
     </h2>
     <DWord v-for="word in words" :key="word.id" :word="word"/>
