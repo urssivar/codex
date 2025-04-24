@@ -1,4 +1,4 @@
-import dictLoader from "./data/dictionary.data";
+import dictLoader from "./dictionary.data";
 
 export default {
   paths() {

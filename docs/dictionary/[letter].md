@@ -7,8 +7,8 @@ import { useData } from 'vitepress';
 import { onMounted } from 'vue';
 import { capitalize } from '~/composables/text.ts';
 
-import {data as dict} from './data/dictionary.data';
-import Word from '~/components/Dictionary/DWord.vue';
+import {data as dict} from './dictionary.data';
+import DWord from '~/components/Dictionary/DWord.vue';
 
 const { params } = useData();
 const letter = params.value.letter;
@@ -21,4 +21,4 @@ onMounted(() => {
 
 <h1>{{ capitalize(letter) }}</h1>
 
-<Word v-for="word in dict[letter]" :key="word.id" :word="word"/>
+<DWord v-for="word in dict[letter]" :key="word.id" :word="word"/>

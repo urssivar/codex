@@ -1,106 +1,39 @@
 <script setup lang="ts">
 defineProps<{
-    word: {
-        id: string
-        headword: string,
-        ipa: string,
-        tags: string,
-        forms: string[],
-        definitions: string[],
+    dict: {
+        [letter: string]: unknown[]
     },
+    local?: boolean
 }>();
 </script>
 
 <template>
-    <div class="root">
-        <div class="title">
-            <h6 :id="word.id">{{ word.headword }}</h6>
-            <span class="ipa">{{ word.ipa }}</span>
-        </div>
-        <div class="subtitle">
-            <span class="tag" v-for="t in word.tags">
-                {{ t }}
+    <div class='tw-grid tw-gap-1 tw-grid-cols-3 sm:tw-grid-cols-7'>
+        <a v-for="(words, letter) in dict" :href='(local ? "" : "./") + letter'
+            class="tw-text-center tw-bg-slate-200 tw-rounded-md tw-px-4 tw-py-2 tw-flex tw-flex-col tw-leading-tight">
+            <span class="tw-text-lg tw-leading-snug tw-capitalize">
+                {{ letter }}
             </span>
-            {{ word.forms.join(', ') }}
-        </div>
-        <div>
-            <li v-for="d in word.definitions">
-                {{ d }}
-            </li>
-        </div>
+            <span class="!tw-decoration-0 tw-text-xs tw-leading-snug tw-italic">
+                {{ words.length ? words.length : '-' }}
+            </span>
+        </a>
     </div>
 </template>
 
 <style scoped>
-.root {
+a {
     transition: 150ms;
 
-    &:first-of-type {
-        margin-top: 16px;
-    }
+    text-decoration: none;
+    background-color: var(--vp-c-bg-soft);
 
-    position: relative;
-    break-inside: avoid;
-    border-radius: 8px;
-    padding: 8px 0;
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-
-    &::before {
-        content: '';
-        transition: 150ms;
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: -16px;
-        right: -16px;
-        border-radius: 8px;
-        z-index: -1;
-    }
-
-    &:hover::before {
-        background-color: var(--vp-code-block-bg);
-    }
-
-    .title {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        >.ipa {
-            margin: 0;
-
-        }
-    }
-
-    .subtitle {
-        display: flex;
-        gap: 4px;
-        font-size: small;
-        font-style: italic;
+    &>span:not(:first-child) {
         color: var(--vp-c-text-2);
     }
 
-    li {
-        font-size: 14px;
-        margin: 0 !important;
+    &:hover {
+        background-color: var(--vp-c-default-3);
     }
-}
-
-.ipa {
-    font-size: small;
-    color: var(--vp-c-text-2);
-    font-weight: normal;
-    font-family: "Noto Sans", sans-serif;
-}
-
-.tag {
-    background-color: var(--vp-c-default-soft);
-    font-weight: bolder;
-    font-size: 11px;
-    border-radius: 4px;
-    font-style: normal;
-    padding: 2px 4px;
 }
 </style>

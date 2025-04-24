@@ -1,5 +1,5 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
-import { alphabet } from '../alphabet';
+import alphabet from '../alphabet.json';
 import { capitalize } from '../../composables/text';
 
 export const en = defineConfig({
