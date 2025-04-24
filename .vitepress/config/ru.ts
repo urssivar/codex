@@ -1,5 +1,6 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 import { alphabet } from '../alphabet';
+import { capitalize } from '../../composables/text';
 
 export const ru = defineConfig({
     lang: 'ru-RU',
@@ -135,7 +136,7 @@ function sidebarDictionary(): DefaultTheme.SidebarItem[] {
             link: 'index.md'
         },
         ...alphabet.map((l) => ({
-            text: l.charAt(0).toUpperCase() + l.slice(1),
+            text: capitalize(l),
             link: l
         }))
     ];

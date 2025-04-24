@@ -3,25 +3,25 @@ outline: false
 sidebar: false
 ---
 
-<script setup>
-import Word from '../../components/Word.vue';
-import { data as dict } from '../dict.data.ts'
-import { alphabet } from '../../.vitepress/alphabet';
-</script>
+# Kaitag dictionary
 
 <!--@include: ./intro.md-->
 
+<script setup>
+import Word from '~/components/Word.vue';
+import { data as dict } from './data/dictionary.data.ts'
+</script>
+
+## Alphabet
+
 <div class='tw-flex tw-gap-4 tw-flex-wrap tw-capitalize'>
-    <template v-for="l in alphabet">
-        <a v-if="dict[l]" :href='"#"+l'>{{ l }}</a>
-        <span v-else>{{ l }}</span>
-    </template>
+    <a v-for="l in dict.alphabet" :href='"#"+l'>{{ l }}</a>
 </div>
 
-<template v-for="(words, letter) in dict">
+<template v-for="(words, letter) in dict.words">
     <template v-if="words.length">
-        <h2 :id="letter">
-            {{ letter.charAt(0).toUpperCase() + letter.slice(1) }}
+        <h2 :id="letter" class="tw-break-before-page">
+            {{ capitalize(letter) }}
         </h2>
         <Word v-for="word in words" :key="word.id" :word="word"/>
     </template>

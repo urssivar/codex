@@ -23,6 +23,7 @@ export default withPwa(defineConfig({
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "../../components"),
+        "~": path.resolve(__dirname, "../../"),
       },
     },
     assetsInclude: ["**/*.m4a"],
