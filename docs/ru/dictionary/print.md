@@ -26,7 +26,5 @@ import DWord from '~/components/Dictionary/DWord.vue';
     <h2 :id="letter" class="tw-break-before-page tw-mb-4">
         {{ capitalize(letter) }}
     </h2>
-    <div class="tw-grid tw-grid-cols-3 tw-gap-x-8">
-        <DWord v-for="word in words" :key="word.id" :word="word"/>
-    </div>
+    <DWord v-for="word in words" :key="word.id" :word="word"/>
 </template>
