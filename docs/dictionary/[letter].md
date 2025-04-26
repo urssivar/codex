@@ -1,7 +1,3 @@
----
-outline: deep
----
-
 <script setup>
 import { useData } from 'vitepress';
 import { onMounted } from 'vue';

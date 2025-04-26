@@ -12,40 +12,43 @@ defineProps<{
 </script>
 
 <template>
-    <div class="root tw-relative tw-group">
-        <h6 :id="word.id" class="tw-tracking-wide tw-inline ">
-            <!-- <a :href="'#' + word.id" class="header-anchor tw-text-xl -tw-top-2 group-hover:tw-opacity-100"></a> -->
+    <div class="root tw-relative tw-group tw-pl-4 -tw-indent-4">
+        <h6 :id="word.id" class="tw-tracking-wide tw-inline">
+            <!-- <a :href="'#' + word.id" class="header-anchor tw-text-xl !tw-left-4 !-tw-top-1 group-hover:tw-opacity-100"></a> -->
             {{ word.headword }}
         </h6>
-        <span
-            class="tw-bg-[--vp-c-default-soft] tw-text-[10px] tw-font-semibold tw-rounded tw-px-1 tw-py-px tw-ml-0.5 tw-uppercase"
-            v-for="t in word.tags">
-            {{ t }}
-        </span>
-        <span class="tw-text-sm">
-            <template v-for="(d, i) in word.definitions">
-                • {{ d }}
+        {{ ' ' }}
+        <span class="tw-font-semibold tw-text-[10px] tw-uppercase">
+            <template v-for="t in word.tags">
+                {{ ' ' }}
+                <span class="tw-bg-[--vp-c-default-soft] tw-rounded tw-px-1 tw-py-px">
+                    {{ t }}
+                </span>
             </template>
         </span>
+        {{ ' ' }}
+        <span class="tw-text-sm">
+            {{word.definitions.map((w) => w + '; ').join('')}}
+        </span>
         <span v-if="word.forms?.length" class="tw-italic tw-text-xs">
-            ({{ word.forms.join(', ') }})
+            … {{ word.forms.join(', ') }}
         </span>
         <br>
     </div>
 </template>
 
-<style scoped>
+<!-- <style scoped>
 .root {
-    transition: 150ms;
+    transition: 75ms;
 
     &::before {
         content: '';
-        transition: 150ms;
         position: absolute;
         top: 0;
         bottom: 0;
         left: -16px;
         right: -16px;
+        transition: 75ms;
         border-radius: 8px;
         z-index: -1;
     }
@@ -54,4 +57,4 @@ defineProps<{
         background-color: var(--vp-code-block-bg);
     }
 }
-</style>
+</style> -->
