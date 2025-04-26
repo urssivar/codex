@@ -12,9 +12,8 @@ defineProps<{
 </script>
 
 <template>
-    <div class="root tw-relative tw-group tw-pl-4 -tw-indent-4">
+    <div class="tw-pl-4 -tw-indent-4">
         <h6 :id="word.id" class="tw-tracking-wide tw-inline">
-            <!-- <a :href="'#' + word.id" class="header-anchor tw-text-xl !tw-left-4 !-tw-top-1 group-hover:tw-opacity-100"></a> -->
             {{ word.headword }}
         </h6>
         {{ ' ' }}
@@ -36,25 +35,3 @@ defineProps<{
         <br>
     </div>
 </template>
-
-<!-- <style scoped>
-.root {
-    transition: 75ms;
-
-    &::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        bottom: 0;
-        left: -16px;
-        right: -16px;
-        transition: 75ms;
-        border-radius: 8px;
-        z-index: -1;
-    }
-
-    &:hover::before {
-        background-color: var(--vp-code-block-bg);
-    }
-}
-</style> -->
