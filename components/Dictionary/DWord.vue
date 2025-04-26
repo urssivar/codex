@@ -26,9 +26,7 @@ defineProps<{
             </template>
         </span>
         {{ ' ' }}
-        <span class="tw-text-sm">
-            {{word.definitions.map((w) => w + '; ').join('')}}
-        </span>
+        {{word.definitions.map((w) => w + '; ').join('')}}
         <span v-if="word.forms?.length" class="tw-italic tw-text-xs">
             … {{ word.forms.join(', ') }}
         </span>
