@@ -13,7 +13,7 @@ defineProps<{
 
 <template>
     <div class="tw-pl-4 -tw-indent-4">
-        <h6 :id="word.id" class="tw-tracking-wide tw-inline">
+        <h6 :id="word.id" class="tw-tracking-wide tw-inline tw-font-['Noto_Sans']">
             {{ word.headword }}
         </h6>
         {{ ' ' }}
@@ -27,7 +27,7 @@ defineProps<{
         </span>
         {{ ' ' }}
         {{word.definitions.map((w) => w + '; ').join('')}}
-        <span v-if="word.forms?.length" class="tw-italic tw-text-xs">
+        <span v-if="word.forms?.length" class="tw-italic tw-text-xs tw-tracking-wide tw-font-['Noto_Sans']">
             … {{ word.forms.join(', ') }}
         </span>
         <br>
