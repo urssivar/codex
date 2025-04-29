@@ -20,7 +20,7 @@ defineProps<{
         <span class="tw-font-semibold tw-text-[10px] tw-uppercase">
             <template v-for="t in word.tags">
                 {{ ' ' }}
-                <span class="tw-bg-[--vp-c-default-soft] tw-relative -tw-top-px tw-rounded tw-px-1 tw-py-px">
+                <span class="tw-bg-[--vp-c-default-soft] tw-rounded tw-px-1 tw-py-px">
                     {{ t }}
                 </span>
             </template>
