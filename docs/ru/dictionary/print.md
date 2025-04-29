@@ -16,6 +16,11 @@ import { data as dict } from './dictionary.data';
 import { capitalize } from '~/composables/text';
 import DIndex from '~/components/Dictionary/DIndex.vue';
 import DWord from '~/components/Dictionary/DWord.vue';
+import { onMounted } from 'vue';
+
+onMounted(() => {
+    document.querySelector('.VPLocalNav')?.remove();
+})
 </script>
 
 ## Алфавит {.tw-break-before-page}
