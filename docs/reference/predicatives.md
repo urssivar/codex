@@ -16,6 +16,7 @@ There's a limited set of particles that interact with [copulas](./copulas) and s
 
 <div class="table-transparent">
 
+||
 |
 | ++ча++ | --who-- |
 | ++коцци++ | --where-- |
