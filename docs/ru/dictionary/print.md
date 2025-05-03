@@ -7,10 +7,6 @@ next: false
 prev: false
 ---
 
-# Словарь
-
-<!--@include: ./intro.md-->
-
 <script setup>
 import { data as dict } from './dictionary.data';
 import { capitalize } from '~/composables/text';
@@ -23,15 +19,27 @@ onMounted(() => {
 })
 </script>
 
-## Алфавит {.tw-break-before-page}
+<!--@include: ./intro.md-->
 
-<DIndex :dict="dict" local/>
-
-<template v-for="(words, letter) in dict">
-    <h2 :id="letter" class="tw-break-before-page tw-mb-4">
-        {{ capitalize(letter) }}
-    </h2>
-    <div class='tw-columns-2'>
+<div class='tw-columns-2 tw-break-before-page'>
+    <template v-for="(words, letter) in dict">
+        <h2 :id="letter">
+            {{ capitalize(letter) }}
+        </h2>
         <DWord v-for="word in words" :key="word.id" :word="word"/>
-    </div>
-</template>
+    </template>
+</div>
+
+<style>
+.VPDoc {
+    @apply !tw-pb-0 !tw-pt-0;
+}
+
+h1, h2 {
+    @apply !tw-border-none !tw-mt-10 !tw-pt-0;
+}
+
+main > div > div > h2 {
+    @apply tw-break-before-page;
+}
+</style>
