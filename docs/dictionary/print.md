@@ -31,5 +31,7 @@ onMounted(() => {
     <h2 :id="letter" class="tw-break-before-page tw-mb-4">
         {{ capitalize(letter) }}
     </h2>
-    <DWord v-for="word in words" :key="word.id" :word="word"/>
+    <div class='tw-columns-2'>
+        <DWord v-for="word in words" :key="word.id" :word="word"/>
+    </div>
 </template>
