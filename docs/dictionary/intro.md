@@ -16,4 +16,4 @@ The modern Kaitag alphabet, based on the Cyrillic alphabet, was developed in 202
 
 ### Navigation
 
-<DIndex :dict="dict" :local="$frontmatter.navbar" class="tw-my-4"/>
+<DIndex :dict="dict" :local="$frontmatter.navbar === false" class="tw-my-4"/>

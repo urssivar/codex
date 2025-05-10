@@ -16,4 +16,4 @@ Lorem ipsum dolor sit a met, consectetur adipiscing elit. Phasellus purus ante, 
 
 ### Навигация
 
-<DIndex :dict="dict" :local="$frontmatter.navbar" class="tw-my-4"/>
+<DIndex :dict="dict" :local="$frontmatter.navbar === false" class="tw-my-4"/>
