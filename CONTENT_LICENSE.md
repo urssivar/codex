@@ -1,15 +1,14 @@
 # License for Language Content
 
-All language materials in this repository (e.g. dictionary data, grammar articles, Kaitag texts) are licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+All language materials in this repository (e.g. dictionary data, grammar articles, Kaitag texts) are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0).
 
 You are free to:
 
-- Share — copy and redistribute the material
-- Adapt — remix, transform, and build upon the material
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material for any purpose, even commercially
 
 Under the following terms:
 
-- Attribution
-- ShareAlike
+- Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 
-Full license text: <https://creativecommons.org/licenses/by-sa/4.0/>
+To view a copy of this license, visit <https://creativecommons.org/licenses/by/4.0/>.

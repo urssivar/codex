@@ -4,6 +4,18 @@
 
 Lorem ipsum dolor sit a met, consectetur adipiscing elit. Phasellus purus ante, feugiat eu viverra quis, fringilla et mi. Praesent nec risus non ligula vehicula fermentum. Fusce dolor metus, aliquet tempus ipsum imperdiet, pretium pulvinar metus. Nullam malesuada pharetra ligula vel molestie. Nullam convallis ligula eget suscipit ornare. Sed in vehicula tellus, sed rutrum ex. Ut ultricies in felis id ullamcorper. Curabitur at metus elit. Proin est nisi, efficitur in lectus quis, accumsan dictum dolor.
 
+<template v-if="$frontmatter.footer === false">
+
+### Лицензия
+
+Этот документ опубликован на условиях международной лицензии Creative Commons «Attribution» 4.0 (CC BY 4.0).
+
+Вы можете свободно копировать, модифицировать и распространять этот материал, в том числе в коммерческих целях, при условии обязательного указания авторства.
+
+Ознакомиться с полным текстом лицензии можно по ссылке: <https://creativecommons.org/licenses/by/4.0/deed.ru>.
+
+</template>
+
 ## Алфавит
 
 Современный кайтагский алфавит на основе кириллицы разработан в 2024 году. Он состоит из 27 букв русского алфавита (отсутствуют Щ, Ф, Ы, Э, Ё, Ю), 3 специфических знаков (Ғ, Ҡ, Ҳ), и 12 сочетаний.

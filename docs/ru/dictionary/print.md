@@ -5,6 +5,7 @@ outline: false
 aside: false
 next: false
 prev: false
+footer: false
 ---
 
 <script setup>

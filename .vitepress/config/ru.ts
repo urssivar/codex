@@ -47,6 +47,10 @@ export const ru = defineConfig({
             text: 'Обновлено'
         },
 
+        footer: {
+            copyright: 'Лицензия CC BY 4.0.'
+        },
+
         darkModeSwitchLabel: 'Оформление',
         lightModeSwitchTitle: 'Переключить на светлую тему',
         darkModeSwitchTitle: 'Переключить на тёмную тему',

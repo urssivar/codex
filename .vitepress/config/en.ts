@@ -15,6 +15,10 @@ export const en = defineConfig({
     ],
 
     themeConfig: {
+        footer: {
+            copyright: 'Licensed under CC BY 4.0.'
+        },
+        
         nav: nav(),
 
         sidebar: {

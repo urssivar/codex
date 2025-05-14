@@ -5,6 +5,7 @@ outline: false
 aside: false
 next: false
 prev: false
+footer: false
 ---
 
 <script setup>
@@ -20,10 +21,6 @@ onMounted(() => {
 </script>
 
 <!--@include: ./intro.md-->
-
-<div class="tw-break-before-page" />
-
-<!--@include: ./alphabet.md-->
 
 <div class='tw-columns-2 tw-break-before-page'>
     <template v-for="(words, letter) in dict">
@@ -43,7 +40,7 @@ h1, h2 {
     @apply !tw-border-none !tw-mt-10 !tw-pt-0;
 }
 
-.break {
-    @apply tw-break-before-page tw-h-8;
+main > div > div > h2 {
+    @apply tw-break-before-page;
 }
 </style>
