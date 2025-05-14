@@ -31,11 +31,11 @@ defineProps<{
         {{word.definitions.map((w) => w + ';').join(' ')}}
         <span class="tw-font-['Noto_Sans'] tw-text-xs tw-font-medium">
             <span v-if="word.forms?.length" class="tw-italic">
-                … {{ word.forms.join(', ') }}
+                ... {{ word.forms.join(', ') }}
             </span>
             <span v-if="word.variants?.length">
                 <br>
-                = {{ word.variants.join(', ') }}
+                // {{ word.variants.join(', ') }}
             </span>
         </span>
     </div>
