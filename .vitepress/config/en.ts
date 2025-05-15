@@ -116,10 +116,6 @@ function sidebarDictionary(): DefaultTheme.SidebarItem[] {
         {
             text: 'Introduction',
             link: 'index.md'
-        },
-        ...alphabet.map((l) => ({
-            text: capitalize(l),
-            link: l
-        }))
+        }
     ];
 }

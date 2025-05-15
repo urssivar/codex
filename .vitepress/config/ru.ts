@@ -138,10 +138,6 @@ function sidebarDictionary(): DefaultTheme.SidebarItem[] {
         {
             text: 'Вступление',
             link: 'index.md'
-        },
-        ...alphabet.map((l) => ({
-            text: capitalize(l),
-            link: l
-        }))
+        }
     ];
 }

@@ -3,18 +3,19 @@ defineProps<{
     dict: {
         [letter: string]: unknown[]
     },
-    local?: boolean
+    local?: boolean,
+    sidebar?: boolean,
 }>();
 </script>
 
 <template>
-    <div class='tw-grid tw-gap-1 tw-grid-cols-3 sm:tw-grid-cols-7'>
+    <div class='tw-grid tw-gap-1 tw-grid-cols-4' :class="{ 'sm:tw-grid-cols-7': !sidebar }">
         <a v-for="(words, letter) in dict" :href='(local ? "#" : "./") + letter'
-            class="tw-text-center tw-bg-slate-200 tw-rounded-md tw-px-4 tw-py-2 tw-flex tw-flex-col tw-leading-tight">
+            class="tw-text-center tw-bg-slate-200 tw-rounded-md tw-px-2 tw-py-2 tw-flex tw-flex-col tw-leading-tight">
             <span class="tw-text-lg tw-leading-snug tw-capitalize">
                 {{ letter }}
             </span>
-            <span class="!tw-decoration-0 tw-text-xs tw-leading-snug">
+            <span v-if="!sidebar" class="!tw-decoration-0 tw-text-xs tw-leading-snug">
                 {{ words.length ? words.length : '-' }}
             </span>
         </a>
