@@ -6,6 +6,7 @@ aside: false
 next: false
 prev: false
 footer: false
+pageClass: dict-print
 ---
 
 <script setup>
@@ -32,15 +33,15 @@ onMounted(() => {
 </div>
 
 <style>
-.VPDoc {
+.dict-print > .VPContent > .VPDoc {
     @apply !tw-p-0;
-}
 
-h1, h2 {
-    @apply !tw-border-none !tw-mt-10 !tw-pt-0;
-}
+    h1, h2 {
+        @apply !tw-border-none !tw-mt-10 !tw-pt-0;
+    }
 
-main > div > div > h2 {
-    @apply tw-break-before-page;
+    main > div > div > h2 {
+        @apply tw-break-before-page;
+    }
 }
 </style>
