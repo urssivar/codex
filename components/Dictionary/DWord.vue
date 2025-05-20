@@ -21,7 +21,7 @@ defineProps<{
         <span class="tw-font-semibold tw-text-[8px] tw-uppercase  tw-tracking-tighter tw-text-[--vp-c-text-2]">
             <template v-for="t in word.tags">
                 {{ ' ' }}
-                <span class="tw-border-[--vp-c-divider] tw-border tw-rounded tw-px-0.5 tw-py-px tw-align-[1px]">
+                <span class="tw-border-[--vp-c-divider] tw-border tw-rounded tw-px-0.5 tw-py-px tw-align-[2px]">
                     {{ t }}
                 </span>
             </template>
