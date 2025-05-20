@@ -14,7 +14,7 @@ defineProps<{
 
 <template>
     <div class="tw-pl-4 -tw-indent-4 tw-leading-none">
-        <span :id="word.id" class=" tw-leading-snug tw-font-semibold tw-font-['Noto_Sans']">
+        <span :id="word.id" class=" tw-leading-snug print:tw-leading-tight tw-font-semibold tw-font-['Noto_Sans']">
             {{ word.headword }}
         </span>
         {{ ' ' }}

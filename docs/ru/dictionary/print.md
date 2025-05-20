@@ -33,7 +33,7 @@ onMounted(() => {
 
 <style>
 .VPDoc {
-    @apply !tw-pb-0 !tw-pt-0;
+    @apply !tw-p-0;
 }
 
 h1, h2 {
