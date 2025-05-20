@@ -1,3 +1,8 @@
+---
+next: false
+prev: false
+---
+
 <script setup>
 import { useData } from 'vitepress';
 import { onMounted } from 'vue';
