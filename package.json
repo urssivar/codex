@@ -28,8 +28,5 @@
     "markdown-it-regexp": "^0.4.0",
     "primeicons": "^7.0.0",
     "primevue": "^4.0.2"
-  },
-  "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "^4.41.0"
   }
 }
