@@ -23,7 +23,7 @@ The modern Kaitag alphabet, based on the Cyrillic alphabet, was developed in 202
 ### Resources
 
 * Alphabet's presentation: ["Evolving the Kaitag script"](https://youtu.be/Ad2o1hwYagA)
-* Keyboard apps: [Яндекс-Клавиатура](https://redirect.appmetrica.yandex.com/serve/172416875559437678), [Google Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
+* Keyboard apps: [Yandex Keyboard](https://redirect.appmetrica.yandex.com/serve/172416875559437678), [Google Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
 * Text converter: [Yaziv](https://yaziv.raxys.app/?lang=xdq&to=0&from=3&text=%D0%BA%D1%8A%D0%B0%D0%B1%D0%B0%D0%B3%D1%8A+%D0%B1%D0%B5%D0%BB%D1%85%D1%8C%D1%83%D0%BD)
 
 ### Navigation

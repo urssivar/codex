@@ -23,7 +23,7 @@ Lorem ipsum dolor sit a met, consectetur adipiscing elit. Phasellus purus ante, 
 ### Ресурсы
 
 * Видео-презентация алфавита: ["Эволюция кайтагской письменности"](https://youtu.be/Ad2o1hwYagA)
-* Мобильные клавиатуры: [Яндекс-Клавиатура](https://redirect.appmetrica.yandex.com/serve/172416875559437678), [Google Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
+* Мобильные клавиатуры: [Яндекс Клавиатура](https://redirect.appmetrica.yandex.com/serve/172416875559437678), [Google Gboard](https://play.google.com/store/apps/details?id=com.google.android.inputmethod.latin)
 * Конвертер текста: [Yaziv](https://yaziv.raxys.app/?lang=xdq&to=0&from=3&text=%D0%BA%D1%8A%D0%B0%D0%B1%D0%B0%D0%B3%D1%8A+%D0%B1%D0%B5%D0%BB%D1%85%D1%8C%D1%83%D0%BD)
 
 ### Навигация
