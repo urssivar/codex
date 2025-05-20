@@ -4,10 +4,8 @@ import { telegramSvg } from "../theme/icons";
 import configureMarkdown from "../markdown";
 import { en } from './en'
 import { ru } from './ru'
-import { withPwa } from '@vite-pwa/vitepress'
-import { pwa } from './pwa'
 
-export default withPwa(defineConfig({
+export default defineConfig({
   srcDir: "./docs",
   sitemap: {
     hostname: "https://codex.urssivar.com",
@@ -70,6 +68,4 @@ export default withPwa(defineConfig({
   markdown: {
     config: configureMarkdown,
   },
-
-  pwa,
-}));
+});

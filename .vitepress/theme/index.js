@@ -9,11 +9,6 @@ import './styles/phrase.css';
 import './styles/tooltip.css';
 import './styles/dict.css';
 
-// import { h } from 'vue'
-// import Theme from 'vitepress/theme'
-
-// import RegisterSW from './components/RegisterSW.vue'
-
 import PrimeVue from 'primevue/config';
 import Aura from '@primevue/themes/aura';
 import InputOtp from 'primevue/inputotp';
@@ -26,11 +21,6 @@ import MyLayout from './MyLayout.vue';
 export default {
     extends: DefaultTheme,
     Layout: MyLayout,
-    // Layout() {
-    //     return h(Theme.Layout, null, {
-    //         'layout-bottom': () => h(RegisterSW)
-    //     })
-    // },
     enhanceApp({ app }) {
         app.component("Context", Context);
         app.component("Voice", Voice);
