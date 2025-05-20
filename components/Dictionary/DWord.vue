@@ -18,11 +18,10 @@ defineProps<{
             {{ word.headword }}
         </span>
         {{ ' ' }}
-        <span class="tw-font-semibold tw-text-[9px] tw-uppercase  tw-tracking-tighter">
+        <span class="tw-font-semibold tw-text-[8px] tw-uppercase  tw-tracking-tighter tw-text-[--vp-c-text-2]">
             <template v-for="t in word.tags">
                 {{ ' ' }}
-                <span
-                    class="tw-bg-[--vp-c-default-soft] tw-border-[--vp-c-divider] tw-border tw-rounded tw-px-0.5 tw-py-px tw-align-[1px]">
+                <span class="tw-border-[--vp-c-divider] tw-border tw-rounded tw-px-0.5 tw-py-px tw-align-[1px]">
                     {{ t }}
                 </span>
             </template>
