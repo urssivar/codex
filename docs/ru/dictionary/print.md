@@ -7,6 +7,7 @@ next: false
 prev: false
 footer: false
 pageClass: dict-print
+title: Кайтагский словарь
 ---
 
 <script setup>
@@ -31,6 +32,8 @@ onMounted(() => {
         <DWord v-for="word in words" :key="word.id" :word="word"/>
     </template>
 </div>
+
+<!--@include: ./license.md-->
 
 <style>
 .dict-print > .VPContent > .VPDoc {
