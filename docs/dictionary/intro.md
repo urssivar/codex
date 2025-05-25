@@ -10,7 +10,7 @@ The dictionary is available in three formats:
 * The [PDF document](./xdq-eng%20dictionary.pdf) for local storage and printing
 * The [Google Sheet](https://forms.gle/ZrPaUdamKc2t8LE78) for data analysis and linguistic research
 
-Plus a short commentary: ["Releasing the Kaitag Dictionary"](https://youtu.be/Ad2o1hwYagA) on YouTube.
+Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/Ad2o1hwYagA) on YouTube.
 
 There are several critical priorities going forward. First, we must urgently gather more material. Very little has been documented about the Kaitag language and culture, and the older generation is passing away. Second, we need to expand and normalize the existing entries. This includes adding usage examples, without which many meanings remain unclear, and specifying village variants, which is essential for deeper linguistic study. Finally, thorough verification is needed to correct inaccuracies and address inconsistencies in structure and orthography.
 
@@ -146,7 +146,7 @@ In finite verbs, stress falls on the first syllable:
 
 ## Alphabet
 
-The modern Kaitag alphabet, developed in 2024 and based on Cyrillic, consists of 27 letters from the Russian script (excluding Щ, Ф, Ы, Э, Ё, and Ю), along with 3 unique characters and 12 specific digraphs.
+The modern Kaitag alphabet, developed in 2024 and based on Cyrillic, consists of 27 letters from the Russian script (excluding Щ, Ф, Ы, Э, Ё, and Ю), along with 3 additional characters and 12 specific digraphs.
 
 ### Resources
 
