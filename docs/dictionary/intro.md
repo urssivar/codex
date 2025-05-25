@@ -7,7 +7,7 @@ This work primarily draws on the speech of the villages **Turaga** (Irchamul reg
 The dictionary is available in three formats:
 
 * The website [Urssivar.com](https://urssivar.com/dictionary) for easy viewing on any device
-* The [PDF document](./xdq-eng%20dictionary.pdf) for local storage and printing
+* The [PDF document](/xdq-eng%20dictionary.pdf) for local storage and printing
 * The [Google Sheet](https://forms.gle/ZrPaUdamKc2t8LE78) for data analysis and linguistic research
 
 Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/Ad2o1hwYagA) on YouTube.
