@@ -29,7 +29,7 @@ The *first tag* is always the part of speech, and additional forms are provided 
 * Adjectives (*ADJ*) may include irregular adverbial forms, typically marked by a shift of stress to the beginning of the word.
 * Cardinal numerals (*NUM*) include the oblique case and stem forms.
   
-Other parts of speech include Adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories — especially the latter ones — are assigned loosely and may not reflect precise grammatical classification.
+Other parts of speech include adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories — especially the latter ones — are assigned loosely and may not reflect precise grammatical classification.
 
 Any word may also be marked with a grammatical class (*CLS*). These are labeled with the neuter class **-б-**.
 
@@ -58,9 +58,9 @@ The dictionary uses the modern [Kaitag alphabet](#alphabet). Below is an overvie
 
 </div>
 
-Aspiration is not marked in the IPA transcriptions. A glottal stop /ʔ/ **ъ** is implicitly present before word-final vowels but is not written. The rare phoneme /ɸ/ **ьв** occurs in only one word: **ьуьв** *"blow"*. Sounds such as /ħ/ **хӏ** and /ʡ/ **гӏ** appear in a few forms from the *Sanchi* variety, where they have not yet merged into /h/ **ь** and /ʔ/ **ъ**, respectively.
+A glottal stop /ʔ/ **ъ** is implicitly present before word-final vowels but is not written. The rare phoneme /ɸ/ **ьв** occurs in only one word: **ьуьв** *"blow"*. Sounds such as /ħ/ **хӏ** and /ʡ/ **гӏ** appear in a few forms from the *Sanchi* variety, where they have not yet merged into /h/ **ь** and /ʔ/ **ъ**, respectively.
 
-The phoneme /l/ л assimilates to adjacent /n/ н. To keep the orthography transparent, these assimilations are not reflected in writing. Examples:
+The phoneme /l/ **л** assimilates to adjacent /n/ **н**. To keep the orthography transparent, these assimilations are not reflected in writing. Examples:
 
 * **у́ле** *"eye"*, **уле́н**- (OBL) > **уле́нла [уленна] бира́ра** *"to jinx"*
 * **шин** *"water"* > **шинбе́ [шимбе]** *"waters"*
@@ -70,7 +70,7 @@ Some varieties lose affricate and stop gemination in syllable-final position. Ho
 * **миҡҡ [миҡ]** *"wedding"* > **ми́ҡҡи** *"at wedding"*
 * **уцци́** *"brother"* > **уццбе́ [уцбе]** *"brothers"*
 
-Syllable-final /l/ **л** becomes palatalized after front vowels **е**, **и**:
+Syllable-final /l/ **л** becomes palatalized after front vowels /e/ **е**, /i/ **и**:
 
 * **ьел** [hɛlʲ] *"it"*
 * **милъя́** [milʲʔæ] *"eggs"*
@@ -123,18 +123,18 @@ Stress is phonemic, strong, and always marked on headwords:
 In declension, stress shifts to the final syllable before case suffixes:
 
 * **а́тта** *"father"* > **атта́-ла** *"father's"*
-* **бизи́** *"cat"* > **бизи́-й** *"to cat"*
+* **бизи́** *"cat"* > **бизи́-цци** *"to cat"*
 
 However, when present, oblique case markers attract the stress, functioning as the final syllable for stress assignment:
 
 * **чух** *"walnut"* > **чух-а́-ла** *"of walnut"*
-* **ляъ** *"ear"* > **ляъ-́ун-жи** *"on ear"*
+* **ляъ** *"ear"* > **ляъ-у́н-жи** *"onto ear"*
 
 Plural forms have final-syllable stress before case suffixes:
 
 * **кка́лкка** *"tree"* > **ккилккне́** *"trees"* > **ккилккна́-ла** *"of trees"*
 
-In finite verbs, stress falls on the first syllable:
+In verbs, stress falls on the penultimate syllable in infinitives and on the first syllable in finite forms:
 
 * **бара́ра** *"to do"* > **ба́рив** *"did"*
 * **чицабуца́ра** *"to put on"* > **чи́цабуца** *"put on!"*
