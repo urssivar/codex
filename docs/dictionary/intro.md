@@ -8,15 +8,18 @@ The dictionary is available in three formats:
 
 * The website [Urssivar.com](https://urssivar.com/dictionary) for easy viewing on any device
 * The [PDF document](/xdq-eng%20dictionary.pdf) for local storage and printing
-* The [Google Sheet](https://forms.gle/ZrPaUdamKc2t8LE78) for data analysis and linguistic research
+* The [Google Sheets](https://docs.google.com/spreadsheets/d/1TAvQAMAw0jDdStvq2Z1E-m1mz3UWkCMGQBgLCnPQgJs/edit?usp=sharing) table for data analysis and linguistic research
 
 Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/Ad2o1hwYagA) on YouTube.
 
 There are several critical priorities going forward. First, we must urgently gather more material. Very little has been documented about the Kaitag language and culture, and the older generation is passing away. Second, we need to expand and normalize the existing entries. This includes adding usage examples, without which many meanings remain unclear, and specifying village variants, which is essential for deeper linguistic study. Finally, thorough verification is needed to correct inaccuracies and address inconsistencies in structure and orthography.
 
-All of this will require crowdsourcing and collaboration. Those interested in contributing can leave their contact information via the [Google Form](https://docs.google.com/forms/d/e/1FAIpQLSfgayq-rorEHzKEM61fvshMAFAUdhfLQyEODb67skJpaWFyAw/viewform?usp=preview) or get in touch directly.
+All of this will require crowdsourcing and collaboration. Those interested in contributing can leave their contact information via the [Google Form](https://forms.gle/ZrPaUdamKc2t8LE78) or get in touch directly.
 
-*— Mæhæmad, +79995339350, <alkaitagi@outlook.com>*
+Take care,  
+Mæhæmad  
++79995339350  
+<alkaitagi@outlook.com>
 
 ## Structure
 
@@ -92,7 +95,7 @@ The four voiceless fricatives /s/ **с**, /ʃ/ **ш**, /x/ **ҳ**, and /χ/ **х
 
    * **яру́с** *"Russian"* > **яруссе́** *"Russians"*, but **яру́си** *"to [a] Russian"*
 
-For now, fricative gemination is not shown in the orthography (**ни́са [нисса]**) but is marked in the IPA in the Google Sheet ([ˈnisːa]). Further study is needed.
+For now, fricative gemination is not shown in the orthography (**ни́са [нисса]**) but is marked in the IPA in the table ([ˈnisːa]). Further study is needed.
 
 ### Vowels
 
