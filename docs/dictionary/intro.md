@@ -28,11 +28,6 @@ The *first tag* is always the part of speech, and additional forms are provided 
 * Verbs (*V*) list the imperfective infinitive as the headword, followed (when available) by the perfective imperative and aorist forms.
 * Adjectives (*ADJ*) may include irregular adverbial forms, typically marked by a shift of stress to the beginning of the word.
 * Cardinal numerals (*NUM*) include the oblique case and stem forms.
-
-* Nouns (*N*) have the nominal case as the headword, then the oblique case, the irregular locative form (rare), and the plural form. Sometimes the headword itself can be marked as plural (*PL*).
-* Verbs (*V*) have imperfective infinitive as the headword, then perfective imperative and aorist, each of which might be absent.
-* Adjectives (*ADJ*) sometimes have irregular adverbial forms, where the stress is moved at the beginning.
-* Cardinal numerals (*NUM*) are given with the oblique case and the stem forms.
   
 Other parts of speech include Adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories — especially the latter ones — are assigned loosely and may not reflect precise grammatical classification.
 
