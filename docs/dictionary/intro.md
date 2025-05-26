@@ -34,7 +34,7 @@ The first grammatical tag always indicates the part of speech, with additional g
   
 Other parts of speech include adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories are assigned loosely and may not reflect precise grammatical classification.
 
-Any word may also be marked with a grammatical class (*CLS*). These are labeled with the neuter class **-б-**.
+Any word may also be marked with a grammatical class (*CLS*). These are labeled with the neuter class ++-б++.
 
 ## Phonetics & Orthography
 
@@ -46,56 +46,56 @@ The dictionary uses the modern [Kaitag alphabet](#alphabet). Below is an overvie
 
 ||
 |:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
-|/m/ **м**|/n **н**|
-|/b/ **б**|/d/ **д**| |||/g/ **г**|
-|/p/ [pʰ] **п**|/t/ [tʰ] **т**| |||/k/ [kʰ] **к**|/q/ [qʰ~qχʰ] **ҡ**|/ʔ/ [ʔ~ʡ] **ъ**|
-|/pː/ **пп**|/tː/ **тт**| |||/kː/ **кк**|/qː/ **ҡҡ**|
-|/pʼ/ **пь**|/tʼ/ **ть**| |||/kʼ/ **кь**|/qʼ/ **ҡь**|
-| ||/ts/ [tsʰ] **ц**|/tʃ/ [tʃʰ] **ч**|
-| ||/tsː/ **цц**|/tʃː/ **чч**|
-| ||/tsʼ/ **ць**|/tʃʼ/ **чь**|
-|/v/ [β~ʷ] **в**| |/z/ **з**|/ʒ/ **ж**| ||/ʁ/ **ғ**|
-| ||/s/ **с**|/ʃ/ **ш**|/x/ [x~ç] **ҳ**||/χ/ **х**|/h/ [h~ħ] **ь**|
-| ||/r/ [ɾ]  **р**|
-| |/l/ [l~lʲ] **л**| ||j **й**|
+|/m/ ++м++|/n ++н++|
+|/b/ ++б++|/d/ ++д++| |||/g/ ++г++|
+|/p/ [pʰ] ++п++|/t/ [tʰ] ++т++| |||/k/ [kʰ] ++к++|/q/ [qʰ~qχʰ] ++ҡ++|/ʔ/ [ʔ~ʡ] ++ъ++|
+|/pː/ ++пп++|/tː/ ++тт++| |||/kː/ ++кк++|/qː/ ++ҡҡ++|
+|/pʼ/ ++пь++|/tʼ/ ++ть++| |||/kʼ/ ++кь++|/qʼ/ ++ҡь++|
+| ||/ts/ [tsʰ] ++ц++|/tʃ/ [tʃʰ] ++ч++|
+| ||/tsː/ ++цц++|/tʃː/ ++чч++|
+| ||/tsʼ/ ++ць++|/tʃʼ/ ++чь++|
+|/v/ [β~ʷ] ++в++| |/z/ ++з++|/ʒ/ ++ж++| ||/ʁ/ ++ғ++|
+| ||/s/ ++с++|/ʃ/ ++ш++|/x/ [x~ç] ++ҳ++||/χ/ ++х++|/h/ [h~ħ] ++ь++|
+| ||/r/ [ɾ]  ++р++|
+| |/l/ [l~lʲ] ++л++| ||j ++й++|
 
 </div>
 
-A glottal stop /ʔ/ **ъ** is implicitly present before word-initial vowels but is not written. The rare phoneme /ɸ/ **ьв** occurs in only one word: **ьуьв** /huɸ/ 'blow'. Additionally, the phonemes /ħ/ **хӏ** and /ʡ/ **гӏ** appear in a small number of words from the *Sanchi* variety, where they have not yet merged into /h/ **ь** and /ʔ/ **ъ**, respectively.
+A glottal stop /ʔ/ ++ъ++ is implicitly present before word-initial vowels but is not written. The rare phoneme /ɸ/ ++ьв++ occurs in only one word: ++ьуьв++ /huɸ/ 'blow'. Additionally, the phonemes /ħ/ ++хӏ++ and /ʡ/ ++гӏ++ appear in a small number of words from the *Sanchi* variety, where they have not yet merged into /h/ ++ь++ and /ʔ/ ++ъ++, respectively.
 
-The phoneme /l/ **л** assimilates to adjacent /n/ **н**. To keep the orthography transparent, these assimilations are not reflected in writing. Examples:
+The phoneme /l/ ++л++ assimilates to adjacent /n/ ++н++. To keep the orthography transparent, these assimilations are not reflected in writing. Examples:
 
-* **у́ле** 'eye', **уле́н**- (OBL) > **уле́нла [уленна] бира́ра** 'to jinx'
-* **шин** 'water' > **шинбе́ [шимбе]** 'waters'
+* ++у́ле++ 'eye', ++уле́н++- (OBL) > ++уле́нла [уленна] бира́ра++ 'to jinx'
+* ++шин++ 'water' > ++шинбе́ [шимбе]++ 'waters'
 
 Some varieties lose affricate and stop gemination in syllable-final position. However, gemination is restored when followed by a vowel, so it is consistently preserved in the orthography:
 
-* **миҡҡ [миҡ]** 'wedding' > **ми́ҡҡи** 'at wedding'
-* **уцци́** 'brother' > **уццбе́ [уцбе]** 'brothers'
+* ++миҡҡ [миҡ]++ 'wedding' > ++ми́ҡҡи++ 'at wedding'
+* ++уцци́++ 'brother' > ++уццбе́ [уцбе]++ 'brothers'
 
-Syllable-final /l/ **л** becomes palatalized after front vowels /e/ **е**, /i/ **и**:
+Syllable-final /l/ ++л++ becomes palatalized after front vowels /e/ ++е++, /i/ ++и++:
 
-* **ьел** [hɛlʲ] 'it'
-* **милъя́** [milʲʔæ] 'eggs'
+* ++ьел++ [hɛlʲ] 'it'
+* ++милъя́++ [milʲʔæ] 'eggs'
 
 #### Geminated Fricatives
 
-The four voiceless fricatives /s/ **с**, /ʃ/ **ш**, /x/ **ҳ**, and /χ/ **х** can geminate, although whether this gemination is phonemic remains unclear:
+The four voiceless fricatives /s/ ++с++, /ʃ/ ++ш++, /x/ ++ҳ++, and /χ/ ++х++ can geminate, although whether this gemination is phonemic remains unclear:
 
 1. Unlike geminated affricates and stops, their realization varies between villages without altering the meaning:
 
-   * **атта́сса** 'by father' (Sanchi) > **атта́са** (Shilyagi)
-   * **баҳҳа́ра** 'to walk' > **баҳа́ра**
+   * ++атта́сса++ 'by father' (Sanchi) > ++атта́са++ (Shilyagi)
+   * ++баҳҳа́ра++ 'to walk' > ++баҳа́ра++
 
 2. It occurs only between vowels:
 
-   * **ччими́сси** 'quince' (Shilyagi) > **ччи́мсе** (Turaga)
+   * ++ччими́сси++ 'quince' (Shilyagi) > ++ччи́мсе++ (Turaga)
 
-3. It consistently appears in plural forms with **-е**:
+3. It consistently appears in plural forms with ++-е++:
 
-   * **яру́с** 'Russian' > **яруссе́** 'Russians', but **яру́си** 'to [a] Russian'
+   * ++яру́с++ 'Russian' > ++яруссе́++ 'Russians', but ++яру́си++ 'to [a] Russian'
 
-For now, fricative gemination is not shown in the orthography (**ни́са [нисса]**) but is marked in the IPA in the table ([ˈnisːa]). Further study is needed.
+For now, fricative gemination is not shown in the orthography (++ни́са [нисса]++) but is marked in the IPA in the table ([ˈnisːa]). Further study is needed.
 
 ### Vowels
 
@@ -103,9 +103,9 @@ For now, fricative gemination is not shown in the orthography (**ни́са [н�
 
 ||
 |:-:|:-:|:-:|
-|/i/ [ɪ] **и**| |/u/ **у**|
-|/e/ [ɛ] **е**|/a/ [ɑ~ɐ] **а**|/o/ [ɔ~ʷɑ~œ] **о**|
-|/æ/ [æ~aˤ] **я**|
+|/i/ [ɪ] ++и++| |/u/ ++у++|
+|/e/ [ɛ] ++е++|/a/ [ɑ~ɐ] ++а++|/o/ [ɔ~ʷɑ~œ] ++о++|
+|/æ/ [æ~aˤ] ++я++|
 
 </div>
 
@@ -113,47 +113,47 @@ For now, fricative gemination is not shown in the orthography (**ни́са [н�
 
 To maintain transparent orthography, vowel assimilations in verb morphology are not reflected in the spelling.
 
-The directional prefixes **ка-** /ka-/, **ьа-** /ha-/, **ца-** /tsa-/, as well as the negative prefix **а-** /a-/, assimilate to /æ/ **я** or /e/ **е** when followed by verb roots with these vowels:
+The directional prefixes ++ка-++ /ka-/, ++ьа-++ /ha-/, ++ца-++ /tsa-/, as well as the negative prefix ++а-++ /a-/, assimilate to /æ/ ++я++ or /e/ ++е++ when followed by verb roots with these vowels:
 
-* **бел** 'still is' > **а́бел [ебел]** 'no more'
-* **ц́яун** 'came' > **а́цяун [яцяун]** 'didn't come'
-* **бертта́ра** 'to rip' > **цабертта́ра [цеберттара]** 'to tear'
-* **бяҡа́ра** 'to wound' > **ьабяҡа́ра [ьябяҡара]** 'to kick'.
+* ++бел++ 'still is' > ++а́бел [ебел]++ 'no more'
+* ++ц́яун++ 'came' > ++а́цяун [яцяун]++ 'didn't come'
+* ++бертта́ра++ 'to rip' > ++цабертта́ра [цеберттара]++ 'to tear'
+* ++бяҡа́ра++ 'to wound' > ++ьабяҡа́ра [ьябяҡара]++ 'to kick'.
 
-In most varieties, the vowel in the causative infixes **-их-** /-iχ-/, **-ух-** /-uχ-/, and **-ях-** /-æχ-/ assimilates to the vowel that follows:
+In most varieties, the vowel in the causative infixes ++-их-++ /-iχ-/, ++-ух-++ /-uχ-/, and ++-ях-++ /-æχ-/ assimilates to the vowel that follows:
 
-* **бара́ра** 'to do' > **бариха́ра [барахара]** 'to force'
-* **биьо́ра** 'to be' > **биьуха́ра [биьахара]** 'to make'
-* **бя́рғур** 'dried' > **бя́рғяхур [бярғухур]** 'made dry'
+* ++бара́ра++ 'to do' > ++бариха́ра [барахара]++ 'to force'
+* ++биьо́ра++ 'to be' > ++биьуха́ра [биьахара]++ 'to make'
+* ++бя́рғур++ 'dried' > ++бя́рғяхур [бярғухур]++ 'made dry'
 
 #### Stress
 
 Stress is prominent and contrastic in Kaitag. It is always marked on headwords:
 
-* **ьана́** 'currently'
-* **ьа́на** 'plate'
+* ++ьана́++ 'currently'
+* ++ьа́на++ 'plate'
 
 In case-inflected forms, stress shifts to the final syllable of the stem, immediately before the case suffix:
 
-* **а́тта** 'father' > **атта́-ла** 'father's'
-* **бизи́** 'cat' > **бизи́-цци** 'with cat'
-* **Мяья́мад** 'cat' > **Мяьяма́д-и** 'to Muhammad'
+* ++а́тта++ 'father' > ++атта́-ла++ 'father's'
+* ++бизи́++ 'cat' > ++бизи́-цци++ 'with cat'
+* ++Мяья́мад++ 'cat' > ++Мяьяма́д-и++ 'to Muhammad'
 
 This applies to the oblique stem when present:
 
-* **чух** 'walnut' > **чуха́-ла** 'of walnut'
-* **ляъ** 'ear' > **ляъу́н-жи** 'onto ear'
-* **миҡере** 'chest' > **миҡри́н-цци** 'into chest'
+* ++чух++ 'walnut' > ++чуха́-ла++ 'of walnut'
+* ++ляъ++ 'ear' > ++ляъу́н-жи++ 'onto ear'
+* ++миҡере++ 'chest' > ++миҡри́н-цци++ 'into chest'
 
 Plural forms have stress on the final syllable of the plural stem, before any case suffixes:
 
-* **кка́лкка** 'tree', **ккилккне́** 'trees' > **ккилккна́-ла** 'of trees'
-* **мургу́л** 'man', **миргле́** 'men' > **миргла́-ла** 'of men'
+* ++кка́лкка++ 'tree', ++ккилккне́++ 'trees' > ++ккилккна́-ла++ 'of trees'
+* ++мургу́л++ 'man', ++миргле́++ 'men' > ++миргла́-ла++ 'of men'
 
 In verbs, stress falls on the penultimate syllable in infinitives and on the first syllable in finite forms:
 
-* **бара́ра** 'to do' > **ба́рив** 'did'
-* **чицабуца́ра** 'to put on' > **чи́цабуца** 'put on!'
+* ++бара́ра++ 'to do' > ++ба́рив++ 'did'
+* ++чицабуца́ра++ 'to put on' > ++чи́цабуца++ 'put on!'
 
 ## Alphabet
 
