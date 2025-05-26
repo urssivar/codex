@@ -18,7 +18,7 @@ All of this will require crowdsourcing and collaboration. My contacts are below.
 
 Ulbetay niśala,  
 Mæhæmad  
-+79995339350
++79995339350  
 <alkaitagi@outlook.com>
 
 ## Entry Structure
@@ -27,8 +27,8 @@ Each entry in the dictionary includes a *headword*, *grammatical tags*, and *def
 
 The first grammatical tag always indicates the *part of speech*, with additional grammatical forms provided accordingly:
 
-* Nouns (*N*) list the nominative case as the headword (++тьу́пп++ 'finger'), followed by the oblique case (++тьуппу́-++), and the plural (++тьиппе́++ 'fingers'). In some cases, the headword may already be plural (*PL*). Rarely there's also an irregular locative form (++яша́ккан-++ 'into pot').
-* Verbs (*V*) list the imperfective infinitive as the headword (++кабирга́ра++ 'to sit (to be in process)'), followed (when available) by the perfective (++кабига́ра++ 'to sit') infinitive and aorist (++ка́бижив++ 'sat').
+* Nouns (*N*) list the nominative case as the headword (++тьу́пп++ 'finger'), followed by the oblique case (++тьуппу́-++), and the plural (++тьиппе́++ 'fingers'). In some cases, the headword may already be plural (*PL*). Rarely there's also an irregular locative form (++яша́ккан++ 'into pot').
+* Verbs (*V*) are given in the imperfective infinitive (++кабирга́ра++ 'to sit (to be in the process)'), followed (when available) by the perfective (++кабига́ра++ 'to sit') infinitive and the aorist (++ка́бижив++ 'sat').
 * Adjectives (*ADJ*) (++яхи́++ 'good')  may include irregular adverbial forms (++я́хял++ 'well'), which are typically accompanied by a shift of stress to the beginning of the word.
 * Cardinal numerals (*NUM*) (++чьвел++ 'two') include the oblique case (++чьул-++) and the stem (++чьу-++).
 
