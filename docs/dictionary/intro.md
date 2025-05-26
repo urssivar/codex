@@ -18,8 +18,7 @@ All of this will require crowdsourcing and collaboration. My contacts are below.
 
 Ulbetay niśala,  
 Mæhæmad  
-+79995339350  
-<alkaitagi@outlook.com>
++79995339350, <alkaitagi@outlook.com>
 
 ## Entry Structure
 
