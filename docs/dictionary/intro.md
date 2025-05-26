@@ -18,7 +18,8 @@ All of this will require crowdsourcing and collaboration. My contacts are below.
 
 Ulbetay niśala,  
 Mæhæmad  
-+79995339350, <alkaitagi@outlook.com>
++79995339350
+<alkaitagi@outlook.com>
 
 ## Entry Structure
 
@@ -26,9 +27,9 @@ Each entry in the dictionary includes a *headword*, *grammatical tags*, and *def
 
 The first grammatical tag always indicates the *part of speech*, with additional grammatical forms provided accordingly:
 
-* Nouns (*N*) list the nominative case as the headword (++тьу́пп++ 'finger'), followed by the oblique case (++тьуппу́-++), the (rare) irregular locative, and the plural (++тьиппе́++). In some cases, the headword itself may be plural (*PL*).
-* Verbs (*V*) list the imperfective infinitive as the headword (++кабирга́ра++ 'to sit'), followed (when available) by the perfective (++кабига́ра++) infinitive and aorist (++ка́бижив++).
-* Adjectives (*ADJ*) (++яхи́++ 'good')  may include irregular adverbial forms (++я́хял++), which are typically accompanied by a shift of stress to the beginning of the word.
+* Nouns (*N*) list the nominative case as the headword (++тьу́пп++ 'finger'), followed by the oblique case (++тьуппу́-++), and the plural (++тьиппе́++ 'fingers'). In some cases, the headword itself may be plural (*PL*). Rarely the irregular locative is also present (++яша́ккан-++ 'into pot').
+* Verbs (*V*) list the imperfective infinitive as the headword (++кабирга́ра++ 'to sit (to be in process)'), followed (when available) by the perfective (++кабига́ра++ 'to sit') infinitive and aorist (++ка́бижив++ 'sat').
+* Adjectives (*ADJ*) (++яхи́++ 'good')  may include irregular adverbial forms (++я́хял++ 'well'), which are typically accompanied by a shift of stress to the beginning of the word.
 * Cardinal numerals (*NUM*) (++чьвел++ 'two') include the oblique case (++чьул-++) and the stem (++чьу-++).
 
 Other parts of speech include adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories are assigned loosely and may not reflect precise grammatical classification.
