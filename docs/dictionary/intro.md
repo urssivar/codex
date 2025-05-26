@@ -27,7 +27,7 @@ Each entry in the dictionary includes a *headword*, *grammatical tags*, and *def
 The first grammatical tag always indicates the *part of speech*, with additional grammatical forms provided accordingly:
 
 * Nouns (*N*) list the nominative case as the headword (++тьу́пп++ 'finger'), followed by the oblique case (++тьуппу́-++), the (rare) irregular locative, and the plural (++тьиппе́++). In some cases, the headword itself may be plural (*PL*).
-* Verbs (*V*) list the imperfective infinitive as the headword (++кабиргара++ 'to sit'), followed (when available) by the perfective (++кабигара++) infinitive and aorist (++кабижив++).
+* Verbs (*V*) list the imperfective infinitive as the headword (++кабирга́ра++ 'to sit'), followed (when available) by the perfective (++кабига́ра++) infinitive and aorist (++ка́бижив++).
 * Adjectives (*ADJ*) (++яхи́++ 'good')  may include irregular adverbial forms (++я́хял++), which are typically accompanied by a shift of stress to the beginning of the word.
 * Cardinal numerals (*NUM*) (++чьвел++ 'two') include the oblique case (++чьул-++) and the stem (++чьу-++).
   
