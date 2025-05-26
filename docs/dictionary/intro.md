@@ -1,6 +1,6 @@
 # Kaitag Dictionary
 
-*5,171 lexemes, DB 20.05.2025, doc 26.05.2025*
+*5,171 lexemes, DB 20.05.2025, doc 27.05.2025*
 
 This work primarily draws on the speech of the villages **Turaga** (Irchamul microregion) and **Shilyagi** (Lower Kattagan microregion). The core of the lexical database is based on the dissertation of **Gasanova U. U. (2012)**, with whom we spent countless hours refining the material. Additional resources include the works of **Temirbulatova S. M. (2004, 2008, 2021)** and **Gabibova K. M. (2009)**.
 
