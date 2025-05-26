@@ -1,18 +1,18 @@
 # Kaitag Dictionary
 
-*5,171 lexemes, DB 20.05.2025, doc 25.05.2025* {.tw-text-sm}
+*5,171 lexemes, DB 20.05.2025, doc 26.05.2025*
 
-This work primarily draws on the speech of the villages **Turaga** (Irchamul region) and **Shilyagi** (Lower Kattagan region). The core of the lexical database is from work of **Gasanova U. U. (2012)**, with whom we spent countless hours refining the material. Additional resources include the works of **Temirbulatova S. M. (2004, 2008, 2021)** and **Gabibova K. M. (2009)**.
+This work primarily draws on the speech of the villages **Turaga** (Irchamul microregion) and **Shilyagi** (Lower Kattagan microregion). The core of the lexical database is based on work of **Gasanova U. U. (2012)**, with whom we spent countless hours refining the material. Additional resources include the works of **Temirbulatova S. M. (2004, 2008, 2021)** and **Gabibova K. M. (2009)**.
 
 The dictionary is available in three formats:
 
-* The website [Urssivar.com](https://urssivar.com/dictionary) for easy viewing on any device
+* The website [Urssivar.com](https://urssivar.com/dictionary) for easy access on any device
 * The [PDF document](/xdq-eng%20dictionary.pdf) for local storage and printing
 * The [Google Sheets](https://docs.google.com/spreadsheets/d/1TAvQAMAw0jDdStvq2Z1E-m1mz3UWkCMGQBgLCnPQgJs/edit?usp=sharing) table for data analysis and linguistic research
 
 Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/Ad2o1hwYagA) on YouTube.
 
-There are several critical priorities going forward. First, we must urgently gather more material. Very little has been documented about the Kaitag language and culture, and the older generation is passing away. Second, we need to expand and normalize the existing entries. This includes adding usage examples, without which many meanings remain unclear, and specifying village variants, which is essential for deeper linguistic study. Finally, thorough verification is needed to correct inaccuracies and address inconsistencies in structure and orthography.
+There are several critical priorities going forward. First, we must urgently gather more material. Very little has been documented about the Kaitag language and culture, and the older generation is passing away. Second, we need to expand and normalize the existing entries. This includes adding usage examples, without which many meanings remain unclear, and specifying village variants, which is essential for deeper linguistic study. Finally, thorough verification is needed to correct inaccuracies and to address inconsistencies in entry structure and orthography.
 
 All of this will require crowdsourcing and collaboration. Those interested in contributing can leave their contact information via the [Google Form](https://forms.gle/ZrPaUdamKc2t8LE78) or get in touch directly.
 
@@ -21,18 +21,18 @@ Mæhæmad
 +79995339350  
 <alkaitagi@outlook.com>
 
-## Structure
+## Entry Structure
 
-Each entry in the dictionary includes a *headword*, *grammatical tags*, and *definitions*. In many cases, minimal but sufficient grammatical forms are also provided. Occasionally, forms from different Kaitag dialects are included, although — unfortunately — I do not currently specify the exact village these variants come from.
+Each entry in the dictionary includes a *headword*, *grammatical tags*, and *definitions*. When relevant, minimal yet sufficient *grammatical forms* are also included. Occasionally, *variants* from different Kaitag dialects appear on the next line, preceded by "//"; however, the exact village origin of these variants is not currently specified.
 
-The *first tag* is always the part of speech, and additional forms are provided accordingly:
+The first grammatical tag always indicates the part of speech, with additional grammatical forms provided accordingly:
 
 * Nouns (*N*) list the nominative case as the headword, followed by the oblique case, the (rare) irregular locative form, and the plural form. In some cases, the headword itself may be plural (*PL*).
 * Verbs (*V*) list the imperfective infinitive as the headword, followed (when available) by the perfective imperative and aorist forms.
 * Adjectives (*ADJ*) may include irregular adverbial forms, typically marked by a shift of stress to the beginning of the word.
 * Cardinal numerals (*NUM*) include the oblique case and stem forms.
   
-Other parts of speech include adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories — especially the latter ones — are assigned loosely and may not reflect precise grammatical classification.
+Other parts of speech include adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories are assigned loosely and may not reflect precise grammatical classification.
 
 Any word may also be marked with a grammatical class (*CLS*). These are labeled with the neuter class **-б-**.
 
@@ -61,22 +61,22 @@ The dictionary uses the modern [Kaitag alphabet](#alphabet). Below is an overvie
 
 </div>
 
-A glottal stop /ʔ/ **ъ** is implicitly present before word-final vowels but is not written. The rare phoneme /ɸ/ **ьв** occurs in only one word: **ьуьв** *"blow"*. Sounds such as /ħ/ **хӏ** and /ʡ/ **гӏ** appear in a few forms from the *Sanchi* variety, where they have not yet merged into /h/ **ь** and /ʔ/ **ъ**, respectively.
+A glottal stop /ʔ/ **ъ** is implicitly present before word-initial vowels but is not written. The rare phoneme /ɸ/ **ьв** occurs in only one word: **ьуьв** /huɸ/ 'blow'. Additionally, the phonemes /ħ/ **хӏ** and /ʡ/ **гӏ** appear in a small number of words from the *Sanchi* variety, where they have not yet merged into /h/ **ь** and /ʔ/ **ъ**, respectively.
 
 The phoneme /l/ **л** assimilates to adjacent /n/ **н**. To keep the orthography transparent, these assimilations are not reflected in writing. Examples:
 
-* **у́ле** *"eye"*, **уле́н**- (OBL) > **уле́нла [уленна] бира́ра** *"to jinx"*
-* **шин** *"water"* > **шинбе́ [шимбе]** *"waters"*
+* **у́ле** 'eye', **уле́н**- (OBL) > **уле́нла [уленна] бира́ра** 'to jinx'
+* **шин** 'water' > **шинбе́ [шимбе]** 'waters'
 
 Some varieties lose affricate and stop gemination in syllable-final position. However, gemination is restored when followed by a vowel, so it is consistently preserved in the orthography:
 
-* **миҡҡ [миҡ]** *"wedding"* > **ми́ҡҡи** *"at wedding"*
-* **уцци́** *"brother"* > **уццбе́ [уцбе]** *"brothers"*
+* **миҡҡ [миҡ]** 'wedding' > **ми́ҡҡи** 'at wedding'
+* **уцци́** 'brother' > **уццбе́ [уцбе]** 'brothers'
 
 Syllable-final /l/ **л** becomes palatalized after front vowels /e/ **е**, /i/ **и**:
 
-* **ьел** [hɛlʲ] *"it"*
-* **милъя́** [milʲʔæ] *"eggs"*
+* **ьел** [hɛlʲ] 'it'
+* **милъя́** [milʲʔæ] 'eggs'
 
 #### Geminated Fricatives
 
@@ -84,16 +84,16 @@ The four voiceless fricatives /s/ **с**, /ʃ/ **ш**, /x/ **ҳ**, and /χ/ **х
 
 1. Unlike geminated affricates and stops, their realization varies between villages without altering the meaning:
 
-   * **атта́сса** *"by father"* (Sanchi) > **атта́са** (Shilyagi)
-   * **баҳҳа́ра** *"to walk"* > **баҳа́ра**
+   * **атта́сса** 'by father' (Sanchi) > **атта́са** (Shilyagi)
+   * **баҳҳа́ра** 'to walk' > **баҳа́ра**
 
 2. It occurs only between vowels:
 
-   * **ччими́сси** (Shilyagi) > **ччи́мсе** (Turaga)
+   * **ччими́сси** 'quince' (Shilyagi) > **ччи́мсе** (Turaga)
 
 3. It consistently appears in plural forms with **-е**:
 
-   * **яру́с** *"Russian"* > **яруссе́** *"Russians"*, but **яру́си** *"to [a] Russian"*
+   * **яру́с** 'Russian' > **яруссе́** 'Russians', but **яру́си** 'to [a] Russian'
 
 For now, fricative gemination is not shown in the orthography (**ни́са [нисса]**) but is marked in the IPA in the table ([ˈnisːa]). Further study is needed.
 
@@ -104,47 +104,60 @@ For now, fricative gemination is not shown in the orthography (**ни́са [н�
 ||
 |:-:|:-:|:-:|
 |/i/ [ɪ] **и**| |/u/ **у**|
-|/e/ [ɛ] **е**|/a/ [ɑ~ɐ] **а**|/o/ [ɔ~ɑʷ~œ] **о**|
+|/e/ [ɛ] **е**|/a/ [ɑ~ɐ] **а**|/o/ [ɔ~ʷɑ~œ] **о**|
 |/æ/ [æ~aˤ] **я**|
 
 </div>
 
-As with consonants, dynamic assimilations are not written. This mostly affects verbs. The directional prefixes **ка-**, **ьа-**, **ца-** and the negative prefix **а-** assimilate to **я**, **е** in root-initial syllables:
+*Note: /o/ is probably not a distinct phoneme, but rather a contextual realization of /a/.*
 
-* **бел** *"still is"* > **а́бел [ебел]** *"no more"*
-* **ц́яун** *"came"* > **а́цяун [яцяун]** *"didn't come"*
-* **бертта́ра** *"to rip"* > **цабертта́ра [цеберттара]** *"to tear"*
-* **бяҡа́ра** *"to wound"* > **ьабяҡа́ра [ьябяҡара]** *"to kick"*.
+To maintain transparent orthography, vowel assimilations in verb morphology are not reflected in the spelling.
+
+The directional prefixes **ка-** /ka-/, **ьа-** /ha-/, **ца-** /tsa-/, as well as the negative prefix **а-** /a-/, assimilate to /æ/ **я** or /e/ **е** when followed by verb roots with these vowels:
+
+* **бел** 'still is' > **а́бел [ебел]** 'no more'
+* **ц́яун** 'came' > **а́цяун [яцяун]** 'didn't come'
+* **бертта́ра** 'to rip' > **цабертта́ра [цеберттара]** 'to tear'
+* **бяҡа́ра** 'to wound' > **ьабяҡа́ра [ьябяҡара]** 'to kick'.
+
+In most varieties, the vowel in the causative infixes **-их-** /-iχ-/, **-ух-** /-uχ-/, and **-ях-** /-æχ-/ assimilates to the vowel that follows:
+
+* **бара́ра** 'to do' > **бариха́ра [барахара]** 'to force'
+* **биьо́ра** 'to be' > **биьуха́ра [биьахара]** 'to make'
+* **бя́рғур** 'dried' > **бя́рғяхур [бярғухур]** 'made dry'
 
 #### Stress
 
-Stress is phonemic, strong, and always marked on headwords:
+Stress is prominent and contrastic in Kaitag. It is always marked on headwords:
 
-* **ьана́** *"currently"*
-* **ьа́на** *"plate"*
+* **ьана́** 'currently'
+* **ьа́на** 'plate'
 
-In declension, stress shifts to the final syllable before case suffixes:
+In case-inflected forms, stress shifts to the final syllable of the stem, immediately before the case suffix:
 
-* **а́тта** *"father"* > **атта́-ла** *"father's"*
-* **бизи́** *"cat"* > **бизи́-цци** *"to cat"*
+* **а́тта** 'father' > **атта́-ла** 'father's'
+* **бизи́** 'cat' > **бизи́-цци** 'with cat'
+* **Мяья́мад** 'cat' > **Мяьяма́д-и** 'to Muhammad'
 
-However, when present, oblique case markers attract the stress, functioning as the final syllable for stress assignment:
+This applies to the oblique stem when present:
 
-* **чух** *"walnut"* > **чух-а́-ла** *"of walnut"*
-* **ляъ** *"ear"* > **ляъ-у́н-жи** *"onto ear"*
+* **чух** 'walnut' > **чуха́-ла** 'of walnut'
+* **ляъ** 'ear' > **ляъу́н-жи** 'onto ear'
+* **миҡере** 'chest' > **миҡри́н-цци** 'into chest'
 
-Plural forms have final-syllable stress before case suffixes:
+Plural forms have stress on the final syllable of the plural stem, before any case suffixes:
 
-* **кка́лкка** *"tree"* > **ккилккне́** *"trees"* > **ккилккна́-ла** *"of trees"*
+* **кка́лкка** 'tree', **ккилккне́** 'trees' > **ккилккна́-ла** 'of trees'
+* **мургу́л** 'man', **миргле́** 'men' > **миргла́-ла** 'of men'
 
 In verbs, stress falls on the penultimate syllable in infinitives and on the first syllable in finite forms:
 
-* **бара́ра** *"to do"* > **ба́рив** *"did"*
-* **чицабуца́ра** *"to put on"* > **чи́цабуца** *"put on!"*
+* **бара́ра** 'to do' > **ба́рив** 'did'
+* **чицабуца́ра** 'to put on' > **чи́цабуца** 'put on!'
 
 ## Alphabet
 
-The modern Kaitag alphabet, developed in 2024 and based on Cyrillic, consists of 27 letters from the Russian script (excluding Щ, Ф, Ы, Э, Ё, and Ю), along with 3 additional characters and 12 specific digraphs.
+The modern Kaitag alphabet, developed in 2024 and based on Cyrillic, consists of 27 letters from the Russian alphabet (excluding Щ, Ф, Ы, Э, Ё, and Ю), along with 3 additional characters and 12 specific digraphs.
 
 ### Resources
 
