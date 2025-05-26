@@ -113,7 +113,7 @@ For now, fricative gemination is not shown in the orthography (++ни́са [н�
 
 To maintain transparent orthography, vowel assimilations in verb morphology are not reflected in the spelling.
 
-The directional prefixes ++ка-++ /ka-/, ++ьа-++ /ha-/, ++ца-++ /tsa-/, as well as the negative prefix ++а-++ /a-/, assimilate to /æ/ ++я++ or /e/ ++е++ when followed by verb roots with these vowels:
+The directional prefixes ++ка-++ /ka-/, ++ьа-++ /ha-/, ++ца-++ /tsa-/, as well as the negative prefix ++а-++ /a-/, become /æ/ ++я++ or /e/ ++е++ when followed by verb roots with these vowels:
 
 * ++бел++ 'still is' > ++а́бел [ебел]++ 'no more'
 * ++ц́яун++ 'came' > ++а́цяун [яцяун]++ 'didn't come'
