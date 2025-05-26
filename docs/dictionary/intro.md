@@ -7,10 +7,10 @@ This work primarily draws on the speech of the villages **Turaga** (Irchamul mic
 The dictionary is available in three formats:
 
 * The website [Urssivar.com](https://urssivar.com/dictionary) for easy access on any device
-* The [PDF document](/xdq-eng%20dictionary.pdf) for local storage and printing
+* The [PDF document](/xdq-eng%20dictionary.pdf) (TODO) for local storage and printing
 * The [Google Sheets](https://docs.google.com/spreadsheets/d/1TAvQAMAw0jDdStvq2Z1E-m1mz3UWkCMGQBgLCnPQgJs/edit?usp=sharing) table for data analysis and linguistic research
 
-Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/Ad2o1hwYagA) on YouTube.
+Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/Ad2o1hwYagA) (TODO) on YouTube.
 
 There are several critical priorities going forward. First, we must urgently gather more material. Very little has been documented about the Kaitag language and culture, and the older generation is passing away. Second, we need to expand and normalize the existing entries. This includes adding usage examples, without which many meanings remain unclear, and specifying village variants, which is essential for deeper linguistic study. Finally, thorough verification is needed to correct inaccuracies and to address inconsistencies in orthography.
 
@@ -68,12 +68,12 @@ The phoneme /l/ ++л++ assimilates to adjacent /n/ ++н++, and /n/ ++н++ assimi
 * ++у́ле++ 'eye', ++уле́н++- (OBL) > ++уле́нла [уленна] бира́ра++ 'to jinx'
 * ++шин++ 'water' > ++шинбе́ [шимбе]++ 'waters'
 
-Some varieties lose affricate and stop gemination in syllable-final position. However, gemination is restored when followed by a vowel, so it is consistently preserved in the orthography:
+Some varieties lose consonant gemination in syllable-final position. However, gemination is restored when followed by a vowel, so it is consistently preserved in the orthography:
 
 * ++миҡҡ [миҡ]++ 'wedding' > ++ми́ҡҡи++ 'at wedding'
 * ++уцци́++ 'brother' > ++уццбе́ [уцбе]++ 'brothers'
 
-Syllable-final /l/ ++л++ becomes palatalized after front vowels /e/ ++е++, /i/ ++и++:
+Syllable-final /l/ ++л++ becomes palatalized after vowels /e/ ++е++, /i/ ++и++:
 
 * ++ьел++ [hɛlʲ] 'it'
 * ++милъя́++ [milʲʔæ] 'eggs'
@@ -87,7 +87,7 @@ The four voiceless fricatives /s/ ++с++, /ʃ/ ++ш++, /x/ ++ҳ++, and /χ/ ++х
    * ++атта́сса++ 'by father' (Sanchi) > ++атта́са++ (Shilyagi)
    * ++баҳҳа́ра++ 'to walk' > ++баҳа́ра++
 
-2. It occurs only between vowels:
+2. It is clearly audible only between vowels:
 
    * ++ччими́сси++ 'quince' (Shilyagi) > ++ччи́мсе++ (Turaga)
 
@@ -109,7 +109,7 @@ For now, fricative gemination is not shown in the orthography (++ни́са [н�
 
 </div>
 
-*Note: While /o/ is technically just a contextual realization of /ʷa/, treating it as a separate phoneme makes reading and writing significantly more convenient.*
+*Note: While /o/ is technically just a contextual realization of /ʷa/, treating it as a separate phoneme makes writing significantly more convenient.*
 
 To maintain transparent orthography, vowel assimilations in verb morphology are not reflected in the spelling.
 
@@ -120,15 +120,15 @@ The directional prefixes ++ка-++ /ka-/, ++ьа-++ /ha-/, ++ца-++ /tsa-/, as 
 * ++бертта́ра++ 'to rip' > ++цабертта́ра [цеберттара]++ 'to tear'
 * ++бяҡа́ра++ 'to wound' > ++ьабяҡа́ра [ьябяҡара]++ 'to kick'.
 
-In most varieties, the vowel in the causative infixes ++-их-++ /-iχ-/, ++-ух-++ /-uχ-/, and ++-ях-++ /-æχ-/ assimilates to the vowel that follows:
+In most varieties, the vowel in the causative suffixes ++-их++ /-iχ/, ++-ух++ /-uχ/, and ++-ях++ /-æχ/ assimilates to the vowel that follows:
 
-* ++бара́ра++ 'to do' > ++бариха́ра [барахара]++ 'to force'
-* ++биьо́ра++ 'to be' > ++биьуха́ра [биьахара]++ 'to make'
+* ++бара́ра++ 'to do' > ++бариха́ра [барахара]++ 'to force to do'
+* ++биьо́ра++ 'to be' > ++биьуха́ра [биьахара]++ 'to let be, to make'
 * ++бя́рғур++ 'dried' > ++бя́рғяхур [бярғухур]++ 'made dry'
 
 #### Stress
 
-Stress is prominent and contrastic in Kaitag. It is always marked on headwords:
+Stress is prominent and contrastive in Kaitag. It is always marked on headwords:
 
 * ++ьана́++ 'currently'
 * ++ьа́на++ 'plate'
@@ -137,7 +137,7 @@ In case-inflected forms, stress shifts to the final syllable of the stem, immedi
 
 * ++а́тта++ 'father' > ++атта́-ла++ 'father's'
 * ++бизи́++ 'cat' > ++бизи́-цци++ 'with cat'
-* ++Мяья́мад++ 'cat' > ++Мяьяма́д-и++ 'to Muhammad'
+* ++Мяья́мад++ 'Muhammad' > ++Мяьяма́д-и++ 'to Muhammad'
 
 This applies to the oblique stem when present:
 
@@ -150,7 +150,7 @@ Plural forms have stress on the final syllable of the plural stem, before any ca
 * ++кка́лкка++ 'tree', ++ккилккне́++ 'trees' > ++ккилккна́-ла++ 'of trees'
 * ++мургу́л++ 'man', ++миргле́++ 'men' > ++миргла́-ла++ 'of men'
 
-In verbs, stress falls on the penultimate syllable in infinitives and on the first syllable in finite forms:
+In verbs, stress falls on the penultimate syllable in the infinitive and on the first syllable in other forms:
 
 * ++бара́ра++ 'to do' > ++ба́рив++ 'did'
 * ++чицабуца́ра++ 'to put on' > ++чи́цабуца++ 'put on!'
