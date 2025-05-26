@@ -12,11 +12,11 @@ The dictionary is available in three formats:
 
 Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/Ad2o1hwYagA) (TODO) on YouTube.
 
-There are several critical priorities going forward. First, we must urgently gather more material. Very little has been documented about the Kaitag language and culture, and the older generation is passing away. Second, we need to expand and normalize the existing entries. This includes adding usage examples, without which many meanings remain unclear, and specifying village variants, which is essential for deeper linguistic study. Finally, thorough verification is needed to correct inaccuracies and to address inconsistencies in orthography.
+There are several critical priorities going forward. First, we must urgently gather more material. Very little has been documented about the Kaitag language and culture, and the older generation is passing away. Second, we need to expand the existing entries. This includes adding usage examples, without which many meanings remain unclear, and specifying village variants, which is essential for deeper linguistic study. Finally, thorough verification is needed to correct inaccuracies and to address inconsistencies in orthography.
 
 All of this will require crowdsourcing and collaboration. My contacts are below.
 
-So tired,  
+Ulbetay niśala,  
 Mæhæmad  
 +79995339350  
 <alkaitagi@outlook.com>
@@ -25,12 +25,12 @@ Mæhæmad
 
 Each entry in the dictionary includes a *headword*, *grammatical tags*, and *definitions*. When relevant, minimal yet sufficient *grammatical forms* are also included. Occasionally, *variants* from different Kaitag dialects appear on the next line, preceded by "//"; however, the exact village origin of these variants is not currently specified.
 
-The first grammatical tag always indicates the part of speech, with additional grammatical forms provided accordingly:
+The first grammatical tag always indicates the *part of speech*, with additional grammatical forms provided accordingly:
 
-* Nouns (*N*) list the nominative case as the headword, followed by the oblique case, the (rare) irregular locative form, and the plural form. In some cases, the headword itself may be plural (*PL*).
-* Verbs (*V*) list the imperfective infinitive as the headword, followed (when available) by the perfective infinitive and aorist forms.
+* Nouns (*N*) list the nominative case as the headword, followed by the oblique case, the (rare) irregular locative, and the plural. In some cases, the headword itself may be plural (*PL*).
+* Verbs (*V*) list the imperfective infinitive as the headword, followed (when available) by the perfective infinitive and aorist.
 * Adjectives (*ADJ*) may include irregular adverbial forms, typically marked by a shift of stress to the beginning of the word.
-* Cardinal numerals (*NUM*) include the oblique case and stem forms.
+* Cardinal numerals (*NUM*) include the oblique case and the stem.
   
 Other parts of speech include adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories are assigned loosely and may not reflect precise grammatical classification.
 
