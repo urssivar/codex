@@ -30,7 +30,7 @@ The first grammatical tag always indicates the *part of speech*, with additional
 * Verbs (*V*) list the imperfective infinitive as the headword (++кабирга́ра++ 'to sit'), followed (when available) by the perfective (++кабига́ра++) infinitive and aorist (++ка́бижив++).
 * Adjectives (*ADJ*) (++яхи́++ 'good')  may include irregular adverbial forms (++я́хял++), which are typically accompanied by a shift of stress to the beginning of the word.
 * Cardinal numerals (*NUM*) (++чьвел++ 'two') include the oblique case (++чьул-++) and the stem (++чьу-++).
-  
+
 Other parts of speech include adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories are assigned loosely and may not reflect precise grammatical classification.
 
 Any word may also be marked with a grammatical class (*CLS*). These are labeled with the neuter class ++-б-++ (++биҡна́++ 'old').
@@ -60,7 +60,7 @@ The dictionary uses the modern [Kaitag alphabet](#alphabet). Below is an overvie
 
 </div>
 
-A glottal stop /ʔ/ ++ъ++ is implicitly present before word-initial vowels but is not written. The rare phoneme /ɸ/ ++ьв++ occurs in only one word: ++ьуьв++ /huɸ/ 'blow'. Additionally, the phonemes /ħ/ ++хӏ++ and /ʡ/ ++гӏ++ appear in a small number of words from the *Sanchi* variety, where they have not yet merged into /h/ ++ь++ and /ʔ/ ++ъ++, respectively.
+A glottal stop /ʔ/ ++ъ++ is implicitly present before word-initial vowels but is not written. The rare sound /ɸ/ ++ьв++ occurs in only one word: ++ьуьв++ /huɸ/ 'blow'. Additionally, the phonemes /ħ/ ++хӏ++ and /ʡ/ ++гӏ++ appear in a small number of words from the *Sanchi* variety, where they have not yet merged into /h/ ++ь++ and /ʔ/ ++ъ++, respectively.
 
 The phoneme /l/ ++л++ assimilates to adjacent /n/ ++н++, and /n/ ++н++ assimilates to adjacent /b/ ++б++. To keep the orthography transparent, these assimilations are not reflected in writing. Examples:
 
@@ -92,7 +92,8 @@ The four voiceless fricatives /s/ ++с++, /ʃ/ ++ш++, /x/ ++ҳ++, and /χ/ ++х
 
 3. It consistently appears in plural forms with ++-е++:
 
-   * ++яру́с++ 'Russian' > ++яруссе́++ 'Russians', but ++яру́си++ 'to [a] Russian'
+   * ++яру́с++ 'Russian' > ++яруссе́++ 'Russians'
+   * but ++яру́си++ 'to [a] Russian'
 
 For now, fricative gemination is not shown in the orthography (++ни́са [нисса]++) but is marked in the IPA in the table ([ˈnisːa]). Further study is needed.
 
