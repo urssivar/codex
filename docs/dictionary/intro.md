@@ -34,7 +34,7 @@ The first grammatical tag always indicates the part of speech, with additional g
   
 Other parts of speech include adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories are assigned loosely and may not reflect precise grammatical classification.
 
-Any word may also be marked with a grammatical class (*CLS*). These are labeled with the neuter class ++-б++.
+Any word may also be marked with a grammatical class (*CLS*). These are labeled with the neuter class ++-б-++.
 
 ## Phonetics & Orthography
 
