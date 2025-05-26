@@ -26,14 +26,14 @@ Each entry in the dictionary includes a *headword*, *grammatical tags*, and *def
 
 The first grammatical tag always indicates the *part of speech*, with additional grammatical forms provided accordingly:
 
-* Nouns (*N*) list the nominative case as the headword, followed by the oblique case, the (rare) irregular locative, and the plural. In some cases, the headword itself may be plural (*PL*).
-* Verbs (*V*) list the imperfective infinitive as the headword, followed (when available) by the perfective infinitive and aorist.
-* Adjectives (*ADJ*) may include irregular adverbial forms, typically marked by a shift of stress to the beginning of the word.
-* Cardinal numerals (*NUM*) include the oblique case and the stem.
+* Nouns (*N*) list the nominative case as the headword (++тьу́пп++ 'finger'), followed by the oblique case (++тьуппу́-++), the (rare) irregular locative, and the plural (++тьиппе́++). In some cases, the headword itself may be plural (*PL*).
+* Verbs (*V*) list the imperfective infinitive as the headword (++кабиргара++ 'to sit'), followed (when available) by the perfective (++кабигара++) infinitive and aorist (++кабижив++).
+* Adjectives (*ADJ*) (++яхи́++ 'good')  may include irregular adverbial forms (++я́хял++), which are typically accompanied by a shift of stress to the beginning of the word.
+* Cardinal numerals (*NUM*) (++чьвел++ 'two') include the oblique case (++чьул-++) and the stem (++чьу-++).
   
 Other parts of speech include adverbs (*ADV*), conjunctions (*CONJ*), prepositions (*PREP*), postpositions (*POSTP*), interjections (*INTERJ*), pronouns (*PRON*), copulas (*COP*), particles (*PART*), and determiners (*DET*). Some of these categories are assigned loosely and may not reflect precise grammatical classification.
 
-Any word may also be marked with a grammatical class (*CLS*). These are labeled with the neuter class ++-б-++.
+Any word may also be marked with a grammatical class (*CLS*). These are labeled with the neuter class ++-б-++ (++биҡна́++ 'old').
 
 ## Phonetics & Orthography
 
