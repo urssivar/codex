@@ -40,7 +40,7 @@ onMounted(() => {
     @apply !tw-p-0;
 
     h1, h2 {
-        @apply !tw-border-none !tw-mt-10 !tw-pt-0;
+        @apply !tw-border-none !tw-mt-0;
     }
 
     main > div > div > h2 {
