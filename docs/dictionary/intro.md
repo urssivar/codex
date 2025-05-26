@@ -28,7 +28,7 @@ Each entry in the dictionary includes a *headword*, *grammatical tags*, and *def
 The first grammatical tag always indicates the part of speech, with additional grammatical forms provided accordingly:
 
 * Nouns (*N*) list the nominative case as the headword, followed by the oblique case, the (rare) irregular locative form, and the plural form. In some cases, the headword itself may be plural (*PL*).
-* Verbs (*V*) list the imperfective infinitive as the headword, followed (when available) by the perfective imperative and aorist forms.
+* Verbs (*V*) list the imperfective infinitive as the headword, followed (when available) by the perfective infinitive and aorist forms.
 * Adjectives (*ADJ*) may include irregular adverbial forms, typically marked by a shift of stress to the beginning of the word.
 * Cardinal numerals (*NUM*) include the oblique case and stem forms.
   
