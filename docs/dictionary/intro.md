@@ -63,7 +63,7 @@ The dictionary uses the modern [Kaitag alphabet](#alphabet). Below is an overvie
 
 A glottal stop /ʔ/ ++ъ++ is implicitly present before word-initial vowels but is not written. The rare phoneme /ɸ/ ++ьв++ occurs in only one word: ++ьуьв++ /huɸ/ 'blow'. Additionally, the phonemes /ħ/ ++хӏ++ and /ʡ/ ++гӏ++ appear in a small number of words from the *Sanchi* variety, where they have not yet merged into /h/ ++ь++ and /ʔ/ ++ъ++, respectively.
 
-The phoneme /l/ ++л++ assimilates to adjacent /n/ ++н++. To keep the orthography transparent, these assimilations are not reflected in writing. Examples:
+The phoneme /l/ ++л++ assimilates to adjacent /n/ ++н++, and /n/ ++н++ assimilates to adjacent /b/ ++б++. To keep the orthography transparent, these assimilations are not reflected in writing. Examples:
 
 * ++у́ле++ 'eye', ++уле́н++- (OBL) > ++уле́нла [уленна] бира́ра++ 'to jinx'
 * ++шин++ 'water' > ++шинбе́ [шимбе]++ 'waters'
@@ -109,7 +109,7 @@ For now, fricative gemination is not shown in the orthography (++ни́са [н�
 
 </div>
 
-*Note: /o/ is probably not a distinct phoneme, but rather a contextual realization of /a/.*
+*Note: /o/ is probably not a distinct phoneme, but rather a contextual realization of /ʷa/.*
 
 To maintain transparent orthography, vowel assimilations in verb morphology are not reflected in the spelling.
 
