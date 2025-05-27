@@ -6,7 +6,7 @@
 
 Словарь доступен в трёх форматах:
 
-* Вебсайт [Urssivar.com](https://urssivar.com/ru/dictionary) — для удобного доступа с любого устройства
+* Вебсайт [Urssivar.com](https://codex.urssivar.com/ru/dictionary) — для удобного доступа с любого устройства
 * [PDF документ](/xdq-rus%20dictionary.pdf) (TODO) — для локального хранения и печати
 * Таблица [Google Sheets](https://docs.google.com/spreadsheets/d/1TAvQAMAw0jDdStvq2Z1E-m1mz3UWkCMGQBgLCnPQgJs/edit?usp=sharing) — для анализа данных и лингвистических исследований
 
