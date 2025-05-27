@@ -13,7 +13,7 @@ const currentLetter = computed(() => {
 <template>
     <div class='tw-grid tw-gap-1 tw-grid-cols-4 tw-font-medium tw-text-[--vp-c-text-2] tw-text-center tw-capitalize'>
         <a v-for="letter in dict" :href='"./" + letter'
-            class="tw-transition tw-px-2 tw-py-2 tw-leading-snug hover:tw-text-[--vp-c-brand-1] tw-border-[--vp-c-divider] hover:tw-border-[--vp-c-brand-1] tw-border tw-rounded-md"
+            class="tw-transition tw-p-2 tw-leading-snug hover:tw-text-[--vp-c-brand-1] tw-border-[--vp-c-divider] tw-border tw-rounded-md"
             :class="{ 'tw-text-[--vp-c-brand-1]': currentLetter == letter }">
             {{ letter }}
         </a>
