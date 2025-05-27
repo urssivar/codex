@@ -7,10 +7,10 @@ This work primarily draws on the speech of the villages **Turaga** (Irchamul mic
 The dictionary is available in three formats:
 
 * The website [Urssivar.com](https://codex.urssivar.com/dictionary) for easy access on any device
-* The [PDF document](/xdq-eng%20dictionary.pdf) (TODO) for local storage and printing
+* The [PDF document](/xdq-eng%20dictionary.pdf) for local storage and printing
 * The [Google Sheets](https://docs.google.com/spreadsheets/d/1TAvQAMAw0jDdStvq2Z1E-m1mz3UWkCMGQBgLCnPQgJs/edit?usp=sharing) table for data analysis and linguistic research
 
-Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/Ad2o1hwYagA) (TODO) on YouTube.
+Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/zLPXSASLAFA) on YouTube.
 
 There are several critical priorities going forward. First, we must urgently gather more material. Very little has been documented about the Kaitag language and culture, and the older generation is passing away. Second, we need to expand the existing entries. This includes adding usage examples, without which many meanings remain unclear, and specifying village variants, which is essential for deeper linguistic study. Finally, thorough verification is needed to correct inaccuracies and to address inconsistencies in orthography.
 
