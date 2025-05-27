@@ -158,7 +158,7 @@ In verbs, stress falls on the penultimate syllable in the infinitive and on the 
 
 ## Alphabet
 
-The modern Kaitag alphabet, developed in 2024 and based on Cyrillic, consists of 27 letters from the Russian alphabet (excluding Щ, Ф, Ы, Э, Ё, and Ю), along with 3 additional characters and 12 specific digraphs.
+The modern Kaitag alphabet, developed in 2024 and based on Cyrillic, consists of 27 letters from the Russian alphabet (excluding Щ, Ф, Ы, Э, Ё, and Ю), along with 3 additional characters (Ғ, Ҡ, Ҳ) and 12 specific digraphs.
 
 ### Resources
 
