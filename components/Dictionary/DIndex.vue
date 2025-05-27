@@ -11,7 +11,7 @@ defineProps<{
 <template>
     <div class='tw-grid tw-gap-1 tw-grid-cols-4 sm:tw-grid-cols-7 print:tw-grid-cols-7'>
         <a v-for="(words, letter) in dict" :href='(local ? "#" : "./") + letter'
-            class="tw-text-center tw-bg-slate-200 tw-rounded-md tw-px-2 tw-py-2 tw-flex tw-flex-col tw-leading-tight">
+            class="tw-text-center tw-rounded-md tw-px-2 tw-py-2 tw-flex tw-flex-col tw-leading-tight">
             <span class="tw-text-lg tw-leading-snug tw-capitalize">
                 {{ letter }}
             </span>
