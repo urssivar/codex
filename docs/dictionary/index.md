@@ -9,5 +9,3 @@ import DIndex from '~/components/Dictionary/DIndex.vue';
 </script>
 
 <!--@include: ./intro.md-->
-
-<!--@include: ./license.md-->

@@ -33,8 +33,6 @@ onMounted(() => {
     </template>
 </div>
 
-<!--@include: ./license.md-->
-
 <style>
 .dict-print > .VPContent > .VPDoc {
     @apply !tw-p-0;

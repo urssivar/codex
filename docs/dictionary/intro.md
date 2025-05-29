@@ -1,6 +1,8 @@
 # Kaitag Dictionary
 
-*5,171 lexemes, DB 20.05.2025, doc 28.05.2025*
+Magomed Magomedov, +7 999 533-93-50, <alkaitagi@outlook.com>  
+Uzlipat Gasanova, +7 960 408-99-18, <uzlipat066@mail.ru>  
+5,171 lexemes · DB 20.05.2025 · doc 29.05.2025 · license [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) {.tw-text-sm .tw-italic}
 
 This work primarily draws on the speech of the villages **Turaga** (Irchamul microregion) and **Shilyagi** (Lower Kattagan microregion). The the core of the lexical database is from the dissertation of **Gasanova U. U. (2012)**, with whom we spent countless hours refining the material. Additional resources include the works of **Temirbulatova S. M. (2004, 2008, 2021)** and **Gabibova K. M. (2009)**.
 
@@ -14,12 +16,10 @@ Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/zLPXSAS
 
 There are several critical priorities going forward. First, we must urgently gather more material. Very little has been documented about the Kaitag language and culture, and the older generation is passing away. Second, we need to expand the existing entries. This includes adding usage examples, without which many meanings remain unclear, and specifying village variants, which is essential for deeper linguistic study. Finally, thorough verification is needed to correct inaccuracies and to address inconsistencies in orthography.
 
-All of this will require crowdsourcing and collaboration. My contacts are below.
+All of this will require crowdsourcing and collaboration.
 
 Ulbetay niśala,  
 Mæhæmad  
-+79995339350  
-<alkaitagi@outlook.com>
 
 ## Entry Structure
 
