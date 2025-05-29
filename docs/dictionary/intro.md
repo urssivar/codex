@@ -10,7 +10,7 @@ The dictionary is available in three formats:
 
 * The website [Urssivar.com](https://codex.urssivar.com/dictionary) for easy access on any device
 * The [PDF document](/xdq-eng%20dictionary.pdf) for local storage and printing
-* The [Google Sheets](https://docs.google.com/spreadsheets/d/1TAvQAMAw0jDdStvq2Z1E-m1mz3UWkCMGQBgLCnPQgJs/edit?usp=sharing) table for data analysis and linguistic research
+* The [Google Sheets](https://docs.google.com/spreadsheets/d/1TAvQAMAw0jDdStvq2Z1E-m1mz3UWkCMGQBgLCnPQgJs) table for data analysis and linguistic research
 
 Plus a short commentary: ["Meet the Kaitag Dictionary"](https://youtu.be/zLPXSASLAFA) on YouTube.
 

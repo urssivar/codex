@@ -10,7 +10,7 @@
 
 * Вебсайт [Urssivar.com](https://codex.urssivar.com/ru/dictionary) — для удобного доступа с любого устройства
 * [PDF документ](/xdq-rus%20dictionary.pdf) — для локального хранения и печати
-* Таблица [Google Sheets](https://docs.google.com/spreadsheets/d/1TAvQAMAw0jDdStvq2Z1E-m1mz3UWkCMGQBgLCnPQgJs/edit?usp=sharing) — для анализа данных и лингвистических исследований
+* Таблица [Google Sheets](https://docs.google.com/spreadsheets/d/1TAvQAMAw0jDdStvq2Z1E-m1mz3UWkCMGQBgLCnPQgJs) — для анализа данных и лингвистических исследований
 
 А также краткий видеокомментарий: ["Встречайте кайтагский словарь"](https://youtu.be/zLPXSASLAFA) на YouTube.
 
