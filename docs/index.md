@@ -7,7 +7,7 @@ hero:
   text: |
     Kaitag Standard
   tagline: |
-    Interactive handbook & exemplar materials for the defiant North Caucasian tongue
+    Interactive handbook & exemplar materials for the reclaimed Caucasian tongue
   image:
     light: /hero-light.png
     dark: /hero-dark.png
