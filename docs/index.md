@@ -34,6 +34,8 @@ features:
 <style>
 .VPHero .VPImage {
   animation: floating 5s ease-in-out infinite;
+  transform-origin: 0 0;
+  scale: 0.8;
 }
 
 @keyframes floating {
