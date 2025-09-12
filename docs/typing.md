@@ -1,5 +1,6 @@
 ---
 outline: false
+aside: false
 ---
 
 <script setup lang='ts'>
@@ -13,6 +14,3 @@ const labels = {
 </script>
 
 <TypingTest :labels />
-
-<style>
-</style>

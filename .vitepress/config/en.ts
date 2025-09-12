@@ -1,4 +1,6 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
+import alphabet from '../alphabet.json';
+import { capitalize } from '../../composables/text';
 
 export const en = defineConfig({
     lang: 'en-US',
@@ -13,12 +15,20 @@ export const en = defineConfig({
     ],
 
     themeConfig: {
+        footer: {
+            copyright: 'Licensed under CC BY 4.0.'
+        },
+        
         nav: nav(),
 
         sidebar: {
             '/reference/': {
                 base: '/reference/',
                 items: sidebarReference()
+            },
+            '/dictionary/': {
+                base: '/dictionary/',
+                items: sidebarDictionary()
             },
             // '/phrasebook/': {
             //     base: '/phrasebook/',
@@ -41,9 +51,14 @@ function nav(): DefaultTheme.NavItem[] {
         //     activeMatch: "/phrasebook/",
         // },
         {
-            text: "Typing test",
+            text: "Dictionary",
+            link: "/dictionary",
+            activeMatch: "/dictionary/",
+        },
+        {
+            text: "Typing",
             link: "/typing",
-            activeMatch: "/typing/",
+            activeMatch: "/typing",
         },
         {
             text: "Apps",
@@ -94,4 +109,13 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
             ]
         }
     ]
+}
+
+function sidebarDictionary(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: 'Introduction',
+            link: 'index.md'
+        }
+    ];
 }

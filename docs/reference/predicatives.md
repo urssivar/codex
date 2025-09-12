@@ -4,6 +4,7 @@ There's a limited set of particles that interact with [copulas](./copulas) and s
 
 <div class="table-wide">
 
+||
 |
 | **Cheatsheet** ||
 | ❓ | question particles: <br>  ++у, йа++ | ++уцци ҡил ==у==?++ <br> --==is== brother home?-- |
@@ -15,6 +16,7 @@ There's a limited set of particles that interact with [copulas](./copulas) and s
 
 <div class="table-transparent">
 
+||
 |
 | ++ча++ | --who-- |
 | ++коцци++ | --where-- |

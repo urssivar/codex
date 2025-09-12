@@ -4,6 +4,7 @@ Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, a
 
 <div class="table-wide">
 
+||
 |
 | **Cheatsheet** ||
 | ✅ | ❎ |
@@ -17,6 +18,7 @@ Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, a
 
 <div class="table-transparent">
 
+||
 |
 | ++ду, дила++ | --I, my-- |
 | ++и, ила++ | --you, your-- |
@@ -36,6 +38,7 @@ Kaitag has three copula series, which roughly mean **"to be"**, **"to have"**, a
 
 <div class="table-wide">
 
+||
 | :-: | :-: | :-: | :-: | :-: |
 | | I, we | you (sg.) | you | he, she, it, they |
 | present | ++да++ | ++де++ | ++да++ | ++це++ |
@@ -81,6 +84,7 @@ The negative counterparts, *"to be not"*:
 
 <div class="table-wide">
 
+||
 | :-: | :-: | :-: | :-: | :-: |
 | | I, we | you (sg.) | you | he, she, it, they |
 | present | ++аккод++ | ++аккотте++ | ++аккотта++ | ++акку++ |
@@ -101,6 +105,7 @@ The negative counterparts, *"to be not"*:
 
 <div class="table-wide">
 
+||
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | | I | we | you (sg.) | you | he, she, it | they |
 | present | ++[ви]{c=0}[ри]{c=1}[би]{c=2} ==да==++ | ++ди ==да==++ | ++[ви]{c=0}[ри]{c=1}[би]{c=2} ==де==++ | ++ди ==да==++ | ++[ви]{c=0}[ри]{c=1}[би]{c=2}++ | ++[би]{c=0}[би]{c=1}[ди]{c=2}++ |
@@ -139,6 +144,7 @@ The negative counterparts are irregular and have classes as well:
 
 <div class="table-wide">
 
+||
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | | I | we | you (sg.) | you | he, she, it | they |
 | present | ++[вей]{c=0}[рей]{c=1}[бей]{c=2}ккод++ | ++дейккод++ | ++[вей]{c=0}[рей]{c=1}[бей]{c=2}ккотте++ | ++дейккотта++ | ++[вей]{c=0}[рей]{c=1}[бей]{c=2}кку++ | ++[бей]{c=0}[бей]{c=1}[дей]{c=2}кку++ |
@@ -169,6 +175,7 @@ Some villages use the variants with ++-а-++: ++байкку++, ++дайккод
 
 <div class="table-wide">
 
+||
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | | I | we | you (sg.) | you | he, she, it | they |
 | present | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==да==++ | ++дел ==да==++ | ++[вел]{c=0}[рел]{c=1}[бел]{c=2} ==де==++  | ++дел ==да==++ | ++[вел]{c=0}[рел]{c=1}[бел]{c=2}++ | ++[бел]{c=0}[бел]{c=1}[дел]{c=2}++ |

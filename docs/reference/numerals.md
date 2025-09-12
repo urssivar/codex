@@ -2,6 +2,7 @@
 
 <div class="table-wide">
 
+||
 |
 | **CHEATSHEET** ||
 | ++угъ==ал==++ <br> --4-- | ++==угъал== гьинце++ <br> --==4== apples-- |

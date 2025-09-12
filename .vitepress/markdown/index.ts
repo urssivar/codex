@@ -13,11 +13,8 @@ export default function configureMarkdown(md: MarkdownIt) {
   md.use(MdAttrs);
   md.use(MdSpans);
   md.use(MdMTables, {
-    multiline: true,
     rowspan: true,
-    headerless: true,
-    multibody: true,
-    aotolabel: true,
+    // headerless: true,
   });
 }
 

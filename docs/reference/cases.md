@@ -4,6 +4,7 @@ Kaitag has five main abstract cases.
 
 <div class="table-wide">
 
+||
 |
 | **Cheatsheet** ||
 | Absolutive <br> --intransitive agent: *who?*-- | ++==атта== вегур++ <br> --==father== left-- |
@@ -20,6 +21,7 @@ Kaitag has five main abstract cases.
 
 <div class="table-transparent">
 
+||
 |
 | ++ду, дила, дами++ | --I, my, (to) me-- |
 | ++и, ила, етти++ | --you, your, (to) you-- |

@@ -1,0 +1,80 @@
+.dict-page {
+    .ipa {
+        font-size: small;
+        color: var(--vp-c-text-2);
+        font-weight: normal;
+        font-family: "Noto Sans", sans-serif;
+    }
+
+    .tag {
+        background-color: var(--vp-c-default-soft);
+        font-weight: bolder;
+        font-size: 11px;
+        border-radius: 4px;
+        font-style: normal;
+        padding: 2px 4px;
+    }
+
+    div.word {
+        transition: 150ms;
+
+        &:first-of-type {
+            margin-top: 16px;
+        }
+
+        position: relative;
+        break-inside: avoid;
+        border-radius: 8px;
+        padding: 8px 0;
+
+        &::before {
+            content: '';
+            transition: 150ms;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: -16px;
+            right: -16px;
+            border-radius: 8px;
+            z-index: -1;
+        }
+
+        &:hover::before {
+            background-color: var(--vp-code-block-bg);
+        }
+
+        h6>a.header-anchor {
+            display: none;
+        }
+
+        .title {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            >.ipa {
+                margin: 0;
+
+            }
+        }
+
+        >p:nth-child(2) {
+            font-size: small;
+            font-style: italic;
+            color: var(--vp-c-text-2);
+        }
+
+        ul {
+            margin: 4px 0;
+        }
+
+        li {
+            font-size: 14px;
+            margin: 0 !important;
+        }
+
+        >p {
+            margin: 0 !important;
+        }
+    }
+}

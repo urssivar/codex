@@ -1,4 +1,6 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
+import alphabet from '../alphabet.json';
+import { capitalize } from '../../composables/text';
 
 export const ru = defineConfig({
     lang: 'ru-RU',
@@ -21,6 +23,10 @@ export const ru = defineConfig({
                 base: '/ru/reference/',
                 items: sidebarReference()
             },
+            '/ru/dictionary/': {
+                base: '/ru/dictionary/',
+                items: sidebarDictionary()
+            },
             // '/ru/phrasebook/': {
             //     base: '/ru/reference/',
             //     items: sidebarPhrasebook()
@@ -39,6 +45,10 @@ export const ru = defineConfig({
 
         lastUpdated: {
             text: 'Обновлено'
+        },
+
+        footer: {
+            copyright: 'Лицензия CC BY 4.0.'
         },
 
         darkModeSwitchLabel: 'Оформление',
@@ -63,9 +73,14 @@ function nav(): DefaultTheme.NavItem[] {
         //     activeMatch: "/ru/phrasebook/",
         // },
         {
-            text: "Проверка письма",
+            text: "Словарь",
+            link: "/ru/dictionary",
+            activeMatch: "/ru/dictionary/",
+        },
+        {
+            text: "Печатание",
             link: "/ru/typing",
-            activeMatch: "/ru/typing/",
+            activeMatch: "/ru/typing",
         },
         {
             text: "Приложения",
@@ -116,4 +131,13 @@ function sidebarReference(): DefaultTheme.SidebarItem[] {
             ]
         }
     ]
+}
+
+function sidebarDictionary(): DefaultTheme.SidebarItem[] {
+    return [
+        {
+            text: 'Вступление',
+            link: 'index.md'
+        }
+    ];
 }

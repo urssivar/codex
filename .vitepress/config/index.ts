@@ -4,11 +4,8 @@ import { telegramSvg } from "../theme/icons";
 import configureMarkdown from "../markdown";
 import { en } from './en'
 import { ru } from './ru'
-import { withPwa } from '@vite-pwa/vitepress'
-import { pwa } from './pwa'
 
-
-export default withPwa(defineConfig({
+export default defineConfig({
   srcDir: "./docs",
   sitemap: {
     hostname: "https://codex.urssivar.com",
@@ -24,6 +21,7 @@ export default withPwa(defineConfig({
     resolve: {
       alias: {
         "@": path.resolve(__dirname, "../../components"),
+        "~": path.resolve(__dirname, "../../"),
       },
     },
     assetsInclude: ["**/*.m4a"],
@@ -31,8 +29,8 @@ export default withPwa(defineConfig({
   cleanUrls: true,
 
   head: [
-    ["link", { rel: "icon", href: "logo-light.png",media: "(prefers-color-scheme: light)"}],
-    ["link", { rel: "icon", href: "logo-dark.png",media: "(prefers-color-scheme: dark)"}],
+    ["link", { rel: "icon", href: "logo-light.png", media: "(prefers-color-scheme: light)" }],
+    ["link", { rel: "icon", href: "logo-dark.png", media: "(prefers-color-scheme: dark)" }],
   ],
 
   themeConfig: {
@@ -66,10 +64,8 @@ export default withPwa(defineConfig({
     root: { label: 'English', ...en },
     ru: { label: 'Русский', ...ru }
   },
-  
+
   markdown: {
     config: configureMarkdown,
   },
-
-  pwa,
-}));
+});

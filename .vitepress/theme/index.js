@@ -7,11 +7,7 @@ import './styles/vars.css';
 import './styles/general.css';
 import './styles/phrase.css';
 import './styles/tooltip.css';
-
-import { h } from 'vue'
-import Theme from 'vitepress/theme'
-
-import RegisterSW from './components/RegisterSW.vue'
+import './styles/dict.css';
 
 import PrimeVue from 'primevue/config';
 import Aura from '@primevue/themes/aura';
@@ -19,13 +15,12 @@ import InputOtp from 'primevue/inputotp';
 import Button from 'primevue/button';
 import 'primeicons/primeicons.css';
 
+import MyLayout from './MyLayout.vue';
+
+
 export default {
     extends: DefaultTheme,
-    Layout() {
-        return h(Theme.Layout, null, {
-            'layout-bottom': () => h(RegisterSW)
-        })
-    },
+    Layout: MyLayout,
     enhanceApp({ app }) {
         app.component("Context", Context);
         app.component("Voice", Voice);
