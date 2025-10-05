@@ -574,6 +574,32 @@ The section should feel:
 
 ---
 
+## Design Philosophy (Future)
+
+**Goal:** Minimal, book-like aesthetic. Let Kaitag text and examples be the visual focus.
+
+**Inspiration:**
+- Notion (clean, spacious, typography-focused)
+- Landing page [urssivar.com](https://urssivar.com/) - monospace, white, minimal
+- Academic linguistics texts - serious, readable, no distractions
+
+**Principles:**
+- **Typography-first** - Good font pairings, generous spacing, readable hierarchy
+- **Minimal UI chrome** - Reduce VitePress default visual weight (lighter nav, simpler sidebar)
+- **Clean tables** - No heavy borders, subtle dividers, breathable cells
+- **Focus on Kaitag text** - `++examples++` should stand out naturally against clean background
+- **Printable aesthetic** - Should look good as PDF, like a well-designed textbook
+- **Monochrome base** - White/light gray background, black text, minimal color accents
+
+**Scope:**
+- Apply to entire site (Grammar + Dictionary + future Phrasebook)
+- Revisit after Grammar section is complete (3-5 pages written will reveal design needs)
+- Typography and spacing tweaks can happen gradually during content development
+
+**Not urgent** - Content quality and completeness takes priority. Design refinement comes after.
+
+---
+
 ## Notes & Decisions Log
 
 **2025-10-05:**
