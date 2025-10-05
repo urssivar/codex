@@ -4,13 +4,17 @@
     "service": "nuxt-app",
     "workspaceFolder": "/workspace",
     "forwardPorts": [
-        3000
+        5173
     ],
     "customizations": {
         "vscode": {
             "extensions": [
                 "Vue.volar",
-                "ms-vscode.vscode-typescript-next"
+                "ms-vscode.vscode-typescript-next",
+                "dbaeumer.vscode-eslint",
+                "ms-azuretools.vscode-containers",
+                "yzhang.markdown-all-in-one",
+                "bradlc.vscode-tailwindcss"
             ]
         }
     }
