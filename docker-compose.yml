@@ -3,7 +3,7 @@ services:
     image: node:24
     volumes:
       - .:/workspace:cached
-    command: sh -c "npm ci && (npm run dev &) && sleep infinity"
+    command: sh -c "npm ci && (npm run dev -- --host &) && sleep infinity"
     ports:
-      - "3000:3000"
+      - "5173:5173"
     working_dir: /workspace
