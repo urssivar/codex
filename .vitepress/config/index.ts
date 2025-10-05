@@ -55,7 +55,7 @@ export default defineConfig({
       },
       {
         icon: "github",
-        link: "https://github.com/urssivar/urssivar",
+        link: "https://github.com/urssivar/codex",
       },
     ],
   },
