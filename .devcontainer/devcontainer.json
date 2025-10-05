@@ -1,5 +1,5 @@
 {
-    "name": "Nuxt Development",
+    "name": "Urssivar Codex",
     "dockerComposeFile": "../docker-compose.yml",
     "service": "nuxt-app",
     "workspaceFolder": "/workspace",
