@@ -469,17 +469,16 @@ Complementary, not overlapping:
   - [ ] Locative cases (complete or merge with Cases)
 
 ### Phase 3: New Content Creation (Priority Order)
-1. [ ] **Verbs** - Major foundational topic
-2. [ ] **Nouns & Classes** - Needed to understand verbs/cases
-3. [ ] **Pronouns** - Heavily referenced in examples
-4. [ ] **Phonology** - Rewrite as learner-friendly
-5. [ ] **Adjectives & Adverbs** - Moderate complexity
-6. [ ] **Postpositions** - Smaller topic
-7. [ ] **Numerals** - Complete existing content
-8. [ ] **Negation** - Usage pattern
-9. [ ] **Commands** - Usage pattern
-10. [ ] **Time & Dates** - Usage pattern
-11. [ ] **Comparisons** - Optional/later
+1. [ ] **Alphabet & Script** - Move from dictionary, embed typing game
+2. [ ] **Nouns & Classes** - Foundational (includes oblique stems)
+3. [ ] **Spatial Cases & Postpositions** - Merge locative-cases.md content
+4. [ ] **Predicative Particles** - Merge predicatives + questions
+5. [ ] **Verbs - Part 1: Basics** - Core tenses, negation, commands
+6. [ ] **Verbs - Part 2: Advanced** - Preverbs, causatives, participles
+7. [ ] **Pronouns** - Personal, demonstrative, question words
+8. [ ] **Adjectives & Adverbs** - Includes comparisons
+9. [ ] **Phonology** - Rewrite as learner-friendly basics
+10. [ ] **Numerals** - Complete fragmentary content, add telling time
 
 ### Phase 4: Polish & Cross-Linking
 - [ ] Add dictionary cross-links in examples
@@ -529,28 +528,23 @@ Complementary, not overlapping:
 
 ---
 
-## Questions to Resolve
+## Open Questions
 
-### Scope Decisions for Verbs
-- [ ] Directional prefixes: full system or main patterns only?
-- [ ] Participial forms: include or mark as advanced?
-- [ ] Verb classes: how detailed?
+**Resolve these during development:**
 
-### Locative Cases
-- [ ] Merge into main Cases page or keep separate?
-- [ ] Current locative-cases.md is incomplete - complete or archive?
-
-### Numerals
-- [ ] Include all derivational forms or just core ones?
-- [ ] Simplify the current fragmentary content?
-
-### Comparisons
-- [ ] Include in v1 or defer to later?
+### Verbs Scope
+- Directional prefixes: main patterns only (not exhaustive)
+- Participles: minimal forms for practical use (relative clauses)
+- Keep both pages focused on productive patterns
 
 ### Audio Resources
-- [ ] Do you have recordings for individual letters/sounds?
-- [ ] Can we reuse typing game audio for alphabet page?
-- [ ] Need new recordings for anything?
+- Can reuse typing game audio (`/docs/public/typing/audio/`) for Alphabet page
+- Assess if additional recordings needed after page structure is complete
+
+### Content Decisions (make as you go)
+- Numerals: keep all forms from existing content, clean up presentation
+- Locative cases: already decided to merge with postpositions
+- Let examples emerge naturally - don't force coverage
 
 ---
 
@@ -623,3 +617,4 @@ The section should feel:
   - Oblique stems: introduced in Nouns, used in Cases
 - **Verbs split into 2 pages:** Basics (core tenses, negation, commands) + Advanced (preverbs, causatives, participles)
 - Each page is self-contained and thoroughly covers its topic
+- Design philosophy captured for future implementation (minimal, book-like aesthetic)
