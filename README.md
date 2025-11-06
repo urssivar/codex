@@ -1,3 +1,7 @@
+Reimplemented in https://github.com/urssivar/urssivar under https://urssivar.com/language
+
+---
+
 # Urssivar Codex
 
 Documentation for Urssivar Kaitag Language Standard.
