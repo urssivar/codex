@@ -5,7 +5,7 @@
     "redirects": [
         {
           "source": "/ru/dictionary/:letter",
-          "destination": "https://urssivar.com/language/ru/dictionary/:letter",
+          "destination": "https://urssivar.com/ru/language/dictionary/:letter",
           "permanent": true
         },
         {
@@ -15,7 +15,7 @@
         },
         {
           "source": "/ru/dictionary",
-          "destination": "https://urssivar.com/language/ru/dictionary/intro",
+          "destination": "https://urssivar.com/ru/language/dictionary/intro",
           "permanent": true
         },
         {
@@ -25,7 +25,7 @@
         },
         {
           "source": "/ru/(.*)",
-          "destination": "https://urssivar.com/language/ru/",
+          "destination": "https://urssivar.com/ru/language/",
           "permanent": true
         },
         {
