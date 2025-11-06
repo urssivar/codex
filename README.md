@@ -1,4 +1,4 @@
-Reimplemented in https://github.com/urssivar/urssivar under https://urssivar.com/language
+Reimplemented in [urssivar/urssivar](https://github.com/urssivar/urssivar) under https://urssivar.com/language
 
 ---
 
