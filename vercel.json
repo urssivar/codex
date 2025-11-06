@@ -9,8 +9,8 @@
           "permanent": true
         },
         {
-          "source": "/dictionary",
-          "destination": "https://urssivar.com/language/dictionary/intro",
+          "source": "/dictionary/:letter",
+          "destination": "https://urssivar.com/language/dictionary/:letter",
           "permanent": true
         },
         {
@@ -19,13 +19,23 @@
           "permanent": true
         },
         {
-          "source": "/dictionary/:letter",
-          "destination": "https://urssivar.com/language/dictionary/:letter",
+          "source": "/dictionary",
+          "destination": "https://urssivar.com/language/dictionary/intro",
+          "permanent": true
+        },
+        {
+          "source": "/ru",
+          "destination": "https://urssivar.com/ru/language/",
           "permanent": true
         },
         {
           "source": "/ru/(.*)",
           "destination": "https://urssivar.com/ru/language/",
+          "permanent": true
+        },
+        {
+          "source": "/",
+          "destination": "https://urssivar.com/language/",
           "permanent": true
         },
         {
