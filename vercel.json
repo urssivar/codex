@@ -1,5 +1,22 @@
 {
     "$schema": "https://openapi.vercel.sh/vercel.json",
     "trailingSlash": false,
-    "cleanUrls": true
+    "cleanUrls": true,
+    "redirects": [
+        {
+          "source": "/dictionary",
+          "destination": "https://urssivar.com/language/dictionary/intro",
+          "permanent": true
+        },
+        {
+          "source": "/dictionary/:letter",
+          "destination": "https://urssivar.com/language/dictionary/:letter",
+          "permanent": true
+        },
+        {
+          "source": "/(.*)",
+          "destination": "https://urssivar.com/language/",
+          "permanent": true
+        }
+    ]
 }
